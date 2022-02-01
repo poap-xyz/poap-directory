@@ -3,7 +3,7 @@
 #   official:          # true/false; true = official poap project, false = community/third party
 #   description_short: # <180 characters
 #   description_long:  # (optional) longer description if needed
-#   creator:           # (optional) what person/entity is leading this project?
+#   creator:           # what person/entity is leading this project?
 #   github:            # (optional) github repo
 #   categories:        # TBD
 #   discord:           # (optional) project's discord invite link

@@ -1,11 +1,8 @@
-
-
 .bg-primary {
   background-color: var(--primary-color);
 }
 
-
-
+/*
 .btn-primary {
   background-color: var(--primary-color);
   border-color: var(--primary-color);
@@ -39,9 +36,32 @@
   background-color: var(--primary-color-shaded);
   color: #fff;
 }
+*/
 
+/*.poap-pink {
+  color: #f9879a;
+}
+.poap-purple {
+  color: #8076fa;
+}
+.poap-text {
+  color: #8492ce;
+}
+.bg-poap-pink {
+  background-color: #f9879a;
+}
+.bg-poap-purple {
+  background-color: #8076fa;
+}*/
 
+.social-icons img {
+  height: 2rem;
+}
+footer li a {
+  color: #8492ce;
+}
 
+  
 .link-disabled {
   cursor: not-allowed;
   opacity: 0.5;
@@ -49,16 +69,6 @@
   display: inline-block;  /* For IE11/ MS Edge bug */
   pointer-events: none;
   text-decoration: none;
-}
-
-
-.placeholder-overlay {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-weight: bold;
-  width: 12rem;
 }
 
 

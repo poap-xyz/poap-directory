@@ -3,7 +3,7 @@
 #   official:          # true/false; true = official poap project, false = community/third party
 #   description_short: # <180 characters
 #   description_long:  # (optional) longer description if needed
-#   creator:           # (optional) what person/entity is leading this project?
+#   creator:           # what person/entity is building this project?
 #   github:            # (optional) github repo
 #   categories:        # TBD
 #   discord:           # (optional) project's discord invite link
@@ -18,14 +18,14 @@
   official: true
   description_short: 1Lorem ipsum dolor sit amet, consectetur adipiscing elit, orci sagittis eu volutat odio facilisis mauris sit amet.
   description_long: 1Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci sagittis eu volutpat odio facilisis mauris sit amet. Tristique nulla aliquet enim tortor at auctor urna. In iaculis nunc sed augue lacus viverra. Consectetur libero id faucibus nisl tincidunt. In ante metus dictum at tempor commodo ullamcorper a. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat. Sed viverra ipsum nunc aliquet bibendum enim. Et molestie ac feugiat sed lectus. Lobortis elementum nibh tellus molestie. Integer quis auctor elit sed vulputate. A iaculis at erat pellentesque adipiscing commodo elit at. Id nibh tortor id aliquet lectus proin nibh nisl. Lectus sit amet est placerat in egestas. Sem fringilla ut morbi tincidunt augue interdum velit euismod. Urna id volutpat lacus laoreet non curabitur gravida arcu ac.
-  creater: Entity1
+  creator: Entity1
   github: https://github.com/org/rep-1
 - link: https://poap.xyz/2
   name: Project Long Name 2
   official: true
   description_short: 2Lorem ipsum dolor sit amet. Orci sagittis eu volutat odio facilisis mauris sit amet.
   description_long: 2Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci sagittis eu volutpat odio facilisis mauris sit amet. Tristique nulla aliquet enim tortor at auctor urna. In iaculis nunc sed augue lacus viverra. Consectetur libero id faucibus nisl tincidunt. In ante metus dictum at tempor commodo ullamcorper a. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat. Sed viverra ipsum nunc aliquet bibendum enim. Et molestie ac feugiat sed lectus. Lobortis elementum nibh tellus molestie. Integer quis auctor elit sed vulputate. A iaculis at erat pellentesque adipiscing commodo elit at. Id nibh tortor id aliquet lectus proin nibh nisl. Lectus sit amet est placerat in egestas. Sem fringilla ut morbi tincidunt augue interdum velit euismod. Urna id volutpat lacus laoreet non curabitur gravida arcu ac.
-  creater: Entity2
+  creator: Entity2
   github: https://github.com/org/rep-2
   categories: 
   discord: https://discord.gg/2
@@ -36,7 +36,7 @@
   official: true
   description_short: 3Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor incididunt ut labore et dolore magna aliqua. Orci sagittis eu volutat odio facilisis mauris sit amet.
   description_long: 3Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci sagittis eu volutpat odio facilisis mauris sit amet. Tristique nulla aliquet enim tortor at auctor urna. In iaculis nunc sed augue lacus viverra. Consectetur libero id faucibus nisl tincidunt. In ante metus dictum at tempor commodo ullamcorper a. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat. Sed viverra ipsum nunc aliquet bibendum enim. Et molestie ac feugiat sed lectus. Lobortis elementum nibh tellus molestie. Integer quis auctor elit sed vulputate. A iaculis at erat pellentesque adipiscing commodo elit at. Id nibh tortor id aliquet lectus proin nibh nisl. Lectus sit amet est placerat in egestas. Sem fringilla ut morbi tincidunt augue interdum velit euismod. Urna id volutpat lacus laoreet non curabitur gravida arcu ac.
-  creater: Entity3
+  creator: Entity3
   github: https://github.com/org/rep-3
   categories: 
   discord: https://discord.gg/3
@@ -47,7 +47,7 @@
   official: true
   description_short: 4Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor incididunt ut labore et dolore magna aliqua. Orci sagittis eu volutat odio facilisis mauris sit amet.
   description_long: 4Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci sagittis eu volutpat odio facilisis mauris sit amet. Tristique nulla aliquet enim tortor at auctor urna. In iaculis nunc sed augue lacus viverra. Consectetur libero id faucibus nisl tincidunt. In ante metus dictum at tempor commodo ullamcorper a. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat. Sed viverra ipsum nunc aliquet bibendum enim. Et molestie ac feugiat sed lectus. Lobortis elementum nibh tellus molestie. Integer quis auctor elit sed vulputate. A iaculis at erat pellentesque adipiscing commodo elit at. Id nibh tortor id aliquet lectus proin nibh nisl. Lectus sit amet est placerat in egestas. Sem fringilla ut morbi tincidunt augue interdum velit euismod. Urna id volutpat lacus laoreet non curabitur gravida arcu ac.
-  creater: Entity4
+  creator: Entity4
   github: https://github.com/org/rep-4
   categories: 
   discord: https://discord.gg/4
@@ -58,7 +58,7 @@
   official: true
   description_short: 5Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor incididunt ut labore et dolore magna aliqua. Orci sagittis eu volutat odio facilisis mauris sit amet.
   description_long: 5Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci sagittis eu volutpat odio facilisis mauris sit amet. Tristique nulla aliquet enim tortor at auctor urna. In iaculis nunc sed augue lacus viverra. Consectetur libero id faucibus nisl tincidunt. In ante metus dictum at tempor commodo ullamcorper a. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat. Sed viverra ipsum nunc aliquet bibendum enim. Et molestie ac feugiat sed lectus. Lobortis elementum nibh tellus molestie. Integer quis auctor elit sed vulputate. A iaculis at erat pellentesque adipiscing commodo elit at. Id nibh tortor id aliquet lectus proin nibh nisl. Lectus sit amet est placerat in egestas. Sem fringilla ut morbi tincidunt augue interdum velit euismod. Urna id volutpat lacus laoreet non curabitur gravida arcu ac.
-  creater: Entity5
+  creator: Entity5
   github: https://github.com/org/rep-5
   categories: 
   twitter: https://twitter.com/5
@@ -68,7 +68,7 @@
   official: true
   description_short: 6Lorem ipsum dolor sit amet, consectetur adipiscing elit, orci sagittis eu volutat odio facilisis mauris sit amet.
   description_long: 6Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci sagittis eu volutpat odio facilisis mauris sit amet. Tristique nulla aliquet enim tortor at auctor urna. In iaculis nunc sed augue lacus viverra. Consectetur libero id faucibus nisl tincidunt. In ante metus dictum at tempor commodo ullamcorper a. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat. Sed viverra ipsum nunc aliquet bibendum enim. Et molestie ac feugiat sed lectus. Lobortis elementum nibh tellus molestie. Integer quis auctor elit sed vulputate. A iaculis at erat pellentesque adipiscing commodo elit at. Id nibh tortor id aliquet lectus proin nibh nisl. Lectus sit amet est placerat in egestas. Sem fringilla ut morbi tincidunt augue interdum velit euismod. Urna id volutpat lacus laoreet non curabitur gravida arcu ac.
-  creater: Entity6
+  creator: Entity6
   github: https://github.com/org/rep-6
   categories: 
   discord: https://discord.gg/6
@@ -79,7 +79,7 @@
   official: false
   description_short: 7Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor incididunt ut labore et dolore magna aliqua. Orci sagittis eu volutat odio facilisis mauris sit amet.
   description_long: 7Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci sagittis eu volutpat odio facilisis mauris sit amet. Tristique nulla aliquet enim tortor at auctor urna. In iaculis nunc sed augue lacus viverra. Consectetur libero id faucibus nisl tincidunt. In ante metus dictum at tempor commodo ullamcorper a. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat. Sed viverra ipsum nunc aliquet bibendum enim. Et molestie ac feugiat sed lectus. Lobortis elementum nibh tellus molestie. Integer quis auctor elit sed vulputate. A iaculis at erat pellentesque adipiscing commodo elit at. Id nibh tortor id aliquet lectus proin nibh nisl. Lectus sit amet est placerat in egestas. Sem fringilla ut morbi tincidunt augue interdum velit euismod. Urna id volutpat lacus laoreet non curabitur gravida arcu ac.
-  creater: Entity7
+  creator: Entity7
   github: https://github.com/org/rep-7
   categories: 
   discord: https://discord.gg/7
@@ -89,7 +89,7 @@
   official: true
   description_short: 8Lorem ipsum dolor sit amet. Orci sagittis eu volutat odio facilisis mauris sit amet.
   description_long: 8Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci sagittis eu volutpat odio facilisis mauris sit amet. Tristique nulla aliquet enim tortor at auctor urna. In iaculis nunc sed augue lacus viverra. Consectetur libero id faucibus nisl tincidunt. In ante metus dictum at tempor commodo ullamcorper a. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat. Sed viverra ipsum nunc aliquet bibendum enim. Et molestie ac feugiat sed lectus. Lobortis elementum nibh tellus molestie. Integer quis auctor elit sed vulputate. A iaculis at erat pellentesque adipiscing commodo elit at. Id nibh tortor id aliquet lectus proin nibh nisl. Lectus sit amet est placerat in egestas. Sem fringilla ut morbi tincidunt augue interdum velit euismod. Urna id volutpat lacus laoreet non curabitur gravida arcu ac.
-  creater: Entity8
+  creator: Entity8
   github: https://github.com/org/rep-8
   categories: 
   discord: https://discord.gg/8
@@ -100,7 +100,7 @@
   official: true
   description_short: 9Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor incididunt ut labore et dolore magna aliqua. Orci sagittis eu volutat odio facilisis mauris sit amet.
   description_long: 9Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci sagittis eu volutpat odio facilisis mauris sit amet. Tristique nulla aliquet enim tortor at auctor urna. In iaculis nunc sed augue lacus viverra. Consectetur libero id faucibus nisl tincidunt. In ante metus dictum at tempor commodo ullamcorper a. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat. Sed viverra ipsum nunc aliquet bibendum enim. Et molestie ac feugiat sed lectus. Lobortis elementum nibh tellus molestie. Integer quis auctor elit sed vulputate. A iaculis at erat pellentesque adipiscing commodo elit at. Id nibh tortor id aliquet lectus proin nibh nisl. Lectus sit amet est placerat in egestas. Sem fringilla ut morbi tincidunt augue interdum velit euismod. Urna id volutpat lacus laoreet non curabitur gravida arcu ac.
-  creater: Entity9
+  creator: Entity9
   github: https://github.com/org/rep-9
   categories: 
   discord: https://discord.gg/9
@@ -110,7 +110,7 @@
   official: true
   description_short: 10Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor incididunt ut labore et dolore magna aliqua. Orci sagittis eu volutat odio facilisis mauris sit amet.
   description_long: 10Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci sagittis eu volutpat odio facilisis mauris sit amet. Tristique nulla aliquet enim tortor at auctor urna. In iaculis nunc sed augue lacus viverra. Consectetur libero id faucibus nisl tincidunt. In ante metus dictum at tempor commodo ullamcorper a. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat. Sed viverra ipsum nunc aliquet bibendum enim. Et molestie ac feugiat sed lectus. Lobortis elementum nibh tellus molestie. Integer quis auctor elit sed vulputate. A iaculis at erat pellentesque adipiscing commodo elit at. Id nibh tortor id aliquet lectus proin nibh nisl. Lectus sit amet est placerat in egestas. Sem fringilla ut morbi tincidunt augue interdum velit euismod. Urna id volutpat lacus laoreet non curabitur gravida arcu ac.
-  creater: Entity10
+  creator: Entity10
   github: https://github.com/org/rep-10
   categories: 
   discord: https://discord.gg/10
@@ -121,7 +121,7 @@
   official: true
   description_short: 11Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor incididunt ut labore et dolore magna aliqua. Orci sagittis eu volutat odio facilisis mauris sit amet.
   description_long: 11Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci sagittis eu volutpat odio facilisis mauris sit amet. Tristique nulla aliquet enim tortor at auctor urna. In iaculis nunc sed augue lacus viverra. Consectetur libero id faucibus nisl tincidunt. In ante metus dictum at tempor commodo ullamcorper a. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat. Sed viverra ipsum nunc aliquet bibendum enim. Et molestie ac feugiat sed lectus. Lobortis elementum nibh tellus molestie. Integer quis auctor elit sed vulputate. A iaculis at erat pellentesque adipiscing commodo elit at. Id nibh tortor id aliquet lectus proin nibh nisl. Lectus sit amet est placerat in egestas. Sem fringilla ut morbi tincidunt augue interdum velit euismod. Urna id volutpat lacus laoreet non curabitur gravida arcu ac.
-  creater: Entity11
+  creator: Entity11
   github: https://github.com/org/rep-11
   categories: 
   discord: https://discord.gg/11
@@ -131,7 +131,7 @@
   official: false
   description_short: 12Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor incididunt ut labore et dolore magna aliqua. Orci sagittis eu volutat odio facilisis mauris sit amet.
   description_long: 12Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci sagittis eu volutpat odio facilisis mauris sit amet. Tristique nulla aliquet enim tortor at auctor urna. In iaculis nunc sed augue lacus viverra. Consectetur libero id faucibus nisl tincidunt. In ante metus dictum at tempor commodo ullamcorper a. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat. Sed viverra ipsum nunc aliquet bibendum enim. Et molestie ac feugiat sed lectus. Lobortis elementum nibh tellus molestie. Integer quis auctor elit sed vulputate. A iaculis at erat pellentesque adipiscing commodo elit at. Id nibh tortor id aliquet lectus proin nibh nisl. Lectus sit amet est placerat in egestas. Sem fringilla ut morbi tincidunt augue interdum velit euismod. Urna id volutpat lacus laoreet non curabitur gravida arcu ac.
-  creater: Entity12
+  creator: Entity12
   github: https://github.com/org/rep-12
   categories: 
   discord: https://discord.gg/12
