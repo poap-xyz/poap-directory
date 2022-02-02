@@ -12,8 +12,8 @@ layout: default
         <p class="h3 fw-normal mb-4 poap-pink">
           Explore the ecosystem and find the tools right for you.
         </p>
-        <a href="#" class="btn btn-primary btn-lg px-4 m-1">Official Resources</a>
-        <a href="#" class="btn btn-outline-secondary btn-lg px-4 m-1">Community Resources</a>
+        <a href="/resources/official" class="btn btn-primary btn-lg px-4 m-1">View Official Resources</a>
+        <a href="/resources/community" class="btn btn-outline-secondary btn-lg px-4 m-1">View Community Resources</a>
         <p class="mt-3">
           <a href="">Start building on POAP {{site.data.icons.arrow_right}}</a>
         </p>
@@ -80,8 +80,7 @@ layout: default
               </h5>
               <p class="mb-1 text-muted"><small>POAP</small></p>
               <p class="card-text flex-grow-1">{{resource.description_short}}</p>
-              <a href="" class="btn btn-outline-secondary btn-sm">Details</a>
-              <!-- <a href="{{resource.link}}" class="card-link">Website {{site.data.icons.new_tab}}</a> -->
+              <a href="" class="btn btn-outline-primary btn-sm">Details</a>
             </div>
           </div>
         </div>
@@ -131,8 +130,7 @@ layout: default
                 <p class="mb-1 text-muted text-capitalize"><small>Unknown</small></p>
               {%- endif -%}
               <p class="card-text flex-grow-1">{{resource.description_short}}</p>
-              <a href="" class="btn btn-outline-secondary btn-sm">Details</a>
-              <!-- <a href="{{resource.link}}" class="card-link">Website {{site.data.icons.new_tab}}</a> -->
+              <a href="" class="btn btn-outline-primary btn-sm">Details</a>
             </div>
           </div>
         </div>
