@@ -154,7 +154,7 @@ layout: default
     <h2 class="h1 fw-bold mb-3 text-center">Integrations</h2>
     <div class="text-center">
       {%- if integrations.size > integration_limit -%}
-        <a href="/" class="btn btn-primary btn px-4 m-1">View All</a>
+        <a href="/integrations/all" class="btn btn-primary btn px-4 m-1">View All</a>
       {%- endif -%}
       {%- if integrations.size > integration_limit -%}
         <a href="/" class="btn btn-outline-secondary btn px-4 m-1">Submit Integration</a>
@@ -171,9 +171,8 @@ layout: default
         {% capture color %}
           {% cycle "#8076fa", "#0dcaf0", "#20c997", "#f87588", "#ffc107" %}
         {% endcapture %}
-        <!-- style="background-color: {{color}};" -->
         <div class="col {{hide_on_small}}" title="{{integration.name}}" data-bs-toggle="tooltip" data-bs-placement="top">
-          <a href="{{integration.link}}" class="card rounded-3 border-3 mb-4" style="width: 8rem; height: 8rem; border-color: {{color}};">
+          <a href="{{integration.link}}" class="card rounded-3 border-2 mb-4" style="width: 8rem; height: 8rem; border-color: {{color}};">
             <div class="card-body rounded-2">
               <img src="/assets/img/poap-badge.png" class="img-fluid">
             </div>
@@ -183,7 +182,7 @@ layout: default
     </div>
     {%- if integrations.size > integration_limit -%}
       <!-- <div class="text-center">
-        <a href="/" class="btn btn-primary btn px-4 m-1">View All</a>
+        <a href="/integrations/all" class="btn btn-primary btn px-4 m-1">View All</a>
       </div> -->
     {%- endif -%}
   </div>
