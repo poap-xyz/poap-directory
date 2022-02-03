@@ -1,14 +1,15 @@
 ---
 layout: default
 title: All Resources
+permalink: /en/resources/all
 ---
 
 
 <header class="container py-4 mt-5">
   <div class="text-center">
     <h1 class="display-6 fw-bold mb-3">All Resources</h1>
-    <a href="/resources/official" class="btn btn-primary btn px-4 m-1">Official Resources</a>
-    <a href="/resources/community" class="btn btn-outline-secondary btn px-4 m-1">Community Resources</a>
+    <a href="/en/resources/official" class="btn btn-primary btn px-4 m-1">Official Resources</a>
+    <a href="/en/resources/community" class="btn btn-outline-secondary btn px-4 m-1">Community Resources</a>
   </div>
 </header>
 

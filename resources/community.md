@@ -1,13 +1,14 @@
 ---
 layout: default
 title: Community Resources
+permalink: /en/resources/community
 ---
 
 
 <header class="container py-4 mt-5">
   <div class="text-center">
     <h1 class="display-6 fw-bold mb-3">Community Resources</h1>
-    <a href="/resources/all" class="btn btn-primary btn px-4 m-1">View All Resources</a>
+    <a href="/en/resources/all" class="btn btn-primary btn px-4 m-1">View All Resources</a>
   </div>
 </header>
 

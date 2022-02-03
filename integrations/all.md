@@ -1,6 +1,7 @@
 ---
 layout: default
 title: All Integrations
+permalink: /en/integrations/all
 ---
 
 

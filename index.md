@@ -12,8 +12,8 @@ layout: default
         <p class="h3 fw-normal mb-4 poap-pink">
           Explore the ecosystem and find the tools right for you.
         </p>
-        <a href="/resources/official" class="btn btn-primary btn-lg px-4 m-1">View Official Resources</a>
-        <a href="/resources/community" class="btn btn-outline-secondary btn-lg px-4 m-1">View Community Resources</a>
+        <a href="/en/resources/official" class="btn btn-primary btn-lg px-4 m-1">View Official Resources</a>
+        <a href="/en/resources/community" class="btn btn-outline-secondary btn-lg px-4 m-1">View Community Resources</a>
         <p class="mt-3">
           <a href="">Start building on POAP {{site.data.icons.arrow_right}}</a>
         </p>
@@ -57,7 +57,7 @@ layout: default
     {%- comment -%}
       <div class="text-center">
         {%- if official_resources.size > official_limit -%}
-          <a href="/" class="btn btn-primary btn px-4 m-1">View All</a>
+          <a href="/en/resources/all" class="btn btn-primary btn px-4 m-1">View All</a>
         {%- endif -%}
         {%- if official_resources.size > official_limit -%}
           <a href="/" class="btn btn-outline-secondary btn px-4 m-1">Submit Resource</a>
@@ -87,7 +87,7 @@ layout: default
       {%- endfor -%}
     </div>
     <div class="text-center">
-      <a href="/" class="btn btn-primary btn px-4 m-1">View All</a>
+      <a href="/en/resources/all" class="btn btn-primary btn px-4 m-1">View All</a>
     </div>
   </div>
 </section>
@@ -103,7 +103,7 @@ layout: default
     {%- comment -%}
       <div class="text-center">
         {%- if community_resources.size > community_limit -%}
-          <a href="/" class="btn btn-primary btn px-4 m-1">View All</a>
+          <a href="/en/resources/all" class="btn btn-primary btn px-4 m-1">View All</a>
         {%- endif -%}
         {%- if community_resources.size > community_limit -%}
           <a href="/" class="btn btn-outline-secondary btn px-4 m-1">Submit Resource</a>
@@ -138,7 +138,7 @@ layout: default
     </div>
     {%- if community_resources.size > community_limit -%}
       <div class="text-center">
-        <a href="/" class="btn btn-primary btn px-4 m-1">View All</a>
+        <a href="/en/resources/all" class="btn btn-primary btn px-4 m-1">View All</a>
       </div>
     {%- endif -%}
   </div>
@@ -154,7 +154,7 @@ layout: default
     <h2 class="h1 fw-bold mb-3 text-center">Integrations</h2>
     <div class="text-center">
       {%- if integrations.size > integration_limit -%}
-        <a href="/integrations/all" class="btn btn-primary btn px-4 m-1">View All</a>
+        <a href="/en/integrations/all" class="btn btn-primary btn px-4 m-1">View All</a>
       {%- endif -%}
       {%- if integrations.size > integration_limit -%}
         <a href="/" class="btn btn-outline-secondary btn px-4 m-1">Submit Integration</a>
@@ -182,7 +182,7 @@ layout: default
     </div>
     {%- if integrations.size > integration_limit -%}
       <!-- <div class="text-center">
-        <a href="/integrations/all" class="btn btn-primary btn px-4 m-1">View All</a>
+        <a href="/en/integrations/all" class="btn btn-primary btn px-4 m-1">View All</a>
       </div> -->
     {%- endif -%}
   </div>
