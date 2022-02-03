@@ -10,7 +10,7 @@ layout: default
     <div class="row justify-content-center">
       <div class="col-lg-7">
         <p class="h3 fw-normal mb-4 poap-pink">
-          Explore the ecosystem and find the tools right for you.
+          Explore the ecosystem and find the resources you need.
         </p>
         <a href="/en/resources/official" class="btn btn-primary btn-lg px-4 m-1">View Official Resources</a>
         <a href="/en/resources/community" class="btn btn-outline-secondary btn-lg px-4 m-1">View Community Resources</a>
