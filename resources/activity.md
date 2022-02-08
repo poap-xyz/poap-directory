@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Community Resources
-permalink: /en/resources/community
+title: Activity Resources
+permalink: /en/resources/activity
 ---
 
 

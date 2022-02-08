@@ -9,13 +9,13 @@ layout: default
     <h1 class="display-1 fw-bold mt-5 poap-purple">POAP Directory</h1>
     <div class="row justify-content-center">
       <div class="col-lg-7">
-        <p class="h3 fw-normal mb-4 poap-pink">
+        <p class="h3 fw-normal mb-4">
           Explore the ecosystem and find the resources you need.
         </p>
         <a href="/en/resources/official" class="btn btn-primary btn-lg px-4 m-1">View Official Resources</a>
         <a href="/en/resources/community" class="btn btn-outline-secondary btn-lg px-4 m-1">View Community Resources</a>
         <p class="mt-3">
-          <a href="">Start building on POAP {{site.data.icons.arrow_right}}</a>
+          <a href="/en/resources/dev">Start building on POAP {{site.data.icons.arrow_right}}</a>
         </p>
       </div>
     </div>
@@ -49,45 +49,46 @@ layout: default
 
 <!-- Official Resources -->
 <section id="official" class="">
-  {%- assign official_resources = site.data.projects-test | where: "official", "true" -%}
+  {%- assign official_resources = site.data.resources | where: "official", "true" -%}
   {%- assign official_limit = 8 -%}
   {%- assign official_mobile_limit = 4 -%}
   <div class="container py-5 my-5">
     <h2 class="h1 fw-bold mb-3 text-center">Official Resources</h2>
     {%- comment -%}
       <div class="text-center">
-        {%- if official_resources.size > official_limit -%}
-          <a href="/en/resources/all" class="btn btn-primary btn px-4 m-1">View All</a>
-        {%- endif -%}
-        {%- if official_resources.size > official_limit -%}
-          <a href="/" class="btn btn-outline-secondary btn px-4 m-1">Submit Resource</a>
-        {%- else -%}
-          <a href="/" class="btn btn-primary btn px-4 m-1">Submit Resource</a>
-        {%- endif -%}
+        <a href="/" class="btn btn-outline-secondary btn px-4 m-1">Submit Resource</a>
       </div>
     {%- endcomment -%}
     <div class="row row-cols-auto justify-content-center mt-4">
       {%- for resource in official_resources limit:official_limit -%}
-        {%- assign hide_on_small = "" -%}
-        {%- if forloop.index > official_mobile_limit -%}
-          {%- assign hide_on_small = "d-none d-sm-none d-md-block" -%}
-        {%- endif -%}
-        <div class="col mb-4 {{hide_on_small}}">
-          <div class="card rounded-3 h-100" style="width: 18rem;">
-            <div class="card-body d-flex align-items-start flex-column">
-              <h5 class="card-title text-capitalize">
-                <a href="{{resource.link}}" class="text-decoration-none link-dark">{{resource.name}} {{site.data.icons.new_tab}}</a>
-              </h5>
-              <p class="mb-1 text-muted"><small>POAP</small></p>
-              <p class="card-text flex-grow-1">{{resource.description_short}}</p>
-              <a href="" class="btn btn-outline-primary btn-sm">Details</a>
+        {%- if resource.link -%}
+          {%- assign hide_on_small = "" -%}
+          {%- if forloop.index > official_mobile_limit -%}
+            {%- assign hide_on_small = "d-none d-sm-none d-md-block" -%}
+          {%- endif -%}
+          <div class="col mb-4 {{hide_on_small}}">
+            <div class="card rounded-3 h-100" style="width: 18rem;">
+              <div class="card-body d-flex align-items-start flex-column">
+                <div class="mb-3">
+                  {%- assign resource_categories = resource.categories | split: ", " -%}
+                  {%- for category in resource_categories -%}
+                    <a class="me-1" href="/en/resources/{{category}}"><span class="badge rounded-pill bg-light text-dark {{category}}">{{category}}</span></a>
+                  {%- endfor -%}
+                </div>
+                <h5 class="card-title mb-1">
+                  <a href="{{resource.link}}" target="_blank" class="text-decoration-none link-dark">{{resource.title}} {{site.data.icons.new_tab}}</a>
+                </h5>
+                <p class="mb-2 text-muted"><small>POAP Inc.</small></p>
+                <p class="card-text flex-grow-1">{{resource.desc_short}}</p>
+                <a href="" class="btn btn-outline-primary btn-sm">Details</a>
+              </div>
             </div>
           </div>
-        </div>
+        {%- endif -%}
       {%- endfor -%}
     </div>
     <div class="text-center">
-      <a href="/en/resources/all" class="btn btn-primary btn px-4 m-1">View All</a>
+      <a href="/en/resources/official" class="btn btn-primary btn px-4 m-1">View All</a>
     </div>
   </div>
 </section>
@@ -95,50 +96,51 @@ layout: default
 
 <!-- Community Resources -->
 <section id="community" class="bg-light">
-  {%- assign community_resources = site.data.projects-test | where: "official", "false" -%}
+  {%- assign community_resources = site.data.resources | where: "official", "false" -%}
   {%- assign community_limit = 8 -%}
   {%- assign community_mobile_limit = 4 -%}
   <div class="container py-5 my-5">
     <h2 class="h1 fw-bold mb-3 text-center">Community Resources</h2>
     {%- comment -%}
       <div class="text-center">
-        {%- if community_resources.size > community_limit -%}
-          <a href="/en/resources/all" class="btn btn-primary btn px-4 m-1">View All</a>
-        {%- endif -%}
-        {%- if community_resources.size > community_limit -%}
-          <a href="/" class="btn btn-outline-secondary btn px-4 m-1">Submit Resource</a>
-        {%- else -%}
-          <a href="/" class="btn btn-primary btn px-4 m-1">Submit Resource</a>
-        {%- endif -%}
+        <a href="/" class="btn btn-outline-secondary btn px-4 m-1">Submit Resource</a>
       </div>
     {%- endcomment -%}
     <div class="row row-cols-auto justify-content-center mt-4">
       {%- for resource in community_resources limit:community_limit -%}
-        {%- assign hide_on_small = "" -%}
-        {%- if forloop.index > community_mobile_limit -%}
-          {%- assign hide_on_small = "d-none d-sm-none d-md-block" -%}
-        {%- endif -%}
-        <div class="col mb-4 {{hide_on_small}}">
-          <div class="card rounded-3 h-100" style="width: 18rem;">
-            <div class="card-body d-flex align-items-start flex-column">
-              <h5 class="card-title text-capitalize">
-                <a href="{{resource.link}}" class="text-decoration-none link-dark">{{resource.name}} {{site.data.icons.new_tab}}</a>
-              </h5>
-              {%- if resource.creator -%}
-                <p class="mb-1 text-muted text-capitalize"><small>{{resource.creator}}</small></p>
-              {%- else -%}
-                <p class="mb-1 text-muted text-capitalize"><small>Unknown</small></p>
-              {%- endif -%}
-              <p class="card-text flex-grow-1">{{resource.description_short}}</p>
-              <a href="" class="btn btn-outline-primary btn-sm">Details</a>
+        {%- if resource.link -%}
+          {%- assign hide_on_small = "" -%}
+          {%- if forloop.index > community_mobile_limit -%}
+            {%- assign hide_on_small = "d-none d-sm-none d-md-block" -%}
+          {%- endif -%}
+          <div class="col mb-4 {{hide_on_small}}">
+            <div class="card rounded-3 h-100" style="width: 18rem;">
+              <div class="card-body d-flex align-items-start flex-column">
+                <div class="mb-3">
+                  {%- assign resource_categories = resource.categories | split: ", " -%}
+                  {%- for category in resource_categories -%}
+                    <a class="me-1" href="/en/resources/{{category}}"><span class="badge rounded-pill bg-light text-dark {{category}}">{{category}}</span></a>
+                  {%- endfor -%}
+                </div>
+                <h5 class="card-title mb-1">
+                  <a href="{{resource.link}}" target="_blank" class="text-decoration-none link-dark">{{resource.title}} {{site.data.icons.new_tab}}</a>
+                </h5>
+                {%- if resource.creator -%}
+                  <p class="mb-2 text-muted text-capitalize"><small>{{resource.creator}}</small></p>
+                {%- else -%}
+                  <p class="mb-2 text-muted text-capitalize"><small>Unknown</small></p>
+                {%- endif -%}
+                <p class="card-text flex-grow-1">{{resource.desc_short}}</p>
+                <a href="" class="btn btn-outline-primary btn-sm">Details</a>
+              </div>
             </div>
           </div>
-        </div>
+        {%- endif -%} 
       {%- endfor -%}
     </div>
     {%- if community_resources.size > community_limit -%}
       <div class="text-center">
-        <a href="/en/resources/all" class="btn btn-primary btn px-4 m-1">View All</a>
+        <a href="/en/resources/community" class="btn btn-primary btn px-4 m-1">View All</a>
       </div>
     {%- endif -%}
   </div>
@@ -147,43 +149,50 @@ layout: default
 
 <!-- Integrations -->
 <section id="integrations" class="">
-  {%- assign integrations = site.data.projects-test -%}
-  {%- assign integration_limit = 8 -%}
+  {%- assign integrations = site.data.integrations -%}
+  {%- assign integration_limit = 6 -%}
   {%- assign integration_mobile_limit = 6 -%}
   <div class="container py-5 my-5">
     <h2 class="h1 fw-bold mb-3 text-center">Integrations</h2>
-    <div class="text-center">
-      {%- if integrations.size > integration_limit -%}
-        <a href="/en/integrations/all" class="btn btn-primary btn px-4 m-1">View All</a>
-      {%- endif -%}
-      {%- if integrations.size > integration_limit -%}
-        <a href="/" class="btn btn-outline-secondary btn px-4 m-1">Submit Integration</a>
-      {%- else -%}
-        <a href="/" class="btn btn-primary btn px-4 m-1">Submit Integration</a>
-      {%- endif -%}
-    </div>
+    {%- comment -%}
+      <div class="text-center">
+        {%- if integrations.size > integration_limit -%}
+          <a href="/en/integrations/all" class="btn btn-primary btn px-4 m-1">View All</a>
+        {%- endif -%}
+        {%- if integrations.size > integration_limit -%}
+          <a href="/" class="btn btn-outline-secondary btn px-4 m-1">Submit Integration</a>
+        {%- else -%}
+          <a href="/" class="btn btn-primary btn px-4 m-1">Submit Integration</a>
+        {%- endif -%}
+      </div>
+    {%- endcomment -%}
     <div class="row row-cols-auto justify-content-center mt-4">
       {%- for integration in integrations limit:integration_limit -%}
-        {%- assign hide_on_small = "" -%}
-        {%- if forloop.index > integration_mobile_limit -%}
-          {%- assign hide_on_small = "d-none d-sm-none d-md-block" -%}
-        {%- endif -%}
-        {% capture color %}
-          {% cycle "#8076fa", "#0dcaf0", "#20c997", "#f87588", "#ffc107" %}
-        {% endcapture %}
-        <div class="col {{hide_on_small}}" title="{{integration.name}}" data-bs-toggle="tooltip" data-bs-placement="top">
-          <a href="{{integration.link}}" class="card rounded-3 border-2 mb-4" style="width: 8rem; height: 8rem; border-color: {{color}};">
-            <div class="card-body rounded-2">
-              <img src="/assets/img/poap-badge.png" class="img-fluid">
+        {%- if integration.link -%}
+          {%- assign hide_on_small = "" -%}
+          {%- if forloop.index > integration_mobile_limit -%}
+            {%- assign hide_on_small = "d-none d-sm-none d-md-block" -%}
+          {%- endif -%}
+          <div class="col mb-4 {{hide_on_small}}">
+            <div href="{{integration.link}}" class="card rounded-3 h-100" style="width: 9rem;">
+              <div class="card-body rounded-2 text-center">
+                {%- if integration.img -%}
+                  <img src="{{integration.img}}" class="img-fluid mx-auto mb-2 rounded-circle" style="width: 5rem; height: 5rem; background-color: {{integration.bg_color}};">
+                {%- else -%}
+                  <img src="/assets/img/poap-badge.png" class="img-fluid mx-auto mb-2 rounded-circle" style="width: 5rem; height: 5rem;">
+                {%- endif -%}
+                <div class="badge rounded-pill mb-2 me-1 bg-light text-dark">{{integration.category}}</div>
+                <a href="{{integration.link}}" target="_blank" class="d-block text-decoration-none fs-6 link-dark">{{integration.name}} {{site.data.icons.new_tab}}</a>
+              </div>
             </div>
-          </a>
-        </div>
+          </div>
+        {%- endif -%}
       {%- endfor -%}
     </div>
     {%- if integrations.size > integration_limit -%}
-      <!-- <div class="text-center">
+      <div class="text-center">
         <a href="/en/integrations/all" class="btn btn-primary btn px-4 m-1">View All</a>
-      </div> -->
+      </div>
     {%- endif -%}
   </div>
 </section>

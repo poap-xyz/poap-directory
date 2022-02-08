@@ -38,21 +38,69 @@
 }
 */
 
-/*.poap-pink {
-  color: #f9879a;
+
+
+.poap-purple-1 {
+  color: #b5aeff;
 }
-.poap-purple {
-  color: #8076fa;
+.bg-poap-purple-1 {
+  background-color: #b5aeff;
 }
-.poap-text {
-  color: #8492ce;
+.poap-purple-2 {
+  color: #a8a6f4;
+}
+.bg-poap-purple-2 {
+  background-color: #a8a6f4;
+}
+.poap-purple-light {
+  color: #f0efff;
+}
+.bg-poap-purple-light {
+  background-color: #f0efff;
+}
+.poap-purple-dark {
+  color: #5e58a5;
+}
+.bg-poap-purple-dark {
+  background-color: #5e58a5;
+}
+.poap-green {
+  color: #d8f2c7;
+}
+.bg-poap-green {
+  background-color: #d8f2c7;
+}
+.poap-violet {
+  color: #eac9f8;
+}
+.bg-poap-violet {
+  background-color: #eac9f8;
+}
+.poap-blue {
+  color: #c2e6f5;
+}
+.bg-poap-blue {
+  background-color: #c2e6f5;
+}
+.poap-red {
+  color: #f39bb6;
+}
+.bg-poap-red {
+  background-color: #f39bb6;
+}
+.poap-orange {
+  color: #ffcfd1;
+}
+.bg-poap-orange {
+  background-color: #ffcfd1;
+}
+.poap-pink {
+  color: #ffecf1;
 }
 .bg-poap-pink {
-  background-color: #f9879a;
+  background-color: #ffecf1;
 }
-.bg-poap-purple {
-  background-color: #8076fa;
-}*/
+
 
 .social-icons img {
   height: 2rem;

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Community Resources
-permalink: /en/resources/community
+title: Admin Resources
+permalink: /en/resources/admin
 ---
 
 
