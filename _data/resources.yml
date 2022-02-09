@@ -39,40 +39,75 @@
 
 
 # temporary notes
-# categories: distribution, design, entertainment, guide, admin, branding, raffle, art, activity, vote, view (inspect?), app, dev, collector (?), metrics, access
-# sub_categories: distribution (qr, bot, website, delivery, app, metaverse, snapshot), activity (art, raffle, vote)
+# categories: distribution, design, entertainment, guide, admin, branding, raffle, art, activity, voting, view (inspect?), app, dev, collector (?), metrics, access
+# sub_categories: distribution (qr, bot, website, delivery, app, metaverse, snapshot), activity (art, raffle, voting)
 # add collector/issuer tags?
 
 
-- link: https://www.poapathon.com/
-  title: POAPathon
-  official: false
-  desc_short: Enables competitive design contests, on-demand entertainment, live event productions, and collaborative creative spaces.
+# featured official resources
+- link: https://app.poap.art/
+  title: POAP.art
+  official: true
+  desc_short: POAP.art is the intersection of art ant tech, allowing your event participants to collaboratively create a piece of art.
   desc_long: 
-  creator: POAPathon
-  # contact: POAP Discord @Tap.eth
-  categories: design, entertainment
+  creator: POAP Inc.
+  # contact: 
+  categories: activity, art
   github: 
-  docs: https://www.poapathon.com/requests
-  discord: https://discord.gg/YhneEKxVQ8
-  twitter: https://twitter.com/poapathon
+  docs: 
+  discord: https://poap.art/discord
+  twitter: 
   telegram: 
   medium: 
-  youtube: https://www.youtube.com/c/POAPathon
+  youtube: 
   linkedin: 
   forum: 
-- link: https://degen.bankless.community
-  title: DEGEN Bot
-  official: false
-  desc_short: POAP distribution and DAO tooling for Discord and other platforms.
-  desc_long: The DEGEN Workgroup is building services to bring Web3 functionality to Web2 platforms, such as Discord, Twitter, and Twitch. The current flagship product, DEGEN, provides POAP distribution features to reward community members and works to combat POAP farming. Other DAO products include Mad Hatter, the BanklessDAO Administrative bot, with a number of bots currently under development. 
-  creator: DEGEN Workgroup # or The DEGEN Workgroup ?
-  # contact: BanklessDAO Discord @nonsensetwice or crypto@nonsensetwice.co
-  categories: distribution
-  github: https://github.com/BanklessDAO/DEGEN
+- link: https://poap.vote/
+  title: POAP.vote
+  official: true
+  desc_short: A sybil-resistant voting engine to run polls for your event participants.
+  desc_long: 
+  creator: POAP Inc.
+  # contact: 
+  categories: activity, voting
+  github: https://github.com/poap-xyz/poap-vote-v2
   docs: 
   discord: 
-  twitter: https://twitter.com/bDAO_DEGEN
+  twitter: 
+  telegram: 
+  medium: 
+  youtube: 
+  linkedin: 
+  forum: 
+- link: https://poap.fun/
+  title: POAP.fun
+  official: true
+  desc_short: POAP.fun allows you to create raffles for your event participants.
+  desc_long: 
+  creator: POAP Inc.
+  # contact: 
+  categories: activity, raffle
+  github: https://github.com/poap-xyz/poap-fun
+  docs: 
+  discord: 
+  twitter: 
+  telegram: 
+  medium: 
+  youtube: 
+  linkedin: 
+  forum: 
+- link: https://app.poap.xyz/admin
+  title: POAP Admin Panel
+  official: true
+  desc_short: The POAP admin panel is used to manage your events, codes, distribution, and templates.
+  desc_long: 
+  creator: POAP Inc.
+  # contact: 
+  categories: admin
+  github: 
+  docs: 
+  discord: 
+  twitter: 
   telegram: 
   medium: 
   youtube: 
@@ -95,6 +130,59 @@
   youtube: 
   linkedin: 
   forum: 
+- link: https://careers.poap.xyz/
+  title: POAP Careers
+  official: true
+  desc_short: Learn more about working at POAP.
+  desc_long: 
+  creator: POAP Inc.
+  # contact: 
+  categories: info
+  github: 
+  docs: 
+  discord: 
+  twitter: 
+  telegram: 
+  medium: 
+  youtube: 
+  linkedin: 
+  forum: 
+- link: https://help.poap.xyz/
+  title: POAP Help Center
+  official: true
+  desc_short: Find guides and answers for common questions and problems.
+  desc_long: 
+  creator: POAP Inc.
+  # contact: 
+  categories: info
+  github: 
+  docs: 
+  discord: 
+  twitter: 
+  telegram: 
+  medium: 
+  youtube: 
+  linkedin: 
+  forum: 
+- link: https://discourse.poap.xyz/categories
+  title: POAP Discourse
+  official: true
+  desc_short: A support forum to help with troubleshooting and petition for POAP drops.
+  desc_long: 
+  creator: POAP Inc.
+  # contact: 
+  categories: info
+  github: 
+  docs: 
+  discord: 
+  twitter: 
+  telegram: 
+  medium: 
+  youtube: 
+  linkedin: 
+  forum: 
+
+# featured community resources
 - link: https://github.com/stake-house/poap-reddit-bot
   title: POAP for Reddit
   official: false
@@ -112,15 +200,155 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://app.poap.xyz/admin
-  title: POAP Admin Panel
+- link: https://degen.bankless.community
+  title: DEGEN Bot
+  official: false
+  desc_short: POAP distribution and DAO tooling for Discord and other platforms.
+  desc_long: The DEGEN Workgroup is building services to bring Web3 functionality to Web2 platforms, such as Discord, Twitter, and Twitch. The current flagship product, DEGEN, provides POAP distribution features to reward community members and works to combat POAP farming. Other DAO products include Mad Hatter, the BanklessDAO Administrative bot, with a number of bots currently under development. 
+  creator: DEGEN Workgroup # or The DEGEN Workgroup ?
+  # contact: BanklessDAO Discord @nonsensetwice or crypto@nonsensetwice.co
+  categories: distribution
+  github: https://github.com/BanklessDAO/DEGEN
+  docs: 
+  discord: 
+  twitter: https://twitter.com/bDAO_DEGEN
+  telegram: 
+  medium: 
+  youtube: 
+  linkedin: 
+  forum: 
+- link: https://github.com/RomiRand/PoapArtBot
+  title: POAP.art Painting Bot
+  official: false
+  desc_short: A bot that allow users to delegate pixel placing to the art bot for custom, pre-planned drawings.
+  desc_long: 
+  creator: RomiRand
+  # contact: POAP Discord @RamiRond
+  categories: art
+  github: https://github.com/RomiRand/PoapArtBot
+  docs: 
+  discord: 
+  twitter: 
+  telegram: 
+  medium: 
+  youtube: 
+  linkedin: 
+  forum: 
+- link: https://litgateway.com/apps/zoom
+  title: Zoom Gated Access
+  official: false
+  desc_short: Create gated Zoom webinars and meetings with exclusive access to POAP collectors.
+  desc_long: 
+  creator: Lit Gateway
+  # contact: 
+  categories: access
+  github: https://github.com/LIT-Protocol/
+  docs: https://developer.litprotocol.com/docs/intro/
+  discord: https://litgateway.com/discord
+  twitter: https://twitter.com/litprotocol
+  telegram: 
+  medium: https://blog.litprotocol.com/
+  youtube: 
+  linkedin: 
+  forum: 
+- link: https://www.charmverse.io/notion-sign-in
+  title: Notion Gated Access
+  official: false
+  desc_short: Create a gated Notion workspace with exclusive access to POAP collectors.
+  desc_long: Get a taste of the CharmVerse interface on Notion. Control access based on the ERC-20, NFT, or POAPs in your wallet. Unlock full or partial Notion workspaces. Mix and match tokens to grant different levels of access. Free to use. We only ask that you checkout http://charmverse.io/ in return. 
+  creator: CharmVerse
+  # contact: CharmVerse Discord @cerberus
+  categories: access
+  github: 
+  docs: 
+  discord: https://discord.gg/VvhEafEWcg
+  twitter: http://www.twitter.com/charmverse
+  telegram: 
+  medium: 
+  youtube: 
+  linkedin: https://www.linkedin.com/company/charmverse
+  forum: 
+  # facebook: http://www.facebook.com/charmverse.io
+- link: https://poap.cc/
+  title: Decentraland POAP Dispenser
+  official: false
+  desc_short: A virtual dispenser to distribute POAPs to your event participants within the Decentraland metaverse.
+  desc_long: 
+  creator: MetaZoo
+  # contact: MetaZoo Discord @zoo and @Sanda
+  categories: distribution
+  github: 
+  docs: 
+  discord: https://discord.gg/gDGUdwndpg
+  twitter: https://twitter.com/metazooxyz
+  telegram: 
+  medium: 
+  youtube: 
+  linkedin: 
+  forum: 
+  # instagram: https://www.instagram.com/zoogalleryxyz
+- link: https://github.com/BUIDLHub/poap-verification-frontend
+  title: Private Chat Gated Access
+  official: false
+  desc_short: Create gated Discord channels with exclusive access to POAP collectors.
+  desc_long: 
+  creator: BUIDLHub
+  # contact: 
+  categories: access
+  github: https://github.com/BUIDLHub/poap-verification-frontend
+  docs: https://docs.buidlhub.com/
+  discord: https://discord.gg/fQtpeT2
+  twitter: https://twittter.com/buidlhub
+  telegram: https://t.me/buidlhub
+  medium: https://medium.com/buidlhub
+  youtube: https://www.youtube.com/channel/UCBudqf1FNGwtOrPL8f99lCA/featured
+  linkedin: https://www.linkedin.com/company/buidlhub/
+  forum: 
+- link: https://collab-land.gitbook.io/collab-land/bots/discord
+  title: Collab.Land (Discord)
+  official: false
+  desc_short: Create gated Discord channels with exclusive access to POAP collectors.
+  desc_long: 
+  creator: Collab.Land
+  # contact: 
+  categories: access
+  github: 
+  docs: https://collab-land.gitbook.io/collab-land/bots/discord
+  discord: 
+  twitter: https://twitter.com/Collab_Land_
+  telegram: https://t.me/CollabLand
+  medium: https://medium.com/abridged-io
+  youtube: 
+  linkedin: 
+  forum: 
+
+
+- link: https://app.poap.xyz/scan
+  title: POAP Scan
   official: true
-  desc_short: The POAP admin panel is used to manage your events, codes, distribution, and templates.
+  desc_short: POAP Scan allows you to view your collections as well as explore other people's collections.
   desc_long: 
   creator: POAP Inc.
   # contact: 
-  categories: admin
+  categories: view
   github: 
+  docs: 
+  discord: 
+  twitter: 
+  telegram: 
+  medium: 
+  youtube: 
+  linkedin: 
+  forum: 
+- link: https://poap.gallery/
+  title: POAP.gallery
+  official: true
+  desc_short: POAP.gallery allows you to browse POAPs and enjoy the adventure through the digital collectibles universe.
+  desc_long: 
+  creator: POAP Inc.
+  # contact: 
+  categories: view
+  github: https://github.com/poap-xyz/poap-gallery
   docs: 
   discord: 
   twitter: 
@@ -214,74 +442,6 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://poap.fun/
-  title: POAP.fun
-  official: true
-  desc_short: POAP.fun allows you to create raffles for your event participants.
-  desc_long: 
-  creator: POAP Inc.
-  # contact: 
-  categories: activity, raffle
-  github: https://github.com/poap-xyz/poap-fun
-  docs: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
-- link: https://app.poap.art/
-  title: POAP.art
-  official: true
-  desc_short: POAP.art is the intersection of art ant tech, allowing your event participants to collaboratively create a piece of art.
-  desc_long: 
-  creator: POAP Inc.
-  # contact: 
-  categories: activity, art
-  github: 
-  docs: 
-  discord: https://poap.art/discord
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
-- link: https://poap.vote/
-  title: POAP.vote
-  official: true
-  desc_short: A sybil-resistant voting engine to run polls for your event participants.
-  desc_long: 
-  creator: POAP Inc.
-  # contact: 
-  categories: activity, vote
-  github: https://github.com/poap-xyz/poap-vote-v2
-  docs: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
-- link: https://poap.gallery/
-  title: POAP.gallery
-  official: true
-  desc_short: POAP.gallery allows you to browse POAPs and enjoy the adventure through the digital collectibles universe.
-  desc_long: 
-  creator: POAP Inc.
-  # contact: 
-  categories: view
-  github: https://github.com/poap-xyz/poap-gallery
-  docs: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
 - link: https://play.google.com/store/apps/details?id=xyz.poap.app.mobile
   title: POAP App (Android)
   official: true
@@ -307,23 +467,6 @@
   creator: POAP Inc.
   # contact: 
   categories: app, collector
-  github: 
-  docs: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
-- link: https://app.poap.xyz/scan
-  title: POAP Scan
-  official: true
-  desc_short: POAP Scan allows you to view your collections as well as explore other people's collections.
-  desc_long: 
-  creator: POAP Inc.
-  # contact: 
-  categories: view
   github: 
   docs: 
   discord: 
@@ -401,57 +544,6 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://dune.xyz/blowfish/Poap-Mints
-  title: Dune xDai POAP Dashboard
-  official: false
-  desc_short: View POAP xDai metrics and analysis on transfers, mints, wallets, and transfers.
-  desc_long: 
-  creator: blowfish
-  # contact: 
-  categories: metrics
-  github: 
-  docs: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
-- link: https://dashboards.anyblock.tools/projects/poap/
-  title: POAP Protocol Metrics
-  official: false
-  desc_short: View POAP metrics on transfers, mints, and holders.
-  desc_long: 
-  creator: Anyblock
-  # contact: 
-  categories: metrics
-  github: 
-  docs: 
-  discord: 
-  twitter: https://twitter.com/AnyblockTools
-  telegram: 
-  medium: https://anyblocktools.medium.com/
-  youtube: https://www.youtube.com/channel/UC3g6tf9vP83tSXUCd1jrlRA
-  linkedin: https://www.linkedin.com/company/anyblockanalytics/
-  forum: 
-- link: https://dune.xyz/greywizard/sgc-work?Address=0x4c41F7201552487A55C623f8a45694d9F88C2B81
-  title: Dune POAP Dashboard
-  official: false
-  desc_short: View POAP metrics on the amount of waalets over time.
-  desc_long: 
-  creator: GreyWizard
-  # contact: POAP Discord @Sam | POAP
-  categories: metrics
-  github: 
-  docs: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
 - link: https://tomso11.medium.com/how-to-set-up-a-poap-website-511ef979ea19
   title: POAP Website Guide
   official: true
@@ -503,6 +595,74 @@
   youtube: 
   linkedin: 
   forum: 
+- link: https://www.poapathon.com/
+  title: POAPathon
+  official: false
+  desc_short: Enables competitive design contests, on-demand entertainment, live event productions, and collaborative creative spaces.
+  desc_long: 
+  creator: POAPathon
+  # contact: POAP Discord @Tap.eth
+  categories: design, entertainment
+  github: 
+  docs: https://www.poapathon.com/requests
+  discord: https://discord.gg/YhneEKxVQ8
+  twitter: https://twitter.com/poapathon
+  telegram: 
+  medium: 
+  youtube: https://www.youtube.com/c/POAPathon
+  linkedin: 
+  forum: 
+- link: https://dune.xyz/blowfish/Poap-Mints
+  title: Dune xDai POAP Dashboard
+  official: false
+  desc_short: View POAP xDai metrics and analysis on transfers, mints, wallets, and transfers.
+  desc_long: 
+  creator: blowfish
+  # contact: 
+  categories: metrics
+  github: 
+  docs: 
+  discord: 
+  twitter: 
+  telegram: 
+  medium: 
+  youtube: 
+  linkedin: 
+  forum: 
+- link: https://dashboards.anyblock.tools/projects/poap/
+  title: POAP Protocol Metrics
+  official: false
+  desc_short: View POAP metrics on transfers, mints, and holders.
+  desc_long: 
+  creator: Anyblock
+  # contact: 
+  categories: metrics
+  github: 
+  docs: 
+  discord: 
+  twitter: https://twitter.com/AnyblockTools
+  telegram: 
+  medium: https://anyblocktools.medium.com/
+  youtube: https://www.youtube.com/channel/UC3g6tf9vP83tSXUCd1jrlRA
+  linkedin: https://www.linkedin.com/company/anyblockanalytics/
+  forum: 
+- link: https://dune.xyz/greywizard/sgc-work?Address=0x4c41F7201552487A55C623f8a45694d9F88C2B81
+  title: Dune POAP Dashboard
+  official: false
+  desc_short: View POAP metrics on the amount of waalets over time.
+  desc_long: 
+  creator: GreyWizard
+  # contact: POAP Discord @Sam | POAP
+  categories: metrics
+  github: 
+  docs: 
+  discord: 
+  twitter: 
+  telegram: 
+  medium: 
+  youtube: 
+  linkedin: 
+  forum: 
 - link: https://github.com/poapxyz/poap-bot#how-to-install-the-poap-bot-on-a-discord-server
   title: POAP Bot Setup Guide
   official: true
@@ -520,24 +680,6 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://poap.cc/
-  title: Decentraland POAP Dispenser
-  official: false
-  desc_short: A virtual dispenser to distribute POAPs to your event participants within the Decentraland metaverse.
-  desc_long: 
-  creator: MetaZoo
-  # contact: MetaZoo Discord @zoo and @Sanda
-  categories: distribution
-  github: 
-  docs: 
-  discord: https://discord.gg/gDGUdwndpg
-  twitter: https://twitter.com/metazooxyz
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
-  # instagram: https://www.instagram.com/zoogalleryxyz
 - link: https://blockscout.com/xdai/mainnet/
   title: Blockscout Block Explorer
   official: false
@@ -555,57 +697,6 @@
   youtube: 
   linkedin: 
   forum: https://forum.poa.network/c/blockscout
-- link: https://discord.gg/CD2YdZzb7Z
-  title: MasterPOAP
-  official: false
-  desc_short: Automated claim code distribution for POAP events via Discord. This is a private-access tool.
-  desc_long: 
-  creator: SushiSwap
-  # contact: 
-  categories: distribution
-  github: 
-  docs: 
-  discord: https://discord.gg/CD2YdZzb7Z
-  twitter: https://twitter.com/sushiswap
-  telegram: 
-  medium: https://sushichef.medium.com/
-  youtube: 
-  linkedin: 
-  forum: 
-- link: https://github.com/BUIDLHub/poap-verification-frontend
-  title: Private Chat Gated Access
-  official: false
-  desc_short: Create gated Discord channels with exclusive access to POAP collectors.
-  desc_long: 
-  creator: BUIDLHub
-  # contact: 
-  categories: access
-  github: https://github.com/BUIDLHub/poap-verification-frontend
-  docs: https://docs.buidlhub.com/
-  discord: https://discord.gg/fQtpeT2
-  twitter: https://twittter.com/buidlhub
-  telegram: https://t.me/buidlhub
-  medium: https://medium.com/buidlhub
-  youtube: https://www.youtube.com/channel/UCBudqf1FNGwtOrPL8f99lCA/featured
-  linkedin: https://www.linkedin.com/company/buidlhub/
-  forum: 
-- link: https://collab-land.gitbook.io/collab-land/bots/discord
-  title: Collab.Land (Discord)
-  official: false
-  desc_short: Create gated Discord channels with exclusive access to POAP collectors.
-  desc_long: 
-  creator: Collab.Land
-  # contact: 
-  categories: access
-  github: 
-  docs: https://collab-land.gitbook.io/collab-land/bots/discord
-  discord: 
-  twitter: https://twitter.com/Collab_Land_
-  telegram: https://t.me/CollabLand
-  medium: https://medium.com/abridged-io
-  youtube: 
-  linkedin: 
-  forum: 
 - link: https://collab-land.gitbook.io/collab-land/bots/telegram
   title: Collab.Land (Telegram)
   official: false
@@ -620,23 +711,6 @@
   twitter: https://twitter.com/Collab_Land_
   telegram: https://t.me/CollabLand
   medium: https://medium.com/abridged-io
-  youtube: 
-  linkedin: 
-  forum: 
-- link: https://github.com/RomiRand/PoapArtBot
-  title: POAP.art Painting Bot
-  official: false
-  desc_short: A bot that allow users to delegate pixel placing to the art bot for custom, pre-planned drawings.
-  desc_long: 
-  creator: RomiRand
-  # contact: POAP Discord @RamiRond
-  categories: art
-  github: https://github.com/RomiRand/PoapArtBot
-  docs: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
   youtube: 
   linkedin: 
   forum: 
@@ -691,6 +765,24 @@
   youtube: 
   linkedin: 
   forum: 
+- link: https://discord.gg/CD2YdZzb7Z
+  title: MasterPOAP
+  official: false
+  desc_short: Automated claim code distribution for POAP events via Discord. This is a private-access tool.
+  desc_long: 
+  creator: SushiSwap
+  # contact: 
+  categories: distribution
+  github: 
+  docs: 
+  discord: https://discord.gg/CD2YdZzb7Z
+  twitter: https://twitter.com/sushiswap
+  telegram: 
+  medium: https://sushichef.medium.com/
+  youtube: 
+  linkedin: 
+  forum: 
+
 - link: https://litgateway.com/apps/google-drive
   title: Google Drive Gated Access
   official: false
@@ -722,23 +814,6 @@
   twitter: 
   telegram: 
   medium: 
-  youtube: 
-  linkedin: 
-  forum: 
-- link: https://litgateway.com/apps/zoom
-  title: Zoom Gated Access
-  official: false
-  desc_short: Create gated Zoom webinars and meetings with exclusive access to POAP collectors.
-  desc_long: 
-  creator: Lit Gateway
-  # contact: 
-  categories: access
-  github: https://github.com/LIT-Protocol/
-  docs: https://developer.litprotocol.com/docs/intro/
-  discord: https://litgateway.com/discord
-  twitter: https://twitter.com/litprotocol
-  telegram: 
-  medium: https://blog.litprotocol.com/
   youtube: 
   linkedin: 
   forum: 
@@ -861,24 +936,6 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://www.charmverse.io/notion-sign-in
-  title: Notion Gated Access
-  official: false
-  desc_short: Create a gated Notion workspace with exclusive access to POAP collectors.
-  desc_long: Get a taste of the CharmVerse interface on Notion. Control access based on the ERC-20, NFT, or POAPs in your wallet. Unlock full or partial Notion workspaces. Mix and match tokens to grant different levels of access. Free to use. We only ask that you checkout http://charmverse.io/ in return. 
-  creator: CharmVerse
-  # contact: CharmVerse Discord @cerberus
-  categories: access
-  github: 
-  docs: 
-  discord: https://discord.gg/VvhEafEWcg
-  twitter: http://www.twitter.com/charmverse
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: https://www.linkedin.com/company/charmverse
-  forum: 
-  # facebook: http://www.facebook.com/charmverse.io
 - link: https://earni.fi/
   title: Earnifi
   official: false
@@ -891,57 +948,6 @@
   docs: https://docs.earni.fi/
   discord: 
   twitter: https://twitter.com/dawsonbotsford
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
-- link: https://careers.poap.xyz/
-  title: POAP Careers
-  official: true
-  desc_short: Learn more about working at POAP.
-  desc_long: 
-  creator: POAP Inc.
-  # contact: 
-  categories: info
-  github: 
-  docs: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
-- link: https://help.poap.xyz/
-  title: POAP Help Center
-  official: true
-  desc_short: Find guides and answers for common questions and problems.
-  desc_long: 
-  creator: POAP Inc.
-  # contact: 
-  categories: info
-  github: 
-  docs: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
-- link: https://discourse.poap.xyz/categories
-  title: POAP Discourse
-  official: true
-  desc_short: A support forum to help with troubleshooting and petition for POAP drops.
-  desc_long: 
-  creator: POAP Inc.
-  # contact: 
-  categories: info
-  github: 
-  docs: 
-  discord: 
-  twitter: 
   telegram: 
   medium: 
   youtube: 
