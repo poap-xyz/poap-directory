@@ -12,8 +12,7 @@ layout: default
         <p class="h3 fw-normal mb-4">
           Explore the ecosystem and find the resources you need.
         </p>
-        <a href="/en/resources/official" class="btn btn-primary btn-lg px-4 m-1">View Official Resources</a>
-        <a href="/en/resources/community" class="btn btn-outline-secondary btn-lg px-4 m-1">View Community Resources</a>
+        <a href="/en/resources/all" class="btn btn-primary btn-lg px-4 m-1">View Resources</a>
         <p class="mt-3">
           <a href="/en/resources/dev">Start building on POAP {{site.data.icons.arrow_right}}</a>
         </p>
@@ -24,7 +23,7 @@ layout: default
 
 
 <!-- Fun Divider -->
-<section class="bg-light">
+<section class="d-none">
   <div class="container my-5">
     <div class="row text-center">
       <div class="col text-center">
@@ -48,7 +47,7 @@ layout: default
 
 
 <!-- Official Resources -->
-<section id="official" class="">
+<section id="official" class="bg-light">
   {%- assign official_resources = site.data.resources | where: "official", "true" -%}
   {%- assign official_limit = 8 -%}
   {%- assign official_mobile_limit = 4 -%}
@@ -95,7 +94,7 @@ layout: default
 
 
 <!-- Community Resources -->
-<section id="community" class="bg-light">
+<section id="community" class="">
   {%- assign community_resources = site.data.resources | where: "official", "false" -%}
   {%- assign community_limit = 8 -%}
   {%- assign community_mobile_limit = 4 -%}
@@ -148,7 +147,7 @@ layout: default
 
 
 <!-- Integrations -->
-<section id="integrations" class="">
+<section id="integrations" class="d-none">
   {%- assign integrations = site.data.integrations -%}
   {%- assign integration_limit = 6 -%}
   {%- assign integration_mobile_limit = 6 -%}
