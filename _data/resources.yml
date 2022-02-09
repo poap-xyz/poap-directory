@@ -39,7 +39,7 @@
 
 
 # temporary notes
-# categories: distribution, design, entertainment, guide, admin, branding, raffle, art, activity, voting, view (inspect?), app, dev, collector (?), metrics, access
+# categories: distribution, design, entertainment, guide, admin, branding, raffle, art, activity, voting, view (inspect?), app, dev, collector (?), metrics, access, info
 # sub_categories: distribution (qr, bot, website, delivery, app, metaverse, snapshot), activity (art, raffle, voting)
 # add collector/issuer tags?
 
@@ -137,7 +137,7 @@
   desc_long: 
   creator: POAP Inc.
   # contact: 
-  categories: info
+  categories: info, dev
   github: 
   docs: 
   discord: 
@@ -595,6 +595,91 @@
   youtube: 
   linkedin: 
   forum: 
+- link: https://twitter.com/poapxyz/
+  title: POAP Twitter
+  official: true
+  desc_short: Follow POAP announcements and participate in Twitter Spaces.
+  desc_long: 
+  creator: POAP Inc.
+  # contact: 
+  categories: info, social
+  github: 
+  docs: 
+  discord: 
+  twitter: 
+  telegram: 
+  medium: 
+  youtube: 
+  linkedin: 
+  forum: 
+- link: https://www.reddit.com/r/poap/
+  title: POAP Reddit
+  official: true
+  desc_short: Join the POAP community and follow announcements.
+  desc_long: 
+  creator: POAP Inc.
+  # contact: 
+  categories: info, social
+  github: 
+  docs: 
+  discord: 
+  twitter: 
+  telegram: 
+  medium: 
+  youtube: 
+  linkedin: 
+  forum: 
+- link: https://t.me/poapxyz
+  title: POAP Telegram
+  official: true
+  desc_short: Join the POAP community and follow announcements.
+  desc_long: 
+  creator: POAP Inc.
+  # contact: 
+  categories: info, social
+  github: 
+  docs: 
+  discord: 
+  twitter: 
+  telegram: 
+  medium: 
+  youtube: 
+  linkedin: 
+  forum: 
+- link: https://discord.com/invite/9s8U8Bn
+  title: POAP Discord
+  official: true
+  desc_short: Join the POAP community, participate in community calls, and receive announcements.
+  desc_long: 
+  creator: POAP Inc.
+  # contact: 
+  categories: info, social
+  github: 
+  docs: 
+  discord: 
+  twitter: 
+  telegram: 
+  medium: 
+  youtube: 
+  linkedin: 
+  forum: 
+- link: https://github.com/poap-xyz
+  title: POAP Github
+  official: true
+  desc_short: Check out the POAP's projects and contribute.
+  desc_long: 
+  creator: POAP Inc.
+  # contact: 
+  categories: dev
+  github: 
+  docs: 
+  discord: 
+  twitter: 
+  telegram: 
+  medium: 
+  youtube: 
+  linkedin: 
+  forum: 
 - link: https://www.poapathon.com/
   title: POAPathon
   official: false
@@ -782,7 +867,6 @@
   youtube: 
   linkedin: 
   forum: 
-
 - link: https://litgateway.com/apps/google-drive
   title: Google Drive Gated Access
   official: false
