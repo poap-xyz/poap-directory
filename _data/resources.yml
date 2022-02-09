@@ -680,6 +680,23 @@
   youtube: 
   linkedin: 
   forum: 
+- link: https://www.linkedin.com/company/poapxyz/
+  title: POAP LinkedIn
+  official: true
+  desc_short: Follow company announcements, growth, and job postings.
+  desc_long: 
+  creator: POAP Inc.
+  # contact: 
+  categories: social
+  github: 
+  docs: 
+  discord: 
+  twitter: 
+  telegram: 
+  medium: 
+  youtube: 
+  linkedin: 
+  forum: 
 - link: https://www.poapathon.com/
   title: POAPathon
   official: false
