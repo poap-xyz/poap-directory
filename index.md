@@ -204,7 +204,7 @@ layout: default
     <div class="row justify-content-center mt-2">
       <div class="col col-lg-6 col-md-8 text-center">
         <p>POAP has an amazing ecosystem thanks to builders like you. Help furthur our mission of preserving memories and connecting communities by building on POAP. We love seeing what the community develops!</p>
-        <a href="/" class="btn btn-primary btn px-4 m-1">Start Building</a>
+        <a href="/en/resources/dev" class="btn btn-primary btn px-4 m-1">Start Building</a>
       </div>
     </div>
   </div>
