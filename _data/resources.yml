@@ -133,7 +133,7 @@
 - link: https://careers.poap.xyz/
   title: POAP Careers
   official: true
-  desc_short: Learn more about working at POAP.
+  desc_short: View open positions and learn more about working at POAP.
   desc_long: 
   creator: POAP Inc.
   # contact: 
@@ -467,6 +467,23 @@
   creator: POAP Inc.
   # contact: 
   categories: app, collector
+  github: 
+  docs: 
+  discord: 
+  twitter: 
+  telegram: 
+  medium: 
+  youtube: 
+  linkedin: 
+  forum: 
+- link: https://docs.google.com/forms/d/e/1FAIpQLScoW5KV6TmyT7OMn-ReLsDVZ8UoeiCvNJ1sKAvNf46lii4kDA/viewform
+  title: POAP API KEY Request Form
+  official: true
+  desc_short: A form to request an API key to start building on POAP.
+  desc_long: 
+  creator: POAP Inc.
+  # contact: 
+  categories: dev
   github: 
   docs: 
   discord: 
