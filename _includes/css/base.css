@@ -106,6 +106,11 @@ header {
 }
 
 
+#rdmSocials a {
+  color: #b5aeff;
+}
+
+
 .social-icons img {
   height: 2rem;
 }
