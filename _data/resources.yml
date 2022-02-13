@@ -40,7 +40,7 @@
 
 # temporary notes
 # categories: distribution, design, entertainment, guide, admin, branding, raffle, art, activity, voting, view (inspect?), app, dev, collector (?), metrics, access, info
-# sub_categories: distribution (qr, bot, website, delivery, app, metaverse, snapshot), activity (art, raffle, voting)
+# sub_categories: distribution (qr, bot, website, delivery, app, metaverse, snapshot, physical/digital), activity (art, raffle, voting)
 # add collector/issuer tags?
 
 
@@ -360,13 +360,13 @@
 - link: https://app.poap.xyz/admin/websites
   title: POAP Websites Admin
   official: true
-  desc_short: The POAP websites admin panel allows you to manage your event's POAP claim website.
+  desc_short: The POAP websites admin panel allows you to manage your drop's POAP claim website.
   desc_long: 
   creator: POAP Inc.
   # contact: 
   categories: admin, distribution
   github: 
-  docs: https://tomso11.medium.com/how-to-set-up-a-poap-website-511ef979ea19
+  docs: https://help.poap.xyz/en/articles/5802657-how-do-i-set-up-a-poap-drop
   discord: 
   twitter: 
   telegram: 
@@ -377,13 +377,13 @@
 - link: https://app.poap.xyz/admin/secrets
   title: POAP Secrets Admin
   official: true
-  desc_short: The POAP secret admin panel allows you to manage your event's POAP secret claims that are claimed through the app.
+  desc_short: The POAP secret admin panel allows you to manage your drop's POAP secret claims that are claimed through the app.
   desc_long: 
   creator: POAP Inc.
   # contact: 
   categories: admin, distribution
   github: 
-  docs: 
+  docs: https://help.poap.xyz/en/articles/5807573-how-do-i-set-up-a-poap-secret
   discord: 
   twitter: 
   telegram: 
@@ -392,9 +392,9 @@
   linkedin: 
   forum: 
 - link: https://app.poap.xyz/admin/events
-  title: POAP Events Admin
+  title: POAP Drops Admin
   official: true
-  desc_short: The POAP websites admin panel allows you to manage your event details or create a new event.
+  desc_short: The POAP websites admin panel allows you to manage your drop's details or create a new drop.
   desc_long: 
   creator: POAP Inc.
   # contact: 
@@ -417,7 +417,7 @@
   # contact: 
   categories: admin, distribution
   github: 
-  docs: https://tomso11.medium.com/how-to-set-up-a-poap-delivery-55332172193c
+  docs: https://help.poap.xyz/en/articles/5807488-how-do-i-set-up-delivery
   discord: 
   twitter: 
   telegram: 
@@ -561,7 +561,7 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://tomso11.medium.com/how-to-set-up-a-poap-website-511ef979ea19
+- link: https://help.poap.xyz/en/articles/5802657-how-do-i-set-up-a-poap-drop
   title: POAP Website Guide
   official: true
   desc_short: A step-by-step guide to setup a POAP website for distribution.
@@ -578,7 +578,7 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://tomso11.medium.com/how-to-set-up-a-poap-delivery-55332172193c
+- link: https://help.poap.xyz/en/articles/5807488-how-do-i-set-up-delivery
   title: POAP.delivery Guide
   official: true
   desc_short: A step-by-step guide to setup POAP.delivery for distribution.
@@ -595,14 +595,14 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://tomso11.medium.com/how-to-set-up-poap-snapshot-plugin-f8006eb5ab88
+- link: https://help.poap.xyz/en/articles/5857145-how-do-i-set-up-the-poap-snapshot-plugin
   title: POAP Snapshot Plugin Guide
   official: true
   desc_short: Setup a Snapshot POAP plugin to distribute a POAP to proposal vote participants.
   desc_long: 
   creator: POAP Inc.
-  # contact: POAP Discord @toms0x
-  categories: distribution, guide
+  # contact: 
+  categories: distribution, guide, voting
   github: 
   docs: 
   discord: 
@@ -751,7 +751,7 @@
 - link: https://snowdot.github.io/poap-place/
   title: POAP Place
   official: false
-  desc_short: An easy to use in-browser POAP design and event creation studio.
+  desc_short: An easy to use in-browser POAP design and drop creation studio.
   desc_long: 
   creator: Snowdot
   # contact: POAP Discord @Snowdot
@@ -765,10 +765,13 @@
   youtube: 
   linkedin: 
   forum: 
+
+
+
 - link: https://www.poapathon.com/
   title: POAPathon
   official: false
-  desc_short: Enables competitive design contests, on-demand entertainment, live event productions, and collaborative creative spaces.
+  desc_short: Enables competitive design contests, on-demand entertainment, live drop productions, and collaborative creative spaces.
   desc_long: 
   creator: POAPathon
   # contact: POAP Discord @Tap.eth
@@ -783,12 +786,12 @@
   linkedin: 
   forum: 
 - link: https://dune.xyz/blowfish/Poap-Mints
-  title: Dune xDai POAP Dashboard
-  official: false
-  desc_short: View POAP xDai metrics and analysis on transfers, mints, wallets, and transfers.
+  title: Dune Gnosis Chain POAP Dashboard
+  official: true
+  desc_short: View POAP Gnosis Chain (formally xDai) metrics and analysis on transfers, mints, wallets, and transfers.
   desc_long: 
-  creator: blowfish
-  # contact: 
+  creator: POAP Inc.
+  # contact: maintained by Angelo
   categories: metrics
   github: 
   docs: 
@@ -927,7 +930,7 @@
   # contact: 
   categories: distribution
   github: https://github.com/snapshot-labs/snapshot-plugins/tree/master/src/plugins/poap
-  docs: 
+  docs: https://help.poap.xyz/en/articles/5857145-how-do-i-set-up-the-poap-snapshot-plugin
   discord: https://discord.gg/snapshot
   twitter: https://twitter.com/SnapshotLabs
   telegram: 
@@ -935,10 +938,29 @@
   youtube: 
   linkedin: 
   forum: 
+- link: https://custompogs.com/
+  title: Custom POAP Pogs
+  official: false
+  desc_short: Print physical POAP pogs to hand out at events.
+  desc_long: 
+  creator: Custom Pogs
+  # contact: 
+  categories: distribution
+  github: 
+  docs: 
+  discord: 
+  twitter: http://www.twitter.com/custompogs
+  telegram: 
+  medium: 
+  youtube: 
+  linkedin: 
+  forum: 
+  # facebook: http://www.facebook.com/custompogs
+  # instagram: http://www.instagram.com/custompogs
 - link: https://discord.gg/CD2YdZzb7Z
   title: MasterPOAP
   official: false
-  desc_short: Automated claim code distribution for POAP events via Discord. This is a private-access tool.
+  desc_short: Automated claim code distribution for POAP drops via Discord. This is a private-access tool.
   desc_long: 
   creator: SushiSwap
   # contact: 
@@ -1224,7 +1246,40 @@
   youtube: 
   linkedin: 
   forum: 
-
+- link: https://help.poap.xyz/en/articles/5807573-how-do-i-set-up-a-poap-secret
+  title: POAP Secret Guide
+  official: true
+  desc_short: A step-by-step guide to setup a POAP secret for distribution.
+  desc_long: 
+  creator: POAP Inc.
+  # contact: 
+  categories: guide
+  github: 
+  docs: 
+  discord: 
+  twitter: 
+  telegram: 
+  medium: 
+  youtube: 
+  linkedin: 
+  forum: 
+- link: https://help.poap.xyz/en/articles/5802657-how-do-i-set-up-a-poap-drop
+  title: POAP Drop Creation Guide
+  official: true
+  desc_short: A step-by-step guide to setup a POAP drop for your event.
+  desc_long: 
+  creator: POAP Inc.
+  # contact: 
+  categories: guide
+  github: 
+  docs: 
+  discord: 
+  twitter: 
+  telegram: 
+  medium: 
+  youtube: 
+  linkedin: 
+  forum: 
 
 
 
