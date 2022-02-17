@@ -224,7 +224,7 @@ layout: default
                     </ul>
                   </div>
                 </div>
-                <a href="/en/resources/access" class="btn btn-outline-primary">View All</a>
+                <a href="/en/resources/distribution" class="btn btn-outline-primary">View All</a>
               </div>
             </div>
           </div>
