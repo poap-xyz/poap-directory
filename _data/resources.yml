@@ -63,7 +63,7 @@
   linkedin: 
   forum: 
 - link: https://poap.vote/
-  title: POAP.vote
+  title: POAP.vote (Polls)
   official: true
   desc_short: A sybil-resistant voting engine to run polls for your event participants.
   desc_long: 
@@ -71,7 +71,7 @@
   # contact: 
   categories: activity, voting
   github: https://github.com/poap-xyz/poap-vote-v2
-  docs: 
+  docs: https://help.poap.xyz/en/articles/5866650-how-do-i-set-up-a-poap-vote-poll
   discord: 
   twitter: 
   telegram: 
@@ -80,7 +80,7 @@
   linkedin: 
   forum: 
 - link: https://poap.fun/
-  title: POAP.fun
+  title: POAP.fun (Raffles)
   official: true
   desc_short: POAP.fun allows you to create raffles for your event participants.
   desc_long: 
@@ -88,7 +88,7 @@
   # contact: 
   categories: activity, raffle
   github: https://github.com/poap-xyz/poap-fun
-  docs: 
+  docs: https://help.poap.xyz/en/articles/5849075-how-do-i-set-up-a-poap-fun-raffle
   discord: 
   twitter: 
   telegram: 
@@ -122,7 +122,7 @@
   # contact: POAP Discord @Actuallymentor
   categories: distribution
   github: https://github.com/poap-xyz/poap-qr-kiosk/
-  docs: 
+  docs: https://help.poap.xyz/en/articles/5908960-how-do-i-set-up-the-magic-poap-qr-dispenser-to-distribute-mint-links-via-unique-qr-codes
   discord: 
   twitter: 
   telegram: 
@@ -167,7 +167,7 @@
 - link: https://discourse.poap.xyz/categories
   title: POAP Discourse
   official: true
-  desc_short: A support forum to help with troubleshooting and petition for POAP drops.
+  desc_short: A forum for curation disputes and to petition for POAP drops.
   desc_long: 
   creator: POAP Inc.
   # contact: 
@@ -200,21 +200,21 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://degen.bankless.community
-  title: DEGEN Bot
+- link: https://docs.bankless.community/degen-product-support/product-resources/poap-distribution-commands-and-workflow
+  title: DEGEN Bot (Discord)
   official: false
   desc_short: POAP distribution and DAO tooling for Discord and other platforms.
-  desc_long: The DEGEN Workgroup is building services to bring Web3 functionality to Web2 platforms, such as Discord, Twitter, and Twitch. The current flagship product, DEGEN, provides POAP distribution features to reward community members and works to combat POAP farming. Other DAO products include Mad Hatter, the BanklessDAO Administrative bot, with a number of bots currently under development. 
+  desc_long: The DEGEN Workgroup is building services to bring Web3 functionality to Web2 platforms, such as Discord, Twitter, and Twitch. The current flagship product, DEGEN, provides POAP distribution features to reward community members and works to combat POAP farming. Other DAO products include Mad Hatter, the BanklessDAO Administrative bot, Bounty Board, and a number of bots currently under development.
   creator: DEGEN Workgroup # or The DEGEN Workgroup ?
-  # contact: BanklessDAO Discord @nonsensetwice or crypto@nonsensetwice.co
+  # contact: POAP Discord @ZrowGz
   categories: distribution
   github: https://github.com/BanklessDAO/DEGEN
-  docs: 
-  discord: 
+  docs: https://docs.bankless.community/degen-product-support/product-resources/poap-distribution-commands-and-workflow
+  discord: https://discord.gg/zHnEBZrswk
   twitter: https://twitter.com/bDAO_DEGEN
   telegram: 
   medium: 
-  youtube: 
+  youtube: https://www.youtube.com/playlist?list=PLc6o7Cxn7Uq6DQCptSItO5_IQfegCRImb
   linkedin: 
   forum: 
 - link: https://github.com/RomiRand/PoapArtBot
@@ -288,7 +288,7 @@
   forum: 
   # instagram: https://www.instagram.com/zoogalleryxyz
 - link: https://github.com/BUIDLHub/poap-verification-frontend
-  title: Private Chat Gated Access
+  title: Discord Gated Access
   official: false
   desc_short: Create gated Discord channels with exclusive access to POAP collectors.
   desc_long: 
@@ -304,8 +304,8 @@
   youtube: https://www.youtube.com/channel/UCBudqf1FNGwtOrPL8f99lCA/featured
   linkedin: https://www.linkedin.com/company/buidlhub/
   forum: 
-- link: https://collab-land.gitbook.io/collab-land/bots/discord
-  title: Collab.Land (Discord)
+- link: https://collabland.freshdesk.com/support/solutions/articles/70000036689-discord-bot-walkthrough
+  title: Discord Gated Access
   official: false
   desc_short: Create gated Discord channels with exclusive access to POAP collectors.
   desc_long: 
@@ -313,7 +313,8 @@
   # contact: 
   categories: access
   github: 
-  docs: https://collab-land.gitbook.io/collab-land/bots/discord
+  docs: https://collabland.freshdesk.com/support/solutions/articles/70000036689-discord-bot-walkthrough
+  # docs: https://collab-land.gitbook.io/collab-land/bots/discord
   discord: 
   twitter: https://twitter.com/Collab_Land_
   telegram: https://t.me/CollabLand
@@ -349,7 +350,24 @@
   # contact: 
   categories: view
   github: https://github.com/poap-xyz/poap-gallery
-  docs: 
+  docs: https://help.poap.xyz/en/articles/5814257-what-is-poap-gallery
+  discord: 
+  twitter: 
+  telegram: 
+  medium: 
+  youtube: 
+  linkedin: 
+  forum: 
+- link: https://app.poap.xyz/admin/events/new
+  title: Create Drop
+  official: true
+  desc_short: Create a new POAP drop.
+  desc_long: 
+  creator: POAP Inc.
+  # contact: 
+  categories: admin
+  github: 
+  docs: https://help.poap.xyz/en/articles/5802657-how-do-i-set-up-a-poap-drop
   discord: 
   twitter: 
   telegram: 
@@ -366,7 +384,7 @@
   # contact: 
   categories: admin, distribution
   github: 
-  docs: https://help.poap.xyz/en/articles/5802657-how-do-i-set-up-a-poap-drop
+  docs: https://help.poap.xyz/en/articles/5812351-how-do-i-set-up-a-website-for-poap-distribution
   discord: 
   twitter: 
   telegram: 
@@ -442,14 +460,14 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://play.google.com/store/apps/details?id=xyz.poap.app.mobile
+- link: https://poap.xyz/android
   title: POAP App (Android)
   official: true
   desc_short: With the POAP mobile app you can browse your POAP collection, mint new ones, and explore other people's collections.
   desc_long: 
   creator: POAP Inc.
   # contact: 
-  categories: app, collector
+  categories: app, collector, view
   github: 
   docs: 
   discord: 
@@ -459,14 +477,14 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://apps.apple.com/us/app/poap-app/id1567078943
+- link: https://poap.xyz/ios
   title: POAP App (Apple)
   official: true
   desc_short: With the POAP mobile app you can browse your POAP collection, mint new ones, and explore other people's collections.
   desc_long: 
   creator: POAP Inc.
   # contact: 
-  categories: app, collector
+  categories: app, collector, view
   github: 
   docs: 
   discord: 
@@ -493,8 +511,25 @@
   youtube: 
   linkedin: 
   forum: 
+- link: https://poap.gitbook.io/poap-api-guide/
+  title: POAP API Docs
+  official: true
+  desc_short: Integrate POAP into other products or build your own product on top of POAP.
+  desc_long: 
+  creator: POAP Inc.
+  # contact: 
+  categories: dev
+  github: 
+  docs: 
+  discord: 
+  twitter: 
+  telegram: 
+  medium: 
+  youtube: 
+  linkedin: 
+  forum: 
 - link: https://api.poap.xyz/documentation/static/
-  title: POAP API
+  title: POAP API (Swagger)
   official: true
   desc_short: Integrate POAP into other products or build your own product on top of POAP.
   desc_long: 
@@ -528,7 +563,7 @@
   linkedin: 
   forum: 
 - link: https://github.com/poapxyz/poap-bot
-  title: POAP Bot
+  title: POAP Bot v1
   official: true
   desc_short: Automated claim code distribution for POAP events via Discord.
   desc_long: 
@@ -586,23 +621,6 @@
   creator: POAP Inc.
   # contact: POAP Discord @toms0x
   categories: distribution, guide
-  github: 
-  docs: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
-- link: https://help.poap.xyz/en/articles/5857145-how-do-i-set-up-the-poap-snapshot-plugin
-  title: POAP Snapshot Plugin Guide
-  official: true
-  desc_short: Setup a Snapshot POAP plugin to distribute a POAP to proposal vote participants.
-  desc_long: 
-  creator: POAP Inc.
-  # contact: 
-  categories: distribution, guide, voting
   github: 
   docs: 
   discord: 
@@ -870,8 +888,8 @@
   youtube: 
   linkedin: 
   forum: https://forum.poa.network/c/blockscout
-- link: https://collab-land.gitbook.io/collab-land/bots/telegram
-  title: Collab.Land (Telegram)
+- link: https://collabland.freshdesk.com/support/solutions/articles/70000081544-telegram-bot-walkthrough
+  title: Telegram Gated Access
   official: false
   desc_short: Create gated Telegram channels with exclusive access to POAP collectors.
   desc_long: 
@@ -879,7 +897,8 @@
   # contact: 
   categories: access
   github: 
-  docs: https://collab-land.gitbook.io/collab-land/bots/telegram
+  docs: https://collabland.freshdesk.com/support/solutions/articles/70000081544-telegram-bot-walkthrough
+  # docs: https://collab-land.gitbook.io/collab-land/bots/telegram
   discord: 
   twitter: https://twitter.com/Collab_Land_
   telegram: https://t.me/CollabLand
@@ -924,7 +943,7 @@
 - link: https://github.com/snapshot-labs/snapshot-plugins
   title: Snapshot POAP Plugin
   official: false
-  desc_short: Snapshot POAP plugin to distribute a POAP to proposal vote participants.
+  desc_short: Setup a Snapshot POAP plugin to distribute a POAP to proposal vote participants.
   desc_long: 
   creator: Snapshot Labs
   # contact: 
@@ -1008,21 +1027,21 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://youtu.be/RkGLRPUKTtM
-  title: DEGEN Bot Twitter Spaces Guide
+- link: https://docs.bankless.community/degen-product-support/premium-features/twitter-spaces
+  title: DEGEN Bot (Twitter)
   official: false
-  desc_short: A step-by-step setup guide for POAP distribution on Twitter Spaces.
-  desc_long: The DEGEN Workgroup is building services to bring Web3 functionality to Web2 platforms, such as Discord, Twitter, and Twitch. The current flagship product, DEGEN, provides POAP distribution features to reward community members and works to combat POAP farming. Other DAO products include Mad Hatter, the BanklessDAO Administrative bot, with a number of bots currently under development. 
+  desc_short: Distribute your POAPs to Twitter Spaces participants (claimed on Discord).
+  desc_long: The DEGEN Workgroup is building services to bring Web3 functionality to Web2 platforms, such as Discord, Twitter, and Twitch. The current flagship product, DEGEN, provides POAP distribution features to reward community members and works to combat POAP farming. Other DAO products include Mad Hatter, the BanklessDAO Administrative bot, Bounty Board, and a number of bots currently under development.
   creator: DEGEN Workgroup # or The DEGEN Workgroup ?
   # contact: BanklessDAO Discord @nonsensetwice or crypto@nonsensetwice.co
-  categories: distribution, guide
+  categories: distribution
   github: https://github.com/BanklessDAO/DEGEN
-  docs: 
-  discord: 
+  docs: https://docs.bankless.community/degen-product-support/premium-features/twitter-spaces
+  discord: https://discord.gg/zHnEBZrswk
   twitter: https://twitter.com/bDAO_DEGEN
   telegram: 
   medium: 
-  youtube: 
+  youtube: https://www.youtube.com/playlist?list=PLc6o7Cxn7Uq6DQCptSItO5_IQfegCRImb
   linkedin: 
   forum: 
 - link: /assets/files/Customizable%20POAP%20Claim%20Page%20Blueprint%20v2.pdf
@@ -1280,7 +1299,40 @@
   youtube: 
   linkedin: 
   forum: 
-
+- link: https://rogue-face-c95.notion.site/Guild-Guide-d94ae6a089174487b3feb5efe2e05ed3#f9cb754cfca94f65a206508488400246
+  title: Discord Guild (Medousa)
+  official: false
+  desc_short: Create guilds in Discord with special permissions to POAP collectors.
+  desc_long: 
+  creator: Agora
+  # contact: 
+  categories: access
+  github: https://github.com/agoraxyz/discord-runner
+  docs: https://rogue-face-c95.notion.site/Guild-Guide-d94ae6a089174487b3feb5efe2e05ed3#f9cb754cfca94f65a206508488400246
+  discord: https://discord.gg/KvXtEpDX8B
+  twitter: https://twitter.com/agora_xyz
+  telegram: https://t.me/joinchat/UxeaoiNXDH5lN2Rk
+  medium: https://medium.com/@AgoraSpaceDAO
+  youtube: 
+  linkedin: 
+  forum: 
+- link: https://rogue-face-c95.notion.site/Guild-Guide-d94ae6a089174487b3feb5efe2e05ed3#e4f28bb250c440c0b7af7083dc303cb7
+  title: Telegram Guild (Medousa)
+  official: false
+  desc_short: Create guilds in Telegram with special permissions to POAP collectors.
+  desc_long: 
+  creator: Agora
+  # contact: 
+  categories: access
+  github: https://github.com/agoraxyz/discord-runner
+  docs: https://rogue-face-c95.notion.site/Guild-Guide-d94ae6a089174487b3feb5efe2e05ed3#f9cb754cfca94f65a206508488400246
+  discord: https://discord.gg/KvXtEpDX8B
+  twitter: https://twitter.com/agora_xyz
+  telegram: https://t.me/joinchat/UxeaoiNXDH5lN2Rk
+  medium: https://medium.com/@AgoraSpaceDAO
+  youtube: 
+  linkedin: 
+  forum: 
 
 
 

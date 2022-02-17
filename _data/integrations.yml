@@ -117,11 +117,11 @@
   img: /assets/img/integrations/rga.svg
   category: marketing
   bg_color: '#000'
-- link: 
-  name: 
-  img: /assets/img/integrations/
-  category: 
-  bg_color: 
+- link: https://agora.xyz/
+  name: Agora
+  img: /assets/img/integrations/agora.svg
+  category: access
+  bg_color: '#252525'
 
 
 
