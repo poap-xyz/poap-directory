@@ -258,6 +258,7 @@ layout: default
               <li class="mb-2 ms-2"><a href="https://help.poap.xyz/en/articles/5849075-how-do-i-set-up-a-poap-fun-raffle" class="text-dark text-decoration-none" target="_blank">Raffles</a></li>
               <li class="mb-2 ms-2"><a href="https://app.poap.art/" class="text-dark text-decoration-none" target="_blank">Art</a></li>
               <li class="mb-2 ms-2"><a href="https://help.poap.xyz/en/articles/5866650-how-do-i-set-up-a-poap-vote-poll" class="text-dark text-decoration-none" target="_blank">Voting</a></li>
+              <li class="mb-2 ms-2"><a href="https://gathertown.gitbook.io/web3/integrations/poaps-in-gather#guide-scavenger-hunt-for-poap" class="text-dark text-decoration-none" target="_blank">Scavenger Hunt</a></li>
             </ul>
             <a href="/en/resources/activity" class="btn btn-outline-primary">View All</a>
           </div>

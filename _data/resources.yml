@@ -1112,6 +1112,40 @@
   youtube: 
   linkedin: 
   forum: 
+- link: https://gathertown.gitbook.io/web3/integrations/poaps-in-gather#poap-bot-by-andrei0x309
+  title: Gather.Town Bot
+  official: false
+  desc_short: A Gather.Town bot to that allows you to send POAPs to connected users on the Gather Space.
+  desc_long: 
+  creator: andrei0x309
+  # contact: 
+  categories: distribution
+  github: https://github.com/andrei0x309/gather-town-WS-POAP-bot
+  docs: https://gathertown.gitbook.io/web3/integrations/poaps-in-gather
+  discord: 
+  twitter: 
+  telegram: 
+  medium: 
+  youtube: 
+  linkedin: 
+  forum: 
+- link: https://gathertown.gitbook.io/web3/integrations/poaps-in-gather#guide-scavenger-hunt-for-poap
+  title: Gather.Town Scavenger Hunt
+  official: false
+  desc_short: Create a scavenger hunt in Gather.Town using interactive objects.
+  desc_long: 
+  creator: Gather.Town
+  # contact: 
+  categories: activity
+  github: 
+  docs: https://gathertown.gitbook.io/web3/integrations/poaps-in-gather#guide-scavenger-hunt-for-poap
+  discord: 
+  twitter: 
+  telegram: 
+  medium: 
+  youtube: 
+  linkedin: 
+  forum: 
 - link: https://litgateway.com/apps/gather-town
   title: Gather.Town Gated Access
   official: false
