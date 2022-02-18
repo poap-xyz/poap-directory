@@ -168,7 +168,7 @@ layout: default
                     <ul class="list-unstyled">
                       <li class="mb-2 ms-2 text-truncate"><a href="https://help.poap.xyz/en/articles/5908960-how-do-i-set-up-the-magic-poap-qr-dispenser-to-distribute-mint-links-via-unique-qr-codes" class="text-dark text-decoration-none" target="_blank">QR Dispenser {{site.data.icons.new_tab}}</a></li>
                       <li class="mb-2 ms-2 text-truncate"><a href="https://help.poap.xyz/en/articles/5807488-how-do-i-set-up-delivery" class="text-dark text-decoration-none" target="_blank">POAP.delivery {{site.data.icons.new_tab}}</a></li>
-                      <li class="mb-2 ms-2 text-truncate"><a href="https://help.poap.xyz/en/articles/5812351-how-do-i-set-up-a-website-for-poap-distribution" class="text-dark text-decoration-none" target="_blank">POAP Website {{site.data.icons.new_tab}}</a></li>
+                      <li class="mb-2 ms-2 text-truncate"><a href="https://help.poap.xyz/en/articles/5812351-how-do-i-set-up-a-website-for-poap-distribution" class="text-dark text-decoration-none" target="_blank">POAP.website {{site.data.icons.new_tab}}</a></li>
                       <li class="mb-2 ms-2 text-truncate"><a href="https://help.poap.xyz/en/articles/5807573-how-do-i-set-up-a-poap-secret" class="text-dark text-decoration-none" target="_blank">POAP Secrets {{site.data.icons.new_tab}}</a></li>
                     </ul>
                   </div>
@@ -215,7 +215,7 @@ layout: default
               <li class="mb-2 ms-2 text-truncate"><a href="https://help.poap.xyz/en/articles/5849075-how-do-i-set-up-a-poap-fun-raffle" class="text-dark text-decoration-none" target="_blank">Raffles {{site.data.icons.new_tab}}</a></li>
               <li class="mb-2 ms-2 text-truncate"><a href="https://app.poap.art/" class="text-dark text-decoration-none" target="_blank">Art {{site.data.icons.new_tab}}</a></li>
               <li class="mb-2 ms-2 text-truncate"><a href="https://help.poap.xyz/en/articles/5866650-how-do-i-set-up-a-poap-vote-poll" class="text-dark text-decoration-none" target="_blank">Voting {{site.data.icons.new_tab}}</a></li>
-              <li class="mb-2 ms-2 text-truncate"><a href="https://gathertown.gitbook.io/web3/integrations/poaps-in-gather#guide-scavenger-hunt-for-poap" class="text-dark text-decoration-none" target="_blank">Scavenger Hunt {{site.data.icons.new_tab}}</a></li>
+              <li class="mb-2 ms-2 text-truncate"><a href="https://gathertown.gitbook.io/web3/integrations/poaps-in-gather#guide-scavenger-hunt-for-poap" class="text-dark text-decoration-none" target="_blank">Scavenger Hunts {{site.data.icons.new_tab}}</a></li>
             </ul>
             <a href="/en/resources/activity" class="btn btn-outline-primary">View All</a>
           </div>

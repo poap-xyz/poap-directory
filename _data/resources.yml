@@ -43,7 +43,7 @@
   official: true
   desc_short: POAP.art is the intersection of art ant tech, allowing your event participants to collaboratively create a piece of art.
   desc_long: 
-  creator: POAP Inc.
+  creator: POAP inc.
   # contact: 
   categories: activity, art
   github: 
@@ -60,7 +60,7 @@
   official: true
   desc_short: A sybil-resistant voting engine to run polls for your event participants.
   desc_long: 
-  creator: POAP Inc.
+  creator: POAP inc.
   # contact: 
   categories: activity, voting
   github: https://github.com/poap-xyz/poap-vote-v2
@@ -77,7 +77,7 @@
   official: true
   desc_short: POAP.fun allows you to create raffles for your event participants.
   desc_long: 
-  creator: POAP Inc.
+  creator: POAP inc.
   # contact: 
   categories: activity, raffle
   github: https://github.com/poap-xyz/poap-fun
@@ -94,7 +94,7 @@
   official: true
   desc_short: The POAP admin panel is used to manage your events, codes, distribution, and templates.
   desc_long: 
-  creator: POAP Inc.
+  creator: POAP inc.
   # contact: 
   categories: admin
   github: 
@@ -111,7 +111,7 @@
   official: true
   desc_short: Farming-resistant POAP QR distribution for physical and online events.
   desc_long: 
-  creator: POAP Inc.
+  creator: POAP inc.
   # contact: POAP Discord @Actuallymentor
   categories: distribution
   github: https://github.com/poap-xyz/poap-qr-kiosk/
@@ -128,7 +128,7 @@
   official: true
   desc_short: View open positions and learn more about working at POAP.
   desc_long: 
-  creator: POAP Inc.
+  creator: POAP inc.
   # contact: 
   categories: info, dev
   github: 
@@ -145,7 +145,7 @@
   official: true
   desc_short: Find guides and answers for common questions and problems.
   desc_long: 
-  creator: POAP Inc.
+  creator: POAP inc.
   # contact: 
   categories: info
   github: 
@@ -162,7 +162,7 @@
   official: true
   desc_short: A forum for curation disputes and to petition for POAP drops.
   desc_long: 
-  creator: POAP Inc.
+  creator: POAP inc.
   # contact: 
   categories: info
   github: 
@@ -318,7 +318,7 @@
   official: true
   desc_short: POAP Scan allows you to view your collections as well as explore other people's collections.
   desc_long: 
-  creator: POAP Inc.
+  creator: POAP inc.
   # contact: 
   categories: view
   github: 
@@ -335,7 +335,7 @@
   official: true
   desc_short: POAP.gallery allows you to browse POAPs and enjoy the adventure through the digital collectibles universe.
   desc_long: 
-  creator: POAP Inc.
+  creator: POAP inc.
   # contact: 
   categories: view
   github: https://github.com/poap-xyz/poap-gallery
@@ -352,7 +352,7 @@
   official: true
   desc_short: Create a new POAP drop.
   desc_long: 
-  creator: POAP Inc.
+  creator: POAP inc.
   # contact: 
   categories: admin
   github: 
@@ -365,11 +365,11 @@
   linkedin: 
   forum: 
 - link: https://app.poap.xyz/admin/websites
-  title: POAP Websites Admin
+  title: POAP.website Admin
   official: true
-  desc_short: The POAP websites admin panel allows you to manage your drop's POAP claim website.
+  desc_short: The POAP.website admin panel allows you to manage your drop's POAP claim website.
   desc_long: 
-  creator: POAP Inc.
+  creator: POAP inc.
   # contact: 
   categories: admin, distribution
   github: 
@@ -386,7 +386,7 @@
   official: true
   desc_short: The POAP secret admin panel allows you to manage your drop's POAP secret claims that are claimed through the app.
   desc_long: 
-  creator: POAP Inc.
+  creator: POAP inc.
   # contact: 
   categories: admin, distribution
   github: 
@@ -401,9 +401,9 @@
 - link: https://app.poap.xyz/admin/events
   title: POAP Drops Admin
   official: true
-  desc_short: The POAP websites admin panel allows you to manage your drop's details or create a new drop.
+  desc_short: The POAP drops admin panel allows you to view recent drops, edit an existing drop, or create a new drop.
   desc_long: 
-  creator: POAP Inc.
+  creator: POAP inc.
   # contact: 
   categories: admin
   github: 
@@ -418,9 +418,9 @@
 - link: https://app.poap.xyz/admin/deliveries
   title: POAP.delivery Admin
   official: true
-  desc_short: The POAP deliveries admin panel is used to create and manage your POAP.delivery distribution.
+  desc_short: The POAP.delivery admin panel is used to create and manage your POAP.delivery distribution.
   desc_long: 
-  creator: POAP Inc.
+  creator: POAP inc.
   # contact: 
   categories: admin, distribution
   github: 
@@ -437,7 +437,7 @@
   official: true
   desc_short: The POAP template admin panel is used to create and manage your templates for the POAP claim page.
   desc_long: 
-  creator: POAP Inc.
+  creator: POAP inc.
   # contact: 
   categories: admin, branding
   github: 
@@ -454,7 +454,7 @@
   official: true
   desc_short: With the POAP mobile app you can browse your POAP collection, mint new ones, and explore other people's collections.
   desc_long: 
-  creator: POAP Inc.
+  creator: POAP inc.
   # contact: 
   categories: app, collector, view
   github: 
@@ -471,7 +471,7 @@
   official: true
   desc_short: With the POAP mobile app you can browse your POAP collection, mint new ones, and explore other people's collections.
   desc_long: 
-  creator: POAP Inc.
+  creator: POAP inc.
   # contact: 
   categories: app, collector, view
   github: 
@@ -488,7 +488,7 @@
   official: true
   desc_short: A form to request an API key to start building on POAP.
   desc_long: 
-  creator: POAP Inc.
+  creator: POAP inc.
   # contact: 
   categories: dev
   github: 
@@ -505,7 +505,7 @@
   official: true
   desc_short: Integrate POAP into other products or build your own product on top of POAP.
   desc_long: 
-  creator: POAP Inc.
+  creator: POAP inc.
   # contact: 
   categories: dev
   github: 
@@ -522,7 +522,7 @@
   official: true
   desc_short: Integrate POAP into other products or build your own product on top of POAP.
   desc_long: 
-  creator: POAP Inc.
+  creator: POAP inc.
   # contact: 
   categories: dev
   github: 
@@ -556,7 +556,7 @@
   official: true
   desc_short: Automated claim code distribution for POAP events via Discord.
   desc_long: 
-  creator: POAP Inc.
+  creator: POAP inc.
   # contact: 
   categories: distribution
   github: https://github.com/poapxyz/poap-bot
@@ -573,7 +573,7 @@
   official: true
   desc_short: Automated claim code distribution for POAP events via Discord.
   desc_long: 
-  creator: POAP Inc.
+  creator: POAP inc.
   # contact: 
   categories: distribution
   github: https://github.com/poap-xyz/poap-bot-v2
@@ -586,11 +586,11 @@
   linkedin: 
   forum: 
 - link: https://help.poap.xyz/en/articles/5802657-how-do-i-set-up-a-poap-drop
-  title: POAP Website Guide
+  title: POAP.website Guide
   official: true
-  desc_short: A step-by-step guide to setup a POAP website for distribution.
+  desc_short: A step-by-step guide to setup a POAP.website for distribution.
   desc_long: 
-  creator: POAP Inc.
+  creator: POAP inc.
   # contact: POAP Discord @toms0x
   categories: distribution, guide
   github: 
@@ -607,7 +607,7 @@
   official: true
   desc_short: A step-by-step guide to setup POAP.delivery for distribution.
   desc_long: 
-  creator: POAP Inc.
+  creator: POAP inc.
   # contact: POAP Discord @toms0x
   categories: distribution, guide
   github: 
@@ -624,7 +624,7 @@
   official: true
   desc_short: Follow POAP announcements and participate in Twitter Spaces.
   desc_long: 
-  creator: POAP Inc.
+  creator: POAP inc.
   # contact: 
   categories: info, social
   github: 
@@ -641,7 +641,7 @@
   official: true
   desc_short: Join the POAP community and follow announcements.
   desc_long: 
-  creator: POAP Inc.
+  creator: POAP inc.
   # contact: 
   categories: info, social
   github: 
@@ -658,7 +658,7 @@
   official: true
   desc_short: Join the POAP community and follow announcements.
   desc_long: 
-  creator: POAP Inc.
+  creator: POAP inc.
   # contact: 
   categories: info, social
   github: 
@@ -675,7 +675,7 @@
   official: true
   desc_short: Join the POAP community, participate in community calls, and receive announcements.
   desc_long: 
-  creator: POAP Inc.
+  creator: POAP inc.
   # contact: 
   categories: info, social
   github: 
@@ -692,7 +692,7 @@
   official: true
   desc_short: Follow the latest POAP announcements.
   desc_long: 
-  creator: POAP Inc.
+  creator: POAP inc.
   # contact: 
   categories: info, social
   github: 
@@ -709,7 +709,7 @@
   official: true
   desc_short: Check out POAP's projects and contribute.
   desc_long: 
-  creator: POAP Inc.
+  creator: POAP inc.
   # contact: 
   categories: dev
   github: 
@@ -726,7 +726,7 @@
   official: true
   desc_short: Check out POAP's community calls and guides.
   desc_long: 
-  creator: POAP Inc.
+  creator: POAP inc.
   # contact: 
   categories: info, social
   github: 
@@ -743,7 +743,7 @@
   official: true
   desc_short: Follow company announcements, growth, and job postings.
   desc_long: 
-  creator: POAP Inc.
+  creator: POAP inc.
   # contact: 
   categories: info, social
   github: 
@@ -794,7 +794,7 @@
   official: true
   desc_short: View POAP Gnosis Chain (formally xDai) metrics and analysis on transfers, mints, wallets, and transfers.
   desc_long: 
-  creator: POAP Inc.
+  creator: POAP inc.
   # contact: maintained by Angelo
   categories: metrics
   github: 
@@ -897,7 +897,7 @@
   official: true
   desc_short: A weekly POAP.art sandbox to play with the canvas and test bots.
   desc_long: 
-  creator: POAP Inc.
+  creator: POAP inc.
   # contact: 
   categories: art
   github: 
@@ -1035,7 +1035,7 @@
   official: true
   desc_short: A template that explains the different branding areas when designing your own claim's page template.
   desc_long: 
-  creator: POAP Inc.
+  creator: POAP inc.
   # contact: 
   categories: branding
   github: 
@@ -1256,7 +1256,7 @@
   official: true
   desc_short: A continually updated list of important POAP terms and references.
   desc_long: 
-  creator: POAP Inc.
+  creator: POAP inc.
   # contact: 
   categories: info
   github: 
@@ -1273,7 +1273,7 @@
   official: true
   desc_short: Goes over the various methods of POAP distribution and their advantages/disadvantages.
   desc_long: 
-  creator: POAP Inc.
+  creator: POAP inc.
   # contact: 
   categories: 
   github: 
@@ -1290,7 +1290,7 @@
   official: true
   desc_short: A step-by-step guide to setup a POAP secret for distribution.
   desc_long: 
-  creator: POAP Inc.
+  creator: POAP inc.
   # contact: 
   categories: guide
   github: 
@@ -1307,7 +1307,7 @@
   official: true
   desc_short: A step-by-step guide to setup a POAP drop for your event.
   desc_long: 
-  creator: POAP Inc.
+  creator: POAP inc.
   # contact: 
   categories: guide
   github: 
@@ -1320,9 +1320,9 @@
   linkedin: 
   forum: 
 - link: https://rogue-face-c95.notion.site/Guild-Guide-d94ae6a089174487b3feb5efe2e05ed3#f9cb754cfca94f65a206508488400246
-  title: Discord Guild (Medousa)
+  title: Discord Gated Access (Guild.xyz)
   official: false
-  desc_short: Create guilds in Discord with special permissions to POAP collectors.
+  desc_short: Use Guild.xyz to create guilds in Discord with special permissions to POAP collectors.
   desc_long: 
   creator: Agora
   # contact: 
@@ -1337,9 +1337,9 @@
   linkedin: 
   forum: 
 - link: https://rogue-face-c95.notion.site/Guild-Guide-d94ae6a089174487b3feb5efe2e05ed3#e4f28bb250c440c0b7af7083dc303cb7
-  title: Telegram Guild (Medousa)
+  title: Telegram Gated Access (Guild.xyz)
   official: false
-  desc_short: Create guilds in Telegram with special permissions to POAP collectors.
+  desc_short: Use Guild.xyz to create guilds in Telegram with special permissions to POAP collectors.
   desc_long: 
   creator: Agora
   # contact: 
