@@ -33,9 +33,7 @@ layout: default
         <div class="card rounded-3 h-100 mx-auto text-nowrap">
           <div class="card-body">
             <h5 class="card-title border-bottom w-100 pb-3 mb-3">
-              <svg xmlns="http://www.w3.org/2000/svg" class="me-1 poap-purple-2" width="1.6rem" height="1.6rem" style="margin-top:-0.2rem;" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-              </svg>
+              {{site.data.icons.book}}
               Introduction
             </h5>
             <ul class="list-unstyled">
@@ -49,9 +47,7 @@ layout: default
         <div class="card rounded-3 h-100 mx-auto text-nowrap">
           <div class="card-body">
             <h5 class="card-title border-bottom w-100 pb-3 mb-3 text-truncate">
-              <svg xmlns="http://www.w3.org/2000/svg" class="me-1 poap-purple-2" width="1.6rem" height="1.6rem" style="margin-top:-0.2rem;" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
-              </svg>
+              {{site.data.icons.megaphone}}
               Communications
             </h5>
             <div class="row">
@@ -80,9 +76,7 @@ layout: default
         <div class="card rounded-3 h-100 mx-auto text-nowrap">
           <div class="card-body">
             <h5 class="card-title border-bottom w-100 pb-3 mb-3">
-              <svg xmlns="http://www.w3.org/2000/svg" class="me-1 poap-purple-2" width="1.6rem" height="1.6rem" style="margin-top:-0.2rem;" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
-              </svg>
+              {{site.data.icons.lifesaver}}
               Troubleshooting
             </h5>
             <ul class="list-unstyled">
@@ -97,9 +91,7 @@ layout: default
         <div class="card rounded-3 h-100 mx-auto text-nowrap">
           <div class="card-body">
             <h5 class="card-title border-bottom w-100 pb-3 mb-3">
-              <svg xmlns="http://www.w3.org/2000/svg" class="me-1 poap-purple-2" width="1.6rem" height="1.6rem" style="margin-top:-0.2rem;" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
+              {{site.data.icons.info_circle}}
               Other
             </h5>
             <ul class="list-unstyled">
@@ -132,9 +124,7 @@ layout: default
             <div class="card rounded-3 h-100 mx-auto text-nowrap">
               <div class="card-body">
                 <h5 class="card-title border-bottom w-100 pb-3 mb-3">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="me-1 poap-purple-2" width="1.6rem" height="1.6rem" style="margin-top:-0.2rem;" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
-                  </svg>
+                  {{site.data.icons.pencil}}
                   Design <span class="bg-poap-violet rounded-pill py-1 px-2 fw-light fs-6 ms-1">Step 1</span>
                 </h5>
                 <ul class="list-unstyled">
@@ -149,9 +139,7 @@ layout: default
             <div class="card rounded-3 h-100 mx-auto text-nowrap">
               <div class="card-body">
                 <h5 class="card-title border-bottom w-100 pb-3 mb-3">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="me-1 poap-purple-2" width="1.6rem" height="1.6rem" style="margin-top:-0.2rem;" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
-                  </svg>
+                  {{site.data.icons.check_badge}}
                   Create <span class="bg-poap-violet rounded-pill py-1 px-2 fw-light fs-6 ms-1">Step 2</span>
                 </h5>
                 <ul class="list-unstyled">
@@ -166,9 +154,7 @@ layout: default
             <div class="card rounded-3 h-100 mx-auto text-nowrap">
               <div class="card-body">
                 <h5 class="card-title border-bottom w-100 pb-3 mb-3">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="me-1 poap-purple-2" width="1.6rem" height="1.6rem" style="margin-top:-0.2rem;" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
-                  </svg>
+                  {{site.data.icons.expand}}
                   Distribute <span class="bg-poap-violet rounded-pill py-1 px-2 fw-light fs-6 ms-1">Step 3</span>
                 </h5>
                 <div class="row w-100">
@@ -222,9 +208,7 @@ layout: default
         <div class="card rounded-3 h-100 mx-auto text-nowrap">
           <div class="card-body d-flex align-items-start flex-column">
             <h5 class="card-title border-bottom w-100 pb-3 mb-3">
-              <svg xmlns="http://www.w3.org/2000/svg" class="me-1 poap-purple-2" width="1.6rem" height="1.6rem" style="margin-top:-0.2rem;" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-              </svg>
+              {{site.data.icons.group}}
               Activities
             </h5>
             <ul class="list-unstyled flex-grow-1">
@@ -241,9 +225,7 @@ layout: default
         <div class="card rounded-3 h-100 mx-auto text-nowrap">
           <div class="card-body d-flex align-items-start flex-column">
             <h5 class="card-title border-bottom w-100 pb-3 mb-3">
-              <svg xmlns="http://www.w3.org/2000/svg" class="me-1 poap-purple-2" width="1.6rem" height="1.6rem" style="margin-top:-0.2rem;" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-              </svg>
+              {{site.data.icons.lock}}
               Gated Access
             </h5>
             <div class="row w-100 flex-grow-1">
@@ -272,9 +254,7 @@ layout: default
         <div class="card rounded-3 h-100 mx-auto text-nowrap">
           <div class="card-body d-flex align-items-start flex-column">
             <h5 class="card-title border-bottom w-100 pb-3 mb-3">
-              <svg xmlns="http://www.w3.org/2000/svg" class="me-1 poap-purple-2" width="1.6rem" height="1.6rem" style="margin-top:-0.2rem;" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-              </svg>
+              {{site.data.icons.view}}
               View
             </h5>
             <div class="row w-100 flex-grow-1 d-flex">

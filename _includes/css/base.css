@@ -122,6 +122,14 @@ header {
 }
 
 
+/* Card Title Icons */
+.card-title svg {
+  color: var(--poap-purple-2);
+  margin-right: 0.25rem!important;
+  margin-top: -0.2rem;
+}
+
+
 /* Resources Details Modal */
 #rdmSocials a {
   color: var(--poap-purple-1);
