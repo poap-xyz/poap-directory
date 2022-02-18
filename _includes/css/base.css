@@ -122,19 +122,36 @@ header {
 }
 
 
-/* Card Title Icons */
-.card-title svg {
-  color: var(--poap-purple-2);
-  margin-right: 0.25rem!important;
+header svg {
+  height: 1rem;
+  width: 1rem;
+  font-weight: light;
+}
+.btn svg {
+  margin-right: 0.25rem !important;
   margin-top: -0.2rem;
+  display: inline;
+  height: 1.4rem;
+  width: 1.4rem;
 }
-
-
-/* Resources Details Modal */
-#rdmSocials a {
+svg.new-tab-icon {
+  height: 0.8rem;
+  width: 0.8rem;
+}
+/* Card Title Icons */
+.card-title > svg {
   color: var(--poap-purple-1);
+  margin-right: 0.25rem;
+  margin-top: -0.2rem;
+  height: 1.6rem;
+  width: 1.6rem;
 }
-
+/* Resources Details Modal */
+#rdmSocials svg {
+  color: var(--poap-purple-1);
+  height: 1.8rem;
+  width: 1.8rem;
+}
 
 /* Footer */
 .social-icons img {

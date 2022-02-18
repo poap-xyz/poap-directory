@@ -22,7 +22,5 @@ notification_msg: This is a test notification message.<br>This is a test notific
 nav_enabled: true
 
 # Links
-github_repo: https://github.com/etheralpha/
-discord_invite: 
-
+resource_form: https://docs.google.com/forms/d/e/1FAIpQLSe7hFp3VXMjV98aZdZmNZMFRWhxWFHdqsjfrFe4EV4ZRkHvkg/viewform
 
