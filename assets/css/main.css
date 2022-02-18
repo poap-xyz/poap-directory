@@ -2,5 +2,11 @@
 ---
 
 
+{%- comment -%}
+  /*Combines CSS files from _includes/css into a single file. For page-specific CSS, create 
+  the CSS file under assets/css named after the page (e.g. custom.css for custom.md) and 
+  then add the conditional switch to the layout template to include it.*/
+{%- endcomment -%}
+
 {% include css/base.css %}
 {% include css/notification.css %}

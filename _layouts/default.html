@@ -16,6 +16,9 @@
     <!-- Custom JS -->
   	<script src="/assets/js/main.js" type="application/javascript"></script>
 
+    {%- comment -%}
+      <!-- Conditional switch to include page-specific JS -->
+    {%- endcomment -%}
     {%- case page.name -%}
       {%- when "custom.md" -%}
         <script src="/assets/js/custom.js" type="application/javascript"></script>
