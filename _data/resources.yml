@@ -5,10 +5,10 @@
 #   desc_long:   # (optional) longer description; will be shown instead of the short description in certain areas
 #   creator:     # who is the person/organization developing this resource?
 #   # contact:   # point of contact for the resource (won't be displayed on the website)
-#   categories:  # select all that apply: design, distribution, entertainment
+#   categories:  # select up to 3 that apply: access, activity, admin, app, art, branding, collector, design, dev, distribution, entertainment, guide, info, metrics, social, raffle, view, voting 
 #   github:      # (optional) github repo
 #   docs:        # (optional) resource's guide or documentation
-#   discord:     # (optional) project's discord invite link
+#   discord:     # (optional) project's discord invite link (make sure it doesn't expire and isn't limited)
 #   twitter:     # (optional) project's twitter profile
 #   telegram:    # (optional) project's telegram invite
 #   medium:      # (optional) project's medium blog
@@ -38,13 +38,6 @@
 #   forum: 
 
 
-# temporary notes
-# categories: distribution, design, entertainment, guide, admin, branding, raffle, art, activity, voting, view (inspect?), app, dev, collector (?), metrics, access, info
-# sub_categories: distribution (qr, bot, website, delivery, app, metaverse, snapshot, physical/digital), activity (art, raffle, voting)
-# add collector/issuer tags?
-
-
-# featured official resources
 - link: https://app.poap.art/
   title: POAP.art
   official: true
@@ -181,8 +174,6 @@
   youtube: 
   linkedin: 
   forum: 
-
-# featured community resources
 - link: https://github.com/stake-house/poap-reddit-bot
   title: POAP for Reddit
   official: false
@@ -322,8 +313,6 @@
   youtube: 
   linkedin: 
   forum: 
-
-
 - link: https://app.poap.xyz/scan
   title: POAP Scan
   official: true
@@ -783,9 +772,6 @@
   youtube: 
   linkedin: 
   forum: 
-
-
-
 - link: https://www.poapathon.com/
   title: POAPathon
   official: false
@@ -1367,6 +1353,4 @@
   youtube: 
   linkedin: 
   forum: 
-
-
 

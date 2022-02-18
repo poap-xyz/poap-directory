@@ -1,9 +1,3 @@
-var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-  return new bootstrap.Tooltip(tooltipTriggerEl)
-})
-
-
 var resourceDetailModal = document.getElementById('resourceDetailModal');
 resourceDetailModal.addEventListener('show.bs.modal', function (event) {
   // Button that triggered the modal
