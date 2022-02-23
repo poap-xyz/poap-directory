@@ -1,7 +1,7 @@
 ---
 layout: default
-title: View Resources
-permalink: /en/resources/view
+title: Play Resources
+permalink: /en/resources/play
 ---
 
 

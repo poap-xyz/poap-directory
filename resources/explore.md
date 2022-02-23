@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Activity Resources
-permalink: /en/resources/activity
+title: Explore Resources
+permalink: /en/resources/explore
 ---
 
 

@@ -57,6 +57,7 @@
     {%- assign filter = page.permalink | split: "/" | last -%}
     {%- if filter == "all" -%}
       {%- assign filter = "" -%}
+      {%- assign resources = site.data.resources | where: "hide_on_all", false -%}
     {%- elsif filter == "official" -%}
       {%- assign filter = "" -%}
       {%- assign resources = site.data.resources | where: "official", true -%}
