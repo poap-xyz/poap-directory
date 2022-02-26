@@ -1,8 +1,7 @@
 # - link:     # link to product
 #   name:     # product name
 #   img:      # logo of product it was integrated; place in /assets/img/integrations/
-#   category: # wallet, voting, chat, access
-
+#   category: # (select one of the following) access, chat, data, entertainment, investing, marketing, metaverse, ownership, reputation, scanner, voting, wallet
 
 # Template to copy for new entries
 # - link: 

@@ -5,5 +5,5 @@ permalink: /en/resources/info
 ---
 
 
-{%- include partials/resource-category-badges.html -%}
+{%- include partials/resource-category-page.html -%}
 

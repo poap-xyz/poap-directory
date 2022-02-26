@@ -5,5 +5,5 @@ permalink: /en/resources/voting
 ---
 
 
-{%- include partials/resource-category-badges.html -%}
+{%- include partials/resource-category-page.html -%}
 

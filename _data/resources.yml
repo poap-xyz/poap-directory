@@ -6,7 +6,7 @@
 #   desc_long:   # (optional) longer description; will be shown instead of the short description in certain areas
 #   creator:     # who is the person/organization developing this resource?
 #   # contact:   # point of contact for the resource (won't be displayed on the website)
-#   categories:  # select up to 3 that apply: access, admin, app, art, branding, collector, design, dev, distribution, entertainment, explore, guide, info, metrics, play, social, raffle, voting 
+#   categories:  # (select up to 3 that apply) access, admin, app, art, branding, collector, design, dev, distribution, entertainment, explore, guide, info, metrics, play, social, raffle, voting 
 #   github:      # (optional) github repo
 #   docs:        # (optional) resource's guide or documentation
 #   discord:     # (optional) project's discord invite link (make sure it doesn't expire and isn't limited)
@@ -16,7 +16,6 @@
 #   youtube:     # (optional) project's youtube channel
 #   linkedin:    # (optional) project's linkedin page
 #   forum:       # (optional) project's forum link
-#   docs:        # (optional) project's documentation
 
 
 # Template to copy for new entries
@@ -1450,4 +1449,21 @@
   youtube: 
   linkedin: 
   forum: 
-
+- link: https://www.youtube.com/playlist?list=PLEIfOJuxSVEJB_UM5U34bXhTRVKdN88Bl
+  title: POAP Community Calls
+  official: true
+  hide_on_all: true
+  desc_short: A collection of POAP Community Calls that are hosted weekly on Discord.
+  desc_long: 
+  creator: POAP inc.
+  # contact: 
+  categories: info
+  github: 
+  docs: 
+  discord: 
+  twitter: 
+  telegram: 
+  medium: 
+  youtube: 
+  linkedin: 
+  forum: 
