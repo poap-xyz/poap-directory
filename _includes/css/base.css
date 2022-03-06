@@ -134,6 +134,10 @@ header svg {
   height: 1.4rem;
   width: 1.4rem;
 }
+.btn-radio svg {
+  height: 0.75rem;
+  width: 0.75rem;
+}
 svg.new-tab-icon {
   height: 0.8rem;
   width: 0.8rem;

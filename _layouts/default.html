@@ -20,6 +20,8 @@
       <!-- Conditional switch to include page-specific JS -->
     {%- endcomment -%}
     {%- case page.name -%}
+      {%- when "resource-finder.md" -%}
+        <script src="/assets/js/resource-finder.js" type="application/javascript"></script>
       {%- when "custom.md" -%}
         <script src="/assets/js/custom.js" type="application/javascript"></script>
       {%- else -%}

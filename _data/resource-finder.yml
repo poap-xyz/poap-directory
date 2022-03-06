@@ -1,0 +1,51 @@
+# - id:             # permanent unique number
+#   type:           # options: question | answer
+#   title:          # the question or answer text
+#   options:        # options for the user to get directed to the next prompt
+#     - option:     # option text
+#       go_to_id:   # id to jump to for this option
+#     - option:     # option text
+#       go_to_id:   # id to jump to for this option
+#     ...           # repeat option entries as necessary
+
+
+# Template to copy for new entries
+# - id: 
+#   type: 
+#   title: 
+#   options: 
+#     - option: 
+#       go_to_id: 
+#     - option: 
+#       go_to_id: 
+
+
+# Record the last number (id) used to know what number (id) to start new entries on
+# last_number_used: 
+
+
+- id: 
+  type: 
+  title: 
+  options: 
+    - option: 
+      go_to_id: 
+    - option: 
+      go_to_id: 
+- id: 
+  type: 
+  title: 
+  options: 
+    - option: 
+      go_to_id: 
+    - option: 
+      go_to_id: 
+- id: 
+  type: 
+  title: 
+  options: 
+    - option: 
+      go_to_id: 
+    - option: 
+      go_to_id: 
+
