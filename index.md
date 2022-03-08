@@ -6,15 +6,15 @@ layout: default
 <!-- Header -->
 <header class="pb-md-3 pb-lg-5">
   <div class="px-4 py-5 my-5 text-center poap-purple-light">
-    <h1 class="display-1 fw-bold mt-5">POAP Directory</h1>
+    <h1 class="display-1 fw-bold mt-5">Explore the POAP Ecosystem.</h1>
     <div class="row justify-content-center">
-      <div class="col-lg-7">
+      <div class="col-md-10 col-lg-7">
         <p class="h3 fw-normal mb-4">
-          Explore the ecosystem and find the resources you need.
+          From better distribution to fun with friends, find the resources you need on the POAP Directory!
         </p>
-        <a href="/en/resources/all" class="btn btn-primary btn-lg px-4 m-1">View Resources</a>
+        <a href="/en/resources/all" class="btn btn-primary btn-lg px-4 m-1">Browse Applications</a>
         <p class="mt-3">
-          <a href="/en/resources/dev" class="poap-purple-light">Start building on POAP {{site.data.icons.arrow_right}}</a>
+          <a href="/en/resources/dev" class="poap-purple-light">Build on POAP {{site.data.icons.arrow_right}}</a>
         </p>
       </div>
     </div>
@@ -27,6 +27,9 @@ layout: default
   <div class="container py-5 my-5">
     <div class="mb-5 text-center">
       <h2 class="h1 fw-bold">Getting Started</h2>
+      <p class="col-md-10 col-lg-7 mx-auto lead text-center">
+        Learn more about POAP, and become a contributing member of the POAP Community.
+      </p>
     </div>
     <div class="row justify-content-center mt-4">
       <div class="col-12 col-md-6 col-xl-3 mb-4">
@@ -39,7 +42,6 @@ layout: default
             <ul class="list-unstyled">
               <li class="mb-2 ms-2 text-truncate"><a href="https://help.poap.xyz/en/articles/5820491-what-is-poap" class="text-dark text-decoration-none" target="_blank">What is POAP? {{site.data.icons.new_tab}}</a></li>
               <li class="mb-2 ms-2 text-truncate"><a href="https://help.poap.xyz/en/" class="text-dark text-decoration-none" target="_blank">Guides {{site.data.icons.new_tab}}</a></li>
-              <li class="mb-2 ms-2 text-truncate"><a href="https://discourse.poap.xyz/categories" class="text-dark text-decoration-none" target="_blank">Discourse {{site.data.icons.new_tab}}</a></li>
               <li class="mb-2 ms-2 text-truncate"><a href="/en/support" class="text-dark text-decoration-none">General Support</a></li>
             </ul>
           </div>
@@ -57,6 +59,7 @@ layout: default
                 <p class="fw-light text-muted mb-2">Community</p>
                 <ul class="list-unstyled">
                   <li class="mb-2 ms-2 text-truncate"><a href="https://discord.gg/fcxW4yR" class="text-dark text-decoration-none" target="_blank">Discord {{site.data.icons.new_tab}}</a></li>
+                  <li class="mb-2 ms-2 text-truncate"><a href="https://discourse.poap.xyz/categories" class="text-dark text-decoration-none" target="_blank">Discourse {{site.data.icons.new_tab}}</a></li>
                 </ul>
               </div>
               <div class="col-6">
@@ -79,9 +82,9 @@ layout: default
 <section id="predrop" class="bg-light">
   <div class="container py-5 my-5">
     <div class="mb-5 text-center">
-      <h2 class="h1 fw-bold mb-3">Distribute POAPs</h2>
+      <h2 class="h1 fw-bold mb-3">Issue POAPs</h2>
       <p class="col-md-10 col-lg-7 mx-auto lead text-center">
-        There are many ways to distribute drops depending on your needs.
+        There are many ways to drop depending on your needs.
       </p>
     </div>
     <div class="row justify-content-center mt-4">
@@ -165,9 +168,9 @@ layout: default
 <section id="postdrop" class="">
   <div class="container py-5 my-5">
     <div class="mb-5 text-center">
-      <h2 class="h1 fw-bold mb-3">Post-Drop</h2>
+      <h2 class="h1 fw-bold mb-3">After Dropping...</h2>
       <p class="col-md-10 col-lg-7 mx-auto lead text-center">
-        After a drop, use your POAP for activites, gated access, and more!
+        Use POAPs for fun, for gating experiences, or just enjoy your collection with friends.
       </p>
     </div>
     <div class="row justify-content-center mt-4">
@@ -254,9 +257,9 @@ layout: default
 <!-- Build -->
 <section id="build" class="bg-light">
   <div class="container py-5 my-5">
-    <h2 class="h1 fw-bold mb-3 text-center">Build on POAP!</h2>
+    <h2 class="h1 fw-bold mb-3 text-center">Eager to Contribute?</h2>
     <div class="col col-md-8 col-lg-6 mx-auto lead text-center">
-      <p>POAP has an amazing ecosystem thanks to builders like you. Help furthur our mission of preserving memories and connecting communities by building on POAP. We love seeing what the community develops!</p>
+      <p>The vibrant ecosystem of fun you can have after the drop is part of what makes each POAP so special. Check out the developer documentation if you're keen to get hacking and help us build a better POAP.</p>
       <a href="/en/resources/dev" class="btn btn-primary btn px-4 m-1">Start Building</a>
     </div>
   </div>
