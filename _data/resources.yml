@@ -6,7 +6,7 @@
 #   desc_long:   # (optional) longer description; will be shown instead of the short description in certain areas
 #   creator:     # who is the person/organization developing this resource?
 #   # contact:   # point of contact for the resource (won't be displayed on the website)
-#   categories:  # (select up to 3 that apply) access, admin, app, art, branding, collector, design, dev, distribution, entertainment, explore, guide, info, metrics, play, social, raffle, voting 
+#   categories:  # (select up to 3 that apply) access, admin, app, art, branding, collector, design, dev, distribution, explore, guide, info, metrics, play, social, raffle, voting 
 #   github:      # (optional) github repo
 #   docs:        # (optional) resource's guide or documentation
 #   discord:     # (optional) project's discord invite link (make sure it doesn't expire and isn't limited)
@@ -842,7 +842,7 @@
   desc_long: 
   creator: POAPathon
   # contact: POAP Discord @Tap.eth
-  categories: design, entertainment
+  categories: design
   github: 
   docs: https://www.poapathon.com/requests
   discord: https://discord.gg/YhneEKxVQ8
