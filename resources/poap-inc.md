@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Official Resources
-permalink: /en/resources/official
+title: POAP Inc. Resources
+permalink: /en/resources/poap-inc
 ---
 
 

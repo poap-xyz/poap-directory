@@ -9,7 +9,7 @@
         creating ["Activity", "Resources"] and then take the first item, "Activity", and set 
         that as the value for the "title" variable. -->
       {%- endcomment -%}
-      {%- assign title = page.title | split: " " | first -%}
+      {%- assign title = page.title | remove: " Resources" -%}
       <h1 class="display-6 fw-bold mb-2">{{title}} Resources</h1>
       {%- comment -%}
         <!-- Shows the "View All Resources" button link if currently not on the All Resources page. -->
@@ -30,14 +30,14 @@
 {%- for resource in site.data.resources -%}
   {%- assign all_categories = all_categories | append: ", " | append: resource.categories -%}
 {%- endfor -%}
-{%- assign all_categories = all_categories | append: ", official, community" -%}
+{%- assign all_categories = all_categories | append: ", poap inc, third-party" -%}
 {%- assign all_categories = all_categories | split: ", " | uniq | sort_natural -%}
 
 <section class="container">
   <div class="row justify-content-center mt-5">
     <div class="col col-lg-6 col-md-10 text-center">
       {%- for category in all_categories -%}
-        <a class="me-1 text-decoration-none" href="/en/resources/{{category}}">
+        <a class="me-1 text-decoration-none" href="/en/resources/{{category | replace: ' ', '-'}}">
           <span class="badge rounded-pill bg-light text-dark {{category}}">{{category}}</span>
         </a>
       {%- endfor -%}
@@ -62,10 +62,10 @@
     {%- if filter == "all" -%}
       {%- assign filter = "" -%}
       {%- assign resources = site.data.resources | where: "hide_on_all", false -%}
-    {%- elsif filter == "official" -%}
+    {%- elsif filter == "poap-inc" -%}
       {%- assign filter = "" -%}
       {%- assign resources = site.data.resources | where: "official", true -%}
-    {%- elsif filter == "community" -%}
+    {%- elsif filter == "third-party" -%}
       {%- assign filter = "" -%}
       {%- assign resources = site.data.resources | where: "official", false -%}
     {%- endif -%}

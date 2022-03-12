@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Community Resources
-permalink: /en/resources/community
+title: Third Party Resources
+permalink: /en/resources/third-party
 ---
 
 
