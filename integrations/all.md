@@ -5,11 +5,16 @@ permalink: /en/integrations/all
 ---
 
 
-<header class="py-5 poap-purple-light">
-  <div class="container text-center my-0 my-md-3 my-lg-5">
-    <h1 class="display-6 fw-bold mb-3">All Integrations</h1>
+<header class="page-header">
+  <div class="header-bg-fade-in"></div>
+  <div class="header-bg-fade-out"></div>
+  <div class="container py-5 mt-5 mb-4 pt-lg-0 my-lg-0 poap-purple-dark">
+    <div class="text-center my-0 my-md-3 my-lg-5">
+      <h1 class="display-6 fw-bold mb-2">All Integrations</h1>
+    </div>
   </div>
 </header>
+
 
 <section class="">
   <div class="container py-4 border-bottom">

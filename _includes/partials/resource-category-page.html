@@ -1,19 +1,23 @@
-<header class="py-5 poap-purple-light">
-  <div class="container text-center my-0 my-md-3 my-lg-5">
-    {%- comment -%}
-      <!-- Pulls the page title from frontmatter and drops the " Resources" to use in the header.
-      For example, if the page frontmatter title is "Activity Resources", it'll split it 
-      creating ["Activity", "Resources"] and then take the first item, "Activity", and set 
-      that as the value for the "title" variable. -->
-    {%- endcomment -%}
-    {%- assign title = page.title | split: " " | first -%}
-    <h1 class="display-6 fw-bold mb-0">{{title}} Resources</h1>
-    {%- comment -%}
-      <!-- Shows the "View All Resources" button link if currently not on the All Resources page. -->
-    {%- endcomment -%}
-    {%- if page.permalink != "/en/resources/all" -%}
-      <a href="/en/resources/all" class="btn btn-primary btn px-4 m-1">View All Resources</a>
-    {%- endif -%}
+<header class="page-header">
+  <div class="header-bg-fade-in"></div>
+  <div class="header-bg-fade-out"></div>
+  <div class="container py-5 mt-5 mb-4 pt-lg-0 my-lg-0 poap-purple-dark">
+    <div class="text-center my-0 my-md-3 my-lg-5">
+      {%- comment -%}
+        <!-- Pulls the page title from frontmatter and drops the " Resources" to use in the header.
+        For example, if the page frontmatter title is "Activity Resources", it'll split it 
+        creating ["Activity", "Resources"] and then take the first item, "Activity", and set 
+        that as the value for the "title" variable. -->
+      {%- endcomment -%}
+      {%- assign title = page.title | split: " " | first -%}
+      <h1 class="display-6 fw-bold mb-2">{{title}} Resources</h1>
+      {%- comment -%}
+        <!-- Shows the "View All Resources" button link if currently not on the All Resources page. -->
+      {%- endcomment -%}
+      {%- if page.permalink != "/en/resources/all" -%}
+        <a href="/en/resources/all" class="btn btn-secondary btn px-4 m-1">View All Resources</a>
+      {%- endif -%}
+    </div>
   </div>
 </header>
 

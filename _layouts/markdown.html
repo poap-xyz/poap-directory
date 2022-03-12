@@ -11,42 +11,44 @@
 
 
     <!-- Header -->
-    <header class="py-5 poap-purple-light">
-      <div class="container text-center my-0 my-md-3 my-lg-5">
-
-        {%- comment -%}
-          <!-- Include a header, subheader, note, or button if they're specified in the frontmatter. -->
-        {%- endcomment -%}
-        {%- if page.header -%}
-          <h1 class="display-6 fw-bold mb-0">{{page.header}}</h1>
-        {%- endif -%}
-        {%- if page.subheader -%}
-          <p class="col-md-10 col-lg-8 mx-auto lead">
-            {{page.subheader}}
-          </p>
-        {%- endif -%}
-        {%- if page.note -%}
-          <small><em>{{page.note}}</em></small>
-        {%- endif -%}
+    <header class="page-header">
+      <div class="container py-5 mt-5 mb-4 pt-lg-0 my-lg-0 poap-purple-dark">
+        <div class="text-center my-0 my-md-3 my-lg-5">
 
           {%- comment -%}
-            Usage:
-            buttons:
-            - link: /absolute/path/to/page
-              text: Link 1 Title
-            - link: "https://example.com"
-              text: Link 2 Title
+            <!-- Include a header, subheader, note, or button if they're specified in the frontmatter. -->
           {%- endcomment -%}
-          {%- if page.buttons -%}
-            {%- for button in page.buttons -%}
-              {%- if button.link contains "http" -%}
-                <a href="{{button.link}}" target="_blank" class="btn btn-outline-primary btn-lg px-4 m-1">{{button.text}}</a>
-              {%- else -%}
-                <a href="{{button.link}}" class="btn btn-outline-primary btn-lg px-4 m-1">{{button.text}}</a>
-              {%- endif -%}
-            {%- endfor -%}
+          {%- if page.header -%}
+            <h1 class="display-6 fw-bold mb-2">{{page.header}}</h1>
+          {%- endif -%}
+          {%- if page.subheader -%}
+            <p class="col-md-10 col-lg-8 mx-auto lead">
+              {{page.subheader}}
+            </p>
+          {%- endif -%}
+          {%- if page.note -%}
+            <small><em>{{page.note}}</em></small>
           {%- endif -%}
 
+            {%- comment -%}
+              Usage:
+              buttons:
+              - link: /absolute/path/to/page
+                text: Link 1 Title
+              - link: "https://example.com"
+                text: Link 2 Title
+            {%- endcomment -%}
+            {%- if page.buttons -%}
+              {%- for button in page.buttons -%}
+                {%- if button.link contains "http" -%}
+                  <a href="{{button.link}}" target="_blank" class="btn btn-outline-primary btn-lg px-4 m-1">{{button.text}}</a>
+                {%- else -%}
+                  <a href="{{button.link}}" class="btn btn-outline-primary btn-lg px-4 m-1">{{button.text}}</a>
+                {%- endif -%}
+              {%- endfor -%}
+            {%- endif -%}
+          
+        </div>
       </div>
     </header>
 
