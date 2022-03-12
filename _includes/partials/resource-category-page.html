@@ -23,14 +23,14 @@
 
 
 {%- comment -%}
-  <!-- Runs through the list of resources, aggregates the categories, adds "official" and "community" 
+  <!-- Runs through the list of resources, aggregates the categories, adds "poap-inc" and "third-party" 
   categories, and then filters the list to only have unique values. -->
 {%- endcomment -%}
 {%- assign all_categories = "" -%}
 {%- for resource in site.data.resources -%}
   {%- assign all_categories = all_categories | append: ", " | append: resource.categories -%}
 {%- endfor -%}
-{%- assign all_categories = all_categories | append: ", poap inc, third-party" -%}
+{%- assign all_categories = all_categories | append: ", poap-inc, third-party" -%}
 {%- assign all_categories = all_categories | split: ", " | uniq | sort_natural -%}
 
 <section class="container">
@@ -55,7 +55,7 @@
       it'll split it to ["en", "resources", "activity"] and grab the last item, "activity", which 
       is the current category of items to show (since that's the page this is building for).
 
-      If the page being built is for "all", "official", or "community", then those cases are 
+      If the page being built is for "all", "poap-inc", or "third-party", then those cases are 
       individually addressed since they aren't categories. -->
     {%- endcomment -%}
     {%- assign filter = page.permalink | split: "/" | last -%}
@@ -85,14 +85,14 @@
                   {%- endcomment -%}
                   {%- capture category_tags -%}
                     {%- assign resource_categories = resource.categories | split: ", " -%}
-                    {%- assign type = "community" -%}
+                    {%- assign type = "third-party" -%}
                     {%- if resource.official == true -%}
-                      {%- assign type = "official" -%}
+                      {%- assign type = "poap-inc" -%}
                     {%- endif -%}
-                    <a class="me-1 text-decoration-none" href="/en/resources/{{type}}"><span class="badge rounded-pill bg-light text-dark {{type}}">{{type}}</span></a>
+                    <a class="me-1 text-decoration-none" href="/en/resources/{{type | replace: ' ', '-'}}"><span class="badge rounded-pill bg-light text-dark {{type}}">{{type}}</span></a>
                     {%- assign resource_categories = resource.categories | split: ", " -%}
                     {%- for category in resource_categories -%}
-                      <a class="me-1 text-decoration-none" href="/en/resources/{{category}}"><span class="badge rounded-pill bg-light text-dark {{category}}">{{category}}</span></a>
+                      <a class="me-1 text-decoration-none" href="/en/resources/{{category | replace: ' ', '-'}}"><span class="badge rounded-pill bg-light text-dark {{category}}">{{category}}</span></a>
                     {%- endfor -%}
                   {%- endcapture -%}
                   {{category_tags}}
