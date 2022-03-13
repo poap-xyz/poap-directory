@@ -121,7 +121,21 @@
   img: /assets/img/integrations/agora.svg
   category: access
   bg_color: '#252525'
-
+- link: https://www.gather.town/
+  name: Gather.Town
+  img: /assets/img/integrations/gather-town.svg
+  category: communications
+  bg_color: '#000'
+- link: https://welook.io/
+  name: WeLook
+  img: /assets/img/integrations/welook.svg
+  category: social
+  bg_color: '#0f172a'
+- link: https://www.premint.xyz/
+  name: PREMINT
+  img: /assets/img/integrations/premint.svg
+  category: access
+  bg_color: '#051620'
 
 
 
