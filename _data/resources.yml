@@ -293,24 +293,6 @@
   linkedin: 
   forum: 
   # instagram: https://www.instagram.com/zoogalleryxyz
-# - link: https://github.com/BUIDLHub/poap-verification-frontend
-#   title: Discord Gated Access
-#   official: false
-#   hide_on_all: true
-#   desc_short: Create gated Discord channels with exclusive access to POAP collectors.
-#   desc_long: 
-#   creator: BUIDLHub
-#   # contact: 
-#   categories: access
-#   github: https://github.com/BUIDLHub/poap-verification-frontend
-#   docs: https://docs.buidlhub.com/
-#   discord: https://discord.gg/fQtpeT2
-#   twitter: https://twittter.com/buidlhub
-#   telegram: https://t.me/buidlhub
-#   medium: https://medium.com/buidlhub
-#   youtube: https://www.youtube.com/channel/UCBudqf1FNGwtOrPL8f99lCA/featured
-#   linkedin: https://www.linkedin.com/company/buidlhub/
-#   forum: 
 - link: https://collabland.freshdesk.com/support/solutions/articles/70000036689-discord-bot-walkthrough
   title: Discord Gated Access
   official: false
@@ -348,24 +330,6 @@
   youtube: 
   linkedin: 
   forum: 
-# - link: https://app.poap.xyz/scan
-#   title: POAP Scan
-#   official: true
-#   hide_on_all: true
-#   desc_short: POAP Scan allows you to view your collections as well as explore other people's collections.
-#   desc_long: 
-#   creator: POAP inc.
-#   # contact: 
-#   categories: explore
-#   github: 
-#   docs: 
-#   discord: 
-#   twitter: 
-#   telegram: 
-#   medium: 
-#   youtube: 
-#   linkedin: 
-#   forum: 
 - link: https://poap.gallery/
   title: POAP.gallery
   official: true
@@ -600,42 +564,6 @@
   youtube: 
   linkedin: 
   forum: 
-# - link: https://github.com/poapxyz/poap-bot
-#   title: POAP Bot v1
-#   official: true
-#   hide_on_all: true
-#   desc_short: Automated claim code distribution for POAP events via Discord.
-#   desc_long: 
-#   creator: POAP inc.
-#   # contact: 
-#   categories: distribution
-#   github: https://github.com/poapxyz/poap-bot
-#   docs: https://github.com/poapxyz/poap-bot#how-to-install-the-poap-bot-on-a-discord-server
-#   discord: 
-#   twitter: 
-#   telegram: 
-#   medium: 
-#   youtube: 
-#   linkedin: 
-#   forum: 
-# - link: https://github.com/poap-xyz/poap-bot-v2
-#   title: POAP Bot v2
-#   official: true
-#   hide_on_all: true
-#   desc_short: Automated claim code distribution for POAP events via Discord.
-#   desc_long: 
-#   creator: POAP inc.
-#   # contact: 
-#   categories: distribution
-#   github: https://github.com/poap-xyz/poap-bot-v2
-#   docs: https://github.com/poapxyz/poap-bot#how-to-install-the-poap-bot-on-a-discord-server
-#   discord: 
-#   twitter: 
-#   telegram: 
-#   medium: 
-#   youtube: 
-#   linkedin: 
-#   forum: 
 - link: https://help.poap.xyz/en/articles/5802657-how-do-i-set-up-a-poap-drop
   title: POAP.website Guide
   official: true
@@ -1005,7 +933,7 @@
   desc_long: 
   creator: Snapshot Labs
   # contact: 
-  categories: distribution
+  categories: distribution, voting
   github: https://github.com/snapshot-labs/snapshot-plugins/tree/master/src/plugins/poap
   docs: https://help.poap.xyz/en/articles/5857145-how-do-i-set-up-the-poap-snapshot-plugin
   discord: https://discord.gg/snapshot
@@ -1035,24 +963,7 @@
   forum: 
   # facebook: http://www.facebook.com/custompogs
   # instagram: http://www.instagram.com/custompogs
-# - link: https://discord.gg/CD2YdZzb7Z
-#   title: MasterPOAP
-#   official: false
-#   hide_on_all: true
-#   desc_short: Automated claim code distribution for POAP drops via Discord. This is a private-access tool.
-#   desc_long: 
-#   creator: SushiSwap
-#   # contact: 
-#   categories: distribution
-#   github: 
-#   docs: 
-#   discord: https://discord.gg/CD2YdZzb7Z
-#   twitter: https://twitter.com/sushiswap
-#   telegram: 
-#   medium: https://sushichef.medium.com/
-#   youtube: 
-#   linkedin: 
-#   forum: 
+
 - link: https://litgateway.com/apps/google-drive
   title: Google Drive Gated Access
   official: false
@@ -1467,3 +1378,101 @@
   youtube: 
   linkedin: 
   forum: 
+
+
+
+
+# Removed at Isabel's request
+
+# - link: https://github.com/BUIDLHub/poap-verification-frontend
+#   title: Discord Gated Access
+#   official: false
+#   hide_on_all: true
+#   desc_short: Create gated Discord channels with exclusive access to POAP collectors.
+#   desc_long: 
+#   creator: BUIDLHub
+#   # contact: 
+#   categories: access
+#   github: https://github.com/BUIDLHub/poap-verification-frontend
+#   docs: https://docs.buidlhub.com/
+#   discord: https://discord.gg/fQtpeT2
+#   twitter: https://twittter.com/buidlhub
+#   telegram: https://t.me/buidlhub
+#   medium: https://medium.com/buidlhub
+#   youtube: https://www.youtube.com/channel/UCBudqf1FNGwtOrPL8f99lCA/featured
+#   linkedin: https://www.linkedin.com/company/buidlhub/
+#   forum: 
+# - link: https://app.poap.xyz/scan
+#   title: POAP Scan
+#   official: true
+#   hide_on_all: true
+#   desc_short: POAP Scan allows you to view your collections as well as explore other people's collections.
+#   desc_long: 
+#   creator: POAP inc.
+#   # contact: 
+#   categories: explore
+#   github: 
+#   docs: 
+#   discord: 
+#   twitter: 
+#   telegram: 
+#   medium: 
+#   youtube: 
+#   linkedin: 
+#   forum: 
+# - link: https://github.com/poapxyz/poap-bot
+#   title: POAP Bot v1
+#   official: true
+#   hide_on_all: true
+#   desc_short: Automated claim code distribution for POAP events via Discord.
+#   desc_long: 
+#   creator: POAP inc.
+#   # contact: 
+#   categories: distribution
+#   github: https://github.com/poapxyz/poap-bot
+#   docs: https://github.com/poapxyz/poap-bot#how-to-install-the-poap-bot-on-a-discord-server
+#   discord: 
+#   twitter: 
+#   telegram: 
+#   medium: 
+#   youtube: 
+#   linkedin: 
+#   forum: 
+# - link: https://github.com/poap-xyz/poap-bot-v2
+#   title: POAP Bot v2
+#   official: true
+#   hide_on_all: true
+#   desc_short: Automated claim code distribution for POAP events via Discord.
+#   desc_long: 
+#   creator: POAP inc.
+#   # contact: 
+#   categories: distribution
+#   github: https://github.com/poap-xyz/poap-bot-v2
+#   docs: https://github.com/poapxyz/poap-bot#how-to-install-the-poap-bot-on-a-discord-server
+#   discord: 
+#   twitter: 
+#   telegram: 
+#   medium: 
+#   youtube: 
+#   linkedin: 
+#   forum: 
+# - link: https://discord.gg/CD2YdZzb7Z
+#   title: MasterPOAP
+#   official: false
+#   hide_on_all: true
+#   desc_short: Automated claim code distribution for POAP drops via Discord. This is a private-access tool.
+#   desc_long: 
+#   creator: SushiSwap
+#   # contact: 
+#   categories: distribution
+#   github: 
+#   docs: 
+#   discord: https://discord.gg/CD2YdZzb7Z
+#   twitter: https://twitter.com/sushiswap
+#   telegram: 
+#   medium: https://sushichef.medium.com/
+#   youtube: 
+#   linkedin: 
+#   forum: 
+
+
