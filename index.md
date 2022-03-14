@@ -192,7 +192,7 @@ layout: default
               <li class="mb-2 ms-2 text-truncate"><a href="https://help.poap.xyz/en/articles/5866650-how-do-i-set-up-a-poap-vote-poll" class="text-dark text-decoration-none" target="_blank">Voting {{site.data.icons.new_tab}}</a></li>
               <li class="mb-2 ms-2 text-truncate"><a href="https://gathertown.gitbook.io/web3/integrations/poaps-in-gather#guide-scavenger-hunt-for-poap" class="text-dark text-decoration-none" target="_blank">Scavenger Hunts {{site.data.icons.new_tab}}</a></li>
             </ul>
-            <a href="/en/resources/activity" class="btn btn-outline-primary">View All</a>
+            <a href="/en/resources/play" class="btn btn-outline-primary">View All</a>
           </div>
         </div>
       </div>
@@ -250,7 +250,7 @@ layout: default
                 </ul>
               </div>
             </div>
-            <a href="/en/resources/view" class="btn btn-outline-primary">View All</a>
+            <a href="/en/resources/explore" class="btn btn-outline-primary">View All</a>
           </div>
         </div>
       </div>
