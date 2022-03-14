@@ -44,7 +44,7 @@ nav>.container {
 }
 header {
   position: relative;
-  background-image: url(/assets/img/header-bg-light.png);
+  background-image: url(/assets/img/header-bg-light.webp);
   background-size: cover;
   background-position: 70% 0%;
   padding-top: 100px;
