@@ -94,7 +94,7 @@ desc_short  | Short description; <120 characters
 desc_long   | (optional) Longer description; Will be shown instead of the short description in certain areas
 creator     | Who is the person/organization developing this resource? (POAP inc. if it's an official resource)
 contact     | Point of contact for the resource (won't be displayed on the website); leave it commented out
-categories  | (Select up to 3 that apply) access, admin, app, art, branding, collector, design, dev, distribution, entertainment, explore, guide, info, metrics, play, social, raffle, voting 
+categories  | (Select up to 3 that apply) access, admin, app, art, collector, design, dev, distribution, explore, guide, info, metrics, play, social, voting 
 github      | (optional) Github repo
 docs        | (optional) Resource's guide or documentation
 discord     | (optional) Project's Discord invite link (make sure it doesn't expire and isn't limited)

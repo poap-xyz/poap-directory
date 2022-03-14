@@ -184,7 +184,7 @@
                 {%- endcomment -%}
                 {%- assign description = resource.desc_short -%}
                 {%- if resource.desc_long -%}
-                  {%- assign description = resource.desc_long -%}
+                  {%- assign description = resource.desc_long | markdownify -%}
                 {%- endif -%}
                 {%- comment -%}
                     <!-- Attach the modal info to the details button to dynamically populate the modal with. -->
