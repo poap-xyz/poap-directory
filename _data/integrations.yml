@@ -130,13 +130,18 @@
   name: WeLook
   img: /assets/img/integrations/welook.svg
   category: social
-  bg_color: '#0f172a'
+  bg_color: 'eff1f3'
+  # bg_color: '#0f172a'
 - link: https://www.premint.xyz/
   name: PREMINT
   img: /assets/img/integrations/premint.svg
   category: access
   bg_color: '#051620'
-
+- link: https://nftychat.xyz/
+  name: NFTY Chat
+  img: /assets/img/integrations/nfty-chat.svg
+  category: social
+  bg_color: '#262626'
 
 
 
