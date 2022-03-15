@@ -18,7 +18,7 @@ Resources:
 - [Jekyll Docs](https://jekyllrb.com/docs/)
 - [Liquid Syntax](https://shopify.github.io/liquid/basics/introduction/)
 
-
+<!-- 
 ## Adding a new resource or integration
 
 ### What's a resource vs an integration?
@@ -56,7 +56,7 @@ category  | (Select one of the following) access, chat, data, entertainment, inv
 #### Adding an integration category
 
 To create a new category, update the list of options here (in the above table) and at the top of the `_data/integrations.yml` file, inserted in alphabetical order. Keep the category naming as descriptive yet broadly applicable as possible.
-
+ -->
 
 ### Adding a resource
 
@@ -88,7 +88,7 @@ key         | description
 ------------|------------
 link        | The resource link
 title       | The resource title
-official    | (true/false) true = Official poap resource, false = Community/third party
+official    | (true/false) true = Official POAP resource, false = Community/third party
 hide_on_all | (true/false) true = Don't show under all resources, false = Show under all resources
 desc_short  | Short description; <120 characters
 desc_long   | (optional) Longer description; Will be shown instead of the short description in certain areas
