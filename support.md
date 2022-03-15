@@ -19,10 +19,17 @@ permalink: /en/support
 <section class="">
   <div class="container">
     <div class="row justify-content-center my-5">
-      <div class="col col-md-8 col-lg-8 text-center">
-      	<p>For curation disputes please use the <a href="https://discourse.poap.xyz/categories" target="_blank">Discourse forum</a>.</p>
-      	<p>For all other support requests:</p>
-      	<a class="btn btn-primary px-4 m-1" onclick="Intercom('show');">Open Support</a>
+      <div class="col col-md-10 col-lg-6 col-xm-5">
+        <div class="card rounded-3 h-100 text-center">
+          <div class="card-header"></div>
+          <div class="card-body">
+            <h5 class="card-title">Support</h5>
+            <p class="card-text mb-2">For curation disputes please use the <a href="https://discourse.poap.xyz/categories" target="_blank">Discourse forum</a>.</p>
+            <p class="card-text">For all other support requests:</p>
+            <a class="btn btn-primary px-4" onclick="Intercom('show');">Open Support</a>
+          </div>
+          <div class="card-footer"></div>
+        </div>
       </div>
     </div>
   </div>
