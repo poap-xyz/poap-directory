@@ -6,7 +6,7 @@
 #   desc_long:   # (optional) longer description; will be shown instead of the short description in certain areas
 #   creator:     # who is the person/organization developing this resource?
 #   # contact:   # point of contact for the resource (won't be displayed on the website)
-#   categories:  # (select up to 3 that apply) access, admin, app, art, collector, design, dev, distribution, explore, guide, info, metrics, play, social, voting 
+#   categories:  # (select up to 3 that apply) access, admin, app, art, collector, design, dev, distribution, explore, guide, info, metrics, play, social, utility, voting
 #   github:      # (optional) github repo
 #   docs:        # (optional) resource's guide or documentation
 #   discord:     # (optional) project's discord invite link (make sure it doesn't expire and isn't limited)
@@ -47,7 +47,7 @@
   desc_long: 
   creator: POAP inc.
   # contact: 
-  categories: play, art
+  categories: utility, play, art
   github: 
   docs: 
   discord: https://poap.art/discord
@@ -65,7 +65,7 @@
   desc_long: 
   creator: POAP inc.
   # contact: 
-  categories: play, voting
+  categories: utility, play, voting
   github: https://github.com/poap-xyz/poap-vote-v2
   docs: https://help.poap.xyz/en/articles/5866650-how-do-i-set-up-a-poap-vote-poll
   discord: 
@@ -83,7 +83,7 @@
   desc_long: 
   creator: POAP inc.
   # contact: 
-  categories: play
+  categories: utility, play
   github: https://github.com/poap-xyz/poap-fun
   docs: https://help.poap.xyz/en/articles/5849075-how-do-i-set-up-a-poap-fun-raffle
   discord: 
@@ -227,7 +227,7 @@
   desc_long: 
   creator: RomiRand
   # contact: POAP Discord @RamiRond
-  categories: art
+  categories: utility, art
   github: https://github.com/RomiRand/PoapArtBot
   docs: 
   discord: 
@@ -245,7 +245,7 @@
   desc_long: 
   creator: Lit Gateway
   # contact: 
-  categories: access
+  categories: utility, access
   github: https://github.com/LIT-Protocol/
   docs: https://developer.litprotocol.com/docs/intro/
   discord: https://litgateway.com/discord
@@ -263,7 +263,7 @@
   desc_long: Get a taste of the CharmVerse interface on Notion. Control access based on the ERC-20, NFT, or POAPs in your wallet. Unlock full or partial Notion workspaces. Mix and match tokens to grant different levels of access. Free to use. We only ask that you checkout http://charmverse.io/ in return. 
   creator: CharmVerse
   # contact: CharmVerse Discord @cerberus
-  categories: access
+  categories: utility, access
   github: 
   docs: 
   discord: https://discord.gg/VvhEafEWcg
@@ -301,7 +301,7 @@
   desc_long: 
   creator: Collab.Land
   # contact: 
-  categories: access
+  categories: utility, access
   github: 
   docs: https://collabland.freshdesk.com/support/solutions/articles/70000036689-discord-bot-walkthrough
   # docs: https://collab-land.gitbook.io/collab-land/bots/discord
@@ -320,7 +320,7 @@
   desc_long: 
   creator: POAP inc.
   # contact: 
-  categories: explore
+  categories: utility, explore
   github: 
   docs: 
   discord: 
@@ -338,7 +338,7 @@
   desc_long: 
   creator: POAP inc.
   # contact: 
-  categories: explore
+  categories: utility, explore
   github: https://github.com/poap-xyz/poap-gallery
   docs: https://help.poap.xyz/en/articles/5814257-what-is-poap-gallery
   discord: 
@@ -482,7 +482,7 @@
   desc_long: 
   creator: POAP inc.
   # contact: 
-  categories: app, collector, explore
+  categories: app, utility, explore
   github: 
   docs: 
   discord: 
@@ -500,7 +500,7 @@
   desc_long: 
   creator: POAP inc.
   # contact: 
-  categories: app, collector, explore
+  categories: app, utility, explore
   github: 
   docs: 
   discord: 
@@ -896,7 +896,7 @@
   desc_long: 
   creator: Collab.Land
   # contact: 
-  categories: access
+  categories: utility, access
   github: 
   docs: https://collabland.freshdesk.com/support/solutions/articles/70000081544-telegram-bot-walkthrough
   # docs: https://collab-land.gitbook.io/collab-land/bots/telegram
@@ -915,7 +915,7 @@
   desc_long: 
   creator: POAP inc.
   # contact: 
-  categories: art
+  categories: utility, art
   github: 
   docs: 
   discord: https://poap.art/discord
@@ -933,7 +933,7 @@
   desc_long: 
   creator: RomiRand
   # contact: POAP Discord @RamiRond
-  categories: art
+  categories: utility, art
   github: https://github.com/RomiRand/PoapArtParticipants
   docs: 
   discord: 
@@ -990,7 +990,7 @@
   desc_long: 
   creator: Lit Gateway
   # contact: 
-  categories: access
+  categories: utility, access
   github: https://github.com/LIT-Protocol/
   docs: https://developer.litprotocol.com/docs/intro/
   discord: https://litgateway.com/discord
@@ -1008,7 +1008,7 @@
   desc_long: 
   creator: MintGate
   # contact: 
-  categories: access
+  categories: utility, access
   github: 
   docs: https://mintgate.gitbook.io/mintgate-docs/
   discord: https://discord.com/invite/9BGwzQwJdt
@@ -1062,7 +1062,7 @@
   desc_long: 
   creator: Lit Gateway
   # contact: 
-  categories: access
+  categories: utility, access
   github: https://github.com/LIT-Protocol/
   docs: https://developer.litprotocol.com/docs/intro/
   discord: https://litgateway.com/discord
@@ -1080,7 +1080,7 @@
   desc_long: 
   creator: Lit Gateway
   # contact: 
-  categories: access
+  categories: utility, access
   github: https://github.com/LIT-Protocol/
   docs: https://developer.litprotocol.com/docs/intro/
   discord: https://litgateway.com/discord
@@ -1116,7 +1116,7 @@
   desc_long: 
   creator: Gather.Town
   # contact: 
-  categories: play
+  categories: utility, play
   github: 
   docs: https://gathertown.gitbook.io/web3/integrations/poaps-in-gather#guide-scavenger-hunt-for-poap
   discord: 
@@ -1134,7 +1134,7 @@
   desc_long: 
   creator: Lit Gateway
   # contact: 
-  categories: access
+  categories: utility, access
   github: https://github.com/LIT-Protocol/
   docs: https://developer.litprotocol.com/docs/intro/
   discord: https://litgateway.com/discord
@@ -1152,7 +1152,7 @@
   desc_long: 
   creator: Lit Gateway
   # contact: 
-  categories: access
+  categories: utility, access
   github: https://github.com/LIT-Protocol/
   docs: https://developer.litprotocol.com/docs/intro/
   discord: https://litgateway.com/discord
@@ -1188,7 +1188,7 @@
   desc_long: 
   creator: Glory Lab
   # contact: 
-  categories: explore
+  categories: utility, explore
   github: 
   docs: 
   discord: 
@@ -1206,7 +1206,7 @@
   desc_long: 
   creator: Glory Lab
   # contact: 
-  categories: explore, app
+  categories: app, utility, explore
   github: 
   docs: 
   discord: 
@@ -1224,7 +1224,7 @@
   desc_long: 
   creator: Glory Lab
   # contact: 
-  categories: explore, app
+  categories: app, utility, explore
   github: 
   docs: 
   discord: 
@@ -1242,7 +1242,7 @@
   desc_long: 
   creator: Glory Lab
   # contact: 
-  categories: explore, app
+  categories: app, utility, explore
   github: 
   docs: 
   discord: 
@@ -1278,7 +1278,7 @@
   desc_long: 
   creator: POAP inc.
   # contact: 
-  categories: 
+  categories: guide
   github: 
   docs: 
   discord: 
@@ -1332,7 +1332,7 @@
   desc_long: 
   creator: Agora
   # contact: 
-  categories: access
+  categories: utility, access
   github: https://github.com/agoraxyz/discord-runner
   docs: https://rogue-face-c95.notion.site/Guild-Guide-d94ae6a089174487b3feb5efe2e05ed3#f9cb754cfca94f65a206508488400246
   discord: https://discord.gg/KvXtEpDX8B
@@ -1350,7 +1350,7 @@
   desc_long: 
   creator: Agora
   # contact: 
-  categories: access
+  categories: utility, access
   github: https://github.com/agoraxyz/telegram-runner
   docs: https://rogue-face-c95.notion.site/Guild-Guide-d94ae6a089174487b3feb5efe2e05ed3#f9cb754cfca94f65a206508488400246
   discord: https://discord.gg/KvXtEpDX8B
@@ -1425,7 +1425,7 @@
   desc_long: 
   creator: WeLook
   # contact: 
-  categories: explore
+  categories: utility, explore
   github: 
   docs: 
   discord: 
@@ -1443,7 +1443,7 @@
   desc_long: 
   creator: Sentrei
   # contact: slobo.eth
-  categories: explore
+  categories: utility, explore
   github: https://github.com/LightDotSo
   docs: https://lightdotso.notion.site/lightdotso/
   discord: https://discord.gg/Vgfxg2Rcy8
@@ -1461,7 +1461,7 @@
   desc_long: 
   creator: NFTY Chat
   # contact: slobo.eth
-  categories: access
+  categories: utility, access
   github: 
   docs: 
   discord: 
@@ -1479,7 +1479,7 @@
   desc_long: 
   creator: 
   # contact: 
-  categories: 
+  categories: utility, explore
   github: https://github.com/rainbow-me/rainbow
   docs: https://learn.rainbow.me/
   discord: 
@@ -1538,7 +1538,7 @@
 #   desc_long: 
 #   creator: BUIDLHub
 #   # contact: 
-#   categories: access
+#   categories: utility, access
 #   github: https://github.com/BUIDLHub/poap-verification-frontend
 #   docs: https://docs.buidlhub.com/
 #   discord: https://discord.gg/fQtpeT2
@@ -1556,7 +1556,7 @@
 #   desc_long: 
 #   creator: POAP inc.
 #   # contact: 
-#   categories: explore
+#   categories: utility, explore
 #   github: 
 #   docs: 
 #   discord: 
