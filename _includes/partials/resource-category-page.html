@@ -47,34 +47,70 @@
 
 
 <section class="container py-4 border-bottom">
-  <div class="row row-cols-auto justify-content-center mt-4">
-    {%- assign resources = site.data.resources -%}
-    {%- comment -%}
-      <!-- Get page permalink to figure out what the current category is and filter the resource 
-      list to only show that. For example, if the permalink is "/en/resources/activity" then 
-      it'll split it to ["en", "resources", "activity"] and grab the last item, "activity", which 
-      is the current category of items to show (since that's the page this is building for).
+  {%- comment -%}
+    <!-- Get page permalink to figure out what the current category is and filter the resource 
+    list to only show that. For example, if the permalink is "/en/resources/activity" then 
+    it'll split it to ["en", "resources", "activity"] and grab the last item, "activity", which 
+    is the current category of items to show (since that's the page this is building for).
 
-      If the page being built is for "all", "poap-inc", or "third-party", then those cases are 
-      individually addressed since they aren't categories. -->
-    {%- endcomment -%}
-    {%- assign filter = page.permalink | split: "/" | last -%}
-    {%- if filter == "all" -%}
-      {%- assign filter = "" -%}
-      {%- assign resources = site.data.resources | where: "hide_on_all", false -%}
-    {%- elsif filter == "poap-inc" -%}
-      {%- assign filter = "" -%}
-      {%- assign resources = site.data.resources | where: "official", true -%}
-    {%- elsif filter == "third-party" -%}
-      {%- assign filter = "" -%}
-      {%- assign resources = site.data.resources | where: "official", false -%}
-    {%- endif -%}
+    If the page being built is for "all", "poap-inc", or "third-party", then those cases are 
+    individually addressed since they aren't categories. 
 
-    {%- comment -%}
-      <!-- Now that the list of resources have been filtered to the current page context under the "resource" variable,  -->
-    {%- endcomment -%}
-    {%- for resource in resources -%}
+    Then create a list of sub-categories excluding the current filter. This is used to separate the resources on a page into sub-category sections to make it easier to digest.-->
+  {%- endcomment -%}
+
+  {%- assign resources = site.data.resources -%}
+  {%- assign filter = page.permalink | split: "/" | last -%}
+  {%- assign filtered_resources = "" | split: "" -%}
+  {%- assign subcategories = "" -%}
+
+  {%- if filter == "all" -%}
+    {%- assign filter = "" -%}
+    {%- assign filtered_resources = site.data.resources | where: "hide_on_all", false -%}
+    {%- for resource in filtered_resources -%}
+      {%- assign subcategories = subcategories | append: ", " | append: resource.categories -%}
+    {%- endfor -%}
+  {%- elsif filter == "poap-inc" -%}
+    {%- assign filter = "" -%}
+    {%- assign filtered_resources = site.data.resources | where: "official", true -%}
+    {%- for resource in filtered_resources -%}
+      {%- assign subcategories = subcategories | append: ", " | append: resource.categories -%}
+    {%- endfor -%}
+  {%- elsif filter == "third-party" -%}
+    {%- assign filter = "" -%}
+    {%- assign filtered_resources = site.data.resources | where: "official", false -%}
+    {%- for resource in filtered_resources -%}
+      {%- assign subcategories = subcategories | append: ", " | append: resource.categories -%}
+    {%- endfor -%}
+  {%- else -%}
+    {%- for resource in site.data.resources -%}
       {%- if resource.categories contains filter -%}
+        {%- assign filtered_resources = filtered_resources | push: resource -%}
+        {%- assign subcategories = subcategories | append: ", " | append: resource.categories -%}
+        {%- if resource.official == true -%}
+          {%- assign subcategories = subcategories | append: ", poap-inc" -%}
+        {%- elsif resource.official == false -%}
+          {%- assign subcategories = subcategories | append: ", third-party" -%}
+        {%- endif -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- assign filter_subcategory = filter | append: "," -%}
+    {%- assign subcategories = subcategories | remove: filter_subcategory -%}
+  {%- endif -%}
+  {%- assign subcategories = subcategories | replace: ", , ", ", " | remove_first: ", " | split: ", " | uniq | sort_natural -%}
+
+  {%- comment -%}
+    <!-- Now that the list of resources have been filtered to the current page context under the "resource" variable, we will iterate through the sub-categories and create a page section for each one with the corresponding resources. -->
+  {%- endcomment -%}
+
+  {%- for subcategory in subcategories -%}
+    {%- if subcategory == "poap-inc" -%}
+      <h3 id="{{subcategory}}" class="fw-bold mb-2 border-bottom pb-2 poap-purple-dark">POAP inc.</h3>
+    {%- else -%}
+      <h3 id="{{subcategory}}" class="fw-bold mb-2 border-bottom pb-2 poap-purple-dark text-capitalize">{{subcategory}}</h3>
+    {%- endif -%}
+    <div class="row row-cols-auto justify-content-center mt-4">
+      {%- for resource in filtered_resources -%}
         {%- if resource.link -%}
           <div class="col mb-4">
             <div class="card rounded-3 h-100" style="width: 18rem;">
@@ -205,9 +241,9 @@
             </div>
           </div>
         {%- endif -%}
-      {%- endif -%}
-    {%- endfor -%}
-  </div>
+      {%- endfor -%}
+    </div>
+  {%- endfor -%}
 </section>
 
 
