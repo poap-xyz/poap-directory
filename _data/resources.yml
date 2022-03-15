@@ -1206,7 +1206,7 @@
   desc_long: 
   creator: Glory Lab
   # contact: 
-  categories: explore, app
+  categories: app, explore
   github: 
   docs: 
   discord: 
@@ -1224,7 +1224,7 @@
   desc_long: 
   creator: Glory Lab
   # contact: 
-  categories: explore, app
+  categories: app, explore
   github: 
   docs: 
   discord: 
@@ -1242,7 +1242,7 @@
   desc_long: 
   creator: Glory Lab
   # contact: 
-  categories: explore, app
+  categories: app, explore
   github: 
   docs: 
   discord: 
@@ -1278,7 +1278,7 @@
   desc_long: 
   creator: POAP inc.
   # contact: 
-  categories: 
+  categories: guide
   github: 
   docs: 
   discord: 
@@ -1479,7 +1479,7 @@
   desc_long: 
   creator: 
   # contact: 
-  categories: 
+  categories: explore
   github: https://github.com/rainbow-me/rainbow
   docs: https://learn.rainbow.me/
   discord: 
