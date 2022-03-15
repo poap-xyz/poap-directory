@@ -72,6 +72,7 @@
 
     {%- comment -%}
       <!-- Now that the list of resources have been filtered to the current page context under the "resource" variable,  -->
+      <!-- Now that the list of resources have been filtered to the current page context under the "resource" variable, we will iterate through the list and create a card for each resource. -->
     {%- endcomment -%}
     {%- for resource in resources -%}
       {%- if resource.categories contains filter -%}
