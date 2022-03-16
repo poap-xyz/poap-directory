@@ -114,6 +114,12 @@ a:hover {
 .bg-poap-pink {
   background-color: var(--poap-pink);
 }
+.poap-grey {
+  color: var(--poap-grey);
+}
+.bg-poap-grey {
+  background-color: var(--poap-grey);
+}
 
 
 /* Header Background Fade */
@@ -184,6 +190,9 @@ header .container {
 }
 
 
+.active-category {
+  background-color: var(--poap-violet) !important;
+}
 .resource-card {
   max-width: 24rem;
 }

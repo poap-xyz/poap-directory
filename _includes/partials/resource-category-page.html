@@ -33,12 +33,18 @@
 {%- assign all_categories = all_categories | append: ", poap-inc, third-party" -%}
 {%- assign all_categories = all_categories | split: ", " | uniq | sort_natural -%}
 
+{%- assign current_category = page.permalink | split: "/" | last -%}
+
 <section class="container">
   <div class="row justify-content-center mt-5">
     <div class="col col-lg-6 col-md-10 text-center">
       {%- for category in all_categories -%}
+        {%- assign category_active = "" -%}
+        {%- if category == current_category -%}
+          {%- assign category_active = "active-category" -%}
+        {%- endif -%}
         <a class="me-1 text-decoration-none" href="/en/resources/{{category | replace: ' ', '-'}}">
-          <span class="badge rounded-pill bg-light text-dark {{category}}">{{category}}</span>
+          <span class="badge rounded-pill bg-light text-dark {{category}} {{category_active}}">{{category}}</span>
         </a>
       {%- endfor -%}
     </div>
@@ -71,7 +77,6 @@
     {%- endif -%}
 
     {%- comment -%}
-      <!-- Now that the list of resources have been filtered to the current page context under the "resource" variable,  -->
       <!-- Now that the list of resources have been filtered to the current page context under the "resource" variable, we will iterate through the list and create a card for each resource. -->
     {%- endcomment -%}
     {%- for resource in resources -%}
@@ -94,10 +99,18 @@
                     {%- if resource.official == true -%}
                       {%- assign type = "poap-inc" -%}
                     {%- endif -%}
-                    <a class="me-1 text-decoration-none" href="/en/resources/{{type | replace: ' ', '-'}}"><span class="badge rounded-pill bg-light text-dark {{type}}">{{type}}</span></a>
+                    {%- assign category_active = "" -%}
+                    {%- if type == current_category -%}
+                      {%- assign category_active = "active-category" -%}
+                    {%- endif -%}
+                    <a class="me-1 text-decoration-none" href="/en/resources/{{type | replace: ' ', '-'}}"><span class="badge rounded-pill bg-light text-dark {{type}} {{category_active}}">{{type}}</span></a>
                     {%- assign resource_categories = resource.categories | split: ", " -%}
                     {%- for category in resource_categories -%}
-                      <a class="me-1 text-decoration-none" href="/en/resources/{{category | replace: ' ', '-'}}"><span class="badge rounded-pill bg-light text-dark {{category}}">{{category}}</span></a>
+                      {%- assign category_active = "" -%}
+                      {%- if category == current_category -%}
+                        {%- assign category_active = "active-category" -%}
+                      {%- endif -%}
+                      <a class="me-1 text-decoration-none" href="/en/resources/{{category | replace: ' ', '-'}}"><span class="badge rounded-pill bg-light text-dark {{category}} {{category_active}}">{{category}}</span></a>
                     {%- endfor -%}
                   {%- endcapture -%}
                   {{category_tags}}
