@@ -227,7 +227,7 @@ svg.new-tab-icon {
 
 /* Card Title Icons */
 .card-title > svg {
-  color: var(--poap-purple-1);
+  color: var(--poap-purple-2);
   margin-right: 0.25rem;
   margin-top: -0.2rem;
   height: 1.6rem;
@@ -235,7 +235,7 @@ svg.new-tab-icon {
 }
 /* Resources Details Modal */
 #rdmSocials svg {
-  color: var(--poap-purple-1);
+  color: var(--poap-purple-2);
   height: 1.8rem;
   width: 1.8rem;
 }

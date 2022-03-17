@@ -510,24 +510,24 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://docs.google.com/forms/d/e/1FAIpQLScoW5KV6TmyT7OMn-ReLsDVZ8UoeiCvNJ1sKAvNf46lii4kDA/viewform
-  title: POAP API KEY Request Form
-  official: true
-  hide_on_all: false
-  desc_short: A form to request an API key to start building on POAP.
-  desc_long: 
-  creator: POAP inc.
-  # contact: 
-  categories: dev
-  github: 
-  docs: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+# - link: https://docs.google.com/forms/d/e/1FAIpQLScoW5KV6TmyT7OMn-ReLsDVZ8UoeiCvNJ1sKAvNf46lii4kDA/viewform
+#   title: POAP API KEY Request Form
+#   official: true
+#   hide_on_all: false
+#   desc_short: A form to request an API key to start building on POAP.
+#   desc_long: 
+#   creator: POAP inc.
+#   # contact: 
+#   categories: dev
+#   github: 
+#   docs: 
+#   discord: 
+#   twitter: 
+#   telegram: 
+#   medium: 
+#   youtube: 
+#   linkedin: 
+#   forum: 
 - link: https://poap.gitbook.io/poap-api-guide/
   title: POAP API Docs
   official: true
@@ -1169,7 +1169,7 @@
   desc_short: Check if you have any unclaimed POAPs.
   desc_long: 
   creator: Earnifi
-  # contact: 
+  # contact: dawson
   categories: collector
   github: 
   docs: https://docs.earni.fi/
@@ -1525,7 +1525,42 @@
   youtube: 
   linkedin: 
   forum: 
-
+- link: https://status.poap.xyz/
+  title: POAP Status Page
+  official: true
+  hide_on_all: false
+  desc_short: View the availability and uptime of POAP services.
+  desc_long: 
+  creator: POAP inc.
+  # contact: 
+  categories: dev
+  github: 
+  docs: 
+  discord: 
+  twitter: 
+  telegram: 
+  medium: 
+  youtube: 
+  linkedin: 
+  forum: 
+- link: https://poaps.agency/generator
+  title: QR Code Generator
+  official: false
+  hide_on_all: false
+  desc_short: Upload your claim codes file and generate a grid of QR codes for printing.
+  desc_long: 
+  creator: POAPs Agency
+  # contact: 
+  categories: distribution
+  github: 
+  docs: 
+  discord: 
+  twitter: 
+  telegram: 
+  medium: 
+  youtube: 
+  linkedin: 
+  forum: 
 
 
 # Removed at Isabel's request

@@ -39,6 +39,9 @@
   <div class="row justify-content-center mt-5">
     <div class="col col-lg-6 col-md-10 text-center">
       {%- for category in all_categories -%}
+        {%- comment -%}
+          <!-- Highlight the category tag if it's the category currently being viewed. -->
+        {%- endcomment -%}
         {%- assign category_active = "" -%}
         {%- if category == current_category -%}
           {%- assign category_active = "active-category" -%}
@@ -77,7 +80,8 @@
     {%- endif -%}
 
     {%- comment -%}
-      <!-- Now that the list of resources have been filtered to the current page context under the "resource" variable, we will iterate through the list and create a card for each resource. -->
+      <!-- Now that the list of resources have been filtered to the current page context under the 
+        "resource" variable, we will iterate through the list and create a card for each resource. -->
     {%- endcomment -%}
     {%- for resource in resources -%}
       {%- if resource.categories contains filter -%}
@@ -99,6 +103,9 @@
                     {%- if resource.official == true -%}
                       {%- assign type = "poap-inc" -%}
                     {%- endif -%}
+                    {%- comment -%}
+                      <!-- Highlight the category tag if it's the category currently being viewed.  -->
+                    {%- endcomment -%}
                     {%- assign category_active = "" -%}
                     {%- if type == current_category -%}
                       {%- assign category_active = "active-category" -%}
@@ -106,6 +113,9 @@
                     <a class="me-1 text-decoration-none" href="/en/resources/{{type | replace: ' ', '-'}}"><span class="badge rounded-pill bg-light text-dark {{type}} {{category_active}}">{{type}}</span></a>
                     {%- assign resource_categories = resource.categories | split: ", " -%}
                     {%- for category in resource_categories -%}
+                      {%- comment -%}
+                        <!-- Highlight the category tag if it's the category currently being viewed.  -->
+                      {%- endcomment -%}
                       {%- assign category_active = "" -%}
                       {%- if category == current_category -%}
                         {%- assign category_active = "active-category" -%}
@@ -193,7 +203,7 @@
                   {%- endif -%}
                 {%- endcapture -%}
                 {%- comment -%}
-                    <!-- Set "description" to the desc_short unless desc_long exists, for use in 
+                  <!-- Set "description" to the desc_short unless desc_long exists, for use in 
                     the details modal. -->
                 {%- endcomment -%}
                 {%- assign description = resource.desc_short -%}
@@ -201,7 +211,8 @@
                   {%- assign description = resource.desc_long | markdownify -%}
                 {%- endif -%}
                 {%- comment -%}
-                    <!-- Attach the modal info to the details button to dynamically populate the modal with. -->
+                  <!-- Attach the modal info to the details button to dynamically populate the 
+                    modal with. -->
                 {%- endcomment -%}
                 <a class="btn btn-outline-primary btn-sm" 
                     data-bs-toggle="modal" 
@@ -234,15 +245,9 @@
       <div class="modal-body">
         <h5 id="rdmTitle" class="h4 modal-title"></h5>
         <p id="rdmCreator" class="modal-title mb-3 text-muted"></p>
-        <div id="rdmSocials" class="mb-3"> 
-          
-        </div>
+        <div id="rdmSocials" class="mb-3"></div>
         <hr class="my-4 text-muted">
-        <div id="rdmCategories" class="mb-3">
-          <a class="me-1 text-decoration-none" href="/en/resources/official">
-            <span class="badge rounded-pill bg-light text-dark official">official</span>
-          </a>
-        </div>
+        <div id="rdmCategories" class="mb-3"></div>
         <div class="mb-2">
           <small>
             <a id="rdmLink" href="" target="_blank" class="text-muted">
