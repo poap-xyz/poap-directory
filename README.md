@@ -18,6 +18,13 @@ Resources:
 - [Jekyll Docs](https://jekyllrb.com/docs/)
 - [Liquid Syntax](https://shopify.github.io/liquid/basics/introduction/)
 
+
+### Conventions
+
+- Use `POAP inc.`, not `POAP Inc.`
+- Indents are 2 spaces (not tabs)
+- 2 lines between frontmatter and content
+
 <!-- 
 ## Adding a new resource or integration
 
