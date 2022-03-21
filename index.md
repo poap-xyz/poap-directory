@@ -18,7 +18,7 @@ layout: default
         </p>
         <a href="/en/resources/all" class="btn btn-secondary btn-lg px-4 m-1">Browse Applications</a>
         <p class="mt-3">
-          <a href="/en/resources/dev" class="h5 fw-light poap-purple-dark">Build on POAP {{site.data.icons.arrow_right}}</a>
+          <!-- <a href="/en/resources/dev" class="h5 fw-light poap-purple-dark">Build on POAP {{site.data.icons.arrow_right}}</a> -->
         </p>
       </div>
     </div>
