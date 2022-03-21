@@ -115,8 +115,11 @@
   title: POAP Dispenser
   official: true
   hide_on_all: false
-  desc_short: Farming-resistant POAP QR distribution for physical and online events.
-  desc_long: 
+  desc_short: A farming-resistant POAP QR distribution for physical and online events.
+  desc_long: |
+    A farming-resistant POAP QR distribution for physical and online events.
+
+    Simply input your `.txt` file of mint links and your device automatically displays a QR code that, when scanned, allows collectors to mint a POAP. Each time a QR code is scanned it is automatically replaced with a new one, rendering the previous QR code invalid.
   creator: POAP inc.
   # contact: POAP Discord @Actuallymentor
   categories: distribution
@@ -206,7 +209,10 @@
   official: false
   hide_on_all: false
   desc_short: POAP distribution and DAO tooling for Discord and other platforms.
-  desc_long: The DEGEN Workgroup is building services to bring Web3 functionality to Web2 platforms, such as Discord, Twitter, and Twitch. The current flagship product, DEGEN, provides POAP distribution features to reward community members and works to combat POAP farming. Other DAO products include Mad Hatter, the BanklessDAO Administrative bot, Bounty Board, and a number of bots currently under development.
+  desc_long: |
+    This is a third-party POAP tool created by BanklessDAO that allows for automated distribution of POAPs to attendees of Twitter Spaces and Discord stages. DEGEN works to record attendance in Discord voice and Stage channels during events and distributes POAPs automatically upon ending the events. If you are interested in getting set up with DEGEN, join the BanklessDao [Product Support Discord server](https://discord.gg/zHnEBZrswk) and pop into the #get-degen channel. 
+
+    The DEGEN Workgroup is building services to bring Web3 functionality to Web2 platforms, such as Discord, Twitter, and Twitch. The current flagship product, DEGEN, provides POAP distribution features to reward community members and works to combat POAP farming. Other DAO products include Mad Hatter, the BanklessDAO Administrative bot, Bounty Board, and a number of bots currently under development.
   creator: DEGEN Workgroup # or The DEGEN Workgroup ?
   # contact: POAP Discord @ZrowGz
   categories: distribution
@@ -279,7 +285,10 @@
   official: false
   hide_on_all: false
   desc_short: A virtual dispenser to distribute POAPs to your event participants within the Decentraland metaverse.
-  desc_long: 
+  desc_long: |
+    A virtual dispenser to distribute POAPs to your event participants within the Decentraland metaverse.
+    
+    If you want to use it, please reach out to `hello.poap.cc@gmail.com` and provide some info about the scope of your project, including the timeline of your event(s).
   creator: MetaZoo
   # contact: MetaZoo Discord @zoo and @Sanda
   categories: distribution
@@ -371,7 +380,14 @@
   official: true
   hide_on_all: true
   desc_short: The POAP.website admin panel allows you to manage your drop's POAP claim website.
-  desc_long: 
+  desc_long: |
+    The POAP.website admin panel allows you to manage your drop's POAP claim website.
+
+    This distribution method is ideal for situations where you can be certain people will not share the link elsewhere. A birthday party with close friends is a great example. You can also distribute POAPs via Website by converting your Website into a QR code and projecting it onto a screen or printing it on a poster to display at your event.
+    
+    ✅ Tip: Use a random URL, don’t use a word that is in the title of your drop.
+    
+    🚨 **Important: A Website is not a good option for events with a large attendance, where attendees may leak the URL or share the QR code to your Website.**
   creator: POAP inc.
   # contact: 
   categories: admin, distribution
@@ -389,7 +405,16 @@
   official: true
   hide_on_all: true
   desc_short: The POAP secret admin panel allows you to manage your drop's POAP secret claims that are claimed through the app.
-  desc_long: 
+  desc_long: |
+    The POAP secret admin panel allows you to manage your drop's POAP secret claims that are claimed through the app.
+
+    This distribution method is used at events where you can share the Secret verbally and close the minting window after the drop ends.
+    
+    ✅ Here are some tips to avoid farming:
+    
+    - Use a random Secret; don’t use a word that is in the title of your drop. For example, for a drop titled ```Isabel's Birthday at Ahupulco,``` a secret word like ```WeLovePuppies``` is fine, but ```IsabelAhupulco``` is easy to guess and should not be used.
+    - Activate the Secret only at the start of your event and deactivate it as soon as it finishes.
+    - Only say the word verbally (don’t share it by DM or elsewhere online).
   creator: POAP inc.
   # contact: 
   categories: admin, distribution
