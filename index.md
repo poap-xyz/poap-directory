@@ -28,7 +28,7 @@ layout: default
 
 
 <!-- Getting Started -->
-<section id="starting" class="header-fade-white">
+<section id="starting" class="">
   <div class="container py-5 my-5">
     <div class="mb-5 text-center">
       <h2 class="h1 fw-bold">Getting Started</h2>
@@ -260,7 +260,10 @@ layout: default
 
 
 <!-- Build -->
-<section id="build" class="bg-light">
+<section id="build" class="bg-light poap-purple-dark">
+  <div class="coming-soon d-flex justify-content-center">
+    <img src="/assets/img/coming-soon.png"/>
+  </div>
   <div class="container py-5 my-5">
     <h2 class="h1 fw-bold mb-3 text-center">Eager to Contribute?</h2>
     <div class="col col-md-8 col-lg-6 mx-auto lead text-center">

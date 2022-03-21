@@ -190,6 +190,28 @@ header .container {
 }
 
 
+#build {
+  z-index: 1;
+  position: relative;
+  background-image: url(/assets/img/build-bg.png);
+  background-size: cover;
+  overflow: hidden;
+}
+#build .container {
+  opacity: 0.4;
+}
+.coming-soon {
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.coming-soon img {
+  width: 280px;
+  transform: translate(-50%, -50%);
+}
+
+
 .active-category {
   background-color: var(--poap-violet) !important;
 }
