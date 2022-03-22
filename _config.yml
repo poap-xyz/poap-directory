@@ -1,0 +1,22 @@
+# Read about configuration here: https://jekyllrb.com/docs/configuration/options/
+title: POAP Directory
+description: From better distribution to fun with friends, find the resources you need on the POAP Directory!
+keywords: poap, directory, resources, tools, projects, products
+url: https://poap.directory
+permalink: pretty # Do not change this, it will break all links
+timezone: America/New_York
+markdown: kramdown
+livereload: true
+port: 4400
+
+# Notifications
+notification_enabled: false
+notification_id: 1 # Increment value when new notification to show again
+notification_msg: This is a test notification message.<br>This is a test notification message.
+
+# Navigation
+nav_enabled: true
+
+# Links
+resource_form: https://docs.google.com/forms/d/e/1FAIpQLSe7hFp3VXMjV98aZdZmNZMFRWhxWFHdqsjfrFe4EV4ZRkHvkg/viewform
+
