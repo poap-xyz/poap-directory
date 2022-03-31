@@ -135,11 +135,7 @@
                   <!-- Attach resource info to the details button to dynamically populate the 
                     modal with. -->
                 {%- endcomment -%}
-                <a class="btn btn-outline-primary btn-sm"
-                    data-bs-toggle="modal"
-                    data-bs-target="#resourceDetailModal"
-                    data-bs-id="{{resource.id}}"
-                    data-bs-target="#resourceDetailModal">
+                <a class="btn btn-outline-primary btn-sm" onclick="showResourceModal({{resource.id}})">
                   Details
                 </a>
               </div>

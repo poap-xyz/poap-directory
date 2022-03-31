@@ -3,11 +3,10 @@ window.onload = load();
 
 
 function load() {
+  // If resource params detected, open modal
   let params = getQueryParameters();
   if ("id" in params) {
-    let resourceDetailModal = new bootstrap.Modal(document.getElementById("resourceDetailModal"), {});
-    populateModal(params.id);
-    resourceDetailModal.show();
+    showResourceModal(params.id)
   }
 }
 
@@ -68,20 +67,12 @@ function setQueryParameters(params) {
 
 
 var resourceDetailModal = document.getElementById('resourceDetailModal');
-resourceDetailModal.addEventListener('show.bs.modal', function (event) {
-  // Extract the resource id from the data attribute and grab that resource info
-  let id = event.relatedTarget.getAttribute('data-bs-id');
-  populateModal(id);
-  // Update url with resource id params
-  let params = "?id=" + id;
-  updateUrl(params);
-})
 resourceDetailModal.addEventListener('hidden.bs.modal', function (event) {
   // Update url to remove resource id params
   updateUrl();
 })
-
-function populateModal(id) {
+// Show and populate modal and update the url with params
+function showResourceModal(id) {
   let resource = resourcesJson.find(obj => {
     return obj.id == id;
   })
@@ -205,9 +196,17 @@ function populateModal(id) {
   updateValue("rdmDocs", docs, "link");
   updateValue("rdmCategories", categoryTags, "text");
   updateValue("rdmSocials", socialTags, "text");
+
+  // Update url with params
+  let params = "?id=" + id;
+  updateUrl(params);
+
+  // Show modal
+  let resourceDetailModal = new bootstrap.Modal(document.getElementById("resourceDetailModal"), {});
+  resourceDetailModal.show();
 }
 
-// Check to make sure there's a value set
+// Helper function make sure modal data have values set
 function isValid(val) {
   if (val !== "" && val !== " " && val !== undefined && val !== null) {
     return true;
