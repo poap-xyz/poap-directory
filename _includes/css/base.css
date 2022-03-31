@@ -216,6 +216,7 @@ header .container {
   background-color: var(--poap-violet) !important;
 }
 .resource-card {
+  position: relative;
   max-width: 24rem;
 }
 @media (min-width: 410px) {
@@ -232,6 +233,33 @@ header .container {
     min-width: 100%;
     width: 100%;
   }
+}
+.card-link {
+  position: absolute;
+  right: 0.75rem;
+  top: 0.75rem;
+  color: var(--bs-secondary);
+  opacity: 0.6;
+}
+.card-link svg {
+  width: 1.7rem;
+  height: auto;
+}
+.card-link:hover {
+  opacity: 0.9;
+  color: var(--bs-secondary);
+}
+.modal-link {
+  color: var(--bs-secondary);
+  opacity: 0.6;
+}
+.modal-link svg {
+  width: 2rem;
+  height: auto;
+}
+.modal-link:hover {
+  opacity: 0.9;
+  color: var(--bs-secondary);
 }
 
 
