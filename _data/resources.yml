@@ -1,4 +1,5 @@
-# - link:        # website
+# - id:          # resource id; do not change this
+#   link:        # website
 #   title:       # name of the resource
 #   official:    # true/false; true = official poap resource, false = community/third party
 #   hide_on_all: # true/false; true = don't show under all resources, false = show under all resources
@@ -19,7 +20,8 @@
 
 
 # Template to copy for new entries
-# - link: 
+# - id: 
+#   link: 
 #   title: 
 #   official: 
 #   hide_on_all: false
@@ -39,7 +41,11 @@
 #   forum: 
 
 
-- link: https://app.poap.art/
+# Last id used: 89
+
+
+- id: 1
+  link: https://app.poap.art/
   title: POAP.art
   official: true
   hide_on_all: false
@@ -57,7 +63,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://poap.vote/
+- id: 2
+  link: https://poap.vote/
   title: POAP.vote
   official: true
   hide_on_all: false
@@ -75,7 +82,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://poap.fun/
+- id: 3
+  link: https://poap.fun/
   title: POAP.fun
   official: true
   hide_on_all: false
@@ -93,7 +101,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://app.poap.xyz/admin
+- id: 4
+  link: https://app.poap.xyz/admin
   title: POAP Admin Panel
   official: true
   hide_on_all: true
@@ -111,7 +120,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://qr.poap.tech/
+- id: 5
+  link: https://qr.poap.tech/
   title: POAP Dispenser
   official: true
   hide_on_all: false
@@ -132,7 +142,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://careers.poap.xyz/
+- id: 6
+  link: https://careers.poap.xyz/
   title: POAP Careers
   official: true
   hide_on_all: true
@@ -150,7 +161,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://help.poap.xyz/
+- id: 7
+  link: https://help.poap.xyz/
   title: POAP Help Center
   official: true
   hide_on_all: true
@@ -168,7 +180,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://discourse.poap.xyz/categories
+- id: 8
+  link: https://discourse.poap.xyz/categories
   title: POAP Discourse
   official: true
   hide_on_all: true
@@ -186,7 +199,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://github.com/stake-house/poap-reddit-bot
+- id: 9
+  link: https://github.com/stake-house/poap-reddit-bot
   title: POAP for Reddit
   official: false
   hide_on_all: false
@@ -204,7 +218,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://docs.bankless.community/degen-product-support/product-resources/poap-distribution-commands-and-workflow
+- id: 10
+  link: https://docs.bankless.community/degen-product-support/product-resources/poap-distribution-commands-and-workflow
   title: DEGEN Bot (Discord)
   official: false
   hide_on_all: false
@@ -225,7 +240,8 @@
   youtube: https://www.youtube.com/playlist?list=PLc6o7Cxn7Uq6DQCptSItO5_IQfegCRImb
   linkedin: 
   forum: 
-- link: https://github.com/RomiRand/PoapArtBot
+- id: 11
+  link: https://github.com/RomiRand/PoapArtBot
   title: POAP.art Painting Bot
   official: false
   hide_on_all: false
@@ -243,7 +259,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://litgateway.com/apps/zoom
+- id: 12
+  link: https://litgateway.com/apps/zoom
   title: Zoom Gated Access
   official: false
   hide_on_all: false
@@ -261,7 +278,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://www.charmverse.io/notion-sign-in
+- id: 13
+  link: https://www.charmverse.io/notion-sign-in
   title: Notion Gated Access
   official: false
   hide_on_all: false
@@ -280,7 +298,8 @@
   linkedin: https://www.linkedin.com/company/charmverse
   forum: 
   # facebook: http://www.facebook.com/charmverse.io
-- link: https://poap.cc/
+- id: 14
+  link: https://poap.cc/
   title: Decentraland POAP Dispenser
   official: false
   hide_on_all: false
@@ -302,7 +321,8 @@
   linkedin: 
   forum: 
   # instagram: https://www.instagram.com/zoogalleryxyz
-- link: https://collabland.freshdesk.com/support/solutions/articles/70000036689-discord-bot-walkthrough
+- id: 15
+  link: https://collabland.freshdesk.com/support/solutions/articles/70000036689-discord-bot-walkthrough
   title: Discord Gated Access
   official: false
   hide_on_all: false
@@ -321,7 +341,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://explore.poap.xyz/
+- id: 16
+  link: https://explore.poap.xyz/
   title: POAP Explore
   official: true
   hide_on_all: false
@@ -339,7 +360,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://poap.gallery/
+- id: 17
+  link: https://poap.gallery/
   title: POAP.gallery
   official: true
   hide_on_all: false
@@ -357,7 +379,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://app.poap.xyz/admin/events/new
+- id: 18
+  link: https://app.poap.xyz/admin/events/new
   title: Create Drop
   official: true
   hide_on_all: true
@@ -375,7 +398,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://app.poap.xyz/admin/websites
+- id: 19
+  link: https://app.poap.xyz/admin/websites
   title: POAP.website Admin
   official: true
   hide_on_all: true
@@ -400,7 +424,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://app.poap.xyz/admin/secrets
+- id: 20
+  link: https://app.poap.xyz/admin/secrets
   title: POAP Secrets Admin
   official: true
   hide_on_all: true
@@ -427,7 +452,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://app.poap.xyz/admin/events
+- id: 21
+  link: https://app.poap.xyz/admin/events
   title: POAP Drops Admin
   official: true
   hide_on_all: true
@@ -445,7 +471,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://app.poap.xyz/admin/deliveries
+- id: 22
+  link: https://app.poap.xyz/admin/deliveries
   title: POAP.delivery Admin
   official: true
   hide_on_all: true
@@ -463,7 +490,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://app.poap.xyz/admin/template
+- id: 23
+  link: https://app.poap.xyz/admin/template
   title: POAP Template Admin
   official: true
   hide_on_all: true
@@ -481,7 +509,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: /assets/files/Customizable%20POAP%20Claim%20Page%20Blueprint%20v2.pdf
+- id: 24
+  link: /assets/files/Customizable%20POAP%20Claim%20Page%20Blueprint%20v2.pdf
   title: Custom POAP Claim Template
   official: true
   hide_on_all: true
@@ -499,7 +528,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://poap.xyz/android
+- id: 25
+  link: https://poap.xyz/android
   title: POAP App (Android)
   official: true
   hide_on_all: false
@@ -517,7 +547,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://poap.xyz/ios
+- id: 26
+  link: https://poap.xyz/ios
   title: POAP App (Apple)
   official: true
   hide_on_all: false
@@ -535,7 +566,8 @@
   youtube: 
   linkedin: 
   forum: 
-# - link: https://docs.google.com/forms/d/e/1FAIpQLScoW5KV6TmyT7OMn-ReLsDVZ8UoeiCvNJ1sKAvNf46lii4kDA/viewform
+# - id: 27
+#   link: https://docs.google.com/forms/d/e/1FAIpQLScoW5KV6TmyT7OMn-ReLsDVZ8UoeiCvNJ1sKAvNf46lii4kDA/viewform
 #   title: POAP API KEY Request Form
 #   official: true
 #   hide_on_all: false
@@ -553,7 +585,8 @@
 #   youtube: 
 #   linkedin: 
 #   forum: 
-- link: https://poap.gitbook.io/poap-api-guide/
+- id: 28
+  link: https://poap.gitbook.io/poap-api-guide/
   title: POAP API Docs
   official: true
   hide_on_all: false
@@ -571,7 +604,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://api.poap.xyz/documentation/static/
+- id: 29
+  link: https://api.poap.xyz/documentation/static/
   title: POAP API (Swagger)
   official: true
   hide_on_all: false
@@ -589,7 +623,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://github.com/owenvoke/poap-php
+- id: 30
+  link: https://github.com/owenvoke/poap-php
   title: PHP POAP API Wrapper
   official: false
   hide_on_all: false
@@ -607,7 +642,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://help.poap.xyz/en/articles/5802657-how-do-i-set-up-a-poap-drop
+- id: 31
+  link: https://help.poap.xyz/en/articles/5802657-how-do-i-set-up-a-poap-drop
   title: POAP.website Guide
   official: true
   hide_on_all: true
@@ -625,7 +661,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://help.poap.xyz/en/articles/5807488-how-do-i-set-up-delivery
+- id: 32
+  link: https://help.poap.xyz/en/articles/5807488-how-do-i-set-up-delivery
   title: POAP.delivery Guide
   official: true
   hide_on_all: true
@@ -643,7 +680,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://twitter.com/poapxyz/
+- id: 33
+  link: https://twitter.com/poapxyz/
   title: POAP Twitter
   official: true
   hide_on_all: true
@@ -661,7 +699,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://www.reddit.com/r/poap/
+- id: 34
+  link: https://www.reddit.com/r/poap/
   title: POAP Reddit
   official: true
   hide_on_all: true
@@ -679,7 +718,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://t.me/poapxyz
+- id: 35
+  link: https://t.me/poapxyz
   title: POAP Telegram
   official: true
   hide_on_all: true
@@ -697,7 +737,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://discord.com/invite/9s8U8Bn
+- id: 36
+  link: https://discord.com/invite/9s8U8Bn
   title: POAP Discord
   official: true
   hide_on_all: true
@@ -715,7 +756,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://medium.com/poap
+- id: 37
+  link: https://medium.com/poap
   title: POAP Medium
   official: true
   hide_on_all: true
@@ -733,7 +775,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://github.com/poap-xyz
+- id: 38
+  link: https://github.com/poap-xyz
   title: POAP Github
   official: true
   hide_on_all: true
@@ -751,7 +794,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://www.youtube.com/channel/UCvXWjomx55gbEjJ3PCPPezQ/videos
+- id: 39
+  link: https://www.youtube.com/channel/UCvXWjomx55gbEjJ3PCPPezQ/videos
   title: POAP Youtube
   official: true
   hide_on_all: true
@@ -769,7 +813,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://www.linkedin.com/company/poapxyz/
+- id: 40
+  link: https://www.linkedin.com/company/poapxyz/
   title: POAP LinkedIn
   official: true
   hide_on_all: true
@@ -787,7 +832,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://snowdot.github.io/poap-place/
+- id: 41
+  link: https://snowdot.github.io/poap-place/
   title: POAP Place
   official: false
   hide_on_all: false
@@ -805,7 +851,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://www.poapathon.com/
+- id: 42
+  link: https://www.poapathon.com/
   title: POAPathon
   official: false
   hide_on_all: false
@@ -823,7 +870,8 @@
   youtube: https://www.youtube.com/c/POAPathon
   linkedin: 
   forum: 
-- link: https://dune.xyz/blowfish/Poap-Mints
+- id: 43
+  link: https://dune.xyz/blowfish/Poap-Mints
   title: Dune Gnosis Chain POAP Dashboard
   official: true
   hide_on_all: false
@@ -841,7 +889,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://dashboards.anyblock.tools/projects/poap/
+- id: 44
+  link: https://dashboards.anyblock.tools/projects/poap/
   title: POAP Protocol Metrics
   official: false
   hide_on_all: false
@@ -859,7 +908,8 @@
   youtube: https://www.youtube.com/channel/UC3g6tf9vP83tSXUCd1jrlRA
   linkedin: https://www.linkedin.com/company/anyblockanalytics/
   forum: 
-- link: https://dune.xyz/greywizard/sgc-work?Address=0x4c41F7201552487A55C623f8a45694d9F88C2B81
+- id: 45
+  link: https://dune.xyz/greywizard/sgc-work?Address=0x4c41F7201552487A55C623f8a45694d9F88C2B81
   title: Dune POAP Dashboard
   official: false
   hide_on_all: false
@@ -877,7 +927,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://github.com/poapxyz/poap-bot#how-to-install-the-poap-bot-on-a-discord-server
+- id: 46
+  link: https://github.com/poapxyz/poap-bot#how-to-install-the-poap-bot-on-a-discord-server
   title: POAP Bot Setup Guide
   official: true
   hide_on_all: false
@@ -895,7 +946,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://blockscout.com/xdai/mainnet/
+- id: 47
+  link: https://blockscout.com/xdai/mainnet/
   title: Blockscout Block Explorer
   official: false
   hide_on_all: false
@@ -913,7 +965,8 @@
   youtube: 
   linkedin: 
   forum: https://forum.poa.network/c/blockscout
-- link: https://collabland.freshdesk.com/support/solutions/articles/70000081544-telegram-bot-walkthrough
+- id: 48
+  link: https://collabland.freshdesk.com/support/solutions/articles/70000081544-telegram-bot-walkthrough
   title: Telegram Gated Access
   official: false
   hide_on_all: false
@@ -932,7 +985,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://sandbox.poap.art/
+- id: 49
+  link: https://sandbox.poap.art/
   title: POAP.art Sandbox
   official: true
   hide_on_all: false
@@ -950,7 +1004,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://github.com/RomiRand/PoapArtParticipants
+- id: 50
+  link: https://github.com/RomiRand/PoapArtParticipants
   title: POAP.art Participation Bot
   official: false
   hide_on_all: false
@@ -968,7 +1023,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://github.com/snapshot-labs/snapshot-plugins
+- id: 51
+  link: https://github.com/snapshot-labs/snapshot-plugins
   title: Snapshot POAP Plugin
   official: false
   hide_on_all: false
@@ -986,7 +1042,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://custompogs.com/
+- id: 52
+  link: https://custompogs.com/
   title: Custom POAP Pogs
   official: false
   hide_on_all: false
@@ -1007,7 +1064,8 @@
   # facebook: http://www.facebook.com/custompogs
   # instagram: http://www.instagram.com/custompogs
 
-- link: https://litgateway.com/apps/google-drive
+- id: 53
+  link: https://litgateway.com/apps/google-drive
   title: Google Drive Gated Access
   official: false
   hide_on_all: false
@@ -1025,7 +1083,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://mintgate.gitbook.io/mintgate-docs/set-up-token-access/create-token-gated-access
+- id: 54
+  link: https://mintgate.gitbook.io/mintgate-docs/set-up-token-access/create-token-gated-access
   title: MintGate
   official: false
   hide_on_all: false
@@ -1043,7 +1102,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://docs.bankless.community/degen-product-support/premium-features/twitter-spaces
+- id: 55
+  link: https://docs.bankless.community/degen-product-support/premium-features/twitter-spaces
   title: DEGEN Bot (Twitter)
   official: false
   hide_on_all: false
@@ -1061,7 +1121,8 @@
   youtube: https://www.youtube.com/playlist?list=PLc6o7Cxn7Uq6DQCptSItO5_IQfegCRImb
   linkedin: 
   forum: 
-- link: https://poap.gg/
+- id: 56
+  link: https://poap.gg/
   title: Twitch Stream Distribution
   official: false
   hide_on_all: false
@@ -1079,7 +1140,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://litgateway.com/apps/shopify
+- id: 57
+  link: https://litgateway.com/apps/shopify
   title: Shopify Gated Access
   official: false
   hide_on_all: false
@@ -1097,7 +1159,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://litgateway.com/apps/cloudflare
+- id: 58
+  link: https://litgateway.com/apps/cloudflare
   title: Cloudflare Gated Access
   official: false
   hide_on_all: false
@@ -1115,7 +1178,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://gathertown.gitbook.io/web3/integrations/poaps-in-gather#poap-bot-by-andrei0x309
+- id: 59
+  link: https://gathertown.gitbook.io/web3/integrations/poaps-in-gather#poap-bot-by-andrei0x309
   title: Gather.Town Bot
   official: false
   hide_on_all: false
@@ -1133,7 +1197,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://gathertown.gitbook.io/web3/integrations/poaps-in-gather#guide-scavenger-hunt-for-poap
+- id: 60
+  link: https://gathertown.gitbook.io/web3/integrations/poaps-in-gather#guide-scavenger-hunt-for-poap
   title: Gather.Town Scavenger Hunt
   official: false
   hide_on_all: false
@@ -1151,7 +1216,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://litgateway.com/apps/gather-town
+- id: 61
+  link: https://litgateway.com/apps/gather-town
   title: Gather.Town Gated Access
   official: false
   hide_on_all: false
@@ -1169,7 +1235,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://wordpress.org/plugins/litprotocol-wp-lit-gated/
+- id: 62
+  link: https://wordpress.org/plugins/litprotocol-wp-lit-gated/
   title: Wordpress Gated Access
   official: false
   hide_on_all: false
@@ -1187,7 +1254,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://earni.fi/
+- id: 63
+  link: https://earni.fi/
   title: Earnifi
   official: false
   hide_on_all: false
@@ -1205,7 +1273,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://poap.in/
+- id: 64
+  link: https://poap.in/
   title: POAP.in (beta)
   official: false
   hide_on_all: false
@@ -1223,7 +1292,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://play.google.com/store/apps/details?id=in.poap
+- id: 65
+  link: https://play.google.com/store/apps/details?id=in.poap
   title: POAP.in App (Android, beta)
   official: false
   hide_on_all: false
@@ -1241,7 +1311,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://testflight.apple.com/join/OqNzJ9UJ
+- id: 66
+  link: https://testflight.apple.com/join/OqNzJ9UJ
   title: POAP.in App (iOS, beta)
   official: false
   hide_on_all: false
@@ -1259,7 +1330,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://testflight.apple.com/join/OqNzJ9UJ
+- id: 67
+  link: https://testflight.apple.com/join/OqNzJ9UJ
   title: POAP.in App (Mac, beta)
   official: false
   hide_on_all: false
@@ -1277,7 +1349,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://help.poap.xyz/en/articles/5855319-the-poap-glossary
+- id: 68
+  link: https://help.poap.xyz/en/articles/5855319-the-poap-glossary
   title: POAP Glossary
   official: true
   hide_on_all: true
@@ -1295,7 +1368,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://help.poap.xyz/en/articles/5812140-poap-distribution-methods-101
+- id: 69
+  link: https://help.poap.xyz/en/articles/5812140-poap-distribution-methods-101
   title: Distribution 101 Guide
   official: true
   hide_on_all: true
@@ -1313,7 +1387,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://help.poap.xyz/en/articles/5807573-how-do-i-set-up-a-poap-secret
+- id: 70
+  link: https://help.poap.xyz/en/articles/5807573-how-do-i-set-up-a-poap-secret
   title: POAP Secret Guide
   official: true
   hide_on_all: true
@@ -1331,7 +1406,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://help.poap.xyz/en/articles/5802657-how-do-i-set-up-a-poap-drop
+- id: 71
+  link: https://help.poap.xyz/en/articles/5802657-how-do-i-set-up-a-poap-drop
   title: POAP Drop Creation Guide
   official: true
   hide_on_all: true
@@ -1349,7 +1425,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://rogue-face-c95.notion.site/Guild-Guide-d94ae6a089174487b3feb5efe2e05ed3#f9cb754cfca94f65a206508488400246
+- id: 72
+  link: https://rogue-face-c95.notion.site/Guild-Guide-d94ae6a089174487b3feb5efe2e05ed3#f9cb754cfca94f65a206508488400246
   title: Discord Gated Access (Guild.xyz)
   official: false
   hide_on_all: false
@@ -1367,7 +1444,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://rogue-face-c95.notion.site/Guild-Guide-d94ae6a089174487b3feb5efe2e05ed3#e4f28bb250c440c0b7af7083dc303cb7
+- id: 73
+  link: https://rogue-face-c95.notion.site/Guild-Guide-d94ae6a089174487b3feb5efe2e05ed3#e4f28bb250c440c0b7af7083dc303cb7
   title: Telegram Gated Access (Guild.xyz)
   official: false
   hide_on_all: false
@@ -1385,7 +1463,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://www.youtube.com/playlist?list=PLEIfOJuxSVEJB_UM5U34bXhTRVKdN88Bl
+- id: 74
+  link: https://www.youtube.com/playlist?list=PLEIfOJuxSVEJB_UM5U34bXhTRVKdN88Bl
   title: POAP Community Calls
   official: true
   hide_on_all: true
@@ -1403,7 +1482,8 @@
   youtube: 
   linkedin: 
   forum: 
-# - link: https://www.iyk.app/
+# - id: 75
+#   link: https://www.iyk.app/
 #   title: IYK Discs
 #   official: false
 #   hide_on_all: false
@@ -1424,7 +1504,8 @@
 #   youtube: 
 #   linkedin: 
 #   forum: 
-- link: https://www.premint.xyz/
+- id: 76
+  link: https://www.premint.xyz/
   title: PREMINT
   official: false
   hide_on_all: false
@@ -1442,7 +1523,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://welook.io/
+- id: 77
+  link: https://welook.io/
   title: WeLook
   official: false
   hide_on_all: false
@@ -1460,7 +1542,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://light.so/
+- id: 78
+  link: https://light.so/
   title: Light
   official: false
   hide_on_all: false
@@ -1478,7 +1561,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://nftychat.xyz/
+- id: 79
+  link: https://nftychat.xyz/
   title: NFTY Chat
   official: false
   hide_on_all: false
@@ -1496,7 +1580,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://rainbow.me/
+- id: 80
+  link: https://rainbow.me/
   title: Rainbow
   official: false
   hide_on_all: false
@@ -1514,7 +1599,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://www.poc.quest/
+- id: 81
+  link: https://www.poc.quest/
   title: Proof of Competence
   official: false
   hide_on_all: true
@@ -1532,7 +1618,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://www.loom.com/share/e902a57c91384432b7fe53c912e9916d
+- id: 82
+  link: https://www.loom.com/share/e902a57c91384432b7fe53c912e9916d
   title: Mailchimp Distribution
   official: false
   hide_on_all: false
@@ -1550,7 +1637,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://status.poap.xyz/
+- id: 83
+  link: https://status.poap.xyz/
   title: POAP Status Page
   official: true
   hide_on_all: false
@@ -1568,7 +1656,8 @@
   youtube: 
   linkedin: 
   forum: 
-- link: https://poaps.agency/generator
+- id: 84
+  link: https://poaps.agency/generator
   title: QR Code Generator
   official: false
   hide_on_all: false
@@ -1590,7 +1679,8 @@
 
 # Removed at Isabel's request
 
-# - link: https://github.com/BUIDLHub/poap-verification-frontend
+# - id: 85
+#   link: https://github.com/BUIDLHub/poap-verification-frontend
 #   title: Discord Gated Access
 #   official: false
 #   hide_on_all: true
@@ -1608,7 +1698,8 @@
 #   youtube: https://www.youtube.com/channel/UCBudqf1FNGwtOrPL8f99lCA/featured
 #   linkedin: https://www.linkedin.com/company/buidlhub/
 #   forum: 
-# - link: https://app.poap.xyz/scan
+# - id: 86
+#   link: https://app.poap.xyz/scan
 #   title: POAP Scan
 #   official: true
 #   hide_on_all: true
@@ -1626,7 +1717,8 @@
 #   youtube: 
 #   linkedin: 
 #   forum: 
-# - link: https://github.com/poapxyz/poap-bot
+# - id: 87
+#   link: https://github.com/poapxyz/poap-bot
 #   title: POAP Bot v1
 #   official: true
 #   hide_on_all: true
@@ -1644,7 +1736,8 @@
 #   youtube: 
 #   linkedin: 
 #   forum: 
-# - link: https://github.com/poap-xyz/poap-bot-v2
+# - id: 88
+#   link: https://github.com/poap-xyz/poap-bot-v2
 #   title: POAP Bot v2
 #   official: true
 #   hide_on_all: true
@@ -1662,7 +1755,8 @@
 #   youtube: 
 #   linkedin: 
 #   forum: 
-# - link: https://discord.gg/CD2YdZzb7Z
+# - id: 89
+#   link: https://discord.gg/CD2YdZzb7Z
 #   title: MasterPOAP
 #   official: false
 #   hide_on_all: true
