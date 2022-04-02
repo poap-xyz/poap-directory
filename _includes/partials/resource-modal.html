@@ -1,0 +1,44 @@
+<div class="modal" id="resourceDetailModal" tabindex="-1" aria-labelledby="resourceDetailModal" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div id="rdmPricing" class="mb-2"></div>
+        <h5 class="h4 modal-title pe-4">
+          <span id="rdmTitle"></span>
+          <a id="modalCopyLink" class="modal-link" 
+            onclick="copyLink(this.id)" data-link=""
+            data-bs-toggle="tooltip" data-bs-placement="top" title="Copied!" data-bs-trigger="click">
+            {{site.data.icons.link}}
+          </a>
+        </h5>
+        <p id="rdmCreator" class="modal-title mb-3 text-muted"></p>
+        <div id="rdmSocials" class="mb-3"></div>
+        <hr class="my-4 text-muted">
+        <div id="rdmCategories" class="mb-3"></div>
+        <div id="rdmIntegrations" class="mb-3 rounded-pill bg-light d-inline"></div>
+        <hr class="my-4 text-muted">
+        <div class="mb-2">
+          <small>
+            <a id="rdmLink" href="" target="_blank" class="text-muted">
+              <span id="rdmLinkText">Visit Link</span> {{site.data.icons.new_tab}}
+            </a>
+          </small>
+        </div>
+        <div class="mb-3">
+          <small>
+            <a id="rdmDocs" href="" target="_blank" class="text-muted">
+              Documentation {{site.data.icons.new_tab}}
+            </a>
+          </small>
+        </div>
+        <p id="rdmDescription" class="mb-3"></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>

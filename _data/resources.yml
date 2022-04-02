@@ -1,23 +1,24 @@
-# - id:          # resource id; do not change this
-#   link:        # website
-#   title:       # name of the resource
-#   official:    # true/false; true = official poap resource, false = community/third party
+# - id:           # resource id; do not change this
+#   link:         # website
+#   title:        # name of the resource
+#   official:     # true/false; true = official poap resource, false = community/third party
 #   hide_on_all: # true/false; true = don't show under all resources, false = show under all resources
-#   desc_short:  # short description; <120 characters
-#   desc_long:   # (optional) longer description; will be shown instead of the short description in certain areas
-#   creator:     # who is the person/organization developing this resource?
-#   pricing:     # the pricing model; options: free, freemium, paid
-#   # contact:   # point of contact for the resource (won't be displayed on the website)
-#   categories:  # (select up to 3 that apply) access, admin, app, art, collector, design, dev, distribution, explore, guide, info, metrics, play, social, voting 
-#   github:      # (optional) github repo
-#   docs:        # (optional) resource's guide or documentation
-#   discord:     # (optional) project's discord invite link (make sure it doesn't expire and isn't limited)
-#   twitter:     # (optional) project's twitter profile
-#   telegram:    # (optional) project's telegram invite
-#   medium:      # (optional) project's medium blog
-#   youtube:     # (optional) project's youtube channel
-#   linkedin:    # (optional) project's linkedin page
-#   forum:       # (optional) project's forum link
+#   desc_short:   # short description; <120 characters
+#   desc_long:    # (optional) longer description; will be shown instead of the short description in certain areas
+#   creator:      # who is the person/organization developing this resource?
+#   pricing:      # the pricing model; options: free, freemium, paid
+#   # contact:    # point of contact for the resource (won't be displayed on the website)
+#   categories:   # (select up to 3 that apply) access, admin, app, art, collector, design, dev, distribution, explore, guide, info, metrics, play, social, voting 
+#   integrations: # a comma delimited list of integration ids
+#   github:       # (optional) github repo
+#   docs:         # (optional) resource's guide or documentation
+#   discord:      # (optional) project's discord invite link (make sure it doesn't expire and isn't limited)
+#   twitter:      # (optional) project's twitter profile
+#   telegram:     # (optional) project's telegram invite
+#   medium:       # (optional) project's medium blog
+#   youtube:      # (optional) project's youtube channel
+#   linkedin:     # (optional) project's linkedin page
+#   forum:        # (optional) project's forum link
 
 
 # Template to copy for new entries
@@ -32,6 +33,7 @@
 #   pricing: 
 #   # contact: 
 #   categories: 
+#   integrations: 
 #   github: 
 #   docs: 
 #   discord: 
@@ -57,6 +59,7 @@
   pricing: free
   # contact: 
   categories: play, art
+  integrations: 
   github: 
   docs: 
   discord: https://poap.art/discord
@@ -77,6 +80,7 @@
   pricing: free
   # contact: 
   categories: play, voting
+  integrations: 
   github: https://github.com/poap-xyz/poap-vote-v2
   docs: https://help.poap.xyz/en/articles/5866650-how-do-i-set-up-a-poap-vote-poll
   discord: 
@@ -97,6 +101,7 @@
   pricing: free
   # contact: 
   categories: play
+  integrations: 
   github: https://github.com/poap-xyz/poap-fun
   docs: https://help.poap.xyz/en/articles/5849075-how-do-i-set-up-a-poap-fun-raffle
   discord: 
@@ -117,6 +122,7 @@
   pricing: free
   # contact: 
   categories: admin
+  integrations: 
   github: 
   docs: 
   discord: 
@@ -140,6 +146,7 @@
   pricing: free
   # contact: POAP Discord @Actuallymentor
   categories: distribution
+  integrations: 
   github: https://github.com/poap-xyz/poap-qr-kiosk/
   docs: https://help.poap.xyz/en/articles/5908960-how-do-i-set-up-the-magic-poap-qr-dispenser-to-distribute-mint-links-via-unique-qr-codes
   discord: 
@@ -160,6 +167,7 @@
   pricing: free
   # contact: 
   categories: info, dev
+  integrations: 
   github: 
   docs: 
   discord: 
@@ -180,6 +188,7 @@
   pricing: free
   # contact: 
   categories: info, guide
+  integrations: 
   github: 
   docs: 
   discord: 
@@ -200,6 +209,7 @@
   pricing: free
   # contact: 
   categories: info
+  integrations: 
   github: 
   docs: 
   discord: 
@@ -220,6 +230,7 @@
   pricing: free
   # contact: https://twitter.com/sinuio_
   categories: distribution
+  integrations: reddit
   github: https://github.com/stake-house/poap-reddit-bot
   docs: 
   discord: 
@@ -243,6 +254,7 @@
   pricing: free
   # contact: POAP Discord @ZrowGz
   categories: distribution
+  integrations: discord, twitter
   github: https://github.com/BanklessDAO/DEGEN
   docs: https://docs.bankless.community/degen-product-support/product-resources/poap-distribution-commands-and-workflow
   discord: https://discord.gg/zHnEBZrswk
@@ -263,6 +275,7 @@
   pricing: free
   # contact: POAP Discord @RamiRond
   categories: art
+  integrations: 
   github: https://github.com/RomiRand/PoapArtBot
   docs: 
   discord: 
@@ -283,6 +296,7 @@
   pricing: free
   # contact: 
   categories: access
+  integrations: zoom
   github: https://github.com/LIT-Protocol/
   docs: https://developer.litprotocol.com/docs/intro/
   discord: https://litgateway.com/discord
@@ -303,6 +317,7 @@
   pricing: free
   # contact: CharmVerse Discord @cerberus
   categories: access
+  integrations: notion
   github: 
   docs: 
   discord: https://discord.gg/VvhEafEWcg
@@ -327,6 +342,7 @@
   pricing: paid
   # contact: MetaZoo Discord @zoo and @Sanda
   categories: distribution
+  integrations: decentraland
   github: 
   docs: 
   discord: https://discord.gg/gDGUdwndpg
@@ -348,6 +364,7 @@
   pricing: free
   # contact: 
   categories: access
+  integrations: discord, collab-land
   github: 
   docs: https://collabland.freshdesk.com/support/solutions/articles/70000036689-discord-bot-walkthrough
   # docs: https://collab-land.gitbook.io/collab-land/bots/discord
@@ -369,6 +386,7 @@
   pricing: free
   # contact: 
   categories: explore
+  integrations: 
   github: 
   docs: 
   discord: 
@@ -389,6 +407,7 @@
   pricing: free
   # contact: 
   categories: explore
+  integrations: 
   github: https://github.com/poap-xyz/poap-gallery
   docs: https://help.poap.xyz/en/articles/5814257-what-is-poap-gallery
   discord: 
@@ -409,6 +428,7 @@
   pricing: free
   # contact: 
   categories: admin
+  integrations: 
   github: 
   docs: https://help.poap.xyz/en/articles/5802657-how-do-i-set-up-a-poap-drop
   discord: 
@@ -436,6 +456,7 @@
   pricing: free
   # contact: 
   categories: admin, distribution
+  integrations: 
   github: 
   docs: https://help.poap.xyz/en/articles/5812351-how-do-i-set-up-a-website-for-poap-distribution
   discord: 
@@ -465,6 +486,7 @@
   pricing: free
   # contact: 
   categories: admin, distribution
+  integrations: 
   github: 
   docs: https://help.poap.xyz/en/articles/5807573-how-do-i-set-up-a-poap-secret
   discord: 
@@ -485,6 +507,7 @@
   pricing: free
   # contact: 
   categories: admin
+  integrations: 
   github: 
   docs: 
   discord: 
@@ -505,6 +528,7 @@
   pricing: free
   # contact: 
   categories: admin, distribution
+  integrations: 
   github: 
   docs: https://help.poap.xyz/en/articles/5807488-how-do-i-set-up-delivery
   discord: 
@@ -525,6 +549,7 @@
   pricing: free
   # contact: 
   categories: admin
+  integrations: 
   github: 
   docs: /assets/files/Customizable%20POAP%20Claim%20Page%20Blueprint%20v2.pdf
   discord: 
@@ -545,6 +570,7 @@
   pricing: free
   # contact: 
   categories: admin
+  integrations: 
   github: 
   docs: 
   discord: 
@@ -565,6 +591,7 @@
   pricing: free
   # contact: 
   categories: app, collector, explore
+  integrations: 
   github: 
   docs: 
   discord: 
@@ -585,6 +612,7 @@
   pricing: free
   # contact: 
   categories: app, collector, explore
+  integrations: 
   github: 
   docs: 
   discord: 
@@ -605,6 +633,7 @@
 #   pricing: free
 #   # contact: 
 #   categories: dev
+#   integrations: 
 #   github: 
 #   docs: 
 #   discord: 
@@ -625,6 +654,7 @@
   pricing: free
   # contact: 
   categories: dev
+  integrations: 
   github: 
   docs: 
   discord: 
@@ -645,6 +675,7 @@
   pricing: free
   # contact: 
   categories: dev
+  integrations: 
   github: 
   docs: 
   discord: 
@@ -665,6 +696,7 @@
   pricing: free
   # contact: 
   categories: dev
+  integrations: 
   github: https://github.com/owenvoke/poap-php
   docs: 
   discord: 
@@ -685,6 +717,7 @@
   pricing: free
   # contact: POAP Discord @toms0x
   categories: distribution, guide
+  integrations: 
   github: 
   docs: 
   discord: 
@@ -705,6 +738,7 @@
   pricing: free
   # contact: POAP Discord @toms0x
   categories: distribution, guide
+  integrations: 
   github: 
   docs: 
   discord: 
@@ -725,6 +759,7 @@
   pricing: free
   # contact: 
   categories: info, social
+  integrations: 
   github: 
   docs: 
   discord: 
@@ -745,6 +780,7 @@
   pricing: free
   # contact: 
   categories: info, social
+  integrations: 
   github: 
   docs: 
   discord: 
@@ -765,6 +801,7 @@
   pricing: free
   # contact: 
   categories: info, social
+  integrations: 
   github: 
   docs: 
   discord: 
@@ -785,6 +822,7 @@
   pricing: free
   # contact: 
   categories: info, social
+  integrations: 
   github: 
   docs: 
   discord: 
@@ -805,6 +843,7 @@
   pricing: free
   # contact: 
   categories: info, social
+  integrations: 
   github: 
   docs: 
   discord: 
@@ -825,6 +864,7 @@
   pricing: free
   # contact: 
   categories: dev
+  integrations: 
   github: 
   docs: 
   discord: 
@@ -845,6 +885,7 @@
   pricing: free
   # contact: 
   categories: info, social
+  integrations: 
   github: 
   docs: 
   discord: 
@@ -865,6 +906,7 @@
   pricing: free
   # contact: 
   categories: info, social
+  integrations: 
   github: 
   docs: 
   discord: 
@@ -885,6 +927,7 @@
   pricing: free
   # contact: POAP Discord @Snowdot
   categories: design
+  integrations: 
   github: https://github.com/snowdot/poap-place
   docs: 
   discord: 
@@ -905,6 +948,7 @@
   pricing: paid
   # contact: POAP Discord @Tap.eth
   categories: design
+  integrations: 
   github: 
   docs: https://www.poapathon.com/requests
   discord: https://discord.gg/YhneEKxVQ8
@@ -925,6 +969,7 @@
   pricing: free
   # contact: maintained by Angelo
   categories: metrics
+  integrations: 
   github: 
   docs: 
   discord: 
@@ -945,6 +990,7 @@
   pricing: free
   # contact: 
   categories: metrics
+  integrations: 
   github: 
   docs: 
   discord: 
@@ -965,6 +1011,7 @@
   pricing: free
   # contact: POAP Discord @Sam | POAP
   categories: metrics
+  integrations: 
   github: 
   docs: 
   discord: 
@@ -985,6 +1032,7 @@
   pricing: free
   # contact: 
   categories: distribution, guide
+  integrations: 
   github: https://github.com/poapxyz/poap-bot
   docs: 
   discord: 
@@ -1005,6 +1053,7 @@
   pricing: free
   # contact: 
   categories: dev
+  integrations: 
   github: https://github.com/blockscout/blockscout
   docs: 
   discord: https://discord.gg/gnosischain
@@ -1025,6 +1074,7 @@
   pricing: free
   # contact: 
   categories: access
+  integrations: telegram, collab-land
   github: 
   docs: https://collabland.freshdesk.com/support/solutions/articles/70000081544-telegram-bot-walkthrough
   # docs: https://collab-land.gitbook.io/collab-land/bots/telegram
@@ -1046,6 +1096,7 @@
   pricing: free
   # contact: 
   categories: art
+  integrations: 
   github: 
   docs: 
   discord: https://poap.art/discord
@@ -1066,6 +1117,7 @@
   pricing: free
   # contact: POAP Discord @RamiRond
   categories: art
+  integrations: 
   github: https://github.com/RomiRand/PoapArtParticipants
   docs: 
   discord: 
@@ -1086,6 +1138,7 @@
   pricing: free
   # contact: 
   categories: distribution, voting
+  integrations: snapshot
   github: https://github.com/snapshot-labs/snapshot-plugins/tree/master/src/plugins/poap
   docs: https://help.poap.xyz/en/articles/5857145-how-do-i-set-up-the-poap-snapshot-plugin
   discord: https://discord.gg/snapshot
@@ -1106,6 +1159,7 @@
   pricing: paid
   # contact: 
   categories: distribution
+  integrations: 
   github: 
   docs: 
   discord: 
@@ -1129,6 +1183,7 @@
   pricing: free
   # contact: 
   categories: access
+  integrations: google-drive
   github: https://github.com/LIT-Protocol/
   docs: https://developer.litprotocol.com/docs/intro/
   discord: https://litgateway.com/discord
@@ -1149,6 +1204,7 @@
   pricing: free
   # contact: 
   categories: access
+  integrations: mintgate
   github: 
   docs: https://mintgate.gitbook.io/mintgate-docs/
   discord: https://discord.com/invite/9BGwzQwJdt
@@ -1169,6 +1225,7 @@
   pricing: free
   # contact: BanklessDAO Discord @nonsensetwice or crypto@nonsensetwice.co
   categories: distribution
+  integrations: discord, twitter
   github: https://github.com/BanklessDAO/DEGEN
   docs: https://docs.bankless.community/degen-product-support/premium-features/twitter-spaces
   discord: https://discord.gg/zHnEBZrswk
@@ -1189,6 +1246,7 @@
   pricing: free
   # contact: 
   categories: distribution
+  integrations: twitch
   github: 
   docs: 
   discord: 
@@ -1209,6 +1267,7 @@
   pricing: free
   # contact: 
   categories: access
+  integrations: shopify
   github: https://github.com/LIT-Protocol/
   docs: https://developer.litprotocol.com/docs/intro/
   discord: https://litgateway.com/discord
@@ -1229,6 +1288,7 @@
   pricing: free
   # contact: 
   categories: access
+  integrations: cloudflare
   github: https://github.com/LIT-Protocol/
   docs: https://developer.litprotocol.com/docs/intro/
   discord: https://litgateway.com/discord
@@ -1249,6 +1309,7 @@
   pricing: free
   # contact: 
   categories: distribution
+  integrations: gather-town
   github: https://github.com/andrei0x309/gather-town-WS-POAP-bot
   docs: https://gathertown.gitbook.io/web3/integrations/poaps-in-gather
   discord: 
@@ -1269,6 +1330,7 @@
   pricing: free
   # contact: 
   categories: play
+  integrations: gather-town
   github: 
   docs: https://gathertown.gitbook.io/web3/integrations/poaps-in-gather#guide-scavenger-hunt-for-poap
   discord: 
@@ -1289,6 +1351,7 @@
   pricing: free
   # contact: 
   categories: access
+  integrations: gather-town
   github: https://github.com/LIT-Protocol/
   docs: https://developer.litprotocol.com/docs/intro/
   discord: https://litgateway.com/discord
@@ -1309,6 +1372,7 @@
   pricing: free
   # contact: 
   categories: access
+  integrations: wordpress
   github: https://github.com/LIT-Protocol/
   docs: https://developer.litprotocol.com/docs/intro/
   discord: https://litgateway.com/discord
@@ -1329,6 +1393,7 @@
   pricing: freemium
   # contact: dawson
   categories: collector
+  integrations: earnifi
   github: 
   docs: https://docs.earni.fi/
   discord: 
@@ -1349,6 +1414,7 @@
   pricing: free
   # contact: 
   categories: explore
+  integrations: 
   github: 
   docs: 
   discord: 
@@ -1369,6 +1435,7 @@
   pricing: free
   # contact: 
   categories: app, explore
+  integrations: 
   github: 
   docs: 
   discord: 
@@ -1389,6 +1456,7 @@
   pricing: free
   # contact: 
   categories: app, explore
+  integrations: 
   github: 
   docs: 
   discord: 
@@ -1409,6 +1477,7 @@
   pricing: free
   # contact: 
   categories: app, explore
+  integrations: 
   github: 
   docs: 
   discord: 
@@ -1429,6 +1498,7 @@
   pricing: free
   # contact: 
   categories: info
+  integrations: 
   github: 
   docs: 
   discord: 
@@ -1449,6 +1519,7 @@
   pricing: free
   # contact: 
   categories: guide
+  integrations: 
   github: 
   docs: 
   discord: 
@@ -1469,6 +1540,7 @@
   pricing: free
   # contact: 
   categories: guide
+  integrations: 
   github: 
   docs: 
   discord: 
@@ -1489,6 +1561,7 @@
   pricing: free
   # contact: 
   categories: guide
+  integrations: 
   github: 
   docs: 
   discord: 
@@ -1509,6 +1582,7 @@
   pricing: free
   # contact: 
   categories: access
+  integrations: discord
   github: https://github.com/agoraxyz/discord-runner
   docs: https://rogue-face-c95.notion.site/Guild-Guide-d94ae6a089174487b3feb5efe2e05ed3#f9cb754cfca94f65a206508488400246
   discord: https://discord.gg/KvXtEpDX8B
@@ -1529,6 +1603,7 @@
   pricing: free
   # contact: 
   categories: access
+  integrations: telegram
   github: https://github.com/agoraxyz/telegram-runner
   docs: https://rogue-face-c95.notion.site/Guild-Guide-d94ae6a089174487b3feb5efe2e05ed3#f9cb754cfca94f65a206508488400246
   discord: https://discord.gg/KvXtEpDX8B
@@ -1549,6 +1624,7 @@
   pricing: free
   # contact: 
   categories: info
+  integrations: 
   github: 
   docs: 
   discord: 
@@ -1572,6 +1648,7 @@
 #   pricing: freemium
 #   # contact: 
 #   categories: distribution
+#   integrations: 
 #   github: 
 #   docs: 
 #   discord: https://discord.gg/NpVkD6qcAA
@@ -1592,6 +1669,7 @@
   pricing: freemium
   # contact: 
   categories: distribution
+  integrations: premint, discord, twitter
   github: 
   docs: 
   discord: 
@@ -1612,6 +1690,7 @@
   pricing: free
   # contact: 
   categories: explore
+  integrations: 
   github: 
   docs: 
   discord: 
@@ -1632,6 +1711,7 @@
   pricing: free
   # contact: slobo.eth
   categories: explore
+  integrations: 
   github: https://github.com/LightDotSo
   docs: https://lightdotso.notion.site/lightdotso/
   discord: https://discord.gg/Vgfxg2Rcy8
@@ -1652,6 +1732,7 @@
   pricing: free
   # contact: slobo.eth
   categories: access
+  integrations: 
   github: 
   docs: 
   discord: 
@@ -1672,6 +1753,7 @@
   pricing: free
   # contact: 
   categories: explore
+  integrations: wallet
   github: https://github.com/rainbow-me/rainbow
   docs: https://learn.rainbow.me/
   discord: 
@@ -1692,6 +1774,7 @@
   pricing: free
   # contact: 
   categories: distribution
+  integrations: 
   github: https://github.com/wslyvh/proof-of-competence
   docs: https://github.com/wslyvh/proof-of-competence
   discord: 
@@ -1712,6 +1795,7 @@
   pricing: free
   # contact: 
   categories: distribution, guide
+  integrations: mailchimp
   github: 
   docs: 
   discord: 
@@ -1732,6 +1816,7 @@
   pricing: free
   # contact: 
   categories: dev
+  integrations: 
   github: 
   docs: 
   discord: 
@@ -1752,6 +1837,7 @@
   pricing: free
   # contact: 
   categories: distribution
+  integrations: 
   github: 
   docs: 
   discord: 
@@ -1776,6 +1862,7 @@
 #   pricing: 
 #   # contact: 
 #   categories: access
+#   integrations: discord
 #   github: https://github.com/BUIDLHub/poap-verification-frontend
 #   docs: https://docs.buidlhub.com/
 #   discord: https://discord.gg/fQtpeT2
@@ -1796,6 +1883,7 @@
 #   pricing: free
 #   # contact: 
 #   categories: explore
+#   integrations: 
 #   github: 
 #   docs: 
 #   discord: 
@@ -1816,6 +1904,7 @@
 #   pricing: free
 #   # contact: 
 #   categories: distribution
+#   integrations: discord
 #   github: https://github.com/poapxyz/poap-bot
 #   docs: https://github.com/poapxyz/poap-bot#how-to-install-the-poap-bot-on-a-discord-server
 #   discord: 
@@ -1836,6 +1925,7 @@
 #   pricing: free
 #   # contact: 
 #   categories: distribution
+#   integrations: discord
 #   github: https://github.com/poap-xyz/poap-bot-v2
 #   docs: https://github.com/poapxyz/poap-bot#how-to-install-the-poap-bot-on-a-discord-server
 #   discord: 
@@ -1856,6 +1946,7 @@
 #   pricing: 
 #   # contact: 
 #   categories: distribution
+#   integrations: discord
 #   github: 
 #   docs: 
 #   discord: https://discord.gg/CD2YdZzb7Z

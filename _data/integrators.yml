@@ -1,0 +1,150 @@
+# - link:     # link to product
+#   name:     # product name
+#   img:      # logo of product it was integrated; place in /assets/img/integrators/
+#   category: # (select one of the following) access, chat, data, entertainment, investing, marketing, metaverse, ownership, reputation, scanner, voting, wallet
+
+# Template to copy for new entries
+# - link: 
+#   name: 
+#   img: /assets/img/integrators/
+#   category: 
+#   bg_color: 
+
+
+- link: https://snapshot.org
+  name: Snapshot
+  img: /assets/img/integrators/snapshot.svg
+  category: voting
+  bg_color: '#121212'
+- link: https://collab.land/
+  name: Collab.Land
+  img: /assets/img/integrators/collab-land.png
+  category: access
+  bg_color: '#ffdc8d'
+- link: https://rainbow.me/
+  name: Rainbow
+  img: /assets/img/integrators/rainbow.svg
+  category: wallet
+  bg_color: 
+- link: https://mintgate.io/
+  name: Mintgate
+  img: /assets/img/integrators/mintgate.svg
+  category: access
+  bg_color: 
+- link: https://charmverse.io/
+  name: CharmVerse
+  img: /assets/img/integrators/charmverse.svg
+  category: access
+  bg_color: '#eff1f3'
+- link: https://www.ledger.com/
+  name: Ledger
+  img: /assets/img/integrators/ledger.svg
+  category: wallet
+  bg_color: '#f8f7f5'
+- link: https://prysm.xyz/
+  name: Prysm
+  img: /assets/img/integrators/prysm.svg
+  category: social
+  bg_color: '#000'
+- link: https://www.iyk.app/
+  name: IYK*
+  img: /assets/img/integrators/iyk.svg
+  category: ownership
+  bg_color: '#000'
+- link: https://alty.com/
+  name: Alty
+  img: /assets/img/integrators/alty.svg
+  category: wallet
+  bg_color: '#27343C'
+- link: https://rhove.com/
+  name: Rhove
+  img: /assets/img/integrators/rhove.png
+  category: investing
+  bg_color: '#f02646'
+- link: https://www.covalenthq.com/
+  name: Covalent
+  img: /assets/img/integrators/covalent.svg
+  category: data
+  bg_color: '#000426'
+- link: https://earni.fi/
+  name: Earnifi
+  img: /assets/img/integrators/earnifi.png
+  category: scanner
+  bg_color: '#f8f9fa'
+- link: https://decentralfun.com/
+  name: DecentralFun
+  img: /assets/img/integrators/decentralfun.svg
+  category: metaverse
+  bg_color: '#FC686F'
+- link: https://github.com/wslyvh/proof-of-competence
+  name: Proof of Competence
+  img: /assets/img/integrators/link.svg
+  category: reputation
+  bg_color: 
+- link: https://www.vector3.ca/
+  name: Vector3
+  img: /assets/img/integrators/link.svg
+  category: metaverse
+  bg_color: 
+- link: https://www.blockchaincreativelabs.com/
+  name: Blockchain Creative Labs
+  img: /assets/img/integrators/blockchaincreativelabs.png
+  category: entertainment
+  bg_color: '#000'
+- link: https://rockinguniquehorns.com/
+  name: The Rocking Uniquehorns
+  img: /assets/img/integrators/rockinguniquehorns.png
+  category: entertainment
+  bg_color: '#191919'
+- link: https://dappcraft.io/
+  name: DAPPCRAFT
+  img: /assets/img/integrators/link.svg
+  category: metaverse
+  bg_color: 
+- link: https://metaverse.maff.io/
+  name: Maff Metaverse
+  img: /assets/img/integrators/maffmetaverse.svg
+  category: metaverse
+  bg_color: '#06014e'
+- link: https://reflektor.digital/
+  name: Reflektor Digital
+  img: /assets/img/integrators/reflektordigital.svg
+  category: marketing
+  bg_color: '#000'
+- link: https://www.rga.com/
+  name: R/GA
+  img: /assets/img/integrators/rga.svg
+  category: marketing
+  bg_color: '#000'
+- link: https://agora.xyz/
+  name: Agora
+  img: /assets/img/integrators/agora.svg
+  category: access
+  bg_color: '#252525'
+- link: https://www.gather.town/
+  name: Gather.Town
+  img: /assets/img/integrators/gather-town.svg
+  category: communications
+  bg_color: '#000'
+- link: https://welook.io/
+  name: WeLook
+  img: /assets/img/integrators/welook.svg
+  category: social
+  bg_color: 'eff1f3'
+  # bg_color: '#0f172a'
+- link: https://www.premint.xyz/
+  name: PREMINT
+  img: /assets/img/integrators/premint.svg
+  category: access
+  bg_color: '#051620'
+- link: https://nftychat.xyz/
+  name: NFTY Chat
+  img: /assets/img/integrators/nfty-chat.svg
+  category: social
+  bg_color: '#262626'
+
+
+
+
+
+
