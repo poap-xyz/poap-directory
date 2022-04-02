@@ -127,103 +127,15 @@
                 </div>
                 <p class="card-text flex-grow-1">{{resource.desc_short}}</p>
                 {%- comment -%}
-                  <!-- Create and save the social links to the "social_links" variable for use 
-                    in the details modal. -->
-                {%- endcomment -%}
-                {%- capture social_links -%}
-                  {%- comment -%}
-                    <!-- Hard-coded social links for official resources. -->
-                  {%- endcomment -%}
-                  {%- if resource.official == true -%}
-                    <a href="https://twitter.com/poapxyz/" class="text-decoration-none me-1" target="_blank">
-                      {{site.data.icons.twitter}}
-                    </a>
-                    <a href="https://github.com/poap-xyz" class="text-decoration-none me-1" target="_blank">
-                      {{site.data.icons.github}}
-                    </a>
-                    <a href="https://discord.gg/fcxW4yR" class="text-decoration-none me-1" target="_blank">
-                      {{site.data.icons.discord}}
-                    </a>
-                    <a href="https://reddit.com/r/poap" class="text-decoration-none me-1" target="_blank">
-                      {{site.data.icons.reddit}}
-                    </a>
-                    <a href="https://t.me/poapxyz" class="text-decoration-none me-1" target="_blank">
-                      {{site.data.icons.telegram}}
-                    </a>
-                    <a href="https://www.youtube.com/channel/UCvXWjomx55gbEjJ3PCPPezQ/videos" class="text-decoration-none me-1" target="_blank">
-                      {{site.data.icons.youtube}}
-                    </a>
-                    <a href="https://medium.com/poap" class="text-decoration-none me-1" target="_blank">
-                      {{site.data.icons.medium}}
-                    </a>
-                    <a href="https://www.linkedin.com/company/poapxyz/" class="text-decoration-none me-1" target="_blank">
-                      {{site.data.icons.linkedin}}
-                    </a>
-                  {%- else -%}
-                    {%- if resource.twitter -%}
-                      <a href="{{resource.twitter}}" class="text-decoration-none me-1" target="_blank">
-                        {{site.data.icons.twitter}}
-                      </a>
-                    {%- endif -%}
-                    {%- if resource.github -%}
-                      <a href="{{resource.github}}" class="text-decoration-none me-1" target="_blank">
-                        {{site.data.icons.github}}
-                      </a>
-                    {%- endif -%}
-                    {%- if resource.discord -%}
-                      <a href="{{resource.discord}}" class="text-decoration-none me-1" target="_blank">
-                        {{site.data.icons.discord}}
-                      </a>
-                    {%- endif -%}
-                    {%- if resource.reddit -%}
-                      <a href="{{resource.reddit}}" class="text-decoration-none me-1" target="_blank">
-                        {{site.data.icons.reddit}}
-                      </a>
-                    {%- endif -%}
-                    {%- if resource.telegram -%}
-                      <a href="{{resource.telegram}}" class="text-decoration-none me-1" target="_blank">
-                        {{site.data.icons.telegram}}
-                      </a>
-                    {%- endif -%}
-                    {%- if resource.youtube -%}
-                      <a href="{{resource.youtube}}" class="text-decoration-none me-1" target="_blank">
-                        {{site.data.icons.youtube}}
-                      </a>
-                    {%- endif -%}
-                    {%- if resource.medium -%}
-                      <a href="{{resource.medium}}" class="text-decoration-none me-1" target="_blank">
-                        {{site.data.icons.medium}}
-                      </a>
-                    {%- endif -%}
-                    {%- if resource.linkedin -%}
-                      <a href="{{resource.linkedin}}" class="text-decoration-none me-1" target="_blank">
-                        {{site.data.icons.linkedin}}
-                      </a>
-                    {%- endif -%}
-                  {%- endif -%}
-                {%- endcapture -%}
-                {%- comment -%}
-                  <!-- Set "description" to the desc_short unless desc_long exists, for use in 
-                    the details modal. -->
-                {%- endcomment -%}
-                {%- assign description = resource.desc_short -%}
-                {%- if resource.desc_long -%}
-                  {%- assign description = resource.desc_long | markdownify | escape -%}
-                {%- endif -%}
-                {%- comment -%}
-                  <!-- Attach the modal info to the details button to dynamically populate the 
+                  <!-- Attach resource info to the details button to dynamically populate the 
                     modal with. -->
                 {%- endcomment -%}
                 <a class="btn btn-outline-primary btn-sm" 
                     data-bs-toggle="modal" 
                     data-bs-target="#resourceDetailModal"
-                    data-bs-link="{{resource.link}}"
-                    data-bs-title="{{resource.title}}"
-                    data-bs-creator="{{resource.creator}}"
-                    data-bs-desc="{{description}}"
-                    data-bs-categories='{{category_tags}}'
-                    data-bs-socials='{{social_links}}'
-                    data-bs-docs="{{resource.docs}}">
+                    data-bs-id="{{resource.id}}"
+                    data-bs-target="#resourceDetailModal"
+                    data-bs-category="{{current_category}}">
                   Details
                 </a>
               </div>
@@ -270,3 +182,4 @@
     </div>
   </div>
 </div>
+
