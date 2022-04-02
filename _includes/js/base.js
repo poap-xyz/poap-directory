@@ -80,11 +80,26 @@ function showResourceModal(id) {
   let title = resource.title;
   let official = resource.official;
   let creator = resource.creator;
+  let pricing = resource.pricing;
   let description = resource.desc_long ? resource.desc_long : resource.desc_short;
   let categories = resource.categories.split(", ");
   let docs = resource.docs;
   const modalCopyLink = document.getElementById("modalCopyLink"); 
   modalCopyLink.setAttribute("data-link", link); 
+
+  // Add the pricing model if listed
+  let pricingTag = "";
+  switch(pricing) {
+    case "free":
+      pricingTag = `<span class="badge text-dark bg-poap-green">free</span>`;
+      break;
+    case "freemium":
+      pricingTag = `<span class="badge text-dark bg-poap-blue">freemium</span>`;
+      break;
+    case "paid":
+      pricingTag = `<span class="badge text-dark bg-poap-red">paid</span>`;
+      break;
+  }
 
   // Add the applicable poap/third-party category
   if (official) {
@@ -194,6 +209,7 @@ function showResourceModal(id) {
   updateValue("rdmCreator", creator, "text");
   updateValue("rdmDescription", marked.parse(description), "text");
   updateValue("rdmDocs", docs, "link");
+  updateValue("rdmPricing", pricingTag, "text");
   updateValue("rdmCategories", categoryTags, "text");
   updateValue("rdmSocials", socialTags, "text");
 
