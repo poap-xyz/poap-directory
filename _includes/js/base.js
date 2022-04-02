@@ -1,14 +1,81 @@
 var resourcesJson = {{site.data.resources | jsonify}};
+window.onload = load();
+
+
+function load() {
+  // If resource params detected, open modal
+  let params = getQueryParameters();
+  if ("id" in params) {
+    showResourceModal(params.id)
+  }
+}
+
+
+// Enable tooltips
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+// Copy resource links from card or modal
+function copyLink(id, link = false) {
+  if (!link) {
+    const modal = document.getElementById(id); 
+    link = modal.getAttribute('data-link');
+  }
+  navigator.clipboard.writeText(link).then(function() {
+    let tooltipElement = document.getElementById(id);
+    let tooltip = bootstrap.Tooltip.getInstance(tooltipElement);
+    setTimeout(() => { tooltip.hide(); }, 1000);
+  }, function(err) {
+    console.error('Async: Could not copy link: ', err);
+  });
+}
+
+
+// Update the url parameters (does not trigger page refresh)
+function updateUrl(params = false) {
+  params = params ? params : "";
+  let url = window.location.href.split("?")[0] + params;
+  window.history.replaceState(null, "", url);
+}
+// Gets the url parameters
+function getQueryParameters() {
+  try {
+    let queryString = location.search.slice(1), params = {};
+    queryString.replace(/([^=]*)=([^&]*)&*/g, (_, key, value) => {
+      params[key] = value;
+    });
+    return params;
+  } catch {
+    return null;
+  }
+}
+// Update the url parameters (triggers a page refresh)
+function setQueryParameters(params) {
+  let query = [],
+    key,
+    value;
+  for (key in params) {
+    if (!params.hasOwnProperty(key)) {
+      continue;
+    }
+    value = params[key];
+    query.push(`${key}=${value}`);
+  }
+  location.search = query.join('&');
+}
+
 
 var resourceDetailModal = document.getElementById('resourceDetailModal');
-resourceDetailModal.addEventListener('show.bs.modal', function (event) {
-  // Extract the resource id from the data attribute and grab that resource info
-  let id = event.relatedTarget.getAttribute('data-bs-id');
-  let activeCategory = event.relatedTarget.getAttribute('data-bs-category');
+resourceDetailModal.addEventListener('hidden.bs.modal', function (event) {
+  // Update url to remove resource id params
+  updateUrl();
+})
+// Show and populate modal and update the url with params
+function showResourceModal(id) {
   let resource = resourcesJson.find(obj => {
     return obj.id == id;
   })
-
   let link = resource.link;
   let title = resource.title;
   let official = resource.official;
@@ -16,6 +83,8 @@ resourceDetailModal.addEventListener('show.bs.modal', function (event) {
   let description = resource.desc_long ? resource.desc_long : resource.desc_short;
   let categories = resource.categories.split(", ");
   let docs = resource.docs;
+  const modalCopyLink = document.getElementById("modalCopyLink"); 
+  modalCopyLink.setAttribute("data-link", link); 
 
   // Add the applicable poap/third-party category
   if (official) {
@@ -26,6 +95,7 @@ resourceDetailModal.addEventListener('show.bs.modal', function (event) {
 
   // Generate the category tag html
   let categoryTags = "";
+  let activeCategory = window.location.href.split("resources/")[1].split("/")[0].split("?")[0];
   for (let category in categories) {
     let cat = categories[category];
     let highlight = (cat == activeCategory) ? "active-category" : "";
@@ -126,9 +196,17 @@ resourceDetailModal.addEventListener('show.bs.modal', function (event) {
   updateValue("rdmDocs", docs, "link");
   updateValue("rdmCategories", categoryTags, "text");
   updateValue("rdmSocials", socialTags, "text");
-})
 
-// Check to make sure there's a value set
+  // Update url with params
+  let params = "?id=" + id;
+  updateUrl(params);
+
+  // Show modal
+  let resourceDetailModal = new bootstrap.Modal(document.getElementById("resourceDetailModal"), {});
+  resourceDetailModal.show();
+}
+
+// Helper function make sure modal data have values set
 function isValid(val) {
   if (val !== "" && val !== " " && val !== undefined && val !== null) {
     return true;
@@ -137,6 +215,7 @@ function isValid(val) {
   }
 }
 
+// Helper function to update modal info
 function updateValue(id, val, type) {
   let el = document.getElementById(id);
   if (isValid(val)) {
