@@ -6,6 +6,7 @@
 #   desc_short:  # short description; <120 characters
 #   desc_long:   # (optional) longer description; will be shown instead of the short description in certain areas
 #   creator:     # who is the person/organization developing this resource?
+#   pricing:     # the pricing model; options: free, freemium, paid
 #   # contact:   # point of contact for the resource (won't be displayed on the website)
 #   categories:  # (select up to 3 that apply) access, admin, app, art, collector, design, dev, distribution, explore, guide, info, metrics, play, social, voting 
 #   github:      # (optional) github repo
@@ -28,6 +29,7 @@
 #   desc_short: 
 #   desc_long: 
 #   creator: 
+#   pricing: 
 #   # contact: 
 #   categories: 
 #   github: 
@@ -52,6 +54,7 @@
   desc_short: POAP.art is the intersection of art ant tech, allowing your event participants to collaboratively create a piece of art.
   desc_long: 
   creator: POAP inc.
+  pricing: free
   # contact: 
   categories: play, art
   github: 
@@ -71,6 +74,7 @@
   desc_short: A sybil-resistant voting engine to run polls for your event participants.
   desc_long: 
   creator: POAP inc.
+  pricing: free
   # contact: 
   categories: play, voting
   github: https://github.com/poap-xyz/poap-vote-v2
@@ -90,6 +94,7 @@
   desc_short: POAP.fun allows you to create raffles for your event participants.
   desc_long: 
   creator: POAP inc.
+  pricing: free
   # contact: 
   categories: play
   github: https://github.com/poap-xyz/poap-fun
@@ -109,6 +114,7 @@
   desc_short: The POAP admin panel is used to manage your events, codes, distribution, and templates.
   desc_long: 
   creator: POAP inc.
+  pricing: free
   # contact: 
   categories: admin
   github: 
@@ -131,6 +137,7 @@
 
     Simply input your `.txt` file of mint links and your device automatically displays a QR code that, when scanned, allows collectors to mint a POAP. Each time a QR code is scanned it is automatically replaced with a new one, rendering the previous QR code invalid.
   creator: POAP inc.
+  pricing: free
   # contact: POAP Discord @Actuallymentor
   categories: distribution
   github: https://github.com/poap-xyz/poap-qr-kiosk/
@@ -150,6 +157,7 @@
   desc_short: View open positions and learn more about working at POAP.
   desc_long: 
   creator: POAP inc.
+  pricing: free
   # contact: 
   categories: info, dev
   github: 
@@ -169,6 +177,7 @@
   desc_short: Find guides and answers for common questions and problems.
   desc_long: 
   creator: POAP inc.
+  pricing: free
   # contact: 
   categories: info, guide
   github: 
@@ -188,6 +197,7 @@
   desc_short: A forum for curation disputes and to petition for POAP drops.
   desc_long: 
   creator: POAP inc.
+  pricing: free
   # contact: 
   categories: info
   github: 
@@ -207,6 +217,7 @@
   desc_short: A locally run bot that distributes POAPs for Reddit events.
   desc_long: 
   creator: StakeHouse
+  pricing: free
   # contact: https://twitter.com/sinuio_
   categories: distribution
   github: https://github.com/stake-house/poap-reddit-bot
@@ -229,6 +240,7 @@
 
     The DEGEN Workgroup is building services to bring Web3 functionality to Web2 platforms, such as Discord, Twitter, and Twitch. The current flagship product, DEGEN, provides POAP distribution features to reward community members and works to combat POAP farming. Other DAO products include Mad Hatter, the BanklessDAO Administrative bot, Bounty Board, and a number of bots currently under development.
   creator: DEGEN Workgroup # or The DEGEN Workgroup ?
+  pricing: free
   # contact: POAP Discord @ZrowGz
   categories: distribution
   github: https://github.com/BanklessDAO/DEGEN
@@ -248,6 +260,7 @@
   desc_short: A bot that allow users to delegate pixel placing to the art bot for custom, pre-planned drawings.
   desc_long: 
   creator: RomiRand
+  pricing: free
   # contact: POAP Discord @RamiRond
   categories: art
   github: https://github.com/RomiRand/PoapArtBot
@@ -267,6 +280,7 @@
   desc_short: Create gated Zoom webinars and meetings with exclusive access to POAP collectors.
   desc_long: 
   creator: Lit Gateway
+  pricing: free
   # contact: 
   categories: access
   github: https://github.com/LIT-Protocol/
@@ -286,6 +300,7 @@
   desc_short: Create a gated Notion workspace with exclusive access to POAP collectors.
   desc_long: Get a taste of the CharmVerse interface on Notion. Control access based on the ERC-20, NFT, or POAPs in your wallet. Unlock full or partial Notion workspaces. Mix and match tokens to grant different levels of access. Free to use. We only ask that you checkout http://charmverse.io/ in return. 
   creator: CharmVerse
+  pricing: free
   # contact: CharmVerse Discord @cerberus
   categories: access
   github: 
@@ -309,6 +324,7 @@
     
     If you want to use it, please reach out to `hello.poap.cc@gmail.com` and provide some info about the scope of your project, including the timeline of your event(s).
   creator: MetaZoo
+  pricing: paid
   # contact: MetaZoo Discord @zoo and @Sanda
   categories: distribution
   github: 
@@ -329,6 +345,7 @@
   desc_short: Create gated Discord channels with exclusive access to POAP collectors.
   desc_long: 
   creator: Collab.Land
+  pricing: free
   # contact: 
   categories: access
   github: 
@@ -349,6 +366,7 @@
   desc_short: POAP Explore allows you to view your collections as well as explore other people's collections.
   desc_long: 
   creator: POAP inc.
+  pricing: free
   # contact: 
   categories: explore
   github: 
@@ -368,6 +386,7 @@
   desc_short: POAP.gallery allows you to browse POAPs and enjoy the adventure through the digital collectibles universe.
   desc_long: 
   creator: POAP inc.
+  pricing: free
   # contact: 
   categories: explore
   github: https://github.com/poap-xyz/poap-gallery
@@ -387,6 +406,7 @@
   desc_short: Create a new POAP drop.
   desc_long: 
   creator: POAP inc.
+  pricing: free
   # contact: 
   categories: admin
   github: 
@@ -413,6 +433,7 @@
     
     🚨 **Important: A Website is not a good option for events with a large attendance, where attendees may leak the URL or share the QR code to your Website.**
   creator: POAP inc.
+  pricing: free
   # contact: 
   categories: admin, distribution
   github: 
@@ -441,6 +462,7 @@
     - Activate the Secret only at the start of your event and deactivate it as soon as it finishes.
     - Only say the word verbally (don’t share it by DM or elsewhere online).
   creator: POAP inc.
+  pricing: free
   # contact: 
   categories: admin, distribution
   github: 
@@ -460,6 +482,7 @@
   desc_short: The POAP drops admin panel allows you to view recent drops, edit an existing drop, or create a new drop.
   desc_long: 
   creator: POAP inc.
+  pricing: free
   # contact: 
   categories: admin
   github: 
@@ -479,6 +502,7 @@
   desc_short: The POAP.delivery admin panel is used to create and manage your POAP.delivery distribution.
   desc_long: 
   creator: POAP inc.
+  pricing: free
   # contact: 
   categories: admin, distribution
   github: 
@@ -498,6 +522,7 @@
   desc_short: The POAP template admin panel is used to create and manage your templates for the POAP claim page.
   desc_long: 
   creator: POAP inc.
+  pricing: free
   # contact: 
   categories: admin
   github: 
@@ -517,6 +542,7 @@
   desc_short: A template that explains the different branding areas when designing your own claim's page template.
   desc_long: 
   creator: POAP inc.
+  pricing: free
   # contact: 
   categories: admin
   github: 
@@ -536,6 +562,7 @@
   desc_short: With the POAP mobile app you can browse your POAP collection, mint new ones, and explore other people's collections.
   desc_long: 
   creator: POAP inc.
+  pricing: free
   # contact: 
   categories: app, collector, explore
   github: 
@@ -555,6 +582,7 @@
   desc_short: With the POAP mobile app you can browse your POAP collection, mint new ones, and explore other people's collections.
   desc_long: 
   creator: POAP inc.
+  pricing: free
   # contact: 
   categories: app, collector, explore
   github: 
@@ -574,6 +602,7 @@
 #   desc_short: A form to request an API key to start building on POAP.
 #   desc_long: 
 #   creator: POAP inc.
+#   pricing: free
 #   # contact: 
 #   categories: dev
 #   github: 
@@ -593,6 +622,7 @@
   desc_short: Integrate POAP into other products or build your own product on top of POAP.
   desc_long: 
   creator: POAP inc.
+  pricing: free
   # contact: 
   categories: dev
   github: 
@@ -612,6 +642,7 @@
   desc_short: Integrate POAP into other products or build your own product on top of POAP.
   desc_long: 
   creator: POAP inc.
+  pricing: free
   # contact: 
   categories: dev
   github: 
@@ -631,6 +662,7 @@
   desc_short: An object oriented PHP wrapper for the POAP API.
   desc_long: 
   creator: Owen Voke
+  pricing: free
   # contact: 
   categories: dev
   github: https://github.com/owenvoke/poap-php
@@ -650,6 +682,7 @@
   desc_short: A step-by-step guide to setup a POAP.website for distribution.
   desc_long: 
   creator: POAP inc.
+  pricing: free
   # contact: POAP Discord @toms0x
   categories: distribution, guide
   github: 
@@ -669,6 +702,7 @@
   desc_short: A step-by-step guide to setup POAP.delivery for distribution.
   desc_long: 
   creator: POAP inc.
+  pricing: free
   # contact: POAP Discord @toms0x
   categories: distribution, guide
   github: 
@@ -688,6 +722,7 @@
   desc_short: Follow POAP announcements and participate in Twitter Spaces.
   desc_long: 
   creator: POAP inc.
+  pricing: free
   # contact: 
   categories: info, social
   github: 
@@ -707,6 +742,7 @@
   desc_short: Join the POAP community and follow announcements.
   desc_long: 
   creator: POAP inc.
+  pricing: free
   # contact: 
   categories: info, social
   github: 
@@ -726,6 +762,7 @@
   desc_short: Join the POAP community and follow announcements.
   desc_long: 
   creator: POAP inc.
+  pricing: free
   # contact: 
   categories: info, social
   github: 
@@ -745,6 +782,7 @@
   desc_short: Join the POAP community, participate in community calls, and receive announcements.
   desc_long: 
   creator: POAP inc.
+  pricing: free
   # contact: 
   categories: info, social
   github: 
@@ -764,6 +802,7 @@
   desc_short: Follow the latest POAP announcements.
   desc_long: 
   creator: POAP inc.
+  pricing: free
   # contact: 
   categories: info, social
   github: 
@@ -783,6 +822,7 @@
   desc_short: Check out POAP's projects and contribute.
   desc_long: 
   creator: POAP inc.
+  pricing: free
   # contact: 
   categories: dev
   github: 
@@ -802,6 +842,7 @@
   desc_short: Check out POAP's community calls and guides.
   desc_long: 
   creator: POAP inc.
+  pricing: free
   # contact: 
   categories: info, social
   github: 
@@ -821,6 +862,7 @@
   desc_short: Follow company announcements, growth, and job postings.
   desc_long: 
   creator: POAP inc.
+  pricing: free
   # contact: 
   categories: info, social
   github: 
@@ -840,6 +882,7 @@
   desc_short: An easy to use in-browser POAP design and drop creation studio.
   desc_long: 
   creator: Snowdot
+  pricing: free
   # contact: POAP Discord @Snowdot
   categories: design
   github: https://github.com/snowdot/poap-place
@@ -859,6 +902,7 @@
   desc_short: Enables competitive design contests, on-demand entertainment, live drop productions, and collaborative creative spaces.
   desc_long: 
   creator: POAPathon
+  pricing: paid
   # contact: POAP Discord @Tap.eth
   categories: design
   github: 
@@ -878,6 +922,7 @@
   desc_short: View POAP Gnosis Chain (formally xDai) metrics and analysis on transfers, mints, wallets, and transfers.
   desc_long: 
   creator: POAP inc.
+  pricing: free
   # contact: maintained by Angelo
   categories: metrics
   github: 
@@ -897,6 +942,7 @@
   desc_short: View POAP metrics on transfers, mints, and holders.
   desc_long: 
   creator: Anyblock
+  pricing: free
   # contact: 
   categories: metrics
   github: 
@@ -916,6 +962,7 @@
   desc_short: View POAP metrics on the amount of waalets over time.
   desc_long: 
   creator: GreyWizard
+  pricing: free
   # contact: POAP Discord @Sam | POAP
   categories: metrics
   github: 
@@ -935,6 +982,7 @@
   desc_short: A step-by-step guide to install and configure POAP Bot for automated claim code distribution on Discord.
   desc_long: 
   creator: POAP
+  pricing: free
   # contact: 
   categories: distribution, guide
   github: https://github.com/poapxyz/poap-bot
@@ -954,6 +1002,7 @@
   desc_short: Inspect POAP on-chain play with Blockscout's block explorer for Gnosis Chain (formally xDai).
   desc_long: 
   creator: Blockscout
+  pricing: free
   # contact: 
   categories: dev
   github: https://github.com/blockscout/blockscout
@@ -973,6 +1022,7 @@
   desc_short: Create gated Telegram channels with exclusive access to POAP collectors.
   desc_long: 
   creator: Collab.Land
+  pricing: free
   # contact: 
   categories: access
   github: 
@@ -993,6 +1043,7 @@
   desc_short: A weekly POAP.art sandbox to play with the canvas and test bots.
   desc_long: 
   creator: POAP inc.
+  pricing: free
   # contact: 
   categories: art
   github: 
@@ -1012,6 +1063,7 @@
   desc_short: A bot that allows you to identify all drawing participants of a custom area on POAP.art.
   desc_long: 
   creator: RomiRand
+  pricing: free
   # contact: POAP Discord @RamiRond
   categories: art
   github: https://github.com/RomiRand/PoapArtParticipants
@@ -1031,6 +1083,7 @@
   desc_short: Setup a Snapshot POAP plugin to distribute a POAP to proposal vote participants.
   desc_long: 
   creator: Snapshot Labs
+  pricing: free
   # contact: 
   categories: distribution, voting
   github: https://github.com/snapshot-labs/snapshot-plugins/tree/master/src/plugins/poap
@@ -1050,6 +1103,7 @@
   desc_short: Print physical POAP pogs to hand out at events.
   desc_long: 
   creator: Custom Pogs
+  pricing: paid
   # contact: 
   categories: distribution
   github: 
@@ -1072,6 +1126,7 @@
   desc_short: Create gated Google Drive documents with exclusive access to POAP collectors.
   desc_long: 
   creator: Lit Gateway
+  pricing: free
   # contact: 
   categories: access
   github: https://github.com/LIT-Protocol/
@@ -1091,6 +1146,7 @@
   desc_short: Create gated access for your content with exclusive access to POAP collectors.
   desc_long: 
   creator: MintGate
+  pricing: free
   # contact: 
   categories: access
   github: 
@@ -1110,6 +1166,7 @@
   desc_short: Distribute your POAPs to Twitter Spaces participants (claimed on Discord).
   desc_long: The DEGEN Workgroup is building services to bring Web3 functionality to Web2 platforms, such as Discord, Twitter, and Twitch. The current flagship product, DEGEN, provides POAP distribution features to reward community members and works to combat POAP farming. Other DAO products include Mad Hatter, the BanklessDAO Administrative bot, Bounty Board, and a number of bots currently under development.
   creator: DEGEN Workgroup # or The DEGEN Workgroup ?
+  pricing: free
   # contact: BanklessDAO Discord @nonsensetwice or crypto@nonsensetwice.co
   categories: distribution
   github: https://github.com/BanklessDAO/DEGEN
@@ -1129,6 +1186,7 @@
   desc_short: A Twitch integration that allows for POAP distribution during streams.
   desc_long: 
   creator: POAP.gg
+  pricing: free
   # contact: 
   categories: distribution
   github: 
@@ -1148,6 +1206,7 @@
   desc_short: Create gated items on e-commerce stores with exclusive access to POAP collectors.
   desc_long: 
   creator: Lit Gateway
+  pricing: free
   # contact: 
   categories: access
   github: https://github.com/LIT-Protocol/
@@ -1167,6 +1226,7 @@
   desc_short: Use Cloudflare Stream to gate embedded live streams and videos to POAP collectors right on your site.
   desc_long: 
   creator: Lit Gateway
+  pricing: free
   # contact: 
   categories: access
   github: https://github.com/LIT-Protocol/
@@ -1186,6 +1246,7 @@
   desc_short: A Gather.Town bot to that allows you to send POAPs to connected users on the Gather Space.
   desc_long: 
   creator: andrei0x309
+  pricing: free
   # contact: 
   categories: distribution
   github: https://github.com/andrei0x309/gather-town-WS-POAP-bot
@@ -1205,6 +1266,7 @@
   desc_short: Create a scavenger hunt in Gather.Town using interactive objects.
   desc_long: 
   creator: Gather.Town
+  pricing: free
   # contact: 
   categories: play
   github: 
@@ -1224,6 +1286,7 @@
   desc_short: Make your Gather.Town space come alive be selecting areas that can only be accessed by collectors of your POAP.
   desc_long: 
   creator: Lit Gateway
+  pricing: free
   # contact: 
   categories: access
   github: https://github.com/LIT-Protocol/
@@ -1243,6 +1306,7 @@
   desc_short: Gate pages on a Wordpress site to only allow POAP collectors to read and interact.
   desc_long: 
   creator: Lit Gateway
+  pricing: free
   # contact: 
   categories: access
   github: https://github.com/LIT-Protocol/
@@ -1262,6 +1326,7 @@
   desc_short: Check if you have any unclaimed POAPs.
   desc_long: 
   creator: Earnifi
+  pricing: freemium
   # contact: dawson
   categories: collector
   github: 
@@ -1281,6 +1346,7 @@
   desc_short: Still in development, POAP.in is a tool to view and organize your POAPs in depth. 
   desc_long: 
   creator: Glory Lab
+  pricing: free
   # contact: 
   categories: explore
   github: 
@@ -1300,6 +1366,7 @@
   desc_short: Still in development, POAP.in is a tool to view and organize your POAPs in depth. 
   desc_long: 
   creator: Glory Lab
+  pricing: free
   # contact: 
   categories: app, explore
   github: 
@@ -1319,6 +1386,7 @@
   desc_short: Still in development, POAP.in is a tool to view and organize your POAPs in depth. 
   desc_long: 
   creator: Glory Lab
+  pricing: free
   # contact: 
   categories: app, explore
   github: 
@@ -1338,6 +1406,7 @@
   desc_short: Still in development, POAP.in is a tool to view and organize your POAPs in depth. 
   desc_long: 
   creator: Glory Lab
+  pricing: free
   # contact: 
   categories: app, explore
   github: 
@@ -1357,6 +1426,7 @@
   desc_short: A continually updated list of important POAP terms and references.
   desc_long: 
   creator: POAP inc.
+  pricing: free
   # contact: 
   categories: info
   github: 
@@ -1376,6 +1446,7 @@
   desc_short: Goes over the various methods of POAP distribution and their advantages/disadvantages.
   desc_long: 
   creator: POAP inc.
+  pricing: free
   # contact: 
   categories: guide
   github: 
@@ -1395,6 +1466,7 @@
   desc_short: A step-by-step guide to setup a POAP secret for distribution.
   desc_long: 
   creator: POAP inc.
+  pricing: free
   # contact: 
   categories: guide
   github: 
@@ -1414,6 +1486,7 @@
   desc_short: A step-by-step guide to setup a POAP drop for your event.
   desc_long: 
   creator: POAP inc.
+  pricing: free
   # contact: 
   categories: guide
   github: 
@@ -1433,6 +1506,7 @@
   desc_short: Use Guild.xyz to create guilds in Discord with special permissions to POAP collectors.
   desc_long: 
   creator: Agora
+  pricing: free
   # contact: 
   categories: access
   github: https://github.com/agoraxyz/discord-runner
@@ -1452,6 +1526,7 @@
   desc_short: Use Guild.xyz to create guilds in Telegram with special permissions to POAP collectors.
   desc_long: 
   creator: Agora
+  pricing: free
   # contact: 
   categories: access
   github: https://github.com/agoraxyz/telegram-runner
@@ -1471,6 +1546,7 @@
   desc_short: A collection of POAP Community Calls that are hosted weekly on Discord.
   desc_long: 
   creator: POAP inc.
+  pricing: free
   # contact: 
   categories: info
   github: 
@@ -1493,6 +1569,7 @@
 
 #     The custom link also supports collection additional fields like a guestbook message, name, and email!
 #   creator: IYK*
+#   pricing: freemium
 #   # contact: 
 #   categories: distribution
 #   github: 
@@ -1512,6 +1589,7 @@
   desc_short: PREMINT helps you create a list of your POAP collectors to minimize bots.
   desc_long: 
   creator: PREMINT
+  pricing: freemium
   # contact: 
   categories: distribution
   github: 
@@ -1531,6 +1609,7 @@
   desc_short: WeLook allows you to view your collections as well as explore other people's collections.
   desc_long: 
   creator: WeLook
+  pricing: free
   # contact: 
   categories: explore
   github: 
@@ -1550,6 +1629,7 @@
   desc_short: Light allows you to view your collections as well as explore other people's collections.
   desc_long: 
   creator: Sentrei
+  pricing: free
   # contact: slobo.eth
   categories: explore
   github: https://github.com/LightDotSo
@@ -1569,6 +1649,7 @@
   desc_short: A web3 Discord clone that allows you to create a gated community with exclusive access to POAP collectors.
   desc_long: 
   creator: NFTY Chat
+  pricing: free
   # contact: slobo.eth
   categories: access
   github: 
@@ -1588,6 +1669,7 @@
   desc_short: Rainbow allows you to view your collections as well as explore other people's collections.
   desc_long: 
   creator: 
+  pricing: free
   # contact: 
   categories: explore
   github: https://github.com/rainbow-me/rainbow
@@ -1607,6 +1689,7 @@
   desc_short: A framework for on-chain quests and web3 on-boarding journeys, rewarding users with POAPs.
   desc_long: 
   creator: Wesley van Heije
+  pricing: free
   # contact: 
   categories: distribution
   github: https://github.com/wslyvh/proof-of-competence
@@ -1626,6 +1709,7 @@
   desc_short: A step-by-step guide to using Mailchimp for distribution.
   desc_long: 
   creator: Santiago Echeverria
+  pricing: free
   # contact: 
   categories: distribution, guide
   github: 
@@ -1645,6 +1729,7 @@
   desc_short: View the availability and uptime of POAP services.
   desc_long: 
   creator: POAP inc.
+  pricing: free
   # contact: 
   categories: dev
   github: 
@@ -1664,6 +1749,7 @@
   desc_short: Upload your claim codes file and generate a grid of QR codes for printing.
   desc_long: 
   creator: POAPs Agency
+  pricing: free
   # contact: 
   categories: distribution
   github: 
@@ -1687,6 +1773,7 @@
 #   desc_short: Create gated Discord channels with exclusive access to POAP collectors.
 #   desc_long: 
 #   creator: BUIDLHub
+#   pricing: 
 #   # contact: 
 #   categories: access
 #   github: https://github.com/BUIDLHub/poap-verification-frontend
@@ -1706,6 +1793,7 @@
 #   desc_short: POAP Scan allows you to view your collections as well as explore other people's collections.
 #   desc_long: 
 #   creator: POAP inc.
+#   pricing: free
 #   # contact: 
 #   categories: explore
 #   github: 
@@ -1725,6 +1813,7 @@
 #   desc_short: Automated claim code distribution for POAP events via Discord.
 #   desc_long: 
 #   creator: POAP inc.
+#   pricing: free
 #   # contact: 
 #   categories: distribution
 #   github: https://github.com/poapxyz/poap-bot
@@ -1744,6 +1833,7 @@
 #   desc_short: Automated claim code distribution for POAP events via Discord.
 #   desc_long: 
 #   creator: POAP inc.
+#   pricing: free
 #   # contact: 
 #   categories: distribution
 #   github: https://github.com/poap-xyz/poap-bot-v2
@@ -1763,6 +1853,7 @@
 #   desc_short: Automated claim code distribution for POAP drops via Discord. This is a private-access tool.
 #   desc_long: 
 #   creator: SushiSwap
+#   pricing: 
 #   # contact: 
 #   categories: distribution
 #   github: 
