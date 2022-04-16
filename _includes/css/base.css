@@ -308,6 +308,24 @@ svg.new-tab-icon {
   max-width: 24px;
   margin-right: 0.5rem;
 }
+#rdmCategories .badge {
+  font-weight: 600;
+}
+#rdmIntegrations {
+  padding: 6px 8px 8px 8px;
+  border: solid 1px #fefefe;
+}
+#rdmIntegrations:before {
+  content: "integrations: ";
+  font-size: 0.775rem;
+  font-weight: 600;
+  margin-right: 0.25rem;
+}
+#rdmIntegrations img {
+  max-height: 24px;
+  max-width: 24px;
+  margin-right: 0.5rem;
+}
 
 /* Footer */
 .social-icons img {
