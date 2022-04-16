@@ -80,7 +80,7 @@ function showResourceModal(id) {
   let link = resource.link;
   let title = resource.title;
   let official = resource.official;
-  let creator = resource.creator;
+  let creator = resource.creator || "";
   let pricing = resource.pricing;
   let description = resource.desc_long ? resource.desc_long : resource.desc_short;
   let categories = resource.categories.split(", ");

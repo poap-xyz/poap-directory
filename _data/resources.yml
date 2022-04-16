@@ -269,7 +269,7 @@
   title: POAP.art Painting Bot
   official: false
   hide_on_all: false
-  desc_short: A bot that allow users to delegate pixel placing to the art bot for custom, pre-planned drawings.
+  desc_short: A bot that allows users to delegate pixel placing to the art bot for custom, pre-planned drawings.
   desc_long: 
   creator: RomiRand
   pricing: free
@@ -590,7 +590,7 @@
   creator: POAP inc.
   pricing: free
   # contact: 
-  categories: app, collector, explore
+  categories: app, explore, collector
   integrations: 
   github: 
   docs: 
@@ -611,7 +611,7 @@
   creator: POAP inc.
   pricing: free
   # contact: 
-  categories: app, collector, explore
+  categories: app, explore, collector
   integrations: 
   github: 
   docs: 
@@ -1005,7 +1005,7 @@
   title: Dune POAP Dashboard
   official: false
   hide_on_all: false
-  desc_short: View POAP metrics on the amount of waalets over time.
+  desc_short: View POAP metrics on the amount of wallets over time.
   desc_long: 
   creator: GreyWizard
   pricing: free
@@ -1303,7 +1303,7 @@
   title: Gather.Town Bot
   official: false
   hide_on_all: false
-  desc_short: A Gather.Town bot to that allows you to send POAPs to connected users on the Gather Space.
+  desc_short: A Gather.Town bot that allows you to send POAPs to connected users on the Gather Space.
   desc_long: 
   creator: andrei0x309
   pricing: free
@@ -1345,7 +1345,7 @@
   title: Gather.Town Gated Access
   official: false
   hide_on_all: false
-  desc_short: Make your Gather.Town space come alive be selecting areas that can only be accessed by collectors of your POAP.
+  desc_short: Make your Gather.Town space come alive by selecting areas that can only be accessed by collectors of your POAP.
   desc_long: 
   creator: Lit Gateway
   pricing: free
@@ -1434,7 +1434,7 @@
   creator: Glory Lab
   pricing: free
   # contact: 
-  categories: app, explore
+  categories: app, explore, collector
   integrations: 
   github: 
   docs: 
@@ -1455,7 +1455,7 @@
   creator: Glory Lab
   pricing: free
   # contact: 
-  categories: app, explore
+  categories: app, explore, collector
   integrations: 
   github: 
   docs: 
@@ -1476,7 +1476,7 @@
   creator: Glory Lab
   pricing: free
   # contact: 
-  categories: app, explore
+  categories: app, explore, collector
   integrations: 
   github: 
   docs: 
@@ -1689,7 +1689,7 @@
   creator: WeLook
   pricing: free
   # contact: 
-  categories: explore
+  categories: explore, collector
   integrations: 
   github: 
   docs: 
@@ -1710,7 +1710,7 @@
   creator: Sentrei
   pricing: free
   # contact: slobo.eth
-  categories: explore
+  categories: explore, collector
   integrations: 
   github: https://github.com/LightDotSo
   docs: https://lightdotso.notion.site/lightdotso/
@@ -1752,7 +1752,7 @@
   creator: 
   pricing: free
   # contact: 
-  categories: explore
+  categories: explore, collector
   integrations: wallet
   github: https://github.com/rainbow-me/rainbow
   docs: https://learn.rainbow.me/
@@ -1882,7 +1882,7 @@
 #   creator: POAP inc.
 #   pricing: free
 #   # contact: 
-#   categories: explore
+#   categories: explore, collector
 #   integrations: 
 #   github: 
 #   docs: 
