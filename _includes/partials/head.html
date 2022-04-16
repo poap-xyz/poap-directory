@@ -67,6 +67,15 @@
       <link rel="stylesheet" type="text/css" href="/assets/css/custom.css">
   {%- endcase -%}
 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WDKGLEPXR6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-WDKGLEPXR6');
+  </script>
+
   <!-- Support Widget -->
   {%- include partials/intercom-widget.html -%}
 

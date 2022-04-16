@@ -1,4 +1,5 @@
 var resourcesJson = {{site.data.resources | jsonify}};
+var integrationsJson = {{site.data.integrations | jsonify}};
 window.onload = load();
 
 
@@ -83,6 +84,7 @@ function showResourceModal(id) {
   let pricing = resource.pricing;
   let description = resource.desc_long ? resource.desc_long : resource.desc_short;
   let categories = resource.categories.split(", ");
+  let integrations = resource.integrations ? resource.integrations.split(", ") : "";
   let docs = resource.docs;
   const modalCopyLink = document.getElementById("modalCopyLink"); 
   modalCopyLink.setAttribute("data-link", link); 
@@ -101,6 +103,14 @@ function showResourceModal(id) {
       break;
   }
 
+  // Add integrations if listed
+  let integrationTag = "";
+  for (let entry in integrationsJson) {
+    if (integrations.includes(integrationsJson[entry]["id"])) {
+      integrationTag += `<a href="/en/integrations/${integrationsJson[entry]["id"]}"><img src="${integrationsJson[entry]["img"]}"></a>`;
+    }
+  }
+
   // Add the applicable poap/third-party category
   if (official) {
     categories.unshift("poap-inc");
@@ -110,7 +120,12 @@ function showResourceModal(id) {
 
   // Generate the category tag html
   let categoryTags = "";
-  let activeCategory = window.location.href.split("resources/")[1].split("/")[0].split("?")[0];
+  let activeCategory;
+  if (window.location.href.includes("resources/")) {
+    activeCategory = window.location.href.split("resources/")[1].split("/")[0].split("?")[0];
+  } else if (window.location.href.includes("integrations/")) {
+    activeCategory = window.location.href.split("integrations/")[1].split("/")[0].split("?")[0];
+  }
   for (let category in categories) {
     let cat = categories[category];
     let highlight = (cat == activeCategory) ? "active-category" : "";
@@ -210,6 +225,7 @@ function showResourceModal(id) {
   updateValue("rdmDescription", marked.parse(description), "text");
   updateValue("rdmDocs", docs, "link");
   updateValue("rdmPricing", pricingTag, "text");
+  updateValue("rdmIntegrations", integrationTag, "text");
   updateValue("rdmCategories", categoryTags, "text");
   updateValue("rdmSocials", socialTags, "text");
 
