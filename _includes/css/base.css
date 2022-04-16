@@ -306,7 +306,7 @@ svg.new-tab-icon {
 #rdmIntegrations img {
   max-height: 24px;
   max-width: 24px;
-  margin-right: 0.5rem;
+  margin-right: 0.5rem;\
 }
 #rdmCategories .badge {
   font-weight: 600;
