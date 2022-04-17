@@ -86,6 +86,7 @@ function showResourceModal(id) {
   let categories = resource.categories.split(", ");
   let integrations = resource.integrations ? resource.integrations.split(", ") : "";
   let docs = resource.docs;
+  let embed = resource.embed;
   const modalCopyLink = document.getElementById("modalCopyLink"); 
   modalCopyLink.setAttribute("data-link", link); 
 
@@ -224,6 +225,7 @@ function showResourceModal(id) {
   updateValue("rdmCreator", creator, "text");
   updateValue("rdmDescription", marked.parse(description), "text");
   updateValue("rdmDocs", docs, "link");
+  updateValue("rdmEmbed", embed, "text");
   updateValue("rdmPricing", pricingTag, "text");
   updateValue("rdmIntegrations", integrationTag, "text");
   updateValue("rdmCategories", categoryTags, "text");
