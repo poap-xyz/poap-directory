@@ -36,6 +36,9 @@
 - id: zoom
   title: Zoom
   img: /assets/img/integrations/zoom.svg
+- id: github
+  title: Github
+  img: /assets/img/integrations/github.svg
 - id: wordpress
   title: Wordpress
   img: /assets/img/integrations/wordpress.svg
@@ -45,6 +48,21 @@
 - id: shopify
   title: Shopify
   img: /assets/img/integrations/shopify.svg
+- id: spotify
+  title: Spotify
+  img: /assets/img/integrations/spotify.svg
+- id: dropbox
+  title: Dropbox
+  img: /assets/img/integrations/dropbox.svg
+- id: soundcloud
+  title: Soundcloud
+  img: /assets/img/integrations/soundcloud.svg
+- id: audius
+  title: Audius
+  img: /assets/img/integrations/audius.svg
+- id: calendly
+  title: Calendly
+  img: /assets/img/integrations/calendly.svg
 - id: gather-town
   title: Gather.Town
   img: /assets/img/integrations/gather-town.svg
@@ -60,9 +78,9 @@
 - id: twitch
   title: Twitch
   img: /assets/img/integrations/twitch.svg
-- id: mintgate
-  title: Mintgate
-  img: /assets/img/integrations/mintgate.svg
+# - id: mintgate
+#   title: Mintgate
+#   img: /assets/img/integrations/mintgate.svg
 - id: premint
   title: PREMINT
   img: /assets/img/integrations/premint.svg
