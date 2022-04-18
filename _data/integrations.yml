@@ -1,4 +1,4 @@
-# - id:          # product id; do not change this
+# - id:          # product id; do not change this; use the product title, lowercased, dashes instead of spaces
 #   title:       # product name
 #   img:         # product logo; put in /assets/img/integrations/
 
@@ -51,6 +51,9 @@
 - id: spotify
   title: Spotify
   img: /assets/img/integrations/spotify.svg
+- id: trello
+  title: Trello
+  img: /assets/img/integrations/trello.svg
 - id: dropbox
   title: Dropbox
   img: /assets/img/integrations/dropbox.svg
