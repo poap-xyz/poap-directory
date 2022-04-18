@@ -28,6 +28,7 @@
 #   link: 
 #   title: 
 #   official: 
+#   new: true
 #   hide_on_all: false
 #   desc_short: 
 #   desc_long: 
@@ -2147,7 +2148,7 @@
   forum: 
 - id: 99
   link: https://webforms.pipedrive.com/f/6UFIbiMvF6bS3mGGX6wbykVPFvvywMbPtIXvJlaX6brJMU87Go9ZmuP1A1ld3eiX7B
-  title: POAP Business Development Contact
+  title: Contact POAP for Serious Business
   official: true
   hide_on_all: false
   new: true
@@ -2321,7 +2322,7 @@
   desc_short: Mazury allows you to view your collection as well as explore other people's collections.
   desc_long: 
   creator: Mazury
-  pricing: 
+  pricing: free
   # contact: 
   categories: explore, collector
   integrations: 
