@@ -3,6 +3,7 @@
 This is the repo for <https://poap.directory>, a directory to browse and discover POAP projects, tools, and resources.
 
 
+
 ## Local Development
 
 1. Clone the repo (or fork the repo to your account)
@@ -25,47 +26,63 @@ Resources:
 - Indents are 2 spaces (not tabs)
 - 2 lines between frontmatter and content
 
-<!-- 
-## Adding a new resource or integration
-
-### What's a resource vs an integration?
-
-- Resource Only
-    - A POAP-specific tool that is open to thrid-party use
-    - Examples: DEGEN Bot, POAPathon, GitPOAP
-- Integration Only
-    - POAP support built into a platform/tool that is *not* open to third-party use
-    - Examples: Rhove (investment platform that gives users a POAP after investing), DecentralGames (have a metaverse POAP dispenser but only for their use)
-- Both
-    - A non-POAP-specific platform/tool that is open to third-party use
-    - Examples: Snapshot (award voters a POAP), Earnifi (find unclaimed POAPs), CharmVerse (gated access with POAPs)
 
 
-### Adding an integration
+## Adding a new integration
 
-Go to `_data/integrations.yml` and add an entry using the following template:
+1. Go to `_data/integrations.yml` and add an entry using the following template:
+    ```
+    - id: 
+      title: 
+      img: /assets/img/integrations/
+    ```
 
+    key       | description 
+    ----------|------------
+    id        | The product id; use the product title, lowercased, dashes instead of spaces
+    title     | Product name
+    img       | Logo of the product; place in `/assets/img/integrations/` (use an SVG if possible)
+
+1. Create a new integration page under the `/integrations/` folder. For example, if adding Google Drive as an integration, create a `/resources/google-drive.md` file.
+1. Within the file, add the following contents:
+    ```
+    ---
+    layout: default
+    title: [integration] Resources
+    permalink: /en/resources/[integration]
+    ---
+
+
+    {%- include partials/integration-page.html -%}
+
+    ```
+1. Replace `[integration]` with the integration name. For a Google Drive integration, the result would be:
+    ```
+    ---
+    layout: default
+    title: Google Drive Resources
+    permalink: /en/resources/google-drive
+    ---
+
+
+    {%- include partials/resource-category-page.html -%}
+
+    ```
+
+
+### Adding an integration to a resource
+
+In the `_data/resource.yml` file add the integrations to the `integrations:` parameter for the relevant resource entry. The integrations are comma-delimited and referenced using the integration `id` from the integration's entry in the `_data/integrations.yml` file.
+
+Using the Google Drive example above, a resource's integration entry would look like the following:
 ```
-- link: 
-  name: 
-  img: /assets/img/integrations/
-  category: 
-  bg_color: 
+integrations: google-drive
 ```
 
-key       | description 
-----------|------------
-link      | The product link
-name      | Product name
-img       | Logo of product it was integrated; place in `/assets/img/integrations/` (use an SVG if possible)
-category  | (Select one of the following) access, chat, data, entertainment, investing, marketing, metaverse, ownership, reputation, scanner, voting, wallet
 
-#### Adding an integration category
 
-To create a new category, update the list of options here (in the above table) and at the top of the `_data/integrations.yml` file, inserted in alphabetical order. Keep the category naming as descriptive yet broadly applicable as possible.
- -->
 
-### Adding a resource
+## Adding a resource
 
 Go to `_data/resource.yml` and add an entry using the following template:
 
@@ -114,7 +131,7 @@ forum       | (optional) Project's forum link
 
 **Note:** Entries show in the order listed in this file. If it's a less important resource then add it further down the list. If it's more important then insert it higher up.
 
-#### Adding a resource category
+### Adding a resource category
 
 1. To create a new category, update the list of options here (in the above table) and at the top of the `_data/resources.yml` file, inserted in alphabetical order. Keep the category naming as descriptive yet broadly applicable as possible.
 1. Create a new category page under the `/resources/` folder. For example, if creating a category "sports", create a `/resources/sports.md` file.
