@@ -47,25 +47,18 @@ Resources:
 1. Within the file, add the following contents:
     ```
     ---
-    layout: default
+    layout: resource
     title: [integration] Resources
     permalink: /en/resources/[integration]
     ---
-
-
-    {%- include partials/integration-page.html -%}
-
     ```
 1. Replace `[integration]` with the integration name. For a Google Drive integration, the result would be:
     ```
     ---
-    layout: default
+    layout: resource
     title: Google Drive Resources
     permalink: /en/resources/google-drive
     ---
-
-
-    {%- include partials/resource-category-page.html -%}
 
     ```
 
@@ -87,49 +80,56 @@ integrations: google-drive
 Go to `_data/resource.yml` and add an entry using the following template:
 
 ```
- - link: 
-   title: 
-   official: 
-   hide_on_all: 
-   desc_short: 
-   desc_long: 
-   creator: 
-   # contact: 
-   categories: 
-   github: 
-   docs: 
-   discord: 
-   twitter: 
-   telegram: 
-   medium: 
-   youtube: 
-   linkedin: 
-   forum: 
-   docs: 
+- id:
+  link: 
+  title: 
+  official: 
+  new: 
+  hide_on_all: 
+  desc_short: 
+  desc_long: 
+  creator: 
+  pricing: 
+  # contact: 
+  categories: 
+  integrations: 
+  github: 
+  docs: 
+  discord: 
+  twitter: 
+  telegram: 
+  medium: 
+  youtube: 
+  linkedin: 
+  forum: 
  ```
 
-key         | description 
-------------|------------
-link        | The resource link
-title       | The resource title
-official    | (true/false) true = Official POAP resource, false = Community/third party
-hide_on_all | (true/false) true = Don't show under all resources, false = Show under all resources
-desc_short  | Short description; <120 characters
-desc_long   | (optional) Longer description; Will be shown instead of the short description in certain areas
-creator     | Who is the person/organization developing this resource? (POAP inc. if it's an official resource)
-contact     | Point of contact for the resource (won't be displayed on the website); leave it commented out
-categories  | (Select up to 3 that apply) access, admin, app, art, collector, design, dev, distribution, explore, guide, info, metrics, play, social, voting 
-github      | (optional) Github repo
-docs        | (optional) Resource's guide or documentation
-discord     | (optional) Project's Discord invite link (make sure it doesn't expire and isn't limited)
-twitter     | (optional) Project's Twitter profile
-telegram    | (optional) Project's Telegram invite
-medium      | (optional) Project's Medium blog
-youtube     | (optional) Project's Youtube channel
-linkedin    | (optional) Project's Linkedin page
-forum       | (optional) Project's forum link
+key          | description 
+-------------|------------
+id           | The resource ID; Do not change this
+link         | The resource link
+title        | The resource title
+official     | (true/false) true = Official POAP resource, false = Community/third party
+new          | (optional) true = Adds the "new" tag to the card; Only use when added then remove in next iteration
+hide_on_all  | (true/false) true = Don't show under all resources, false = Show under all resources
+desc_short   | Short description; <120 characters
+desc_long    | (optional) Longer description; Will be shown instead of the short description in certain areas
+creator      | Who is the person/organization developing this resource? (POAP inc. if it's an official resource)
+pricing      | The pricing model; Options: free, freemium, paid
+contact      | Point of contact for the resource (won't be displayed on the website); leave it commented out
+categories   | (Select up to 3 that apply) access, admin, app, art, collector, design, dev, distribution, explore, guide, info, metrics, play, social, voting 
+integrations | A comma-delimited list of relevant integration ids from _data/integrations.yml
+github       | (optional) Github repo
+docs         | (optional) Resource's guide or documentation
+discord      | (optional) Project's Discord invite link (make sure it doesn't expire and isn't limited)
+twitter      | (optional) Project's Twitter profile
+telegram     | (optional) Project's Telegram invite
+medium       | (optional) Project's Medium blog
+youtube      | (optional) Project's Youtube channel
+linkedin     | (optional) Project's Linkedin page
+forum        | (optional) Project's forum link
 
-**Note:** Entries show in the order listed in this file. If it's a less important resource then add it further down the list. If it's more important then insert it higher up.
+**Note:** Entries appear on the website in the order listed in this file. If it's a less important resource then add it further down the list. If it's more important then insert it higher up.
 
 ### Adding a resource category
 
@@ -138,25 +138,18 @@ forum       | (optional) Project's forum link
 1. Within the file, add the following contents:
     ```
     ---
-    layout: default
+    layout: resource
     title: [category] Resources
     permalink: /en/resources/[category]
     ---
-
-
-    {%- include partials/resource-category-page.html -%}
-
     ```
 1. Replace `[category]` with the category name. For a "sports" category, the result would be:
     ```
     ---
-    layout: default
+    layout: resource
     title: Sports Resources
     permalink: /en/resources/sports
     ---
-
-
-    {%- include partials/resource-category-page.html -%}
 
     ```
 
