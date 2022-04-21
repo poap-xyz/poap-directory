@@ -1,9 +1,5 @@
 ---
-layout: default
+layout: resource
 title: Info Resources
 permalink: /en/resources/info
 ---
-
-
-{%- include partials/resource-category-page.html -%}
-
