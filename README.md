@@ -85,6 +85,7 @@ Go to `_data/resource.yml` and add an entry using the following template:
   title: 
   official: 
   new: 
+  featured: 
   hide_on_all: 
   desc_short: 
   desc_long: 
@@ -111,6 +112,7 @@ link         | The resource link
 title        | The resource title
 official     | (true/false) true = Official POAP resource, false = Community/third party
 new          | (optional) true = Adds the "new" tag to the card; Only use when added then remove in next iteration
+featured     | (optional) true = Adds the resource to the "featured" section
 hide_on_all  | (true/false) true = Don't show under all resources, false = Show under all resources
 desc_short   | Short description; <120 characters
 desc_long    | (optional) Longer description; Will be shown instead of the short description in certain areas
