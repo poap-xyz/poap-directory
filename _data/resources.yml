@@ -674,28 +674,6 @@
   youtube: 
   linkedin: 
   forum: 
-# - id: 28
-#   link: https://poap.gitbook.io/poap-api-guide/
-#   title: POAP API Docs
-#   official: true
-#   hide_on_all: false
-#   desc_short: Integrate POAP into other products or build your own product on top of POAP.
-#   desc_long: 
-#   creator: POAP inc.
-#   pricing: free
-#   # contact: 
-#   categories: dev
-#   integrations: 
-#   github: 
-#   docs: 
-#   embed: 
-#   discord: 
-#   twitter: 
-#   telegram: 
-#   medium: 
-#   youtube: 
-#   linkedin: 
-#   forum: 
 - id: 29
   link: https://api.poap.xyz/documentation/static/
   title: POAP API (Swagger)
@@ -1759,31 +1737,6 @@
   youtube: 
   linkedin: 
   forum: 
-# - id: 75
-#   link: https://www.iyk.app/
-#   title: IYK Discs
-#   official: false
-#   hide_on_all: false
-#   desc_short: Farming-resistant POAP NFC distribution for physical location-based events.
-#   desc_long: |
-#     IYK discs allow for a location-based POAP minting experience through NFC. Scanning a disc can bring you either to a traditional POAP claim code link, but can also take you to a custom one-time-use link for added security. 
-
-#     The custom link also supports collection additional fields like a guestbook message, name, and email!
-#   creator: IYK*
-#   pricing: freemium
-#   # contact: 
-#   categories: distribution
-#   integrations: 
-#   github: 
-#   docs: 
-#   embed: 
-#   discord: https://discord.gg/NpVkD6qcAA
-#   twitter: https://twitter.com/__iyk
-#   telegram: 
-#   medium: 
-#   youtube: 
-#   linkedin: 
-#   forum: 
 - id: 76
   link: https://www.premint.xyz/
   title: PREMINT
@@ -2267,29 +2220,6 @@
   # facebook: https://www.facebook.com/OVERmetaverse
   linkedin: 
   forum: 
-- id: 105
-  link: https://www.tryboomerang.io/
-  title: Boomerang
-  official: false
-  hide_on_all: false
-  new: true
-  desc_short: Boomerang helps you track your community across platforms to minimize bots then automatically distribute through POAP.delivery.
-  desc_long: 
-  creator: Boomerang
-  pricing: 
-  # contact: 
-  categories: admin, distribution
-  integrations: discord, snapshot
-  github: 
-  docs: 
-  embed: 
-  discord: 
-  twitter: https://twitter.com/tryboomerang#
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
 - id: 93
   link: https://www.gitpoap.io/p/poap.eth
   title: GitPOAP Collections
@@ -2336,6 +2266,77 @@
   youtube: 
   linkedin: 
   forum: 
+# - id: 105
+#   link: https://www.tryboomerang.io/
+#   title: Boomerang
+#   official: false
+#   hide_on_all: false
+#   new: true
+#   desc_short: Boomerang helps you track your community across platforms to minimize bots then automatically distribute through POAP.delivery.
+#   desc_long: 
+#   creator: Boomerang
+#   pricing: 
+#   # contact: 
+#   categories: admin, distribution
+#   integrations: discord, snapshot
+#   github: 
+#   docs: 
+#   embed: 
+#   discord: 
+#   twitter: https://twitter.com/tryboomerang#
+#   telegram: 
+#   medium: 
+#   youtube: 
+#   linkedin: 
+#   forum: 
+# - id: 28
+#   link: https://poap.gitbook.io/poap-api-guide/
+#   title: POAP API Docs
+#   official: true
+#   hide_on_all: false
+#   desc_short: Integrate POAP into other products or build your own product on top of POAP.
+#   desc_long: 
+#   creator: POAP inc.
+#   pricing: free
+#   # contact: 
+#   categories: dev
+#   integrations: 
+#   github: 
+#   docs: 
+#   embed: 
+#   discord: 
+#   twitter: 
+#   telegram: 
+#   medium: 
+#   youtube: 
+#   linkedin: 
+#   forum: 
+# - id: 75
+#   link: https://www.iyk.app/
+#   title: IYK Discs
+#   official: false
+#   hide_on_all: false
+#   desc_short: Farming-resistant POAP NFC distribution for physical location-based events.
+#   desc_long: |
+#     IYK discs allow for a location-based POAP minting experience through NFC. Scanning a disc can bring you either to a traditional POAP claim code link, but can also take you to a custom one-time-use link for added security. 
+
+#     The custom link also supports collection additional fields like a guestbook message, name, and email!
+#   creator: IYK*
+#   pricing: freemium
+#   # contact: 
+#   categories: distribution
+#   integrations: 
+#   github: 
+#   docs: 
+#   embed: 
+#   discord: https://discord.gg/NpVkD6qcAA
+#   twitter: https://twitter.com/__iyk
+#   telegram: 
+#   medium: 
+#   youtube: 
+#   linkedin: 
+#   forum: 
+
 
 # Removed at Isabel's request
 
