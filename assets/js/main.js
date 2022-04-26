@@ -8,6 +8,7 @@
   then add the conditional switch to the layout template to include it.*/
 {%- endcomment -%}
 
+{% include js/marked.min.js %}
 {% include js/base.js %}
 
 {%- if site.notification_enabled == true -%}
