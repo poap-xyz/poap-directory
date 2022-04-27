@@ -1,9 +1,5 @@
 ---
-layout: default
+layout: resource
 title: Admin Resources
 permalink: /en/resources/admin
 ---
-
-
-{%- include partials/resource-category-page.html -%}
-

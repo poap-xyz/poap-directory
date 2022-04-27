@@ -1,9 +1,5 @@
 ---
-layout: default
+layout: resource
 title: Collab.Land Integrations
 permalink: /en/integrations/collab-land
 ---
-
-
-{%- include partials/integrations-page.html -%}
-

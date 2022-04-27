@@ -1,9 +1,5 @@
 ---
-layout: default
+layout: resource
 title: Mintgate Integrations
 permalink: /en/integrations/mintgate
 ---
-
-
-{%- include partials/integrations-page.html -%}
-

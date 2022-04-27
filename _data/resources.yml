@@ -3,14 +3,14 @@
 #   title:        # name of the resource
 #   official:     # true/false; true = official poap resource, false = community/third party
 #   hide_on_all:  # true/false; true = don't show under all resources, false = show under all resources
-#   new:          # (optional) true = adds the "new" tag to the card
+#   new:          # (optional) true = adds the "new" tag to the card; only use when added then remove in next iteration
 #   desc_short:   # short description; <120 characters
 #   desc_long:    # (optional) longer description; will be shown instead of the short description in certain areas
 #   creator:      # who is the person/organization developing this resource?
 #   pricing:      # the pricing model; options: free, freemium, paid
 #   # contact:    # point of contact for the resource (won't be displayed on the website)
 #   categories:   # (select up to 3 that apply) access, admin, app, art, collector, design, dev, distribution, explore, guide, info, metrics, play, social, voting 
-#   integrations: # a comma delimited list of integration ids
+#   integrations: # a comma-delimited list of relevant integration ids from _data/integrations.yml
 #   github:       # (optional) github repo
 #   docs:         # (optional) resource's guide or documentation
 #   embed:        # (optional) embeded media link
@@ -858,7 +858,7 @@
   new: true
   desc_short: 'Join the POAP #developers channel for support and to network with others in the ecosystem.'
   desc_long: 
-  creator: 
+  creator: POAP inc.
   pricing: free
   # contact: 
   categories: dev

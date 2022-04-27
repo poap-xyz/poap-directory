@@ -1,9 +1,5 @@
 ---
-layout: default
+layout: resource
 title: Metrics Resources
 permalink: /en/resources/metrics
 ---
-
-
-{%- include partials/resource-category-page.html -%}
-

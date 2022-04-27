@@ -1,9 +1,5 @@
 ---
-layout: default
+layout: resource
 title: Design Resources
 permalink: /en/resources/design
 ---
-
-
-{%- include partials/resource-category-page.html -%}
-

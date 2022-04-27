@@ -1,9 +1,5 @@
 ---
-layout: default
+layout: resource
 title: Twitter Integrations
 permalink: /en/integrations/twitter
 ---
-
-
-{%- include partials/integrations-page.html -%}
-

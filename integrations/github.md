@@ -1,9 +1,5 @@
 ---
-layout: default
+layout: resource
 title: Github Integrations
 permalink: /en/integrations/github
 ---
-
-
-{%- include partials/integrations-page.html -%}
-
