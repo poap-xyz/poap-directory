@@ -1869,28 +1869,6 @@
   youtube: 
   linkedin: 
   forum: 
-- id: 82
-  link: https://www.loom.com/share/e902a57c91384432b7fe53c912e9916d
-  title: Mailchimp Distribution
-  official: false
-  hide_on_all: false
-  desc_short: A step-by-step guide to using Mailchimp for distribution.
-  desc_long: 
-  creator: Santiago Echeverria
-  pricing: free
-  # contact: 
-  categories: distribution, guide
-  integrations: mailchimp
-  github: 
-  docs: 
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
 - id: 83
   link: https://status.poap.xyz/
   title: POAP Status Page
@@ -2331,6 +2309,31 @@
 #   embed: 
 #   discord: https://discord.gg/NpVkD6qcAA
 #   twitter: https://twitter.com/__iyk
+#   telegram: 
+#   medium: 
+#   youtube: 
+#   linkedin: 
+#   forum: 
+
+
+# Mailchimp is filtering emails that use this
+# - id: 82
+#   link: https://www.loom.com/share/e902a57c91384432b7fe53c912e9916d
+#   title: Mailchimp Distribution
+#   official: false
+#   hide_on_all: false
+#   desc_short: A step-by-step guide to using Mailchimp for distribution.
+#   desc_long: 
+#   creator: Santiago Echeverria
+#   pricing: free
+#   # contact: 
+#   categories: distribution, guide
+#   integrations: mailchimp
+#   github: 
+#   docs: 
+#   embed: 
+#   discord: 
+#   twitter: 
 #   telegram: 
 #   medium: 
 #   youtube: 
