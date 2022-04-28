@@ -209,7 +209,11 @@
           {%- if contains_filter -%}
             {%- if resource.id and resource.link -%}
               <div class="col resource-col mb-4">
-                <div class="card resource-card rounded-3 h-100">
+                {%- assign featured = "" -%}
+                {%- if resource.featured == true -%}
+                  {%- assign featured = "featured" -%}
+                {%- endif -%}
+                <div class="card resource-card rounded-3 h-100 {{featured}}">
                   <div class="card-body d-flex align-items-start flex-column">
                     {%- if resource.new == true -%}
                       <div class="h5" style="position: absolute; top: -15px; left: -10px; ">
