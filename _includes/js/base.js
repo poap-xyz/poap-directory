@@ -88,7 +88,7 @@ function showResourceModal(id) {
   let docs = resource.docs;
   let embed = resource.embed;
   const modalCopyLink = document.getElementById("modalCopyLink"); 
-  modalCopyLink.setAttribute("data-link", link); 
+  modalCopyLink.setAttribute("data-link", link);
 
   // Add the pricing model if listed
   let pricingTag = "";
@@ -108,7 +108,7 @@ function showResourceModal(id) {
   let integrationTag = "";
   for (let entry in integrationsJson) {
     if (integrations.includes(integrationsJson[entry]["id"])) {
-      integrationTag += `<a href="/en/integrations/${integrationsJson[entry]["id"]}"><img src="${integrationsJson[entry]["img"]}"></a>`;
+      integrationTag += `<a href="/en/integrations/${integrationsJson[entry]["id"]}" title="${integrationsJson[entry]["title"]}"><img src="${integrationsJson[entry]["img"]}"></a>`;
     }
   }
 
