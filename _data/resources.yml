@@ -4,6 +4,7 @@
 #   official:     # true/false; true = official poap resource, false = community/third party
 #   hide_on_all:  # true/false; true = don't show under all resources, false = show under all resources
 #   new:          # (optional) true = adds the "new" tag to the card; only use when added then remove in next iteration
+#   featured:     # (optional) true = adds the resource to the "featured" section
 #   desc_short:   # short description; <120 characters
 #   desc_long:    # (optional) longer description; will be shown instead of the short description in certain areas
 #   creator:      # who is the person/organization developing this resource?
