@@ -68,10 +68,15 @@ function setQueryParameters(params) {
 
 
 var resourceDetailModal = document.getElementById('resourceDetailModal');
-resourceDetailModal.addEventListener('hidden.bs.modal', function (event) {
-  // Update url to remove resource id params
-  updateUrl();
-})
+try {
+  resourceDetailModal.addEventListener('hidden.bs.modal', function (event) {
+    // Update url to remove resource id params
+    updateUrl();
+  })
+}
+catch {
+  console.log("no resource modals on this page")
+}
 // Show and populate modal and update the url with params
 function showResourceModal(id) {
   let resource = resourcesJson.find(obj => {
