@@ -13,6 +13,11 @@
 }
 
 
+* {
+  font-family: "Rubik";
+}
+
+
 /* Links */
 a:hover {
   color: var(--poap-purple-dark);

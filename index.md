@@ -9,21 +9,21 @@ layout: default
   <div class="header-bg-fade-out"></div>
   <div class="header-bg-fade-center"></div>
   <div class="container pb-md-3 pb-lg-5">
-  <div class="px-4 py-5 my-5 text-center poap-purple-dark">
-    <h1 class="display-3 fw-bold mt-5">Explore the POAP Ecosystem.</h1>
-    <div class="row justify-content-center">
-      <div class="col-12 col-sm-10 col-md-8 col-lg-7 col-xl-6">
-        <p class="h4 fw-normal mb-4">
-          From better distribution to fun with friends, find the resources you need on the POAP Directory!
-        </p>
-        <a href="/en/resources/all" class="btn btn-secondary btn-lg px-4 m-1">Browse Applications</a>
-        <p class="mt-3">
-          <!-- <a href="/en/resources/dev" class="h5 fw-light poap-purple-dark">Build on POAP {{site.data.icons.arrow_right}}</a> -->
-        </p>
+    <div class="px-4 py-5 my-5 text-center poap-purple-dark">
+      <h1 class="display-4 fw-bold mt-5">Explore the POAP Ecosystem.</h1>
+      <div class="row justify-content-center">
+        <div class="col-12 col-sm-10 col-md-8 col-lg-7 col-xl-6">
+          <p class="h4 fw-light mb-4">
+            From better distribution to fun with friends, find the resources you need on the POAP Directory!
+          </p>
+          <a href="/en/resources/all" class="btn btn-secondary btn-lg px-4 m-1">Browse Applications</a>
+          <p class="mt-3">
+            <!-- <a href="/en/resources/dev" class="h5 fw-light poap-purple-dark">Build on POAP {{site.data.icons.arrow_right}}</a> -->
+          </p>
+        </div>
       </div>
     </div>
   </div>
-</div>
 </header>
 
 
