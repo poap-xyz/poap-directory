@@ -1,15 +1,30 @@
 :root {
-  --poap-purple-1:     #b5aeff;
-  --poap-purple-2:     #a8a6f4;
-  --poap-purple-light: #f0efff;
-  --poap-purple-dark:  #5e58a5;
-  --poap-green:        #d8f2c7;
-  --poap-violet:       #eac9f8;
-  --poap-blue:         #c2e6f5;
-  --poap-red:          #f39bb6;
-  --poap-orange:       #ffcfd1;
-  --poap-pink:         #ffecf1;
-  --poap-grey:         #8492ce;
+  /* Main */
+  --poap-purple:       #5E58A5;
+  --poap-purple-light: #B5AEFF;
+  --poap-purple-dark:  #473E6B;
+
+  /* Secondary */
+  --poap-violet:       #E4CBF5;
+  --poap-pink-light:   #FDEAEF;
+  --poap-salmon:       #F8D1D2;
+  --poap-red:          #E9A1B6;
+
+  /* Accessories */
+  --poap-sky:          #C2E6F5;
+  --poap-gyarados:     #6692A4;
+  --poap-mint:         #D8F2C8;
+  --poap-olive:        #8FAB7F;
+  --poap-sand:         #F4E2A1;
+  --poap-tan:          #D4BE74;
+  --poap-orange:       #F5BD94;
+  --poap-brown-light:  #F5BD94;
+  --poap-purple-2:     #9172A3;
+  --poap-brown-dark:   #B57B7E;
+  --poap-maroon:       #A06274;
+
+  /* Auxiliary */
+  --poap-focus:        rgb(71 62 107 / 50%);
 }
 
 
@@ -19,6 +34,9 @@
 
 
 /* Links */
+a {
+  color: var(--poap-purple-light);
+}
 a:hover {
   color: var(--poap-purple-dark);
 }
@@ -26,50 +44,43 @@ a:hover {
 
 /* Buttons */
 .btn-primary {
-  background-color: var(--poap-purple-2);
-  border-color: var(--poap-purple-2);
+  background-color: var(--poap-purple-dark);
+  border-color: var(--poap-purple-dark);
 }
 .btn-primary:hover,
-.btn-primary:focus {
+.btn-primary:focus,
+.btn-primary:active {
   background-color: var(--poap-purple-dark);
   border-color: var(--poap-purple-dark);
 }
-
-.btn-secondary {
-  background-color: var(--poap-purple-dark);
-  border-color: var(--poap-purple-dark);
-}
-.btn-secondary:hover,
-.btn-secondary:focus {
-  background-color: var(--poap-purple-dark);
-  border-color: var(--poap-purple-dark);
-}
-
 .btn-outline-primary {
   background-color: #fff;
   border-color: var(--poap-purple-dark) !important;
   color: var(--poap-purple-dark);
 }
 .btn-outline-primary:hover,
-.btn-outline-primary:focus {
+.btn-outline-primary:focus,
+.btn-outline-primary:active {
   border-color: var(--poap-purple-dark) !important;
   background-color: var(--poap-purple-dark);
   color: #fff;
 }
 
 
+a:focus,
+.btn-check:focus+.btn,
+.btn:focus {
+  box-shadow: 0 0 0 0.25rem var(--poap-focus) !important;
+  outline: 0;
+}
+
+
 /* Colors Helpers */
-.poap-purple-1 {
-  color: var(--poap-purple-1);
+.poap-purple {
+  color: var(--poap-purple);
 }
-.bg-poap-purple-1 {
-  background-color: var(--poap-purple-1);
-}
-.poap-purple-2 {
-  color: var(--poap-purple-2);
-}
-.bg-poap-purple-2 {
-  background-color: var(--poap-purple-2);
+.bg-poap-purple {
+  background-color: var(--poap-purple);
 }
 .poap-purple-light {
   color: var(--poap-purple-light);
@@ -83,23 +94,23 @@ a:hover {
 .bg-poap-purple-dark {
   background-color: var(--poap-purple-dark);
 }
-.poap-green {
-  color: var(--poap-green);
-}
-.bg-poap-green {
-  background-color: var(--poap-green);
-}
 .poap-violet {
   color: var(--poap-violet);
 }
 .bg-poap-violet {
   background-color: var(--poap-violet);
 }
-.poap-blue {
-  color: var(--poap-blue);
+.poap-pink-light {
+  color: var(--poap-pink-light);
 }
-.bg-poap-blue {
-  background-color: var(--poap-blue);
+.bg-poap-pink-light {
+  background-color: var(--poap-pink-light);
+}
+.poap-salmon {
+  color: var(--poap-salmon);
+}
+.bg-poap-salmon {
+  background-color: var(--poap-salmon);
 }
 .poap-red {
   color: var(--poap-red);
@@ -107,18 +118,74 @@ a:hover {
 .bg-poap-red {
   background-color: var(--poap-red);
 }
+.poap-sky {
+  color: var(--poap-sky);
+}
+.bg-poap-sky {
+  background-color: var(--poap-sky);
+}
+.poap-gyarados {
+  color: var(--poap-gyarados);
+}
+.bg-poap-gyarados {
+  background-color: var(--poap-gyarados);
+}
+.poap-mint {
+  color: var(--poap-mint);
+}
+.bg-poap-mint {
+  background-color: var(--poap-mint);
+}
+.poap-olive {
+  color: var(--poap-olive);
+}
+.bg-poap-olive {
+  background-color: var(--poap-olive);
+}
+.poap-sand {
+  color: var(--poap-sand);
+}
+.bg-poap-sand {
+  background-color: var(--poap-sand);
+}
+.poap-tan {
+  color: var(--poap-tan);
+}
+.bg-poap-tan {
+  background-color: var(--poap-tan);
+}
 .poap-orange {
   color: var(--poap-orange);
 }
 .bg-poap-orange {
   background-color: var(--poap-orange);
 }
-.poap-pink {
-  color: var(--poap-pink);
+.poap-brown-light {
+  color: var(--poap-brown-light);
 }
-.bg-poap-pink {
-  background-color: var(--poap-pink);
+.bg-poap-brown-light {
+  background-color: var(--poap-brown-light);
 }
+.poap-purple-accent {
+  color: var(--poap-purple-accent);
+}
+.bg-poap-purple-accent {
+  background-color: var(--poap-purple-accent);
+}
+.poap-brown-dark {
+  color: var(--poap-brown-dark);
+}
+.bg-poap-brown-dark {
+  background-color: var(--poap-brown-dark);
+}
+.poap-maroon {
+  color: var(--poap-maroon);
+}
+.bg-poap-maroon {
+  background-color: var(--poap-maroon);
+}
+
+
 .poap-grey {
   color: var(--poap-grey);
 }
@@ -282,7 +349,7 @@ svg.new-tab-icon {
 
 /* Card Title Icons */
 .card-title > svg {
-  color: var(--poap-purple-2);
+  color: var(--poap-purple-light);
   margin-right: 0.25rem;
   margin-top: -0.2rem;
   height: 1.6rem;
@@ -290,7 +357,7 @@ svg.new-tab-icon {
 }
 /* Resources Details Modal */
 #rdmSocials svg {
-  color: var(--poap-purple-2);
+  color: var(--poap-purple-light);
   height: 1.8rem;
   width: 1.8rem;
   margin-bottom: 0.5rem;
@@ -319,6 +386,6 @@ svg.new-tab-icon {
   height: 2rem;
 }
 footer li a {
-  color: var(--poap-grey);
+  color: var(--poap-purple-dark);
 }
 

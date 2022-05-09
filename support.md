@@ -22,7 +22,7 @@ permalink: /en/support
       <div class="col col-md-10 col-lg-6 col-xm-5">
         <div class="card rounded-3 h-100 text-center">
           <div class="card-header"></div>
-          <div class="card-body">
+          <div class="card-body poap-purple-dark">
             <h5 class="card-title">Support</h5>
             <p class="card-text mb-2">For curation disputes please use the <a href="https://discourse.poap.xyz/categories" target="_blank">Discourse forum</a>.</p>
             <p class="card-text">For all other support requests:</p>

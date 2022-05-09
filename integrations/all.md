@@ -29,7 +29,7 @@ permalink: /en/integrations/all
           <div class="col mb-4">
             <div class="card rounded-3 h-100" style="width: 9.8rem;">
               <div class="card-body rounded-2 text-center">
-                <h5 class="d-block fw-normal fs-6 mb-3">{{integration.title}}</h5>
+                <h5 class="d-block fw-normal fs-6 mb-3 poap-purple-dark">{{integration.title}}</h5>
                   {%- if integration.img -%}
                     <img src="{{integration.img}}" class="img-fluid mx-auto mb-2" style="width: 4rem; height: 4rem;">
                   {%- else -%}
