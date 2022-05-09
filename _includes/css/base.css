@@ -269,21 +269,9 @@ header .container {
   background-size: cover;
   overflow: hidden;
 }
-#build .container {
-  opacity: 0.4;
-}
-.coming-soon {
-  z-index: 2;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-}
-.coming-soon img {
-  width: 280px;
-  transform: translate(-50%, -50%);
-}
 
 
+/* Resources */
 .active-category {
   background-color: var(--poap-violet) !important;
 }
@@ -347,6 +335,7 @@ svg.new-tab-icon {
   width: 0.8rem;
 }
 
+
 /* Card Title Icons */
 .card-title > svg {
   color: var(--poap-purple-light);
@@ -355,6 +344,8 @@ svg.new-tab-icon {
   height: 1.6rem;
   width: 1.6rem;
 }
+
+
 /* Resources Details Modal */
 #rdmSocials svg {
   color: var(--poap-purple-light);
@@ -380,6 +371,7 @@ svg.new-tab-icon {
   max-width: 24px;
   margin-right: 0.5rem;
 }
+
 
 /* Footer */
 .social-icons img {

@@ -18,7 +18,7 @@ layout: default
           </p>
           <a href="/en/resources/all" class="btn btn-primary btn-lg px-4 m-1">Browse Applications</a>
           <p class="mt-3">
-            <!-- <a href="/en/resources/dev" class="h5 fw-light poap-purple-dark">Build on POAP {{site.data.icons.arrow_right}}</a> -->
+            <a href="https://documentation.poap.tech/" target="_blank" class="h5 fw-light poap-purple-dark">Build on POAP {{site.data.icons.arrow_right}}</a>
           </p>
         </div>
       </div>
@@ -261,14 +261,11 @@ layout: default
 
 <!-- Build -->
 <section id="build" class="bg-light poap-purple-dark">
-  <div class="coming-soon d-flex justify-content-center">
-    <img src="/assets/img/coming-soon.png"/>
-  </div>
   <div class="container py-5 my-5 poap-purple-dark">
     <h2 class="h1 fw-bold mb-3 text-center">Eager to Contribute?</h2>
     <div class="col col-md-8 col-lg-6 mx-auto lead text-center">
       <p>The vibrant ecosystem of fun you can have after the drop is part of what makes each POAP so special. Check out the developer documentation if you're keen to get hacking and help us build a better POAP.</p>
-      <a href="/en/resources/dev" class="btn btn-primary btn px-4 m-1" disabled>Start Building</a>
+      <a href="https://documentation.poap.tech/" target="_blank" class="btn btn-primary btn px-4 m-1">Start Building {{site.data.icons.new_tab}}</a>
     </div>
   </div>
 </section>
