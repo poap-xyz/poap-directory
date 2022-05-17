@@ -30,10 +30,10 @@
             <!-- Shows the "View All Integrations/Resources" button link if currently not on the All Resources page. -->
           {%- endcomment -%}
           {%- if page_type == "resource" and page.permalink != "/en/resources/all" -%}
-            <a href="/en/resources/all" class="btn btn-secondary btn px-4 m-1">View All Resources</a>
+            <a href="/en/resources/all" class="btn btn-primary btn px-4 m-1">View All Resources</a>
           {%- endif -%}
           {%- if page_type == "integration" and page.permalink != "/en/integrations/all" -%}
-            <a href="/en/integrations/all" class="btn btn-secondary btn px-4 m-1">View All Integrations</a>
+            <a href="/en/integrations/all" class="btn btn-primary btn px-4 m-1">View All Integrations</a>
           {%- endif -%}
         </div>
       </div>
@@ -70,7 +70,7 @@
                 {%- assign category_active = "active-category" -%}
               {%- endif -%}
               <a class="me-1 text-decoration-none" href="/en/resources/{{category | replace: ' ', '-'}}">
-                <span class="badge rounded-pill bg-light text-dark {{category}} {{category_active}}">{{category}}</span>
+                <span class="badge rounded-pill bg-light poap-purple-dark {{category}} {{category_active}}">{{category}}</span>
               </a>
             {%- endfor -%}
           </div>
@@ -93,11 +93,11 @@
             {%- if resource.id and resource.link -%}
               <div class="col resource-col">
                 <div class="card resource-card rounded-3 h-100">
-                  <div class="card-body d-flex align-items-start flex-column">
+                  <div class="card-body d-flex align-items-start flex-column poap-purple-dark">
                     {%- if resource.new == true -%}
                       <div class="h5" style="position: absolute; top: -15px; left: -10px; ">
                         <a href="/en/resources/new">
-                          <span class="badge bg-poap-purple-1">new!</span>
+                          <span class="badge bg-poap-purple-light">new!</span>
                         </a>
                       </div>
                     {%- endif -%}
@@ -107,7 +107,7 @@
                       {{site.data.icons.link}}
                     </a>
                     <h5 class="card-title mb-1 pe-4">
-                      <a href="{{resource.link}}" target="_blank" class="text-decoration-none link-dark">{{resource.title}} {{site.data.icons.new_tab}}</a>
+                      <a href="{{resource.link}}" target="_blank" class="text-decoration-none poap-purple-dark">{{resource.title}} {{site.data.icons.new_tab}}</a>
                     </h5>
                     <p class="mb-2 text-muted"><small>{{resource.creator}}</small></p>
                     <div class="mb-3">
@@ -127,7 +127,7 @@
                         {%- if type == current_category -%}
                           {%- assign category_active = "active-category" -%}
                         {%- endif -%}
-                        <a class="me-1 text-decoration-none" href="/en/resources/{{type | replace: ' ', '-'}}"><span class="badge rounded-pill bg-light text-dark {{type}} {{category_active}}">{{type}}</span></a>
+                        <a class="me-1 text-decoration-none" href="/en/resources/{{type | replace: ' ', '-'}}"><span class="badge rounded-pill bg-light poap-purple-dark {{type}} {{category_active}}">{{type}}</span></a>
                         {%- assign resource_categories = resource.categories | split: ", " -%}
                         {%- for category in resource_categories -%}
                           {%- comment -%}
@@ -137,7 +137,7 @@
                           {%- if category == current_category -%}
                             {%- assign category_active = "active-category" -%}
                           {%- endif -%}
-                          <a class="me-1 text-decoration-none" href="/en/resources/{{category | replace: ' ', '-'}}"><span class="badge rounded-pill bg-light text-dark {{category}} {{category_active}}">{{category}}</span></a>
+                          <a class="me-1 text-decoration-none" href="/en/resources/{{category | replace: ' ', '-'}}"><span class="badge rounded-pill bg-light poap-purple-dark {{category}} {{category_active}}">{{category}}</span></a>
                         {%- endfor -%}
                       {%- endcapture -%}
                       {{category_tags}}
@@ -213,11 +213,11 @@
                   {%- assign featured = "featured" -%}
                 {%- endif -%}
                 <div class="card resource-card rounded-3 h-100 {{featured}}">
-                  <div class="card-body d-flex align-items-start flex-column">
+                  <div class="card-body d-flex align-items-start flex-column poap-purple-dark">
                     {%- if resource.new == true -%}
                       <div class="h5" style="position: absolute; top: -15px; left: -10px; ">
                         <a href="/en/resources/new">
-                          <span class="badge bg-poap-purple-1">new!</span>
+                          <span class="badge bg-poap-purple-light">new!</span>
                         </a>
                       </div>
                     {%- endif -%}
@@ -227,7 +227,7 @@
                       {{site.data.icons.link}}
                     </a>
                     <h5 class="card-title mb-1 pe-4">
-                      <a href="{{resource.link}}" target="_blank" class="text-decoration-none link-dark">{{resource.title}} {{site.data.icons.new_tab}}</a>
+                      <a href="{{resource.link}}" target="_blank" class="text-decoration-none poap-purple-dark">{{resource.title}} {{site.data.icons.new_tab}}</a>
                     </h5>
                     <p class="mb-2 text-muted"><small>{{resource.creator}}</small></p>
                     <div class="mb-3">
@@ -247,7 +247,7 @@
                         {%- if type == current_category -%}
                           {%- assign category_active = "active-category" -%}
                         {%- endif -%}
-                        <a class="me-1 text-decoration-none" href="/en/resources/{{type | replace: ' ', '-'}}"><span class="badge rounded-pill bg-light text-dark {{type}} {{category_active}}">{{type}}</span></a>
+                        <a class="me-1 text-decoration-none" href="/en/resources/{{type | replace: ' ', '-'}}"><span class="badge rounded-pill bg-light poap-purple-dark {{type}} {{category_active}}">{{type}}</span></a>
                         {%- assign resource_categories = resource.categories | split: ", " -%}
                         {%- for category in resource_categories -%}
                           {%- comment -%}
@@ -257,7 +257,7 @@
                           {%- if category == current_category -%}
                             {%- assign category_active = "active-category" -%}
                           {%- endif -%}
-                          <a class="me-1 text-decoration-none" href="/en/resources/{{category | replace: ' ', '-'}}"><span class="badge rounded-pill bg-light text-dark {{category}} {{category_active}}">{{category}}</span></a>
+                          <a class="me-1 text-decoration-none" href="/en/resources/{{category | replace: ' ', '-'}}"><span class="badge rounded-pill bg-light poap-purple-dark {{category}} {{category_active}}">{{category}}</span></a>
                         {%- endfor -%}
                       {%- endcapture -%}
                       {{category_tags}}
