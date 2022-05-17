@@ -99,13 +99,13 @@ function showResourceModal(id) {
   let pricingTag = "";
   switch(pricing) {
     case "free":
-      pricingTag = `<span class="badge text-dark bg-poap-green">free</span>`;
+      pricingTag = `<span class="badge poap-purple-dark bg-poap-mint">free</span>`;
       break;
     case "freemium":
-      pricingTag = `<span class="badge text-dark bg-poap-blue">freemium</span>`;
+      pricingTag = `<span class="badge poap-purple-dark bg-poap-sky">freemium</span>`;
       break;
     case "paid":
-      pricingTag = `<span class="badge text-dark bg-poap-red">paid</span>`;
+      pricingTag = `<span class="badge poap-purple-dark bg-poap-red">paid</span>`;
       break;
   }
 
@@ -137,7 +137,7 @@ function showResourceModal(id) {
     let highlight = (cat == activeCategory) ? "active-category" : "";
     let tag = `
       <a class="me-1 text-decoration-none" href="/en/resources/${cat}">
-        <span class="badge rounded-pill bg-light text-dark ${highlight}">${cat}</span>
+        <span class="badge rounded-pill bg-light poap-purple-dark ${highlight}">${cat}</span>
       </a>`;
     categoryTags += tag;
   }
