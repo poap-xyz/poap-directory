@@ -1,9 +1,5 @@
 ---
-layout: default
+layout: resource
 title: Soundcloud Integrations
 permalink: /en/integrations/soundcloud
 ---
-
-
-{%- include partials/integrations-page.html -%}
-

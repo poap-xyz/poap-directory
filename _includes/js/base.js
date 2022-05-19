@@ -68,10 +68,15 @@ function setQueryParameters(params) {
 
 
 var resourceDetailModal = document.getElementById('resourceDetailModal');
-resourceDetailModal.addEventListener('hidden.bs.modal', function (event) {
-  // Update url to remove resource id params
-  updateUrl();
-})
+try {
+  resourceDetailModal.addEventListener('hidden.bs.modal', function (event) {
+    // Update url to remove resource id params
+    updateUrl();
+  })
+}
+catch {
+  console.log("no resource modals on this page")
+}
 // Show and populate modal and update the url with params
 function showResourceModal(id) {
   let resource = resourcesJson.find(obj => {
@@ -88,19 +93,19 @@ function showResourceModal(id) {
   let docs = resource.docs;
   let embed = resource.embed;
   const modalCopyLink = document.getElementById("modalCopyLink"); 
-  modalCopyLink.setAttribute("data-link", link); 
+  modalCopyLink.setAttribute("data-link", link);
 
   // Add the pricing model if listed
   let pricingTag = "";
   switch(pricing) {
     case "free":
-      pricingTag = `<span class="badge text-dark bg-poap-green">free</span>`;
+      pricingTag = `<span class="badge poap-purple-dark bg-poap-mint">free</span>`;
       break;
     case "freemium":
-      pricingTag = `<span class="badge text-dark bg-poap-blue">freemium</span>`;
+      pricingTag = `<span class="badge poap-purple-dark bg-poap-sky">freemium</span>`;
       break;
     case "paid":
-      pricingTag = `<span class="badge text-dark bg-poap-red">paid</span>`;
+      pricingTag = `<span class="badge poap-purple-dark bg-poap-red">paid</span>`;
       break;
   }
 
@@ -108,7 +113,7 @@ function showResourceModal(id) {
   let integrationTag = "";
   for (let entry in integrationsJson) {
     if (integrations.includes(integrationsJson[entry]["id"])) {
-      integrationTag += `<a href="/en/integrations/${integrationsJson[entry]["id"]}"><img src="${integrationsJson[entry]["img"]}"></a>`;
+      integrationTag += `<a href="/en/integrations/${integrationsJson[entry]["id"]}" title="${integrationsJson[entry]["title"]}"><img src="${integrationsJson[entry]["img"]}"></a>`;
     }
   }
 
@@ -132,7 +137,7 @@ function showResourceModal(id) {
     let highlight = (cat == activeCategory) ? "active-category" : "";
     let tag = `
       <a class="me-1 text-decoration-none" href="/en/resources/${cat}">
-        <span class="badge rounded-pill bg-light text-dark ${highlight}">${cat}</span>
+        <span class="badge rounded-pill bg-light poap-purple-dark ${highlight}">${cat}</span>
       </a>`;
     categoryTags += tag;
   }

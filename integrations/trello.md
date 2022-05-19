@@ -1,9 +1,5 @@
 ---
-layout: default
+layout: resource
 title: Trello Integrations
 permalink: /en/integrations/trello
 ---
-
-
-{%- include partials/integrations-page.html -%}
-

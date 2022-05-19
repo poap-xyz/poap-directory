@@ -1,9 +1,5 @@
 ---
-layout: default
+layout: resource
 title: Decentraland Integrations
 permalink: /en/integrations/decentraland
 ---
-
-
-{%- include partials/integrations-page.html -%}
-

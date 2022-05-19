@@ -1,9 +1,5 @@
 ---
-layout: default
+layout: resource
 title: Access Resources
 permalink: /en/resources/access
 ---
-
-
-{%- include partials/resource-category-page.html -%}
-

@@ -1,9 +1,5 @@
 ---
-layout: default
+layout: resource
 title: Zoom Integrations
 permalink: /en/integrations/zoom
 ---
-
-
-{%- include partials/integrations-page.html -%}
-

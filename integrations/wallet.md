@@ -1,9 +1,5 @@
 ---
-layout: default
+layout: resource
 title: Wallet Integrations
 permalink: /en/integrations/wallet
 ---
-
-
-{%- include partials/integrations-page.html -%}
-

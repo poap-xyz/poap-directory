@@ -1,9 +1,5 @@
 ---
-layout: default
+layout: resource
 title: Discord Integrations
 permalink: /en/integrations/discord
 ---
-
-
-{%- include partials/integrations-page.html -%}
-

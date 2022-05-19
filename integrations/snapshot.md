@@ -1,9 +1,5 @@
 ---
-layout: default
+layout: resource
 title: Snapshot Integrations
 permalink: /en/integrations/snapshot
 ---
-
-
-{%- include partials/integrations-page.html -%}
-
