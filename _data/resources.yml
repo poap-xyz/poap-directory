@@ -2232,11 +2232,11 @@
   forum: 
 - id: 108
   link: https://poaps.agency/
-  title: You've Me POAPs
+  title: You've Met POAPs
   official: false
   new: true
   hide_on_all: false
-  desc_short: Create your own personalized "You've met me" POAPs to distribute at events.
+  desc_short: Create your own personalized "You've Met Me" POAPs to distribute at events.
   desc_long: 
   creator: POAPs Agency
   pricing: paid
@@ -2334,8 +2334,8 @@
   official: false
   new: true
   hide_on_all: false
-  desc_short: Random POAPs allows you to create raffles for your event participants.
-  desc_long: 
+  desc_short: Random POAPs allows you to create instant raffles between POAP token holders.
+  desc_long: Random POAPs allows you to create instant raffles between POAP token holders. The differentiating factor is that POAP holders don’t have to actively sign up to participate in a raffle. It's meant to be a simple way to quickly raffle something using POAPs.
   creator: Santiago Galán
   pricing: free
   # contact: 
@@ -2366,7 +2366,7 @@
   integrations: 
   github: 
   docs: 
-  embed: 
+  embed: '<div class="text-center"><img class="img-fluid" style="max-height: 420px" src="/assets/img/demos/2cents.gif"></div>'
   discord: 
   twitter: https://twitter.com/2CentsAudio
   telegram: 
@@ -2384,7 +2384,7 @@
   desc_short: Create gated access to your physical events or prove your ownership of a POAP to attend someone else's.
   desc_long: 
   creator: ETHPass
-  pricing: 
+  pricing: free
   # contact: 
   categories: access, app, collector
   integrations: google-pay, apple-wallet
@@ -2452,10 +2452,10 @@
 #   official: false
 #   new: true
 #   hide_on_all: false
-#   desc_short: Create and share gated documents with exclusive access to POAP collectors.
+#   desc_short: Create and share gated documents and workspaces with exclusive access to POAP collectors.
 #   desc_long: 
 #   creator: Slik Safe
-#   pricing: paid
+#   pricing: freemium
 #   # contact: 
 #   categories: access
 #   integrations: dropbox
