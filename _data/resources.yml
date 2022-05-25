@@ -50,7 +50,7 @@
 #   forum: 
 
 
-# Last id used: 118
+# Last id used: 119
 
 
 - id: 1
@@ -2421,29 +2421,78 @@
   youtube: 
   linkedin: 
   forum: 
-- id: 118
-  link: https://aelin.xyz/
-  title: Aelin Fundraising
+- id: 120
+  link: https://huddle01.com/
+  title: Gated Access Video Conferencing
   official: false
   new: true
   hide_on_all: false
-  desc_short: Create gated fundraising with exclusive access to event participants.
+  desc_short: Schedule gated virtual meetings with exclusive access to event participants.
   desc_long: 
-  creator: Aelin
-  pricing: 
+  creator: Huddle01
+  pricing: free
   # contact: 
   categories: access
   integrations: 
-  github: https://github.com/AelinXYZ
-  docs: https://docs.aelin.xyz/
+  github: 
+  docs: 
   embed: 
-  discord: https://discord.com/invite/YHffnV9sUM
-  twitter: https://twitter.com/aelinprotocol
+  discord: https://discord.com/invite/EYqfS32jYc
+  twitter: https://twitter.com/huddle01com
   telegram: 
-  medium: 
+  medium: https://medium.com/huddle-01
   youtube: 
-  linkedin: 
+  linkedin: https://www.linkedin.com/company/huddle-01/
+  # reddit: https://www.reddit.com/r/Huddle01/
   forum: 
+
+
+# - id: 118
+#   link: https://aelin.xyz/
+#   title: Aelin Fundraising
+#   official: false
+#   new: true
+#   hide_on_all: false
+#   desc_short: Create gated fundraising with exclusive access to event participants.
+#   desc_long: 
+#   creator: Aelin
+#   pricing: 
+#   # contact: 
+#   categories: access
+#   integrations: 
+#   github: https://github.com/AelinXYZ
+#   docs: https://docs.aelin.xyz/
+#   embed: 
+#   discord: https://discord.com/invite/YHffnV9sUM
+#   twitter: https://twitter.com/aelinprotocol
+#   telegram: 
+#   medium: 
+#   youtube: 
+#   linkedin: 
+#   forum: 
+# - id: 119
+#   link: https://www.voxels.com/
+#   title: Voxels POAP Dispenser
+#   official: false
+#   new: true
+#   hide_on_all: false
+#   desc_short: A virtual dispenser to distribute POAPs to your event participants within the Voxel metaverse.
+#   desc_long: 
+#   creator: Voxels
+#   pricing: 
+#   # contact: 
+#   categories: distribution
+#   integrations: 
+#   github: 
+#   docs: https://wiki.cryptovoxels.com/e/en/features/POAP-Dispenser
+#   embed: 
+#   discord: https://discord.gg/voxels
+#   twitter: https://twitter.com/cryptovoxels
+#   telegram: 
+#   medium: https://cryptovoxels.medium.com
+#   youtube: https://www.youtube.com/channel/UClb39EUkTtjv07Y2pfx6R9A
+#   linkedin: https://www.linkedin.com/company/cryptovoxels/
+#   forum: 
 
 
 # - id: 116
