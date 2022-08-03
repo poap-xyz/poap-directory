@@ -2,6 +2,7 @@
   /* Main */
   --poap-purple:       #5E58A5;
   --poap-purple-light: #B5AEFF;
+  --poap-purple-medium:#968CFF;
   --poap-purple-dark:  #473E6B;
 
   /* Secondary */
@@ -44,7 +45,7 @@ a:hover {
 
 /* Buttons */
 .btn-primary {
-  background-color: var(--poap-purple-dark);
+  background-color: var(--poap-purple-medium);
   border-color: var(--poap-purple-dark);
 }
 .btn-primary:hover,
@@ -87,6 +88,12 @@ a:focus,
 }
 .bg-poap-purple-light {
   background-color: var(--poap-purple-light);
+}
+.poap-purple-medium {
+  color: var(--poap-purple-medium);
+}
+.bg-poap-purple-medium {
+  background-color: var(--poap-purple-medium);
 }
 .poap-purple-dark {
   color: var(--poap-purple-dark);
@@ -338,7 +345,7 @@ svg.new-tab-icon {
 
 /* Card Title Icons */
 .card-title > svg {
-  color: var(--poap-purple-light);
+  color: var(--poap-purple-medium);
   margin-right: 0.25rem;
   margin-top: -0.2rem;
   height: 1.6rem;

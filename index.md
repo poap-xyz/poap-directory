@@ -17,8 +17,10 @@ layout: default
             From better distribution to fun with friends, find the resources you need on the POAP Directory!
           </p>
           <a href="/en/resources/all" class="btn btn-primary btn-lg px-4 m-1">Browse Applications</a>
+          <a href="https://documentation.poap.tech/" target="_blank" class="btn btn-outline-primary btn-lg px-4 m-1">Build on POAP {{site.data.icons.new_tab}}</a>
           <p class="mt-3">
-            <a href="https://documentation.poap.tech/" target="_blank" class="h5 fw-light poap-purple-dark">Build on POAP {{site.data.icons.arrow_right}}</a>
+            <br>
+            <!-- <a href="https://documentation.poap.tech/" target="_blank" class="h5 fw-light poap-purple-dark">Build on POAP {{site.data.icons.arrow_right}}</a> -->
           </p>
         </div>
       </div>
@@ -118,6 +120,7 @@ layout: default
                 </h5>
                 <ul class="list-unstyled">
                   <li class="mb-2 ps-2 text-truncate"><a href="https://help.poap.xyz/en/articles/5802657-how-do-i-set-up-a-poap-drop" class="poap-purple-dark text-decoration-none" target="_blank">Set Up Your Drop {{site.data.icons.new_tab}}</a></li>
+                  <li class="mb-2 ps-2 text-truncate"><a href="https://documentation.poap.tech/" class="poap-purple-dark text-decoration-none" target="_blank">Create Using the POAP API {{site.data.icons.new_tab}}</a></li>
                 </ul>
               </div>
             </div>
@@ -144,6 +147,7 @@ layout: default
                       <li class="mb-2 ps-2 text-truncate"><a href="https://help.poap.xyz/en/articles/5807488-how-do-i-set-up-delivery" class="poap-purple-dark text-decoration-none" target="_blank">POAP Delivery {{site.data.icons.new_tab}}</a></li>
                       <li class="mb-2 ps-2 text-truncate"><a href="https://help.poap.xyz/en/articles/5812351-how-do-i-set-up-a-website-for-poap-distribution" class="poap-purple-dark text-decoration-none" target="_blank">POAP Website {{site.data.icons.new_tab}}</a></li>
                       <li class="mb-2 ps-2 text-truncate"><a href="https://help.poap.xyz/en/articles/5807573-how-do-i-set-up-a-poap-secret" class="poap-purple-dark text-decoration-none" target="_blank">POAP Secrets {{site.data.icons.new_tab}}</a></li>
+                      <li class="mb-2 ps-2 text-truncate"><a href="https://documentation.poap.tech/" class="poap-purple-dark text-decoration-none" target="_blank">POAP API {{site.data.icons.new_tab}}</a></li>
                     </ul>
                   </div>
                   <div class="col-6">
