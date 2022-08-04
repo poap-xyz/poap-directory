@@ -396,6 +396,9 @@ svg.new-tab-icon {
   max-width: 24px;
   margin-right: 0.5rem;
 }
+#rdmDescription {
+  word-wrap: break-word;
+}
 
 
 /* Footer */
