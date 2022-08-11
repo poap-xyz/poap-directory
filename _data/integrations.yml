@@ -36,6 +36,9 @@
 - id: twitter
   title: Twitter
   img: /assets/img/integrations/twitter.svg
+- id: youtube
+  title: Youtube
+  img: /assets/img/integrations/youtube.svg
 - id: decentraland
   title: Decentraland
   img: /assets/img/integrations/decentraland.svg

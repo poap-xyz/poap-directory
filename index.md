@@ -106,6 +106,7 @@ layout: default
                 </h5>
                 <ul class="list-unstyled">
                   <li class="mb-2 ps-2 text-truncate"><a href="https://help.poap.xyz/en/articles/5839280-how-can-i-produce-quality-poap-drops" class="poap-purple-dark text-decoration-none" target="_blank">What Makes a Quality POAP? {{site.data.icons.new_tab}}</a></li>
+                  <li class="mb-2 ps-2 text-truncate"><a href="https://welook.io/poaps/add/youmet" class="poap-purple-dark text-decoration-none" target="_blank">Create a "You've Met Me" POAP {{site.data.icons.new_tab}}</a></li>
                   <li class="mb-2 ps-2 text-truncate"><a href="https://www.poapathon.com/" class="poap-purple-dark text-decoration-none" target="_blank">Create a Design Bounty With POAPathon {{site.data.icons.new_tab}}</a></li>
                 </ul>
               </div>
