@@ -45,8 +45,8 @@ layout: default
               Introduction
             </h5>
             <ul class="list-unstyled">
-              <li class="mb-2 ps-2 text-truncate"><a href="https://help.poap.xyz/en/articles/5820491-what-is-poap" class="poap-purple-dark text-decoration-none" target="_blank">What is POAP? {{site.data.icons.new_tab}}</a></li>
-              <li class="mb-2 ps-2 text-truncate"><a href="https://help.poap.xyz/en/" class="poap-purple-dark text-decoration-none" target="_blank">Guides {{site.data.icons.new_tab}}</a></li>
+              <li class="mb-2 ps-2 text-truncate"><a href="https://poap.zendesk.com/hc/en-us/articles/9494654007437-What-Is-POAP-" class="poap-purple-dark text-decoration-none" target="_blank">What is POAP? {{site.data.icons.new_tab}}</a></li>
+              <li class="mb-2 ps-2 text-truncate"><a href="https://poap.zendesk.com/hc/en-us" class="poap-purple-dark text-decoration-none" target="_blank">Guides {{site.data.icons.new_tab}}</a></li>
               <li class="mb-2 ps-2 text-truncate"><a href="/en/support" class="poap-purple-dark text-decoration-none">General Support</a></li>
             </ul>
           </div>
@@ -103,7 +103,7 @@ layout: default
                   Design <span class="bg-poap-violet rounded-pill py-1 px-2 fw-light fs-6 ms-1">Step 1</span>
                 </h5>
                 <ul class="list-unstyled">
-                  <li class="mb-2 ps-2 text-truncate"><a href="https://help.poap.xyz/en/articles/5839280-how-can-i-produce-quality-poap-drops" class="poap-purple-dark text-decoration-none" target="_blank">What Makes a Quality POAP? {{site.data.icons.new_tab}}</a></li>
+                  <li class="mb-2 ps-2 text-truncate"><a href="https://poap.zendesk.com/hc/en-us/articles/9494120581773-How-Can-I-Produce-Quality-POAP-Drops-" class="poap-purple-dark text-decoration-none" target="_blank">What Makes a Quality POAP? {{site.data.icons.new_tab}}</a></li>
                   <li class="mb-2 ps-2 text-truncate"><a href="https://www.poapathon.com/" class="poap-purple-dark text-decoration-none" target="_blank">Create a Design Bounty With POAPathon {{site.data.icons.new_tab}}</a></li>
                 </ul>
               </div>
@@ -117,7 +117,7 @@ layout: default
                   Create <span class="bg-poap-violet rounded-pill py-1 px-2 fw-light fs-6 ms-1">Step 2</span>
                 </h5>
                 <ul class="list-unstyled">
-                  <li class="mb-2 ps-2 text-truncate"><a href="https://help.poap.xyz/en/articles/5802657-how-do-i-set-up-a-poap-drop" class="poap-purple-dark text-decoration-none" target="_blank">Set Up Your Drop {{site.data.icons.new_tab}}</a></li>
+                  <li class="mb-2 ps-2 text-truncate"><a href="https://poap.zendesk.com/hc/en-us/articles/9702718846989-How-Do-I-Set-Up-a-POAP-Drop-" class="poap-purple-dark text-decoration-none" target="_blank">Set Up Your Drop {{site.data.icons.new_tab}}</a></li>
                 </ul>
               </div>
             </div>
@@ -133,23 +133,23 @@ layout: default
                 </h5>
                 <div class="row w-100">
                     <ul class="list-unstyled">
-                      <li class="mb-2 ps-2 text-truncate"><a href="https://help.poap.xyz/en/articles/5812140-poap-distribution-methods-101" class="poap-purple-dark text-decoration-none" target="_blank">Distribution Methods 101 {{site.data.icons.new_tab}}</a></li>
+                      <li class="mb-2 ps-2 text-truncate"><a href="https://poap.zendesk.com/hc/en-us/articles/9721389158029-POAP-Distribution-Methods-101" class="poap-purple-dark text-decoration-none" target="_blank">Distribution Methods 101 {{site.data.icons.new_tab}}</a></li>
                     </ul>
                 </div>
                 <div class="row w-100">
                   <div class="col-6">
                     <p class="fw-light text-muted mb-2">Native Tools</p>
                     <ul class="list-unstyled">
-                      <li class="mb-2 ps-2 text-truncate"><a href="https://help.poap.xyz/en/articles/5908960-how-do-i-set-up-the-magic-poap-qr-dispenser-to-distribute-mint-links-via-unique-qr-codes" class="poap-purple-dark text-decoration-none" target="_blank">POAP Dispenser {{site.data.icons.new_tab}}</a></li>
-                      <li class="mb-2 ps-2 text-truncate"><a href="https://help.poap.xyz/en/articles/5807488-how-do-i-set-up-delivery" class="poap-purple-dark text-decoration-none" target="_blank">POAP Delivery {{site.data.icons.new_tab}}</a></li>
-                      <li class="mb-2 ps-2 text-truncate"><a href="https://help.poap.xyz/en/articles/5812351-how-do-i-set-up-a-website-for-poap-distribution" class="poap-purple-dark text-decoration-none" target="_blank">POAP Website {{site.data.icons.new_tab}}</a></li>
-                      <li class="mb-2 ps-2 text-truncate"><a href="https://help.poap.xyz/en/articles/5807573-how-do-i-set-up-a-poap-secret" class="poap-purple-dark text-decoration-none" target="_blank">POAP Secrets {{site.data.icons.new_tab}}</a></li>
+                      <li class="mb-2 ps-2 text-truncate"><a href="https://poap.zendesk.com/hc/en-us/articles/9701084651661-How-Do-I-Set-Up-the-POAP-Kiosk-to-Distribute-Mint-Links-Via-Unique-QR-Codes-" class="poap-purple-dark text-decoration-none" target="_blank">POAP Dispenser {{site.data.icons.new_tab}}</a></li>
+                      <li class="mb-2 ps-2 text-truncate"><a href="https://poap.zendesk.com/hc/en-us/articles/9727757244813-How-Do-I-Set-Up-Delivery-" class="poap-purple-dark text-decoration-none" target="_blank">POAP Delivery {{site.data.icons.new_tab}}</a></li>
+                      <li class="mb-2 ps-2 text-truncate"><a href="https://poap.zendesk.com/hc/en-us/articles/9721260337293-How-Do-I-Set-Up-a-Website-for-POAP-Distribution-" class="poap-purple-dark text-decoration-none" target="_blank">POAP Website {{site.data.icons.new_tab}}</a></li>
+                      <li class="mb-2 ps-2 text-truncate"><a href="https://poap.zendesk.com/hc/en-us/articles/9727214802061-How-Do-I-Set-Up-a-POAP-Secret-" class="poap-purple-dark text-decoration-none" target="_blank">POAP Secrets {{site.data.icons.new_tab}}</a></li>
                     </ul>
                   </div>
                   <div class="col-6">
                     <p class="fw-light text-muted mb-2">Created by Partners</p>
                     <ul class="list-unstyled">
-                      <li class="mb-2 ps-2 text-truncate"><a href="https://help.poap.xyz/en/articles/5857145-how-do-i-set-up-the-poap-snapshot-plugin" class="poap-purple-dark text-decoration-none" target="_blank">Snapshot {{site.data.icons.new_tab}}</a></li>
+                      <li class="mb-2 ps-2 text-truncate"><a href="https://poap.zendesk.com/hc/en-us/articles/9907780119693-How-Do-I-Set-Up-the-POAP-Snapshot-Plugin-" class="poap-purple-dark text-decoration-none" target="_blank">Snapshot {{site.data.icons.new_tab}}</a></li>
                       <li class="mb-2 ps-2 text-truncate"><a href="https://docs.bankless.community/degen-product-support/product-resources/poap-distribution-commands-and-workflow" class="poap-purple-dark text-decoration-none" target="_blank">Discord {{site.data.icons.new_tab}}</a></li>
                       <li class="mb-2 ps-2 text-truncate"><a href="https://docs.bankless.community/degen-product-support/premium-features/twitter-spaces" class="poap-purple-dark text-decoration-none" target="_blank">Twitter Spaces {{site.data.icons.new_tab}}</a></li>
                       <li class="mb-2 ps-2 text-truncate"><a href="https://poap.gg/" class="poap-purple-dark text-decoration-none" target="_blank">Twitch Stream {{site.data.icons.new_tab}}</a></li>
@@ -187,9 +187,9 @@ layout: default
               Play
             </h5>
             <ul class="list-unstyled flex-grow-1">
-              <li class="mb-2 ps-2 text-truncate"><a href="https://help.poap.xyz/en/articles/5849075-how-do-i-set-up-a-poap-fun-raffle" class="poap-purple-dark text-decoration-none" target="_blank">Raffles {{site.data.icons.new_tab}}</a></li>
+              <li class="mb-2 ps-2 text-truncate"><a href="https://poap.zendesk.com/hc/en-us/articles/9907830664333-How-Do-I-Set-Up-a-POAP-Fun-Raffle-" class="poap-purple-dark text-decoration-none" target="_blank">Raffles {{site.data.icons.new_tab}}</a></li>
               <li class="mb-2 ps-2 text-truncate"><a href="https://app.poap.art/" class="poap-purple-dark text-decoration-none" target="_blank">Art {{site.data.icons.new_tab}}</a></li>
-              <li class="mb-2 ps-2 text-truncate"><a href="https://help.poap.xyz/en/articles/5866650-how-do-i-set-up-a-poap-vote-poll" class="poap-purple-dark text-decoration-none" target="_blank">Voting {{site.data.icons.new_tab}}</a></li>
+              <li class="mb-2 ps-2 text-truncate"><a href="https://poap.zendesk.com/hc/en-us/articles/9907481094925-How-Do-I-Set-Up-a-POAP-Vote-Poll-" class="poap-purple-dark text-decoration-none" target="_blank">Voting {{site.data.icons.new_tab}}</a></li>
               <li class="mb-2 ps-2 text-truncate"><a href="https://gathertown.gitbook.io/web3/integrations/poaps-in-gather#guide-scavenger-hunt-for-poap" class="poap-purple-dark text-decoration-none" target="_blank">Scavenger Hunts {{site.data.icons.new_tab}}</a></li>
             </ul>
             <a href="/en/resources/play" class="btn btn-outline-primary">View All</a>
