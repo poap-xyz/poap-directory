@@ -88,7 +88,7 @@
   categories: play, voting
   integrations: 
   github: https://github.com/poap-xyz/poap-vote-v2
-  docs: https://poap.zendesk.com/hc/en-us/articles/9907481094925-How-Do-I-Set-Up-a-POAP-Vote-Poll-
+  docs: https://help.poap.xyz/en/articles/5866650-how-do-i-set-up-a-poap-vote-poll
   embed: 
   discord: 
   twitter: 
@@ -110,7 +110,7 @@
   categories: play
   integrations: 
   github: https://github.com/poap-xyz/poap-fun
-  docs: https://poap.zendesk.com/hc/en-us/articles/9907830664333-How-Do-I-Set-Up-a-POAP-Fun-Raffle-
+  docs: https://help.poap.xyz/en/articles/5849075-how-do-i-set-up-a-poap-fun-raffle
   embed: 
   discord: 
   twitter: 
@@ -157,7 +157,7 @@
   categories: distribution
   integrations: 
   github: https://github.com/poap-xyz/poap-qr-kiosk/
-  docs: https://poap.zendesk.com/hc/en-us/articles/9701084651661-How-Do-I-Set-Up-the-POAP-Kiosk-to-Distribute-Mint-Links-Via-Unique-QR-Codes-
+  docs: https://help.poap.xyz/en/articles/5908960-how-do-i-set-up-the-poap-kiosk-to-distribute-mint-links-via-unique-qr-codes
   embed: 
   discord: 
   twitter: 
@@ -189,7 +189,7 @@
   linkedin: 
   forum: 
 - id: 7
-  link: https://poap.zendesk.com/hc/en-us
+  link: https://help.poap.xyz/en
   title: POAP Help Center
   official: true
   hide_on_all: true
@@ -430,7 +430,7 @@
   categories: explore
   integrations: 
   github: https://github.com/poap-xyz/poap-gallery
-  docs: https://poap.zendesk.com/hc/en-us/articles/9498268398733-What-Is-POAP-Gallery-
+  docs: https://help.poap.xyz/en/articles/5908960-how-do-i-set-up-the-poap-kiosk-to-distribute-mint-links-via-unique-qr-codes
   embed: 
   discord: 
   twitter: 
@@ -452,7 +452,7 @@
   categories: admin
   integrations: 
   github: 
-  docs: https://poap.zendesk.com/hc/en-us/articles/9702718846989-How-Do-I-Set-Up-a-POAP-Drop-
+  docs: https://help.poap.xyz/en/articles/5802657-how-do-i-set-up-a-poap-drop
   embed: 
   discord: 
   twitter: 
@@ -481,7 +481,7 @@
   categories: admin, distribution
   integrations: 
   github: 
-  docs: https://poap.zendesk.com/hc/en-us/articles/9721260337293-How-Do-I-Set-Up-a-Website-for-POAP-Distribution-
+  docs: https://help.poap.xyz/en/articles/5812351-how-do-i-set-up-a-website-for-poap-distribution
   embed: 
   discord: 
   twitter: 
@@ -512,7 +512,7 @@
   categories: admin, distribution
   integrations: 
   github: 
-  docs: https://poap.zendesk.com/hc/en-us/articles/9727214802061-How-Do-I-Set-Up-a-POAP-Secret-
+  docs: https://help.poap.xyz/en/articles/5807573-how-do-i-set-up-a-poap-secret
   embed: 
   discord: 
   twitter: 
@@ -556,7 +556,7 @@
   categories: admin, distribution
   integrations: 
   github: 
-  docs: https://poap.zendesk.com/hc/en-us/articles/9727757244813-How-Do-I-Set-Up-Delivery-
+  docs: https://help.poap.xyz/en/articles/5807488-how-do-i-set-up-delivery
   embed: 
   discord: 
   twitter: 
@@ -721,7 +721,7 @@
   linkedin: 
   forum: 
 - id: 31
-  link: https://poap.zendesk.com/hc/en-us/articles/9702718846989-How-Do-I-Set-Up-a-POAP-Drop-
+  link: https://help.poap.xyz/en/articles/5802657-how-do-i-set-up-a-poap-drop
   title: POAP.website Guide
   official: true
   hide_on_all: true
@@ -743,7 +743,7 @@
   linkedin: 
   forum: 
 - id: 32
-  link: https://poap.zendesk.com/hc/en-us/articles/9727757244813-How-Do-I-Set-Up-Delivery-
+  link: https://help.poap.xyz/en/articles/5807488-how-do-i-set-up-delivery
   title: POAP.delivery Guide
   official: true
   hide_on_all: true
@@ -1218,7 +1218,7 @@
   categories: distribution, voting
   integrations: snapshot
   github: https://github.com/snapshot-labs/snapshot-plugins/tree/master/src/plugins/poap
-  docs: https://poap.zendesk.com/hc/en-us/articles/9907780119693-How-Do-I-Set-Up-the-POAP-Snapshot-Plugin-
+  docs: https://help.poap.xyz/en/articles/5857145-how-do-i-set-up-the-poap-snapshot-plugin
   embed: 
   discord: https://discord.gg/snapshot
   twitter: https://twitter.com/SnapshotLabs
@@ -1584,7 +1584,7 @@
   linkedin: 
   forum: 
 - id: 68
-  link: https://poap.zendesk.com/hc/en-us/articles/10477884588429-The-POAP-Glossary
+  link: https://help.poap.xyz/en/articles/5855319-the-poap-glossary
   title: POAP Glossary
   official: true
   hide_on_all: true
@@ -1606,7 +1606,7 @@
   linkedin: 
   forum: 
 - id: 69
-  link: https://poap.zendesk.com/hc/en-us/articles/9721389158029-POAP-Distribution-Methods-101
+  link: https://help.poap.xyz/en/articles/5812140-poap-distribution-methods-101
   title: Distribution 101 Guide
   official: true
   hide_on_all: true
@@ -1628,7 +1628,7 @@
   linkedin: 
   forum: 
 - id: 70
-  link: https://poap.zendesk.com/hc/en-us/articles/9727214802061-How-Do-I-Set-Up-a-POAP-Secret-
+  link: https://help.poap.xyz/en/articles/5807573-how-do-i-set-up-a-poap-secret
   title: POAP Secret Guide
   official: true
   hide_on_all: true
@@ -1650,7 +1650,7 @@
   linkedin: 
   forum: 
 - id: 71
-  link: https://poap.zendesk.com/hc/en-us/articles/9702718846989-How-Do-I-Set-Up-a-POAP-Drop-
+  link: https://help.poap.xyz/en/articles/5802657-how-do-i-set-up-a-poap-drop
   title: POAP Drop Creation Guide
   official: true
   hide_on_all: true
