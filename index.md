@@ -46,7 +46,7 @@ layout: default
             </h5>
             <ul class="list-unstyled">
               <li class="mb-2 ps-2 text-truncate"><a href="https://help.poap.xyz/en/articles/5820491-what-is-poap" class="poap-purple-dark text-decoration-none" target="_blank">What is POAP? {{site.data.icons.new_tab}}</a></li>
-              <li class="mb-2 ps-2 text-truncate"><a href="https://help.poap.xyz/en" class="poap-purple-dark text-decoration-none" target="_blank">Guides {{site.data.icons.new_tab}}</a></li>
+              <li class="mb-2 ps-2 text-truncate"><a href="https://help.poap.xyz/en/" class="poap-purple-dark text-decoration-none" target="_blank">Guides {{site.data.icons.new_tab}}</a></li>
               <li class="mb-2 ps-2 text-truncate"><a href="/en/support" class="poap-purple-dark text-decoration-none">General Support</a></li>
             </ul>
           </div>

@@ -189,7 +189,7 @@
   linkedin: 
   forum: 
 - id: 7
-  link: https://help.poap.xyz/en
+  link: https://help.poap.xyz/
   title: POAP Help Center
   official: true
   hide_on_all: true
@@ -430,7 +430,7 @@
   categories: explore
   integrations: 
   github: https://github.com/poap-xyz/poap-gallery
-  docs: https://help.poap.xyz/en/articles/5908960-how-do-i-set-up-the-poap-kiosk-to-distribute-mint-links-via-unique-qr-codes
+  docs: https://help.poap.xyz/en/articles/5814257-what-is-poap-gallery
   embed: 
   discord: 
   twitter: 
