@@ -140,7 +140,7 @@ layout: default
                   <div class="col-6">
                     <p class="fw-light text-muted mb-2">Native Tools</p>
                     <ul class="list-unstyled">
-                      <li class="mb-2 ps-2 text-truncate"><a href="https://help.poap.xyz/en/articles/5908960-how-do-i-set-up-the-magic-poap-qr-dispenser-to-distribute-mint-links-via-unique-qr-codes" class="poap-purple-dark text-decoration-none" target="_blank">POAP Dispenser {{site.data.icons.new_tab}}</a></li>
+                      <li class="mb-2 ps-2 text-truncate"><a href="https://help.poap.xyz/en/articles/5908960-how-do-i-set-up-the-poap-kiosk-to-distribute-mint-links-via-unique-qr-codes" class="poap-purple-dark text-decoration-none" target="_blank">POAP Dispenser {{site.data.icons.new_tab}}</a></li>
                       <li class="mb-2 ps-2 text-truncate"><a href="https://help.poap.xyz/en/articles/5807488-how-do-i-set-up-delivery" class="poap-purple-dark text-decoration-none" target="_blank">POAP Delivery {{site.data.icons.new_tab}}</a></li>
                       <li class="mb-2 ps-2 text-truncate"><a href="https://help.poap.xyz/en/articles/5812351-how-do-i-set-up-a-website-for-poap-distribution" class="poap-purple-dark text-decoration-none" target="_blank">POAP Website {{site.data.icons.new_tab}}</a></li>
                       <li class="mb-2 ps-2 text-truncate"><a href="https://help.poap.xyz/en/articles/5807573-how-do-i-set-up-a-poap-secret" class="poap-purple-dark text-decoration-none" target="_blank">POAP Secrets {{site.data.icons.new_tab}}</a></li>
