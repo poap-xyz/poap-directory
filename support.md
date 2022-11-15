@@ -26,7 +26,7 @@ permalink: /en/support
             <h5 class="card-title">Support</h5>
             <p class="card-text mb-2">For curation disputes please use the <a href="https://discourse.poap.xyz/categories" target="_blank">Discourse forum</a>.</p>
             <p class="card-text">For all other support requests:</p>
-            <a class="btn btn-primary px-4" onclick="Intercom('show');">Open Support</a>
+            <a class="btn btn-primary px-4" onclick="zE('messenger', 'open')">Open Support</a>
           </div>
           <div class="card-footer"></div>
         </div>
