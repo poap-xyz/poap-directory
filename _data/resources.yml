@@ -1949,7 +1949,7 @@
   link: https://qrexplore.com/generate/
   title: Bulk QR Code Generator
   official: false
-  new: true
+  new: false
   hide_on_all: false
   desc_short: Paste in your claim codes and generate a list of individual QR code images.
   desc_long:
@@ -1972,7 +1972,7 @@
   link: https://randompoaps.com/
   title: Random POAPs Raffles
   official: false
-  new: true
+  new: false
   hide_on_all: false
   desc_short: Random POAPs allows you to create instant raffles between POAP token holders.
   desc_long: Random POAPs allows you to create instant raffles between POAP token holders. The differentiating factor is that POAP holders don’t have to actively sign up to participate in a raffle. It's meant to be a simple way to quickly raffle something using POAPs.
@@ -1995,7 +1995,7 @@
   link: https://2cents.audio
   title: 2Cents Audio
   official: false
-  new: true
+  new: false
   hide_on_all: false
   desc_short: Reward your podcast listeners with built-in POAP distribution.
   desc_long:
@@ -2018,7 +2018,7 @@
   link: https://www.ethpass.xyz/
   title: ETHPass
   official: false
-  new: true
+  new: false
   hide_on_all: false
   # desc_short: Create gated event pages and passes with automated POAP distribution to event participants.
   desc_short: Create gated access to your physical events or prove your ownership of a POAP to attend someone else's.
@@ -2042,7 +2042,7 @@
   link: https://hyy.pe/
   title: Hyype
   official: false
-  new: true
+  new: false
   hide_on_all: false
   desc_short: Enrich your POAPs with lore, images, and other content.
   desc_long:
