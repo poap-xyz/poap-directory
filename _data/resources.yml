@@ -585,8 +585,8 @@
   linkedin:
   forum:
 - id: 25
-  link: https://poap.xyz/android
-  title: POAP App (Android)
+  link: https://poap.xyz/app
+  title: POAP App
   official: true
   hide_on_all: false
   desc_short: With the POAP mobile app you can browse your POAP collection, mint new ones, and explore other people's collections.
@@ -595,73 +595,6 @@
   pricing: free
   # contact:
   categories: app, explore, collector
-  integrations:
-  github:
-  docs:
-  embed:
-  discord:
-  twitter:
-  telegram:
-  medium:
-  youtube:
-  linkedin:
-  forum:
-- id: 26
-  link: https://poap.xyz/ios
-  title: POAP App (iOS)
-  official: true
-  hide_on_all: false
-  desc_short: With the POAP mobile app you can browse your POAP collection, mint new ones, and explore other people's collections.
-  desc_long:
-  creator: POAP inc.
-  pricing: free
-  # contact:
-  categories: app, explore, collector
-  integrations:
-  github:
-  docs:
-  embed:
-  discord:
-  twitter:
-  telegram:
-  medium:
-  youtube:
-  linkedin:
-  forum:
-- id: 112
-  link: https://documentation.poap.tech/
-  title: POAP API Documentation
-  official: true
-  new: true
-  hide_on_all: false
-  desc_short: Integrate POAP into other products or build your own product on top of POAP.
-  desc_long:
-  creator: POAP inc
-  pricing: free
-  # contact:
-  categories: dev
-  integrations:
-  github:
-  docs:
-  embed:
-  discord:
-  twitter:
-  telegram:
-  medium:
-  youtube:
-  linkedin:
-  forum:
-- id: 27
-  link: https://docs.google.com/forms/d/e/1FAIpQLScoW5KV6TmyT7OMn-ReLsDVZ8UoeiCvNJ1sKAvNf46lii4kDA/viewform
-  title: POAP API KEY Request Form
-  official: true
-  hide_on_all: false
-  desc_short: A form to request an API key to start building on POAP.
-  desc_long:
-  creator: POAP inc.
-  pricing: free
-  # contact:
-  categories: dev
   integrations:
   github:
   docs:
@@ -1003,28 +936,6 @@
   youtube: https://www.youtube.com/c/POAPathon
   linkedin:
   forum:
-- id: 43
-  link: https://dune.xyz/blowfish/Poap-Mints
-  title: Dune Gnosis Chain POAP Dashboard
-  official: true
-  hide_on_all: false
-  desc_short: View POAP Gnosis Chain (formally xDai) metrics and analysis on transfers, mints, wallets, and transfers.
-  desc_long:
-  creator: POAP inc.
-  pricing: free
-  # contact: maintained by Angelo
-  categories: metrics
-  integrations:
-  github:
-  docs:
-  embed:
-  discord:
-  twitter:
-  telegram:
-  medium:
-  youtube:
-  linkedin:
-  forum:
 - id: 44
   link: https://dashboards.anyblock.tools/projects/poap/
   title: POAP Protocol Metrics
@@ -1046,50 +957,6 @@
   medium: https://anyblocktools.medium.com/
   youtube: https://www.youtube.com/channel/UC3g6tf9vP83tSXUCd1jrlRA
   linkedin: https://www.linkedin.com/company/anyblockanalytics/
-  forum:
-- id: 45
-  link: https://dune.xyz/greywizard/sgc-work?Address=0x4c41F7201552487A55C623f8a45694d9F88C2B81
-  title: Dune POAP Dashboard
-  official: false
-  hide_on_all: false
-  desc_short: View POAP metrics on the amount of wallets over time.
-  desc_long:
-  creator: GreyWizard
-  pricing: free
-  # contact: POAP Discord @Sam | POAP
-  categories: metrics
-  integrations:
-  github:
-  docs:
-  embed:
-  discord:
-  twitter:
-  telegram:
-  medium:
-  youtube:
-  linkedin:
-  forum:
-- id: 46
-  link: https://github.com/poapxyz/poap-bot#how-to-install-the-poap-bot-on-a-discord-server
-  title: POAP Bot Setup Guide
-  official: true
-  hide_on_all: false
-  desc_short: A step-by-step guide to install and configure POAP Bot for automated claim code distribution on Discord.
-  desc_long:
-  creator: POAP
-  pricing: free
-  # contact:
-  categories: distribution, guide
-  integrations:
-  github: https://github.com/poapxyz/poap-bot
-  docs:
-  embed:
-  discord:
-  twitter:
-  telegram:
-  medium:
-  youtube:
-  linkedin:
   forum:
 - id: 47
   link: https://blockscout.com/xdai/mainnet/
@@ -1272,36 +1139,14 @@
   youtube:
   linkedin: https://www.linkedin.com/company/mintgate
   forum:
-- id: 55
-  link: https://docs.bankless.community/degen/degen/premium-features/twitter-spaces
-  title: DEGEN Bot (Twitter)
-  official: false
-  hide_on_all: false
-  desc_short: Distribute your POAPs to Twitter Spaces participants (claimed on Discord).
-  desc_long: The DEGEN Workgroup is building services to bring Web3 functionality to Web2 platforms, such as Discord, Twitter, and Twitch. The current flagship product, DEGEN, provides POAP distribution features to reward community members and works to combat POAP farming. Other DAO products include Mad Hatter, the BanklessDAO Administrative bot, Bounty Board, and a number of bots currently under development.
-  creator: DEGEN Workgroup # or The DEGEN Workgroup ?
-  pricing: free
-  # contact: BanklessDAO Discord @nonsensetwice or crypto@nonsensetwice.co
-  categories: distribution
-  integrations: discord, twitter
-  github: https://github.com/BanklessDAO/DEGEN
-  docs: https://docs.bankless.community/degen/degen/premium-features/twitter-spaces
-  embed: '<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/c04e15766de84695838eeac8d8c73d5a" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>'
-  discord: https://discord.gg/zHnEBZrswk
-  twitter: https://twitter.com/bDAO_DEGEN
-  telegram:
-  medium:
-  youtube: https://www.youtube.com/playlist?list=PLc6o7Cxn7Uq6DQCptSItO5_IQfegCRImb
-  linkedin:
-  forum:
 - id: 56
-  link: https://poap.gg/
+  link: https://Revv.gg/
   title: Twitch Stream Distribution
   official: false
   hide_on_all: false
   desc_short: A Twitch integration that allows for POAP distribution during streams.
   desc_long:
-  creator: POAP.gg
+  creator: Revv.gg
   pricing: free
   # contact:
   categories: distribution
@@ -1472,7 +1317,7 @@
   forum:
 - id: 64
   link: https://poap.in/v
-  title: POAP.in (beta)
+  title: POAP.in
   official: false
   hide_on_all: false
   desc_short: Still in development, POAP.in is a tool to view and organize your POAPs in depth.
@@ -1489,72 +1334,6 @@
   twitter: https://twitter.com/glorylaboratory
   telegram:
   medium: https://mirror.xyz/glorylab.eth
-  youtube:
-  linkedin:
-  forum:
-- id: 65
-  link: https://play.google.com/store/apps/details?id=in.poap
-  title: POAP.in App (Android, beta)
-  official: false
-  hide_on_all: false
-  desc_short: Still in development, POAP.in is a tool to view and organize your POAPs in depth.
-  desc_long:
-  creator: Glory Lab
-  pricing: free
-  # contact:
-  categories: app, explore, collector
-  integrations:
-  github:
-  docs:
-  embed:
-  discord:
-  twitter: https://twitter.com/glorylaboratory
-  telegram:
-  medium: https://mirror.xyz/glorylab.eth
-  youtube:
-  linkedin:
-  forum:
-- id: 66
-  link: https://testflight.apple.com/join/OqNzJ9UJ
-  title: POAP.in App (iOS, beta)
-  official: false
-  hide_on_all: false
-  desc_short: Still in development, POAP.in is a tool to view and organize your POAPs in depth.
-  desc_long:
-  creator: Glory Lab
-  pricing: free
-  # contact:
-  categories: app, explore, collector
-  integrations:
-  github:
-  docs:
-  embed:
-  discord:
-  twitter: https://twitter.com/glorylaboratory
-  telegram:
-  medium: https://mirror.xyz/glorylab.eth
-  youtube:
-  linkedin:
-  forum:
-- id: 67
-  link: https://testflight.apple.com/join/OqNzJ9UJ
-  title: POAP.in App (Mac, beta)
-  official: false
-  hide_on_all: false
-  desc_short: Still in development, POAP.in is a tool to view and organize your POAPs in depth.
-  desc_long:
-  creator: Glory Lab
-  pricing: free
-  # contact:
-  categories: app, explore, collector
-  integrations:
-  github:
-  docs:
-  embed:
-  discord:
-  twitter: https://twitter.com/glorylaboratory
-  telegram:
-  medium:
   youtube:
   linkedin:
   forum:
@@ -1844,28 +1623,6 @@
   youtube:
   linkedin:
   forum:
-- id: 83
-  link: https://status.poap.xyz/
-  title: POAP Status Page
-  official: true
-  hide_on_all: false
-  desc_short: View the availability and uptime of POAP services.
-  desc_long:
-  creator: POAP inc.
-  pricing: free
-  # contact:
-  categories: dev
-  integrations:
-  github:
-  docs:
-  embed:
-  discord:
-  twitter:
-  telegram:
-  medium:
-  youtube:
-  linkedin:
-  forum:
 - id: 84
   link: https://poaps.agency/generator
   title: QR Code Generator
@@ -1993,72 +1750,6 @@
   integrations:
   github:
   docs: https://docs.google.com/forms/d/e/1FAIpQLScdBy7PwKIzdTxlyH-m2ZIc_GKtRRoU80BL27mXh6llZJ2Mxg/viewform
-  embed:
-  discord:
-  twitter:
-  telegram:
-  medium:
-  youtube:
-  linkedin:
-  forum:
-- id: 97
-  link: https://po-ap.com/index.html
-  title: POAP Box Transfer Tool
-  official: false
-  hide_on_all: false
-  desc_short: Use this transfer tool to send your POAPs to another address.
-  desc_long:
-  creator: Ericet
-  pricing: free
-  # contact:
-  categories: collector
-  integrations:
-  github: https://github.com/ericet/PO-AP
-  docs:
-  embed:
-  discord:
-  twitter: https://twitter.com/ericet369
-  telegram:
-  medium:
-  youtube:
-  linkedin:
-  forum:
-- id: 98
-  link: https://po-ap.com/claim.html
-  title: POAP Box Delivery Claim
-  official: false
-  hide_on_all: false
-  desc_short: Check for any eligible POAP deliveries and automatically claim them.
-  desc_long:
-  creator: Ericet
-  pricing: free
-  # contact:
-  categories: collector
-  integrations:
-  github: https://github.com/ericet/PO-AP
-  docs:
-  embed:
-  discord:
-  twitter: https://twitter.com/ericet369
-  telegram:
-  medium:
-  youtube:
-  linkedin:
-  forum:
-- id: 99
-  link: https://webforms.pipedrive.com/f/6UFIbiMvF6bS3mGGX6wbykVPFvvywMbPtIXvJlaX6brJMU87Go9ZmuP1A1ld3eiX7B
-  title: Contact POAP for Serious Business
-  official: true
-  hide_on_all: false
-  desc_short: Use this form to get in touch with the POAP business development team.
-  desc_long:
-  creator: POAP inc.
-  pricing: free
-  # contact:
-  categories: info
-  integrations:
-  github:
-  docs:
   embed:
   discord:
   twitter:
@@ -2209,7 +1900,7 @@
   link: https://poaps.agency/
   title: You've Met POAPs
   official: false
-  new: true
+  new: false
   hide_on_all: false
   desc_short: Create your own personalized "You've Met Me" POAPs to distribute at events.
   desc_long:
@@ -2229,39 +1920,13 @@
   linkedin:
   forum:
 - id: 109
-  link: https://play.google.com/store/apps/details?id=xyz.poap.geocache
-  title: POAP Geocache App (Android)
+  link: https://apps.apple.com/us/app/poap-geocaching/id1616876669
+  title: POAP Geocache App
   official: true
-  new: true
+  new: false
   hide_on_all: false
   desc_short: Find geocached POAPs in the physical world. Participate in treasure hunts and other adventures!
   desc_long: |
-    Find geocached POAPs in the physical world. Participate in treasure hunts and other adventures!
-
-    This app is in public beta, we appreciate your feedback.
-  creator: POAP inc.
-  pricing: free
-  # contact: # Mentor
-  categories: play, app, collector
-  integrations:
-  github:
-  docs:
-  embed:
-  discord:
-  twitter:
-  telegram:
-  medium:
-  youtube:
-  linkedin:
-  forum:
-- id: 110
-  link: https://apps.apple.com/us/app/poap-geocaching/id1616876669
-  title: POAP Geocache App (iOS)
-  official: true
-  new: true
-  hide_on_all: false
-  desc_short: Find geocached POAPs in the physical world. Participate in treasure hunts and other adventures!
-  desc_long:  |
     Find geocached POAPs in the physical world. Participate in treasure hunts and other adventures!
 
     This app is in public beta, we appreciate your feedback.
@@ -2396,30 +2061,6 @@
   youtube:
   linkedin:
   forum:
-- id: 118
-  link: https://aelin.xyz/
-  title: Aelin Fundraising
-  official: false
-  new: true
-  hide_on_all: false
-  desc_short: Create gated fundraising with exclusive access to event participants.
-  desc_long:
-  creator: Aelin
-  pricing:
-  # contact:
-  categories: access
-  integrations:
-  github: https://github.com/AelinXYZ
-  docs: https://docs.aelin.xyz/
-  embed:
-  discord: https://discord.com/invite/YHffnV9sUM
-  twitter: https://twitter.com/aelinprotocol
-  telegram:
-  medium:
-  youtube:
-  linkedin:
-  forum:
-
 
 # - id: 116
 #   link: https://app.sliksafe.com/
