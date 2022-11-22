@@ -2061,6 +2061,236 @@
   youtube:
   linkedin:
   forum:
+- id: 118
+  link: https://guild.xyz
+  title: Guild.xyz
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Create gated communities in Discord or Telegram and distribute POAPs to collectors
+  desc_long:
+  creator: Agora
+  pricing: free
+  # contact:
+  categories: access, distribution
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 119
+  link: https://huddle01.com
+  title: Gated Access Video Conferencing
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Schedule gated virtual meetings with exclusive access to event pariticpants.
+  desc_long:
+  creator: Huddle01
+  pricing: free
+  # contact:
+  categories: access
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 120
+  link: https://welook.io
+  title: WeLook's "You've Met Me" Generator
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Create your own personalized "You've Met Me" POAPs to distribute at events
+  desc_long:
+  creator: WeLook
+  pricing: free
+  # contact:
+  categories: design
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 121
+  link: https://Shil.me
+  title: Shil.me
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Shil.me is a user-centric platform creating social utility for NFTs.
+  desc_long:
+  creator: Shil.me
+  pricing: free
+  # contact:
+  categories: social
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 122
+  link: https://spkz.io
+  title: SPKZ Lounges
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Create POAP-gated communities.
+  desc_long:
+  creator: Arianee
+  pricing: free
+  # contact:
+  categories: access
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 123
+  link: https://poap.codes
+  title: Claim Code Manager
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: This tool helps you check the claim status of event mint links.
+  desc_long:
+  creator: mentor.eth
+  pricing: free
+  # contact:
+  categories: admin
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 124
+  link: https://welook.io
+  title: WeLook POAP Collections
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Categorize your POAPs into custom collections.
+  desc_long:
+  creator: WeLook
+  pricing: free
+  # contact:
+  categories: collector
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 125
+  link: https://creativeplatform.xyz
+  title: Creative Platform
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: A suite of tools for creators, including POAP creation for events.
+  desc_long:
+  creator: Creative Organization DAO
+  pricing: free
+  # contact:
+  categories: distribution
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 126
+  link: https://poaper.io
+  title: Poaper
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Build a Twitter banner to show off your POAPs.
+  desc_long:
+  creator: Nueva Technologies
+  pricing: free
+  # contact:
+  categories: social
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 127
+  link: https://stellargate.io
+  title: CAT Decentraland Dispenser
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: A Decentraland dispenser to distribute POAPs to your event participants via activities.
+  desc_long:
+  creator: Stellar Gate
+  pricing: free
+  # contact:
+  categories: distribution
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 
 # - id: 116
 #   link: https://app.sliksafe.com/
