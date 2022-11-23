@@ -10,7 +10,7 @@
 #   creator:      # who is the person/organization developing this resource?
 #   pricing:      # the pricing model; options: free, freemium, paid
 #   # contact:    # point of contact for the resource (won't be displayed on the website)
-#   categories:   # (select up to 3 that apply) access, admin, app, art, collector, design, dev, distribution, explore, guide, info, metrics, play, social, voting 
+#   categories:   # (select up to 3 that apply) access, admin, app, art, collector, design, dev, distribution, explore, guide, info, metrics, play, social, voting
 #   integrations: # a comma-delimited list of relevant integration ids from _data/integrations.yml
 #   github:       # (optional) github repo
 #   docs:         # (optional) resource's guide or documentation
@@ -25,29 +25,29 @@
 
 
 # Template to copy for new entries
-# - id: 
-#   link: 
-#   title: 
-#   official: 
+# - id:
+#   link:
+#   title:
+#   official:
 #   new: true
 #   hide_on_all: false
-#   desc_short: 
-#   desc_long: 
-#   creator: 
-#   pricing: 
-#   # contact: 
-#   categories: 
-#   integrations: 
-#   github: 
-#   docs: 
-#   embed: 
-#   discord: 
-#   twitter: 
-#   telegram: 
-#   medium: 
-#   youtube: 
-#   linkedin: 
-#   forum: 
+#   desc_short:
+#   desc_long:
+#   creator:
+#   pricing:
+#   # contact:
+#   categories:
+#   integrations:
+#   github:
+#   docs:
+#   embed:
+#   discord:
+#   twitter:
+#   telegram:
+#   medium:
+#   youtube:
+#   linkedin:
+#   forum:
 
 
 # Last id used: 118
@@ -59,88 +59,88 @@
   official: true
   hide_on_all: false
   desc_short: POAP.art is the intersection of art ant tech, allowing your event participants to collaboratively create a piece of art.
-  desc_long: 
+  desc_long:
   creator: POAP inc.
   pricing: free
-  # contact: 
+  # contact:
   categories: play, art
-  integrations: 
-  github: 
-  docs: 
-  embed: 
+  integrations:
+  github:
+  docs:
+  embed:
   discord: https://poap.art/discord
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 2
   link: https://poap.vote/
   title: POAP.vote
   official: true
   hide_on_all: false
   desc_short: A sybil-resistant voting engine to run polls for your event participants.
-  desc_long: 
+  desc_long:
   creator: POAP inc.
   pricing: free
-  # contact: 
+  # contact:
   categories: play, voting
-  integrations: 
+  integrations:
   github: https://github.com/poap-xyz/poap-vote-v2
   docs: https://help.poap.xyz/en/articles/5866650-how-do-i-set-up-a-poap-vote-poll
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 3
   link: https://poap.fun/
   title: POAP.fun
   official: true
   hide_on_all: false
   desc_short: POAP.fun allows you to create raffles for your event participants.
-  desc_long: 
+  desc_long:
   creator: POAP inc.
   pricing: free
-  # contact: 
+  # contact:
   categories: play
-  integrations: 
+  integrations:
   github: https://github.com/poap-xyz/poap-fun
   docs: https://help.poap.xyz/en/articles/5849075-how-do-i-set-up-a-poap-fun-raffle
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 4
   link: https://app.poap.xyz/admin
   title: POAP Admin Panel
   official: true
   hide_on_all: true
   desc_short: The POAP admin panel is used to manage your events, codes, distribution, and templates.
-  desc_long: 
+  desc_long:
   creator: POAP inc.
   pricing: free
-  # contact: 
+  # contact:
   categories: admin
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 5
   link: https://qr.poap.tech/
   title: POAP Dispenser
@@ -155,196 +155,171 @@
   pricing: free
   # contact: POAP Discord @Actuallymentor
   categories: distribution
-  integrations: 
+  integrations:
   github: https://github.com/poap-xyz/poap-qr-kiosk/
   docs: https://help.poap.xyz/en/articles/5908960-how-do-i-set-up-the-poap-kiosk-to-distribute-mint-links-via-unique-qr-codes
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 6
   link: https://careers.poap.xyz/
   title: POAP Careers
   official: true
   hide_on_all: true
   desc_short: View open positions and learn more about working at POAP.
-  desc_long: 
+  desc_long:
   creator: POAP inc.
   pricing: free
-  # contact: 
+  # contact:
   categories: info, dev
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 7
   link: https://help.poap.xyz/
   title: POAP Help Center
   official: true
   hide_on_all: true
   desc_short: Find guides and answers for common questions and problems.
-  desc_long: 
+  desc_long:
   creator: POAP inc.
   pricing: free
-  # contact: 
+  # contact:
   categories: info, guide
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 8
   link: https://discourse.poap.xyz/categories
   title: POAP Discourse
   official: true
   hide_on_all: true
   desc_short: A forum for curation disputes and to petition for POAP drops.
-  desc_long: 
+  desc_long:
   creator: POAP inc.
   pricing: free
-  # contact: 
+  # contact:
   categories: info
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 9
   link: https://github.com/stake-house/poap-reddit-bot
   title: POAP for Reddit
   official: false
   hide_on_all: false
   desc_short: A locally run bot that distributes POAPs for Reddit events.
-  desc_long: 
+  desc_long:
   creator: StakeHouse
   pricing: free
   # contact: https://twitter.com/sinuio_
   categories: distribution
   integrations: reddit
   github: https://github.com/stake-house/poap-reddit-bot
-  docs: 
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
-- id: 10
-  link: https://docs.bankless.community/degen
-  title: DEGEN Bot (Discord)
-  official: false
-  hide_on_all: false
-  desc_short: POAP distribution and DAO tooling for Discord and other platforms.
-  desc_long: |
-    This is a third-party POAP tool created by members of BanklessDAO that allows for automated distribution of POAPs to attendees of Discord stages and Twitter Spaces. DEGEN works to record attendance in Discord voice and Stage channels during events and distributes POAPs automatically upon ending the events.
-
-    The DEGEN Workgroup is building services to bring Web3 functionality to Web2 platforms, such as Discord, Twitter, and Twitch. The current flagship product, DEGEN, provides POAP distribution features to reward community members and works to combat POAP farming. 
-  creator: DEGEN Workgroup # or The DEGEN Workgroup ?
-  pricing: free
-  # contact: POAP Discord @ZrowGz
-  categories: distribution
-  integrations: discord, twitter
-  github: https://github.com/degen-workgroup
-  docs: https://docs.bankless.community/degen/degen/setup
-  embed: 
-  discord: https://discord.gg/nwPjDRa6U6
-  twitter: https://twitter.com/DEGEN_POAP
-  telegram: 
-  medium: 
-  youtube: https://www.youtube.com/playlist?list=PLc6o7Cxn7Uq6DQCptSItO5_IQfegCRImb
-  linkedin: 
-  forum: 
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 11
   link: https://github.com/RomiRand/PoapArtBot
   title: POAP.art Painting Bot
   official: false
   hide_on_all: false
   desc_short: A bot that allows users to delegate pixel placing to the art bot for custom, pre-planned drawings.
-  desc_long: 
+  desc_long:
   creator: RomiRand
   pricing: free
   # contact: POAP Discord @RamiRond
   categories: art
-  integrations: 
+  integrations:
   github: https://github.com/RomiRand/PoapArtBot
-  docs: 
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 12
   link: https://litgateway.com/apps/zoom
   title: Zoom Gated Access
   official: false
   hide_on_all: false
   desc_short: Create gated Zoom webinars and meetings with exclusive access to POAP collectors.
-  desc_long: 
+  desc_long:
   creator: Lit Protocol
   pricing: free
-  # contact: 
+  # contact:
   categories: access
   integrations: zoom
   github: https://github.com/LIT-Protocol/
   docs: https://developer.litprotocol.com/docs/intro/
-  embed: 
+  embed:
   discord: https://litgateway.com/discord
   twitter: https://twitter.com/litprotocol
-  telegram: 
+  telegram:
   medium: https://blog.litprotocol.com/
-  youtube: 
-  linkedin: 
-  forum: 
+  youtube:
+  linkedin:
+  forum:
 - id: 13
   link: https://app.charmverse.io/
   title: CharmVerse Workspace
   official: false
   hide_on_all: false
   desc_short: Create a gated Notion-like workspace with exclusive access to POAP collectors.
-  desc_long: Get a taste of the CharmVerse interface on Notion. Control access based on the ERC-20, NFT, or POAPs in your wallet. Unlock full or partial Notion workspaces. Mix and match tokens to grant different levels of access. Free to use. We only ask that you checkout http://charmverse.io/ in return. 
+  desc_long: Get a taste of the CharmVerse interface on Notion. Control access based on the ERC-20, NFT, or POAPs in your wallet. Unlock full or partial Notion workspaces. Mix and match tokens to grant different levels of access. Free to use. We only ask that you checkout http://charmverse.io/ in return.
   creator: CharmVerse
   pricing: free
   # contact: CharmVerse Discord @cerberus
   categories: access
   integrations: notion, snapshot
-  github: 
-  docs: 
+  github:
+  docs:
   embed: '<iframe width="100%" max-width="466px" height="250px" max-height="262px" src="https://www.youtube.com/embed/Q4KFWe9FVp8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
   discord: https://discord.gg/VvhEafEWcg
   twitter: http://www.twitter.com/charmverse
-  telegram: 
-  medium: 
-  youtube: 
+  telegram:
+  medium:
+  youtube:
   linkedin: https://www.linkedin.com/company/charmverse
-  forum: 
+  forum:
   # facebook: http://www.facebook.com/charmverse.io
 - id: 14
   link: https://poap.cc/
@@ -354,23 +329,23 @@
   desc_short: A virtual dispenser to distribute POAPs to your event participants within the Decentraland metaverse.
   desc_long: |
     A virtual dispenser to distribute POAPs to your event participants within the Decentraland metaverse.
-    
+
     If you want to use it, please reach out to `hello.poap.cc@gmail.com` and provide some info about the scope of your project, including the timeline of your event(s).
   creator: MetaZoo
   pricing: paid
   # contact: MetaZoo Discord @zoo and @Sanda
   categories: distribution
   integrations: decentraland
-  github: 
-  docs: 
-  embed: 
+  github:
+  docs:
+  embed:
   discord: https://discord.gg/gDGUdwndpg
   twitter: https://twitter.com/metazooxyz
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
   # instagram: https://www.instagram.com/zoogalleryxyz
 - id: 15
   link: https://collabland.freshdesk.com/support/solutions/articles/70000036689-discord-bot-walkthrough
@@ -378,89 +353,89 @@
   official: false
   hide_on_all: false
   desc_short: Create gated Discord channels with exclusive access to POAP collectors.
-  desc_long: 
+  desc_long:
   creator: Collab.Land
   pricing: free
-  # contact: 
+  # contact:
   categories: access
   integrations: discord, collab-land
-  github: 
+  github:
   docs: https://collabland.freshdesk.com/support/solutions/articles/70000036689-discord-bot-walkthrough
   # docs: https://collab-land.gitbook.io/collab-land/bots/discord
-  embed: 
-  discord: 
+  embed:
+  discord:
   twitter: https://twitter.com/Collab_Land_
   telegram: https://t.me/CollabLand
   medium: https://medium.com/abridged-io
-  youtube: 
-  linkedin: 
-  forum: 
+  youtube:
+  linkedin:
+  forum:
 - id: 16
   link: https://explore.poap.xyz/
   title: POAP Explore
   official: true
   hide_on_all: false
   desc_short: POAP Explore allows you to view your collection as well as explore other people's collections.
-  desc_long: 
+  desc_long:
   creator: POAP inc.
   pricing: free
-  # contact: 
+  # contact:
   categories: explore
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 17
   link: https://poap.gallery/
   title: POAP.gallery
   official: true
   hide_on_all: false
   desc_short: POAP.gallery allows you to browse POAPs and enjoy the adventure through the digital collectibles universe.
-  desc_long: 
+  desc_long:
   creator: POAP inc.
   pricing: free
-  # contact: 
+  # contact:
   categories: explore
-  integrations: 
+  integrations:
   github: https://github.com/poap-xyz/poap-gallery
   docs: https://help.poap.xyz/en/articles/5814257-what-is-poap-gallery
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 18
   link: https://app.poap.xyz/admin/events/new
   title: Create Drop
   official: true
   hide_on_all: true
   desc_short: Create a new POAP drop.
-  desc_long: 
+  desc_long:
   creator: POAP inc.
   pricing: free
-  # contact: 
+  # contact:
   categories: admin
-  integrations: 
-  github: 
+  integrations:
+  github:
   docs: https://help.poap.xyz/en/articles/5802657-how-do-i-set-up-a-poap-drop
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 19
   link: https://app.poap.xyz/admin/websites
   title: POAP.website Admin
@@ -471,25 +446,25 @@
     The POAP.website admin panel allows you to manage your drop's POAP claim website.
 
     This distribution method is ideal for situations where you can be certain people will not share the link elsewhere. A birthday party with close friends is a great example. You can also distribute POAPs via Website by converting your Website into a QR code and projecting it onto a screen or printing it on a poster to display at your event.
-    
+
     ✅ Tip: Use a random URL, don’t use a word that is in the title of your drop.
-    
+
     🚨 **Important: A Website is not a good option for events with a large attendance, where attendees may leak the URL or share the QR code to your Website.**
   creator: POAP inc.
   pricing: free
-  # contact: 
+  # contact:
   categories: admin, distribution
-  integrations: 
-  github: 
+  integrations:
+  github:
   docs: https://help.poap.xyz/en/articles/5812351-how-do-i-set-up-a-website-for-poap-distribution
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 20
   link: https://app.poap.xyz/admin/secrets
   title: POAP Secrets Admin
@@ -500,643 +475,510 @@
     The POAP secret admin panel allows you to manage your drop's POAP secret claims that are claimed through the app.
 
     This distribution method is used at events where you can share the Secret verbally and close the minting window after the drop ends.
-    
+
     ✅ Here are some tips to avoid farming:
-    
+
     - Use a random Secret; don’t use a word that is in the title of your drop. For example, for a drop titled ```Isabel's Birthday at Ahupulco,``` a secret word like ```WeLovePuppies``` is fine, but ```IsabelAhupulco``` is easy to guess and should not be used.
     - Activate the Secret only at the start of your event and deactivate it as soon as it finishes.
     - Only say the word verbally (don’t share it by DM or elsewhere online).
   creator: POAP inc.
   pricing: free
-  # contact: 
+  # contact:
   categories: admin, distribution
-  integrations: 
-  github: 
+  integrations:
+  github:
   docs: https://help.poap.xyz/en/articles/5807573-how-do-i-set-up-a-poap-secret
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 21
   link: https://app.poap.xyz/admin/events
   title: POAP Drops Admin
   official: true
   hide_on_all: true
   desc_short: The POAP drops admin panel allows you to view recent drops, edit an existing drop, or create a new drop.
-  desc_long: 
+  desc_long:
   creator: POAP inc.
   pricing: free
-  # contact: 
+  # contact:
   categories: admin
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 22
   link: https://app.poap.xyz/admin/deliveries
   title: POAP.delivery Admin
   official: true
   hide_on_all: true
   desc_short: The POAP.delivery admin panel is used to create and manage your POAP.delivery distribution.
-  desc_long: 
+  desc_long:
   creator: POAP inc.
   pricing: free
-  # contact: 
+  # contact:
   categories: admin, distribution
-  integrations: 
-  github: 
+  integrations:
+  github:
   docs: https://help.poap.xyz/en/articles/5807488-how-do-i-set-up-delivery
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 23
   link: https://app.poap.xyz/admin/template
   title: POAP Template Admin
   official: true
   hide_on_all: true
   desc_short: The POAP template admin panel is used to create and manage your templates for the POAP claim page.
-  desc_long: 
+  desc_long:
   creator: POAP inc.
   pricing: free
-  # contact: 
+  # contact:
   categories: admin
-  integrations: 
-  github: 
+  integrations:
+  github:
   docs: /assets/files/Customizable%20POAP%20Claim%20Page%20Blueprint%20v2.pdf
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 24
   link: /assets/files/Customizable%20POAP%20Claim%20Page%20Blueprint%20v2.pdf
   title: Custom POAP Claim Template
   official: true
   hide_on_all: true
   desc_short: A template that explains the different branding areas when designing your own claim's page template.
-  desc_long: 
+  desc_long:
   creator: POAP inc.
   pricing: free
-  # contact: 
+  # contact:
   categories: admin
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 25
-  link: https://poap.xyz/android
-  title: POAP App (Android)
+  link: https://poap.xyz/app
+  title: POAP App
   official: true
   hide_on_all: false
   desc_short: With the POAP mobile app you can browse your POAP collection, mint new ones, and explore other people's collections.
-  desc_long: 
+  desc_long:
   creator: POAP inc.
   pricing: free
-  # contact: 
+  # contact:
   categories: app, explore, collector
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
-- id: 26
-  link: https://poap.xyz/ios
-  title: POAP App (iOS)
-  official: true
-  hide_on_all: false
-  desc_short: With the POAP mobile app you can browse your POAP collection, mint new ones, and explore other people's collections.
-  desc_long: 
-  creator: POAP inc.
-  pricing: free
-  # contact: 
-  categories: app, explore, collector
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
-- id: 112
-  link: https://documentation.poap.tech/
-  title: POAP API Documentation
-  official: true
-  new: true
-  hide_on_all: false
-  desc_short: Integrate POAP into other products or build your own product on top of POAP.
-  desc_long: 
-  creator: POAP inc
-  pricing: free
-  # contact: 
-  categories: dev
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
-- id: 27
-  link: https://docs.google.com/forms/d/e/1FAIpQLScoW5KV6TmyT7OMn-ReLsDVZ8UoeiCvNJ1sKAvNf46lii4kDA/viewform
-  title: POAP API KEY Request Form
-  official: true
-  hide_on_all: false
-  desc_short: A form to request an API key to start building on POAP.
-  desc_long: 
-  creator: POAP inc.
-  pricing: free
-  # contact: 
-  categories: dev
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 30
   link: https://github.com/owenvoke/poap-php
   title: PHP POAP API Wrapper
   official: false
   hide_on_all: false
   desc_short: An object oriented PHP wrapper for the POAP API.
-  desc_long: 
+  desc_long:
   creator: Owen Voke
   pricing: free
-  # contact: 
+  # contact:
   categories: dev
-  integrations: 
+  integrations:
   github: https://github.com/owenvoke/poap-php
-  docs: 
-  embed: 
-  discord: 
+  docs:
+  embed:
+  discord:
   twitter: https://twitter.com/owenvoke
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 31
   link: https://help.poap.xyz/en/articles/5802657-how-do-i-set-up-a-poap-drop
   title: POAP.website Guide
   official: true
   hide_on_all: true
   desc_short: A step-by-step guide to setup a POAP.website for distribution.
-  desc_long: 
+  desc_long:
   creator: POAP inc.
   pricing: free
   # contact: POAP Discord @toms0x
   categories: distribution, guide
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 32
   link: https://help.poap.xyz/en/articles/5807488-how-do-i-set-up-delivery
   title: POAP.delivery Guide
   official: true
   hide_on_all: true
   desc_short: A step-by-step guide to setup POAP.delivery for distribution.
-  desc_long: 
+  desc_long:
   creator: POAP inc.
   pricing: free
   # contact: POAP Discord @toms0x
   categories: distribution, guide
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 33
   link: https://twitter.com/poapxyz/
   title: POAP Twitter
   official: true
   hide_on_all: true
   desc_short: Follow POAP announcements and participate in Twitter Spaces.
-  desc_long: 
+  desc_long:
   creator: POAP inc.
   pricing: free
-  # contact: 
+  # contact:
   categories: info, social
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 34
   link: https://www.reddit.com/r/poap/
   title: POAP Reddit
   official: true
   hide_on_all: true
   desc_short: Join the POAP community and follow announcements.
-  desc_long: 
+  desc_long:
   creator: POAP inc.
   pricing: free
-  # contact: 
+  # contact:
   categories: info, social
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 35
   link: https://t.me/poapxyz
   title: POAP Telegram
   official: true
   hide_on_all: true
   desc_short: Join the POAP community and follow announcements.
-  desc_long: 
+  desc_long:
   creator: POAP inc.
   pricing: free
-  # contact: 
+  # contact:
   categories: info, social
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 36
   link: https://discord.com/invite/9s8U8Bn
   title: POAP Discord
   official: true
   hide_on_all: true
   desc_short: Join the POAP community, participate in community calls, and receive announcements.
-  desc_long: 
+  desc_long:
   creator: POAP inc.
   pricing: free
-  # contact: 
+  # contact:
   categories: info, social
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 104
   link: https://discord.gg/kqBjKRXh8f
   title: POAP Discord Dev Channel
   official: true
   hide_on_all: false
   desc_short: 'Join the POAP #developers channel for support and to network with others in the ecosystem.'
-  desc_long: 
+  desc_long:
   creator: POAP inc.
   pricing: free
-  # contact: 
+  # contact:
   categories: dev
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 37
   link: https://medium.com/poap
   title: POAP Medium
   official: true
   hide_on_all: true
   desc_short: Follow the latest POAP announcements.
-  desc_long: 
+  desc_long:
   creator: POAP inc.
   pricing: free
-  # contact: 
+  # contact:
   categories: info, social
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 106
   link: http://poap.ghost.io/
   title: POAP Newsletter
   official: true
   hide_on_all: true
   desc_short: A weekly update on POAP and ecosystem news, integrations, and announcements.
-  desc_long: 
+  desc_long:
   creator: POAP inc.
   pricing: free
-  # contact: 
+  # contact:
   categories: info, social
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 38
   link: https://github.com/poap-xyz
   title: POAP Github
   official: true
   hide_on_all: true
   desc_short: Check out POAP's projects and contribute.
-  desc_long: 
+  desc_long:
   creator: POAP inc.
   pricing: free
-  # contact: 
+  # contact:
   categories: dev
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 39
   link: https://www.youtube.com/channel/UCvXWjomx55gbEjJ3PCPPezQ/videos
   title: POAP Youtube
   official: true
   hide_on_all: true
   desc_short: Check out POAP's community calls and guides.
-  desc_long: 
+  desc_long:
   creator: POAP inc.
   pricing: free
-  # contact: 
+  # contact:
   categories: info, social
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 40
   link: https://www.linkedin.com/company/poapxyz/
   title: POAP LinkedIn
   official: true
   hide_on_all: true
   desc_short: Follow company announcements, growth, and job postings.
-  desc_long: 
+  desc_long:
   creator: POAP inc.
   pricing: free
-  # contact: 
+  # contact:
   categories: info, social
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 41
   link: https://snowdot.github.io/poap-place/
   title: POAP Place
   official: false
   hide_on_all: false
   desc_short: An easy to use in-browser POAP design and drop creation studio.
-  desc_long: 
+  desc_long:
   creator: Snowdot
   pricing: free
   # contact: POAP Discord @Snowdot
   categories: design
-  integrations: 
+  integrations:
   github: https://github.com/snowdot/poap-place
-  docs: 
-  embed: 
-  discord: 
+  docs:
+  embed:
+  discord:
   twitter: https://twitter.com/PoapPlace
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 42
   link: https://www.poapathon.com/
   title: POAPathon
   official: false
   hide_on_all: false
   desc_short: Enables competitive design contests, on-demand entertainment, live drop productions, and collaborative creative spaces.
-  desc_long: 
+  desc_long:
   creator: POAPathon
   pricing: paid
   # contact: POAP Discord @Tap.eth
   categories: design
-  integrations: 
-  github: 
+  integrations:
+  github:
   docs: https://www.poapathon.com/requests
-  embed: 
+  embed:
   discord: https://discord.gg/YhneEKxVQ8
   twitter: https://twitter.com/poapathon
-  telegram: 
-  medium: 
+  telegram:
+  medium:
   youtube: https://www.youtube.com/c/POAPathon
-  linkedin: 
-  forum: 
-- id: 43
-  link: https://dune.xyz/blowfish/Poap-Mints
-  title: Dune Gnosis Chain POAP Dashboard
-  official: true
-  hide_on_all: false
-  desc_short: View POAP Gnosis Chain (formally xDai) metrics and analysis on transfers, mints, wallets, and transfers.
-  desc_long: 
-  creator: POAP inc.
-  pricing: free
-  # contact: maintained by Angelo
-  categories: metrics
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  linkedin:
+  forum:
 - id: 44
   link: https://dashboards.anyblock.tools/projects/poap/
   title: POAP Protocol Metrics
   official: false
   hide_on_all: false
   desc_short: View POAP metrics on transfers, mints, and holders.
-  desc_long: 
+  desc_long:
   creator: Anyblock
   pricing: free
-  # contact: 
+  # contact:
   categories: metrics
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
   twitter: https://twitter.com/AnyblockTools
-  telegram: 
+  telegram:
   medium: https://anyblocktools.medium.com/
   youtube: https://www.youtube.com/channel/UC3g6tf9vP83tSXUCd1jrlRA
   linkedin: https://www.linkedin.com/company/anyblockanalytics/
-  forum: 
-- id: 45
-  link: https://dune.xyz/greywizard/sgc-work?Address=0x4c41F7201552487A55C623f8a45694d9F88C2B81
-  title: Dune POAP Dashboard
-  official: false
-  hide_on_all: false
-  desc_short: View POAP metrics on the amount of wallets over time.
-  desc_long: 
-  creator: GreyWizard
-  pricing: free
-  # contact: POAP Discord @Sam | POAP
-  categories: metrics
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
-- id: 46
-  link: https://github.com/poapxyz/poap-bot#how-to-install-the-poap-bot-on-a-discord-server
-  title: POAP Bot Setup Guide
-  official: true
-  hide_on_all: false
-  desc_short: A step-by-step guide to install and configure POAP Bot for automated claim code distribution on Discord.
-  desc_long: 
-  creator: POAP
-  pricing: free
-  # contact: 
-  categories: distribution, guide
-  integrations: 
-  github: https://github.com/poapxyz/poap-bot
-  docs: 
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  forum:
 - id: 47
   link: https://blockscout.com/xdai/mainnet/
   title: Blockscout Block Explorer
   official: false
   hide_on_all: false
   desc_short: Inspect POAP on-chain play with Blockscout's block explorer for Gnosis Chain (formally xDai).
-  desc_long: 
+  desc_long:
   creator: Blockscout
   pricing: free
-  # contact: 
+  # contact:
   categories: dev
-  integrations: 
+  integrations:
   github: https://github.com/blockscout/blockscout
-  docs: 
-  embed: 
+  docs:
+  embed:
   discord: https://discord.gg/gnosischain
   twitter: https://www.twitter.com/blockscoutcom/
   telegram: https://t.me/poa_network
-  medium: 
-  youtube: 
-  linkedin: 
+  medium:
+  youtube:
+  linkedin:
   forum: https://forum.poa.network/c/blockscout
 - id: 48
   link: https://collabland.freshdesk.com/support/solutions/articles/70000081544-telegram-bot-walkthrough
@@ -1144,111 +986,111 @@
   official: false
   hide_on_all: false
   desc_short: Create gated Telegram channels with exclusive access to POAP collectors.
-  desc_long: 
+  desc_long:
   creator: Collab.Land
   pricing: free
-  # contact: 
+  # contact:
   categories: access
   integrations: telegram, collab-land
-  github: 
+  github:
   docs: https://collabland.freshdesk.com/support/solutions/articles/70000081544-telegram-bot-walkthrough
   # docs: https://collab-land.gitbook.io/collab-land/bots/telegram
-  embed: 
-  discord: 
+  embed:
+  discord:
   twitter: https://twitter.com/Collab_Land_
   telegram: https://t.me/CollabLand
   medium: https://medium.com/abridged-io
-  youtube: 
-  linkedin: 
-  forum: 
+  youtube:
+  linkedin:
+  forum:
 - id: 49
   link: https://sandbox.poap.art/
   title: POAP.art Sandbox
   official: true
   hide_on_all: false
   desc_short: A weekly POAP.art sandbox to play with the canvas and test bots.
-  desc_long: 
+  desc_long:
   creator: POAP inc.
   pricing: free
-  # contact: 
+  # contact:
   categories: art
-  integrations: 
-  github: 
-  docs: 
-  embed: 
+  integrations:
+  github:
+  docs:
+  embed:
   discord: https://poap.art/discord
   twitter: https://twitter.com/POAPart
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 50
   link: https://github.com/RomiRand/PoapArtParticipants
   title: POAP.art Participation Bot
   official: false
   hide_on_all: false
   desc_short: A bot that allows you to identify all drawing participants of a custom area on POAP.art.
-  desc_long: 
+  desc_long:
   creator: RomiRand
   pricing: free
   # contact: POAP Discord @RamiRond
   categories: art
-  integrations: 
+  integrations:
   github: https://github.com/RomiRand/PoapArtParticipants
-  docs: 
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 51
   link: https://github.com/snapshot-labs/snapshot-plugins
   title: Snapshot POAP Plugin
   official: false
   hide_on_all: false
   desc_short: Setup a Snapshot POAP plugin to distribute a POAP to proposal vote participants.
-  desc_long: 
+  desc_long:
   creator: Snapshot Labs
   pricing: free
-  # contact: 
+  # contact:
   categories: distribution, voting
   integrations: snapshot
   github: https://github.com/snapshot-labs/snapshot-plugins/tree/master/src/plugins/poap
   docs: https://help.poap.xyz/en/articles/5857145-how-do-i-set-up-the-poap-snapshot-plugin
-  embed: 
+  embed:
   discord: https://discord.gg/snapshot
   twitter: https://twitter.com/SnapshotLabs
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 52
   link: https://custompogs.com/
   title: Custom POAP Pogs
   official: false
   hide_on_all: false
   desc_short: Print physical POAP pogs to hand out at events.
-  desc_long: 
+  desc_long:
   creator: Custom Pogs
   pricing: paid
-  # contact: 
+  # contact:
   categories: distribution
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
   twitter: http://www.twitter.com/custompogs
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
   # facebook: http://www.facebook.com/custompogs
   # instagram: http://www.instagram.com/custompogs
 
@@ -1258,683 +1100,573 @@
   official: false
   hide_on_all: false
   desc_short: Create gated Google Drive documents with exclusive access to POAP collectors.
-  desc_long: 
+  desc_long:
   creator: Lit Protocol
   pricing: free
-  # contact: 
+  # contact:
   categories: access
   integrations: google-drive
   github: https://github.com/LIT-Protocol/
   docs: https://developer.litprotocol.com/docs/intro/
-  embed: 
+  embed:
   discord: https://litgateway.com/discord
   twitter: https://twitter.com/litprotocol
-  telegram: 
+  telegram:
   medium: https://blog.litprotocol.com/
-  youtube: 
-  linkedin: 
-  forum: 
+  youtube:
+  linkedin:
+  forum:
 - id: 54
   link: https://mintgate.gitbook.io/mintgate-docs/set-up-token-access/create-token-gated-access
   title: Gated Access Content
   official: false
   hide_on_all: false
   desc_short: Create gated access for your content with exclusive access to POAP collectors.
-  desc_long: 
+  desc_long:
   creator: MintGate
   pricing: free
-  # contact: 
+  # contact:
   categories: access
   integrations: spotify, calendly, zoom, google-drive, dropbox, soundcloud, audius
-  github: 
+  github:
   docs: https://mintgate.gitbook.io/mintgate-docs/
-  embed: 
+  embed:
   discord: https://discord.com/invite/9BGwzQwJdt
   twitter: https://twitter.com/mintgate_io
   # instagram: https://www.instagram.com/mintgate.io/
-  telegram: 
-  medium: 
-  youtube: 
+  telegram:
+  medium:
+  youtube:
   linkedin: https://www.linkedin.com/company/mintgate
-  forum: 
-- id: 55
-  link: https://docs.bankless.community/degen/degen/premium-features/twitter-spaces
-  title: DEGEN Bot (Twitter)
-  official: false
-  hide_on_all: false
-  desc_short: Distribute your POAPs to Twitter Spaces participants (claimed on Discord).
-  desc_long: The DEGEN Workgroup is building services to bring Web3 functionality to Web2 platforms, such as Discord, Twitter, and Twitch. The current flagship product, DEGEN, provides POAP distribution features to reward community members and works to combat POAP farming. Other DAO products include Mad Hatter, the BanklessDAO Administrative bot, Bounty Board, and a number of bots currently under development.
-  creator: DEGEN Workgroup # or The DEGEN Workgroup ?
-  pricing: free
-  # contact: BanklessDAO Discord @nonsensetwice or crypto@nonsensetwice.co
-  categories: distribution
-  integrations: discord, twitter
-  github: https://github.com/BanklessDAO/DEGEN
-  docs: https://docs.bankless.community/degen/degen/premium-features/twitter-spaces
-  embed: '<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/c04e15766de84695838eeac8d8c73d5a" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>'
-  discord: https://discord.gg/zHnEBZrswk
-  twitter: https://twitter.com/bDAO_DEGEN
-  telegram: 
-  medium: 
-  youtube: https://www.youtube.com/playlist?list=PLc6o7Cxn7Uq6DQCptSItO5_IQfegCRImb
-  linkedin: 
-  forum: 
+  forum:
 - id: 56
-  link: https://poap.gg/
+  link: https://Revv.gg/
   title: Twitch Stream Distribution
   official: false
   hide_on_all: false
   desc_short: A Twitch integration that allows for POAP distribution during streams.
-  desc_long: 
-  creator: POAP.gg
+  desc_long:
+  creator: Revv.gg
   pricing: free
-  # contact: 
+  # contact:
   categories: distribution
   integrations: twitch
-  github: 
-  docs: 
+  github:
+  docs:
   embed: '<iframe width="100%" max-width="466px" height="250px" max-height="262px" src="https://www.youtube.com/embed/KLBHZVOeUms?start=6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 57
   link: https://litgateway.com/apps/shopify
   title: Shopify Gated Access
   official: false
   hide_on_all: false
   desc_short: Create gated items on e-commerce stores with exclusive access to POAP collectors.
-  desc_long: 
+  desc_long:
   creator: Lit Protocol
   pricing: free
-  # contact: 
+  # contact:
   categories: access
   integrations: shopify
   github: https://github.com/LIT-Protocol/
   docs: https://developer.litprotocol.com/docs/intro/
-  embed: 
+  embed:
   discord: https://litgateway.com/discord
   twitter: https://twitter.com/litprotocol
-  telegram: 
+  telegram:
   medium: https://blog.litprotocol.com/
-  youtube: 
-  linkedin: 
-  forum: 
+  youtube:
+  linkedin:
+  forum:
 - id: 58
   link: https://litgateway.com/apps/cloudflare
   title: Cloudflare Gated Access
   official: false
   hide_on_all: false
   desc_short: Use Cloudflare Stream to gate embedded live streams and videos to POAP collectors right on your site.
-  desc_long: 
+  desc_long:
   creator: Lit Protocol
   pricing: free
-  # contact: 
+  # contact:
   categories: access
   integrations: cloudflare
   github: https://github.com/LIT-Protocol/
   docs: https://developer.litprotocol.com/docs/intro/
-  embed: 
+  embed:
   discord: https://litgateway.com/discord
   twitter: https://twitter.com/litprotocol
-  telegram: 
+  telegram:
   medium: https://blog.litprotocol.com/
-  youtube: 
-  linkedin: 
-  forum: 
+  youtube:
+  linkedin:
+  forum:
 - id: 59
   link: https://gathertown.gitbook.io/web3/integrations/poaps-in-gather#poap-bot-by-andrei0x309
   title: Gather.Town Bot
   official: false
   hide_on_all: false
   desc_short: A Gather.Town bot that allows you to send POAPs to connected users on the Gather Space.
-  desc_long: 
+  desc_long:
   creator: andrei0x309
   pricing: free
-  # contact: 
+  # contact:
   categories: distribution
   integrations: gather-town
   github: https://github.com/andrei0x309/gather-town-WS-POAP-bot
   docs: https://gathertown.gitbook.io/web3/integrations/poaps-in-gather
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 60
   link: https://gathertown.gitbook.io/web3/integrations/poaps-in-gather#guide-scavenger-hunt-for-poap
   title: Gather.Town Scavenger Hunt
   official: false
   hide_on_all: false
   desc_short: Create a scavenger hunt in Gather.Town using interactive objects.
-  desc_long: 
+  desc_long:
   creator: Gather.Town
   pricing: free
-  # contact: 
+  # contact:
   categories: play
   integrations: gather-town
-  github: 
+  github:
   docs: https://gathertown.gitbook.io/web3/integrations/poaps-in-gather#guide-scavenger-hunt-for-poap
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 61
   link: https://litgateway.com/apps/gather-town
   title: Gather.Town Gated Access
   official: false
   hide_on_all: false
   desc_short: Make your Gather.Town space come alive by selecting areas that can only be accessed by collectors of your POAP.
-  desc_long: 
+  desc_long:
   creator: Lit Protocol
   pricing: free
-  # contact: 
+  # contact:
   categories: access
   integrations: gather-town
   github: https://github.com/LIT-Protocol/
   docs: https://developer.litprotocol.com/docs/intro/
-  embed: 
+  embed:
   discord: https://litgateway.com/discord
   twitter: https://twitter.com/litprotocol
-  telegram: 
+  telegram:
   medium: https://blog.litprotocol.com/
-  youtube: 
-  linkedin: 
-  forum: 
+  youtube:
+  linkedin:
+  forum:
 - id: 62
   link: https://wordpress.org/plugins/litprotocol-wp-lit-gated/
   title: Wordpress Gated Access
   official: false
   hide_on_all: false
   desc_short: Gate pages on a Wordpress site to only allow POAP collectors to read and interact.
-  desc_long: 
+  desc_long:
   creator: Lit Protocol
   pricing: free
-  # contact: 
+  # contact:
   categories: access
   integrations: wordpress
   github: https://github.com/LIT-Protocol/
   docs: https://developer.litprotocol.com/docs/intro/
-  embed: 
+  embed:
   discord: https://litgateway.com/discord
   twitter: https://twitter.com/litprotocol
-  telegram: 
+  telegram:
   medium: https://blog.litprotocol.com/
-  youtube: 
-  linkedin: 
-  forum: 
+  youtube:
+  linkedin:
+  forum:
 - id: 63
   link: https://earni.fi/
   title: Earnifi
   official: false
   hide_on_all: false
   desc_short: Check if you have any unclaimed POAPs.
-  desc_long: 
+  desc_long:
   creator: Earnifi
   pricing: freemium
   # contact: dawson
   categories: collector
   integrations: earnifi
-  github: 
+  github:
   docs: https://docs.earni.fi/
-  embed: 
-  discord: 
+  embed:
+  discord:
   twitter: https://twitter.com/dawsonbotsford
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 64
   link: https://poap.in/v
-  title: POAP.in (beta)
+  title: POAP.in
   official: false
   hide_on_all: false
-  desc_short: Still in development, POAP.in is a tool to view and organize your POAPs in depth. 
-  desc_long: 
+  desc_short: Still in development, POAP.in is a tool to view and organize your POAPs in depth.
+  desc_long:
   creator: Glory Lab
   pricing: free
-  # contact: 
+  # contact:
   categories: explore
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
   twitter: https://twitter.com/glorylaboratory
-  telegram: 
+  telegram:
   medium: https://mirror.xyz/glorylab.eth
-  youtube: 
-  linkedin: 
-  forum: 
-- id: 65
-  link: https://play.google.com/store/apps/details?id=in.poap
-  title: POAP.in App (Android, beta)
-  official: false
-  hide_on_all: false
-  desc_short: Still in development, POAP.in is a tool to view and organize your POAPs in depth. 
-  desc_long: 
-  creator: Glory Lab
-  pricing: free
-  # contact: 
-  categories: app, explore, collector
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
-  twitter: https://twitter.com/glorylaboratory
-  telegram: 
-  medium: https://mirror.xyz/glorylab.eth
-  youtube: 
-  linkedin: 
-  forum: 
-- id: 66
-  link: https://testflight.apple.com/join/OqNzJ9UJ
-  title: POAP.in App (iOS, beta)
-  official: false
-  hide_on_all: false
-  desc_short: Still in development, POAP.in is a tool to view and organize your POAPs in depth. 
-  desc_long: 
-  creator: Glory Lab
-  pricing: free
-  # contact: 
-  categories: app, explore, collector
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
-  twitter: https://twitter.com/glorylaboratory
-  telegram: 
-  medium: https://mirror.xyz/glorylab.eth
-  youtube: 
-  linkedin: 
-  forum: 
-- id: 67
-  link: https://testflight.apple.com/join/OqNzJ9UJ
-  title: POAP.in App (Mac, beta)
-  official: false
-  hide_on_all: false
-  desc_short: Still in development, POAP.in is a tool to view and organize your POAPs in depth. 
-  desc_long: 
-  creator: Glory Lab
-  pricing: free
-  # contact: 
-  categories: app, explore, collector
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
-  twitter: https://twitter.com/glorylaboratory
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  youtube:
+  linkedin:
+  forum:
 - id: 68
   link: https://help.poap.xyz/en/articles/5855319-the-poap-glossary
   title: POAP Glossary
   official: true
   hide_on_all: true
   desc_short: A continually updated list of important POAP terms and references.
-  desc_long: 
+  desc_long:
   creator: POAP inc.
   pricing: free
-  # contact: 
+  # contact:
   categories: info
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 69
   link: https://help.poap.xyz/en/articles/5812140-poap-distribution-methods-101
   title: Distribution 101 Guide
   official: true
   hide_on_all: true
   desc_short: Goes over the various methods of POAP distribution and their advantages/disadvantages.
-  desc_long: 
+  desc_long:
   creator: POAP inc.
   pricing: free
-  # contact: 
+  # contact:
   categories: guide
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 70
   link: https://help.poap.xyz/en/articles/5807573-how-do-i-set-up-a-poap-secret
   title: POAP Secret Guide
   official: true
   hide_on_all: true
   desc_short: A step-by-step guide to setup a POAP secret for distribution.
-  desc_long: 
+  desc_long:
   creator: POAP inc.
   pricing: free
-  # contact: 
+  # contact:
   categories: guide
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 71
   link: https://help.poap.xyz/en/articles/5802657-how-do-i-set-up-a-poap-drop
   title: POAP Drop Creation Guide
   official: true
   hide_on_all: true
   desc_short: A step-by-step guide to setup a POAP drop for your event.
-  desc_long: 
+  desc_long:
   creator: POAP inc.
   pricing: free
-  # contact: 
+  # contact:
   categories: guide
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 72
   link: https://rogue-face-c95.notion.site/Guild-Guide-d94ae6a089174487b3feb5efe2e05ed3#f9cb754cfca94f65a206508488400246
   title: Discord Gated Access (Guild.xyz)
   official: false
   hide_on_all: false
   desc_short: Use Guild.xyz to create guilds in Discord with special permissions to POAP collectors.
-  desc_long: 
+  desc_long:
   creator: Agora
   pricing: free
-  # contact: 
+  # contact:
   categories: access
   integrations: discord
   github: https://github.com/agoraxyz/discord-runner
   docs: https://rogue-face-c95.notion.site/Guild-Guide-d94ae6a089174487b3feb5efe2e05ed3#f9cb754cfca94f65a206508488400246
-  embed: 
+  embed:
   discord: https://discord.gg/KvXtEpDX8B
   twitter: https://twitter.com/agora_xyz
   telegram: https://t.me/joinchat/UxeaoiNXDH5lN2Rk
   medium: https://medium.com/@AgoraSpaceDAO
-  youtube: 
-  linkedin: 
-  forum: 
+  youtube:
+  linkedin:
+  forum:
 - id: 73
   link: https://rogue-face-c95.notion.site/Guild-Guide-d94ae6a089174487b3feb5efe2e05ed3#e4f28bb250c440c0b7af7083dc303cb7
   title: Telegram Gated Access (Guild.xyz)
   official: false
   hide_on_all: false
   desc_short: Use Guild.xyz to create guilds in Telegram with special permissions to POAP collectors.
-  desc_long: 
+  desc_long:
   creator: Agora
   pricing: free
-  # contact: 
+  # contact:
   categories: access
   integrations: telegram
   github: https://github.com/agoraxyz/telegram-runner
   docs: https://rogue-face-c95.notion.site/Guild-Guide-d94ae6a089174487b3feb5efe2e05ed3#f9cb754cfca94f65a206508488400246
-  embed: 
+  embed:
   discord: https://discord.gg/KvXtEpDX8B
   twitter: https://twitter.com/agora_xyz
   telegram: https://t.me/joinchat/UxeaoiNXDH5lN2Rk
   medium: https://medium.com/@AgoraSpaceDAO
-  youtube: 
-  linkedin: 
-  forum: 
+  youtube:
+  linkedin:
+  forum:
 - id: 74
   link: https://www.youtube.com/playlist?list=PLEIfOJuxSVEJB_UM5U34bXhTRVKdN88Bl
   title: POAP Community Calls
   official: true
   hide_on_all: true
   desc_short: A collection of POAP Community Calls that are hosted weekly on Discord.
-  desc_long: 
+  desc_long:
   creator: POAP inc.
   pricing: free
-  # contact: 
+  # contact:
   categories: info
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 76
   link: https://www.premint.xyz/
   title: PREMINT
   official: false
   hide_on_all: false
   desc_short: PREMINT helps you create a list of your POAP collectors to minimize bots.
-  desc_long: 
+  desc_long:
   creator: PREMINT
   pricing: freemium
-  # contact: 
+  # contact:
   categories: distribution
   integrations: premint, discord, twitter
-  github: 
-  docs: 
-  embed: 
-  discord: 
+  github:
+  docs:
+  embed:
+  discord:
   twitter: https://twitter.com/premint_nft
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 77
   link: https://welook.io/
   title: WeLook
   official: false
   hide_on_all: false
   desc_short: WeLook allows you to view your collection as well as explore other people's collections.
-  desc_long: 
+  desc_long:
   creator: WeLook
   pricing: free
-  # contact: 
+  # contact:
   categories: explore, collector
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 78
   link: https://light.so/
   title: Light
   official: false
   hide_on_all: false
   desc_short: Light allows you to view your collection as well as explore other people's collections.
-  desc_long: 
+  desc_long:
   creator: Sentrei
   pricing: free
   # contact: slobo.eth
   categories: explore, collector
-  integrations: 
+  integrations:
   github: https://github.com/LightDotSo
   docs: https://lightdotso.notion.site/lightdotso/
-  embed: 
+  embed:
   discord: https://discord.gg/Vgfxg2Rcy8
   twitter: https://twitter.com/LightDotSo
   telegram: https://t.me/lightdotso
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 79
   link: https://nftychat.xyz/
   title: NFTY Chat
   official: false
   hide_on_all: false
   desc_short: A web3 Discord clone that allows you to create a gated community with exclusive access to POAP collectors.
-  desc_long: 
+  desc_long:
   creator: NFTY Chat
   pricing: free
   # contact: slobo.eth
   categories: access
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
   twitter: https://twitter.com/nftychat
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 80
   link: https://rainbow.me/
   title: Rainbow
   official: false
   hide_on_all: false
   desc_short: Rainbow allows you to view your collection as well as explore other people's collections.
-  desc_long: 
+  desc_long:
   creator: Rainbow
   pricing: free
-  # contact: 
+  # contact:
   categories: explore, collector
   integrations: wallet
   github: https://github.com/rainbow-me/rainbow
   docs: https://learn.rainbow.me/
-  embed: 
-  discord: 
+  embed:
+  discord:
   twitter: https://twitter.com/rainbowdotme
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 81
   link: https://www.poc.quest/
   title: Proof of Competence
   official: false
   hide_on_all: true
   desc_short: A framework for on-chain quests and web3 on-boarding journeys, rewarding users with POAPs.
-  desc_long: 
+  desc_long:
   creator: Wesley van Heije
   pricing: free
-  # contact: 
+  # contact:
   categories: reward
-  integrations: 
+  integrations:
   github: https://github.com/wslyvh/proof-of-competence
   docs: https://github.com/wslyvh/proof-of-competence
-  embed: 
-  discord: 
+  embed:
+  discord:
   twitter: https://twitter.com/wslyvh
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
-- id: 83
-  link: https://status.poap.xyz/
-  title: POAP Status Page
-  official: true
-  hide_on_all: false
-  desc_short: View the availability and uptime of POAP services.
-  desc_long: 
-  creator: POAP inc.
-  pricing: free
-  # contact: 
-  categories: dev
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 84
   link: https://poaps.agency/generator
   title: QR Code Generator
   official: false
   hide_on_all: false
   desc_short: Upload your claim codes file and generate a grid of QR codes for printing.
-  desc_long: 
+  desc_long:
   creator: POAPs Agency
   pricing: free
-  # contact: 
+  # contact:
   categories: distribution
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 90
   link: https://tokenproof.xyz/
   title: Gated Access Events
   official: false
   hide_on_all: false
   desc_short: Create gated physical events with exclusive access to POAP collectors.
-  desc_long: 
+  desc_long:
   creator: Token Proof
   pricing: free
-  # contact: 
+  # contact:
   categories: access
-  integrations: 
-  github: 
-  docs: 
-  embed: 
+  integrations:
+  github:
+  docs:
+  embed:
   discord: https://discord.gg/tokenproof
   twitter: https://twitter.com/tokenproof
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 91
   link: https://github.com/snapshot-labs/snapshot-strategies/tree/master/src/strategies/poap-with-weight
   title: Snapshot POAP Voting
@@ -1952,55 +1684,55 @@
   embed: '<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/6f26c7b76b07424187f11456dce9011c" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>'
   discord: https://discord.gg/snapshot
   twitter: https://twitter.com/SnapshotLabs
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 92
   link: https://www.gitpoap.io/
   title: GitPOAP Contributor POAPs
   official: false
   hide_on_all: false
   desc_short: Mint POAPs for open source contributions of your Github project.
-  desc_long: GitPOAP offers a proof of contribution by allowing open source Github projects to award POAPs to their past and ongoing contributors. 
+  desc_long: GitPOAP offers a proof of contribution by allowing open source Github projects to award POAPs to their past and ongoing contributors.
   creator: GitPOAP
   pricing: free
-  # contact: 
+  # contact:
   categories: dev, reward
   integrations: github
   github: https://github.com/gitpoap
   docs: https://www.gitpoap.io/#suggest
-  embed: 
+  embed:
   discord: https://gitpoap.io/discord
   twitter: https://twitter.com/gitpoap
-  telegram: 
+  telegram:
   medium: https://medium.com/gitpoap
-  youtube: 
-  linkedin: 
-  forum: 
+  youtube:
+  linkedin:
+  forum:
 - id: 95
   link: https://app.cyberconnect.me/address/poap.eth
   title: CyberConnect
   official: false
   hide_on_all: false
   desc_short: CyberConnect allows you to view your collection as well as explore other people's collections.
-  desc_long: 
+  desc_long:
   creator: CyberConnect
   pricing: free
-  # contact: 
+  # contact:
   categories: explore, collector
-  integrations: 
+  integrations:
   github: https://github.com/cyberconnecthq/js-cyberconnect
-  docs: 
-  embed: 
+  docs:
+  embed:
   discord: https://discord.com/invite/bYJ3cB7bbC
   twitter: https://twitter.com/CyberConnectHQ
-  telegram: 
+  telegram:
   medium: https://mirror.xyz/cyberlab.eth/j4u2JeUYaRJfHfWENGWqmBiKAJlMaZDoZbwN3_xXaUE
-  youtube: 
-  linkedin: 
-  forum: 
+  youtube:
+  linkedin:
+  forum:
 - id: 96
   link: https://gm.xyz/
   title: GM.xyz Gated Community
@@ -2013,129 +1745,63 @@
     Fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLScdBy7PwKIzdTxlyH-m2ZIc_GKtRRoU80BL27mXh6llZJ2Mxg/viewform) to request the creation of your community.
   creator: GM.xyz
   pricing: free
-  # contact: 
+  # contact:
   categories: access
-  integrations: 
-  github: 
+  integrations:
+  github:
   docs: https://docs.google.com/forms/d/e/1FAIpQLScdBy7PwKIzdTxlyH-m2ZIc_GKtRRoU80BL27mXh6llZJ2Mxg/viewform
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
-- id: 97
-  link: https://po-ap.com/index.html
-  title: POAP Box Transfer Tool
-  official: false
-  hide_on_all: false
-  desc_short: Use this transfer tool to send your POAPs to another address.
-  desc_long: 
-  creator: Ericet
-  pricing: free
-  # contact: 
-  categories: collector
-  integrations: 
-  github: https://github.com/ericet/PO-AP
-  docs: 
-  embed: 
-  discord: 
-  twitter: https://twitter.com/ericet369
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
-- id: 98
-  link: https://po-ap.com/claim.html
-  title: POAP Box Delivery Claim
-  official: false
-  hide_on_all: false
-  desc_short: Check for any eligible POAP deliveries and automatically claim them.
-  desc_long: 
-  creator: Ericet
-  pricing: free
-  # contact: 
-  categories: collector
-  integrations: 
-  github: https://github.com/ericet/PO-AP
-  docs: 
-  embed: 
-  discord: 
-  twitter: https://twitter.com/ericet369
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
-- id: 99
-  link: https://webforms.pipedrive.com/f/6UFIbiMvF6bS3mGGX6wbykVPFvvywMbPtIXvJlaX6brJMU87Go9ZmuP1A1ld3eiX7B
-  title: Contact POAP for Serious Business
-  official: true
-  hide_on_all: false
-  desc_short: Use this form to get in touch with the POAP business development team.
-  desc_long: 
-  creator: POAP inc.
-  pricing: free
-  # contact: 
-  categories: info
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 100
   link: https://www.coinvise.co/airdrop?type=By%20Unique%20Link&stage=details
   title: POAP Gated Airdrop
   official: false
   hide_on_all: false
-  desc_short: Airdrop tokens to your event participants based on a single POAP or multiple conditions. 
-  desc_long: 
+  desc_short: Airdrop tokens to your event participants based on a single POAP or multiple conditions.
+  desc_long:
   creator: Coinvise
   pricing: free
-  # contact: 
+  # contact:
   categories: access
-  integrations: 
+  integrations:
   github: https://github.com/coinvise
   docs: https://coinvise.notion.site/Airdrop-Reward-Pay-Contributors-42938150cfa84b5ca89c61c15ee9434e
-  embed: 
+  embed:
   discord: https://discord.com/invite/w9YFJU8SGz
   twitter: https://twitter.com/CoinviseCo
-  telegram: 
+  telegram:
   medium: https://coinvise.mirror.xyz/
-  youtube: 
-  linkedin: 
-  forum: 
+  youtube:
+  linkedin:
+  forum:
 - id: 101
   link: https://dework.xyz/
   title: Gated Access Tasks
   official: false
   hide_on_all: false
   desc_short: Create gated tasks management boards and bounties with exclusive access to POAP collectors.
-  desc_long: 
+  desc_long:
   creator: Dework
   pricing: free
-  # contact: 
+  # contact:
   categories: access
   integrations: notion, trello, github
-  github: 
+  github:
   docs: https://dework-community.gitbook.io/product-docs
-  embed: 
+  embed:
   discord: http://discord.gg/rPEsPzShd7
   twitter: https://twitter.com/deworkxyz
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 102
   link: https://bewee.me/
   title: Bewee Treasure Hunt
@@ -2148,34 +1814,34 @@
     The game is all about exploring cities around the world. All POAPs will be placed on beautiful and memorable landmarks so you can have fun exploring amazing places with friends and collect POAPs as a life long reminder of that experience!
   creator: Bewee
   pricing: free
-  # contact: 
+  # contact:
   categories: play, collector
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 103
   link: https://www.overthereality.ai/
   title: OVR POAP Dispenser
   official: false
   hide_on_all: false
   desc_short: A POAP integration to create a POAP dispenser directly within the OVR Web Builder.
-  desc_long: 
+  desc_long:
   creator: Over
   pricing: free
-  # contact: 
+  # contact:
   categories: distribution
   integrations: ovrlands
   github: https://github.com/OVR-Platform
   docs: https://twitter.com/OVRtheReality/status/1511415302046642178
-  embed: 
+  embed:
   discord: https://discord.com/invite/PBcECmFQYZ
   twitter: https://twitter.com/OVRtheReality
   telegram: https://t.me/OVRtheReality
@@ -2184,80 +1850,80 @@
   # instagram: https://www.instagram.com/over.metaverse/
   # reddit: https://www.reddit.com/r/OVR_AR_Platform/
   # facebook: https://www.facebook.com/OVERmetaverse
-  linkedin: 
-  forum: 
+  linkedin:
+  forum:
 - id: 93
   link: https://www.gitpoap.io/p/poap.eth
   title: GitPOAP Collections
   official: false
   hide_on_all: false
   desc_short: GitPOAP allows you to view your collection, feature your favorite POAPs, and explore other people's collections.
-  desc_long: 
+  desc_long:
   creator: GitPOAP
   pricing: free
-  # contact: 
+  # contact:
   categories: explore, collector
-  integrations: 
+  integrations:
   github: https://github.com/gitpoap
-  docs: 
-  embed: 
+  docs:
+  embed:
   discord: https://gitpoap.io/discord
   twitter: https://twitter.com/gitpoap
-  telegram: 
+  telegram:
   medium: https://medium.com/gitpoap
-  youtube: 
-  linkedin: 
-  forum: 
+  youtube:
+  linkedin:
+  forum:
 - id: 94
   link: https://app.mazury.xyz/people/poap.eth
   title: Mazury
   official: false
   hide_on_all: false
   desc_short: Mazury allows you to view your collection as well as explore other people's collections.
-  desc_long: 
+  desc_long:
   creator: Mazury
   pricing: free
-  # contact: 
+  # contact:
   categories: explore, collector
-  integrations: 
-  github: 
-  docs: 
-  embed: 
+  integrations:
+  github:
+  docs:
+  embed:
   discord: https://discord.gg/uthx4dZEGJ
   twitter: https://twitter.com/mazuryxyz
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 108
   link: https://poaps.agency/
   title: You've Met POAPs
   official: false
-  new: true
+  new: false
   hide_on_all: false
   desc_short: Create your own personalized "You've Met Me" POAPs to distribute at events.
-  desc_long: 
+  desc_long:
   creator: POAPs Agency
   pricing: paid
-  # contact: 
+  # contact:
   categories: design
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 109
-  link: https://play.google.com/store/apps/details?id=xyz.poap.geocache
-  title: POAP Geocache App (Android)
+  link: https://apps.apple.com/us/app/poap-geocaching/id1616876669
+  title: POAP Geocache App
   official: true
-  new: true
+  new: false
   hide_on_all: false
   desc_short: Find geocached POAPs in the physical world. Participate in treasure hunts and other adventures!
   desc_long: |
@@ -2268,183 +1934,363 @@
   pricing: free
   # contact: # Mentor
   categories: play, app, collector
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
-- id: 110
-  link: https://apps.apple.com/us/app/poap-geocaching/id1616876669
-  title: POAP Geocache App (iOS)
-  official: true
-  new: true
-  hide_on_all: false
-  desc_short: Find geocached POAPs in the physical world. Participate in treasure hunts and other adventures!
-  desc_long:  |
-    Find geocached POAPs in the physical world. Participate in treasure hunts and other adventures!
-
-    This app is in public beta, we appreciate your feedback.
-  creator: POAP inc.
-  pricing: free
-  # contact: # Mentor
-  categories: play, app, collector
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 111
   link: https://qrexplore.com/generate/
   title: Bulk QR Code Generator
   official: false
-  new: true
+  new: false
   hide_on_all: false
   desc_short: Paste in your claim codes and generate a list of individual QR code images.
-  desc_long: 
+  desc_long:
   creator: Loxima Limited
   pricing: freemium
   # contact: # support@qrexplore.com
   categories: distribution
-  integrations: 
-  github: 
-  docs: 
-  embed: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 - id: 113
   link: https://randompoaps.com/
   title: Random POAPs Raffles
   official: false
-  new: true
+  new: false
   hide_on_all: false
   desc_short: Random POAPs allows you to create instant raffles between POAP token holders.
   desc_long: Random POAPs allows you to create instant raffles between POAP token holders. The differentiating factor is that POAP holders don’t have to actively sign up to participate in a raffle. It's meant to be a simple way to quickly raffle something using POAPs.
   creator: Santiago Galán
   pricing: free
-  # contact: 
+  # contact:
   categories: play
-  integrations: 
+  integrations:
   github: https://github.com/sgalanb
-  docs: 
-  embed: 
-  discord: 
+  docs:
+  embed:
+  discord:
   twitter: https://twitter.com/sgalanb
-  telegram: 
-  medium: 
-  youtube: 
+  telegram:
+  medium:
+  youtube:
   linkedin: https://www.linkedin.com/in/santiago-gal%C3%A1n-barlo/
-  forum: 
+  forum:
 - id: 114
   link: https://2cents.audio
   title: 2Cents Audio
   official: false
-  new: true
+  new: false
   hide_on_all: false
   desc_short: Reward your podcast listeners with built-in POAP distribution.
-  desc_long: 
+  desc_long:
   creator: 2Cents Audio
   pricing: free
-  # contact: 
+  # contact:
   categories: reward
-  integrations: 
-  github: 
-  docs: 
+  integrations:
+  github:
+  docs:
   embed: '<div class="text-center"><img class="img-fluid" style="max-height: 420px" src="/assets/img/demos/2cents.gif"></div>'
-  discord: 
+  discord:
   twitter: https://twitter.com/2CentsAudio
-  telegram: 
-  medium: 
-  youtube: 
+  telegram:
+  medium:
+  youtube:
   linkedin: https://www.linkedin.com/company/2cents-audio/
-  forum: 
+  forum:
 - id: 115
   link: https://www.ethpass.xyz/
   title: ETHPass
   official: false
-  new: true
+  new: false
   hide_on_all: false
   # desc_short: Create gated event pages and passes with automated POAP distribution to event participants.
   desc_short: Create gated access to your physical events or prove your ownership of a POAP to attend someone else's.
-  desc_long: 
+  desc_long:
   creator: ETHPass
   pricing: free
-  # contact: 
+  # contact:
   categories: access, app, collector
   integrations: google-pay, apple-wallet
   github: https://github.com/eth-pass
-  docs: 
+  docs:
   embed: '<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/f0019ca4b7304a19a5e6769b2e250075" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>'
   discord: https://discord.gg/ethpass
   twitter: https://twitter.com/ethpass
-  telegram: 
+  telegram:
   medium: https://docs.ethpass.xyz/blog
-  youtube: 
-  linkedin: 
-  forum: 
+  youtube:
+  linkedin:
+  forum:
 - id: 117
   link: https://hyy.pe/
   title: Hyype
   official: false
-  new: true
+  new: false
   hide_on_all: false
   desc_short: Enrich your POAPs with lore, images, and other content.
-  desc_long: 
+  desc_long:
   creator: Hyype
   pricing: free
-  # contact: 
+  # contact:
   categories: collector
-  integrations: 
-  github: 
+  integrations:
+  github:
   docs: https://docs.hyy.pe/
-  embed: 
+  embed:
   discord: https://discord.gg/cbHN3V7wvf
   twitter: https://twitter.com/hyypehq
-  telegram: 
+  telegram:
   medium: https://medium.com/hyype
-  youtube: 
-  linkedin: 
-  forum: 
+  youtube:
+  linkedin:
+  forum:
 - id: 118
-  link: https://aelin.xyz/
-  title: Aelin Fundraising
+  link: https://guild.xyz
+  title: Guild.xyz
   official: false
   new: true
   hide_on_all: false
-  desc_short: Create gated fundraising with exclusive access to event participants.
-  desc_long: 
-  creator: Aelin
-  pricing: 
-  # contact: 
+  desc_short: Create gated communities in Discord or Telegram and distribute POAPs to collectors
+  desc_long:
+  creator: Agora
+  pricing: free
+  # contact:
+  categories: access, distribution
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 119
+  link: https://huddle01.com
+  title: Gated Access Video Conferencing
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Schedule gated virtual meetings with exclusive access to event pariticpants.
+  desc_long:
+  creator: Huddle01
+  pricing: free
+  # contact:
   categories: access
-  integrations: 
-  github: https://github.com/AelinXYZ
-  docs: https://docs.aelin.xyz/
-  embed: 
-  discord: https://discord.com/invite/YHffnV9sUM
-  twitter: https://twitter.com/aelinprotocol
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
-
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 120
+  link: https://welook.io
+  title: WeLook's "You've Met Me" Generator
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Create your own personalized "You've Met Me" POAPs to distribute at events
+  desc_long:
+  creator: WeLook
+  pricing: free
+  # contact:
+  categories: design
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 121
+  link: https://Shil.me
+  title: Shil.me
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Shil.me is a user-centric platform creating social utility for NFTs.
+  desc_long:
+  creator: Shil.me
+  pricing: free
+  # contact:
+  categories: social
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 122
+  link: https://spkz.io
+  title: SPKZ Lounges
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Create POAP-gated communities.
+  desc_long:
+  creator: Arianee
+  pricing: free
+  # contact:
+  categories: access
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 123
+  link: https://poap.codes
+  title: Claim Code Manager
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: This tool helps you check the claim status of event mint links.
+  desc_long:
+  creator: mentor.eth
+  pricing: free
+  # contact:
+  categories: admin
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 124
+  link: https://welook.io
+  title: WeLook POAP Collections
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Categorize your POAPs into custom collections.
+  desc_long:
+  creator: WeLook
+  pricing: free
+  # contact:
+  categories: collector
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 125
+  link: https://creativeplatform.xyz
+  title: Creative Platform
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: A suite of tools for creators, including POAP creation for events.
+  desc_long:
+  creator: Creative Organization DAO
+  pricing: free
+  # contact:
+  categories: distribution
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 126
+  link: https://poaper.io
+  title: Poaper
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Build a Twitter banner to show off your POAPs.
+  desc_long:
+  creator: Nueva Technologies
+  pricing: free
+  # contact:
+  categories: social
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 127
+  link: https://stellargate.io
+  title: CAT Decentraland Dispenser
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: A Decentraland dispenser to distribute POAPs to your event participants via activities.
+  desc_long:
+  creator: Stellar Gate
+  pricing: free
+  # contact:
+  categories: distribution
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 
 # - id: 116
 #   link: https://app.sliksafe.com/
@@ -2453,22 +2299,22 @@
 #   new: true
 #   hide_on_all: false
 #   desc_short: Create and share gated documents and workspaces with exclusive access to POAP collectors.
-#   desc_long: 
+#   desc_long:
 #   creator: Slik Safe
 #   pricing: freemium
-#   # contact: 
+#   # contact:
 #   categories: access
 #   integrations: dropbox
-#   github: 
-#   docs: 
-#   embed: 
-#   discord: 
+#   github:
+#   docs:
+#   embed:
+#   discord:
 #   twitter: https://twitter.com/sliksafe
-#   telegram: 
-#   medium: 
-#   youtube: 
-#   linkedin: 
-#   forum: 
+#   telegram:
+#   medium:
+#   youtube:
+#   linkedin:
+#   forum:
 # - id: 105
 #   link: https://www.tryboomerang.io/
 #   title: Boomerang
@@ -2476,22 +2322,22 @@
 #   hide_on_all: false
 #   new: true
 #   desc_short: Boomerang helps you track your community across platforms to minimize bots then automatically distribute through POAP.delivery.
-#   desc_long: 
+#   desc_long:
 #   creator: Boomerang
-#   pricing: 
-#   # contact: 
+#   pricing:
+#   # contact:
 #   categories: admin, distribution
 #   integrations: discord, snapshot
-#   github: 
-#   docs: 
-#   embed: 
-#   discord: 
+#   github:
+#   docs:
+#   embed:
+#   discord:
 #   twitter: https://twitter.com/tryboomerang#
-#   telegram: 
-#   medium: 
-#   youtube: 
-#   linkedin: 
-#   forum: 
+#   telegram:
+#   medium:
+#   youtube:
+#   linkedin:
+#   forum:
 # - id: 75
 #   link: https://www.iyk.app/
 #   title: IYK Discs
@@ -2499,24 +2345,24 @@
 #   hide_on_all: false
 #   desc_short: Farming-resistant POAP NFC distribution for physical location-based events.
 #   desc_long: |
-#     IYK discs allow for a location-based POAP minting experience through NFC. Scanning a disc can bring you either to a traditional POAP claim code link, but can also take you to a custom one-time-use link for added security. 
+#     IYK discs allow for a location-based POAP minting experience through NFC. Scanning a disc can bring you either to a traditional POAP claim code link, but can also take you to a custom one-time-use link for added security.
 
 #     The custom link also supports collection additional fields like a guestbook message, name, and email!
 #   creator: IYK*
 #   pricing: freemium
-#   # contact: 
+#   # contact:
 #   categories: distribution
-#   integrations: 
-#   github: 
-#   docs: 
-#   embed: 
+#   integrations:
+#   github:
+#   docs:
+#   embed:
 #   discord: https://discord.gg/NpVkD6qcAA
 #   twitter: https://twitter.com/__iyk
-#   telegram: 
-#   medium: 
-#   youtube: 
-#   linkedin: 
-#   forum: 
+#   telegram:
+#   medium:
+#   youtube:
+#   linkedin:
+#   forum:
 
 
 # Mailchimp is filtering emails that use this
@@ -2526,22 +2372,22 @@
 #   official: false
 #   hide_on_all: false
 #   desc_short: A step-by-step guide to using Mailchimp for distribution.
-#   desc_long: 
+#   desc_long:
 #   creator: Santiago Echeverria
 #   pricing: free
-#   # contact: 
+#   # contact:
 #   categories: distribution, guide
 #   integrations: mailchimp
-#   github: 
-#   docs: 
-#   embed: 
-#   discord: 
-#   twitter: 
-#   telegram: 
-#   medium: 
-#   youtube: 
-#   linkedin: 
-#   forum: 
+#   github:
+#   docs:
+#   embed:
+#   discord:
+#   twitter:
+#   telegram:
+#   medium:
+#   youtube:
+#   linkedin:
+#   forum:
 
 
 # Removed at Isabel's request
@@ -2552,109 +2398,107 @@
 #   official: false
 #   hide_on_all: true
 #   desc_short: Create gated Discord channels with exclusive access to POAP collectors.
-#   desc_long: 
+#   desc_long:
 #   creator: BUIDLHub
-#   pricing: 
-#   # contact: 
+#   pricing:
+#   # contact:
 #   categories: access
 #   integrations: discord
 #   github: https://github.com/BUIDLHub/poap-verification-frontend
 #   docs: https://docs.buidlhub.com/
-#   embed: 
+#   embed:
 #   discord: https://discord.gg/fQtpeT2
 #   twitter: https://twittter.com/buidlhub
 #   telegram: https://t.me/buidlhub
 #   medium: https://medium.com/buidlhub
 #   youtube: https://www.youtube.com/channel/UCBudqf1FNGwtOrPL8f99lCA/featured
 #   linkedin: https://www.linkedin.com/company/buidlhub/
-#   forum: 
+#   forum:
 # - id: 86
 #   link: https://app.poap.xyz/scan
 #   title: POAP Scan
 #   official: true
 #   hide_on_all: true
 #   desc_short: POAP Scan allows you to view your collection as well as explore other people's collections.
-#   desc_long: 
+#   desc_long:
 #   creator: POAP inc.
 #   pricing: free
-#   # contact: 
+#   # contact:
 #   categories: explore, collector
-#   integrations: 
-#   github: 
-#   docs: 
-#   embed: 
-#   discord: 
-#   twitter: 
-#   telegram: 
-#   medium: 
-#   youtube: 
-#   linkedin: 
-#   forum: 
+#   integrations:
+#   github:
+#   docs:
+#   embed:
+#   discord:
+#   twitter:
+#   telegram:
+#   medium:
+#   youtube:
+#   linkedin:
+#   forum:
 # - id: 87
 #   link: https://github.com/poapxyz/poap-bot
 #   title: POAP Bot v1
 #   official: true
 #   hide_on_all: true
 #   desc_short: Automated claim code distribution for POAP events via Discord.
-#   desc_long: 
+#   desc_long:
 #   creator: POAP inc.
 #   pricing: free
-#   # contact: 
+#   # contact:
 #   categories: distribution
 #   integrations: discord
 #   github: https://github.com/poapxyz/poap-bot
 #   docs: https://github.com/poapxyz/poap-bot#how-to-install-the-poap-bot-on-a-discord-server
-#   embed: 
-#   discord: 
-#   twitter: 
-#   telegram: 
-#   medium: 
-#   youtube: 
-#   linkedin: 
-#   forum: 
+#   embed:
+#   discord:
+#   twitter:
+#   telegram:
+#   medium:
+#   youtube:
+#   linkedin:
+#   forum:
 # - id: 88
 #   link: https://github.com/poap-xyz/poap-bot-v2
 #   title: POAP Bot v2
 #   official: true
 #   hide_on_all: true
 #   desc_short: Automated claim code distribution for POAP events via Discord.
-#   desc_long: 
+#   desc_long:
 #   creator: POAP inc.
 #   pricing: free
-#   # contact: 
+#   # contact:
 #   categories: distribution
 #   integrations: discord
 #   github: https://github.com/poap-xyz/poap-bot-v2
 #   docs: https://github.com/poapxyz/poap-bot#how-to-install-the-poap-bot-on-a-discord-server
-#   embed: 
-#   discord: 
-#   twitter: 
-#   telegram: 
-#   medium: 
-#   youtube: 
-#   linkedin: 
-#   forum: 
+#   embed:
+#   discord:
+#   twitter:
+#   telegram:
+#   medium:
+#   youtube:
+#   linkedin:
+#   forum:
 # - id: 89
 #   link: https://discord.gg/CD2YdZzb7Z
 #   title: MasterPOAP
 #   official: false
 #   hide_on_all: true
 #   desc_short: Automated claim code distribution for POAP drops via Discord. This is a private-access tool.
-#   desc_long: 
+#   desc_long:
 #   creator: SushiSwap
-#   pricing: 
-#   # contact: 
+#   pricing:
+#   # contact:
 #   categories: distribution
 #   integrations: discord
-#   github: 
-#   docs: 
-#   embed: 
+#   github:
+#   docs:
+#   embed:
 #   discord: https://discord.gg/CD2YdZzb7Z
 #   twitter: https://twitter.com/sushiswap
-#   telegram: 
+#   telegram:
 #   medium: https://sushichef.medium.com/
-#   youtube: 
-#   linkedin: 
-#   forum: 
-
-
+#   youtube:
+#   linkedin:
+#   forum:
