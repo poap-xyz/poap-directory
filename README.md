@@ -19,7 +19,20 @@ Resources:
 - [Jekyll Docs](https://jekyllrb.com/docs/)
 - [Liquid Syntax](https://shopify.github.io/liquid/basics/introduction/)
 
-Windows specific: bundle add webrick might be required. Also: git config --global core.autocrlf false to prevent CRLF changes
+Windows specific:
+"bundle add webrick" might be required. Also: git config --global core.autocrlf false to prevent CRLF changes
+
+The following changes might also be required for the Gemfile:
+-------------------
+#platforms :mingw, :x64_mingw, :mswin, :jruby do
+gem "tzinfo", "~> 1.2"
+gem "tzinfo-data"
+#end
+
+#gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+-------------------
+
 
 ### Conventions
 
