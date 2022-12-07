@@ -2291,7 +2291,489 @@
   youtube:
   linkedin:
   forum:
-
+- id: 128
+  link: https://nimi.io/
+  title: Nimi
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Personal Web3 landing & social pages
+  desc_long:
+  creator: Nimi
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 129
+  link: www.iyk.app
+  title: IYK*
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Tools to launch next-level activations and identify your biggest supporters
+  desc_long:
+  creator: IYK*
+  pricing: paid
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 130
+  link: https://meetwithwallet.xyz/
+  title: Meetwithwallet
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: WalletChat is building the future of communication, starting with wallet-to-wallet messaging
+  desc_long:
+  creator: Meetwithwallet
+  pricing: paid
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 131
+  link: https://sliksafe.com
+  title: Sliksafe
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Decentralized File Sync with end-to-end encryption. Web3's answer to Google + Apple Cloud security concerns
+  desc_long:
+  creator: Sliksafe
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 132
+  link: https://trustwallet.com
+  title: Trust Wallet
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Secure crypto wallet. Buy, store, collect NFTs, exchange & earn crypto
+  desc_long:
+  creator: Trust Wallet
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 133
+  link: https://shopthru.xyz
+  title: Shopthru
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Tokengated products & discounts for Shopify store
+  desc_long:
+  creator: Shopthru
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 134
+  link: https://beta.layer3.xyz
+  title: Layer3
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Bounty market; completed tasks paid in crypto. Layer3 helps you reach, acquire, and retain users with powerful, interactive experiences
+  desc_long:
+  creator: Layer3
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 135
+  link: https://walletchat.fun
+  title: Wallet Chat
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Chat wallet to wallet
+  desc_long:
+  creator: Wallet Chat
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 136
+  link: https://signet3.xyz
+  title: Signet3
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Unlock token utility without putting your assets at risk, enterprise-grade tooling that enables brands and projects to create web3-powered loyalty and consumer engagement programs
+  desc_long:
+  creator: Signet3
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 137
+  link: www.gallery.so
+  title: gallery.so
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Social platform for users to curate and display their collection, and connect with others with similar tastes and experiences
+  desc_long:
+  creator: gallery.so
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 138
+  link: https://dework.xyz
+  title: Dework
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Web3-native project management with token payments, credentialing, bounties. Create bounties for contributors, let contributors build their web3 profile and pay with your own DAO token
+  desc_long:
+  creator: Dework
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 139
+  link: https://airstack.xyz
+  title: Airstack
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Airstack is a web3 developer platform that provides fast and easy access to on-chain data across projects and blockchains
+  desc_long:
+  creator: Airstack
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 140
+  link: https://flight.discarbon.earth
+  title: Discarbon
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Driving value to planet-positive projects with transparent & verifiable on-chain carbon retirement tools as public goods
+  desc_long:
+  creator: Discarbon
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 141
+  link: https://effi.tv
+  title: Effi.tv
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Effi is an Interactive live streaming platform that provides token-gating;
+  desc_long:
+  creator: Effi.tv
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 142
+  link: https://ens.domains
+  title: ENS
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Web3 username or "domain" service
+  desc_long:
+  creator: ENS
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 143
+  link: https://daylight.xyz
+  title: daylight.xyz
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Discover everything your wallet can do; mints, airdrops, unlocks, votes, and more
+  desc_long:
+  creator: daylight.xyz
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 144
+  link: https://Plexlabs.io
+  title: Plex
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: A simple, no code interface for teams to find, understand and engage their target audiences on web3
+  desc_long:
+  creator: Plex
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 145
+  link: https://tell.ie
+  title: Tellie
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Tellie makes it possible for you to share almost anything behind a token gate, no code required.
+  desc_long:
+  creator: Tellie
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 146
+  link: https://perk.shop/
+  title: PerkShop
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Give your NFT community exclusive token-gated merch, secret discounts and raffles with your own perk shop
+  desc_long:
+  creator: PerkShop
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 147
+  link: https://tallyho.org/
+  title: Tally Ho
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Tally Ho is the first wallet owned by its users
+  desc_long:
+  creator: Tally Ho
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 148
+  link: https://nft.coinbase.com/
+  title: Coinbase NFT
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Create your profile, connect with your favorite artists, or buy and sell NFTs using any self-custody wallet
+  desc_long:
+  creator: Coinbase NFT
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 # - id: 116
 #   link: https://app.sliksafe.com/
 #   title: Slik Safe File Sharing
