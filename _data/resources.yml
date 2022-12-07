@@ -2688,7 +2688,7 @@
   official: false
   new: true
   hide_on_all: false
-  desc_short: Web3 website builder, gate access to pages and content with POAPs
+  desc_short: Tellie makes it possible for you to share almost anything behind a token gate, no code required.
   desc_long:
   creator: Tellie
   pricing: free
