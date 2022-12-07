@@ -55,31 +55,6 @@
 
 
     {%- comment -%}
-      <!-- Only show categories for resource pages -->
-    {%- endcomment -%}
-    {%- if page_type == "resource" -%}
-      <section class="container">
-        <div class="row justify-content-center mt-5">
-          <div class="col col-lg-6 col-md-10 text-center">
-            {%- for category in all_categories -%}
-              {%- comment -%}
-                <!-- Highlight the category tag if it's the category currently being viewed. -->
-              {%- endcomment -%}
-              {%- assign category_active = "" -%}
-              {%- if category == current_category -%}
-                {%- assign category_active = "active-category" -%}
-              {%- endif -%}
-              <a class="me-1 text-decoration-none" href="/en/resources/{{category | replace: ' ', '-'}}">
-                <span class="badge rounded-pill bg-light poap-purple-dark {{category}} {{category_active}}">{{category}}</span>
-              </a>
-            {%- endfor -%}
-          </div>
-        </div>
-      </section>
-    {%- endif -%}
-
-
-    {%- comment -%}
       <!-- Featured resources, a horizontally scrolling list -->
     {%- endcomment -%}
     {%- assign filter = page.permalink | split: "/" | last -%}

@@ -75,28 +75,6 @@
   youtube:
   linkedin:
   forum:
-- id: 2
-  link: https://poap.vote/
-  title: POAP.vote
-  official: true
-  hide_on_all: false
-  desc_short: A sybil-resistant voting engine to run polls for your event participants.
-  desc_long:
-  creator: POAP inc.
-  pricing: free
-  # contact:
-  categories: play, voting
-  integrations:
-  github: https://github.com/poap-xyz/poap-vote-v2
-  docs: https://help.poap.xyz/en/articles/5866650-how-do-i-set-up-a-poap-vote-poll
-  embed:
-  discord:
-  twitter:
-  telegram:
-  medium:
-  youtube:
-  linkedin:
-  forum:
 - id: 3
   link: https://poap.fun/
   title: POAP.fun
@@ -370,50 +348,6 @@
   youtube:
   linkedin:
   forum:
-- id: 16
-  link: https://explore.poap.xyz/
-  title: POAP Explore
-  official: true
-  hide_on_all: false
-  desc_short: POAP Explore allows you to view your collection as well as explore other people's collections.
-  desc_long:
-  creator: POAP inc.
-  pricing: free
-  # contact:
-  categories: explore
-  integrations:
-  github:
-  docs:
-  embed:
-  discord:
-  twitter:
-  telegram:
-  medium:
-  youtube:
-  linkedin:
-  forum:
-- id: 17
-  link: https://poap.gallery/
-  title: POAP.gallery
-  official: true
-  hide_on_all: false
-  desc_short: POAP.gallery allows you to browse POAPs and enjoy the adventure through the digital collectibles universe.
-  desc_long:
-  creator: POAP inc.
-  pricing: free
-  # contact:
-  categories: explore
-  integrations:
-  github: https://github.com/poap-xyz/poap-gallery
-  docs: https://help.poap.xyz/en/articles/5814257-what-is-poap-gallery
-  embed:
-  discord:
-  twitter:
-  telegram:
-  medium:
-  youtube:
-  linkedin:
-  forum:
 - id: 18
   link: https://app.poap.xyz/admin/events/new
   title: Create Drop
@@ -584,28 +518,6 @@
   youtube:
   linkedin:
   forum:
-- id: 25
-  link: https://poap.xyz/app
-  title: POAP App
-  official: true
-  hide_on_all: false
-  desc_short: With the POAP mobile app you can browse your POAP collection, mint new ones, and explore other people's collections.
-  desc_long:
-  creator: POAP inc.
-  pricing: free
-  # contact:
-  categories: app, explore, collector
-  integrations:
-  github:
-  docs:
-  embed:
-  discord:
-  twitter:
-  telegram:
-  medium:
-  youtube:
-  linkedin:
-  forum:
 - id: 30
   link: https://github.com/owenvoke/poap-php
   title: PHP POAP API Wrapper
@@ -749,28 +661,6 @@
   pricing: free
   # contact:
   categories: info, social
-  integrations:
-  github:
-  docs:
-  embed:
-  discord:
-  twitter:
-  telegram:
-  medium:
-  youtube:
-  linkedin:
-  forum:
-- id: 104
-  link: https://discord.gg/kqBjKRXh8f
-  title: POAP Discord Dev Channel
-  official: true
-  hide_on_all: false
-  desc_short: 'Join the POAP #developers channel for support and to network with others in the ecosystem.'
-  desc_long:
-  creator: POAP inc.
-  pricing: free
-  # contact:
-  categories: dev
   integrations:
   github:
   docs:
@@ -1891,55 +1781,6 @@
   embed:
   discord: https://discord.gg/uthx4dZEGJ
   twitter: https://twitter.com/mazuryxyz
-  telegram:
-  medium:
-  youtube:
-  linkedin:
-  forum:
-- id: 108
-  link: https://poaps.agency/
-  title: You've Met POAPs
-  official: false
-  new: false
-  hide_on_all: false
-  desc_short: Create your own personalized "You've Met Me" POAPs to distribute at events.
-  desc_long:
-  creator: POAPs Agency
-  pricing: paid
-  # contact:
-  categories: design
-  integrations:
-  github:
-  docs:
-  embed:
-  discord:
-  twitter:
-  telegram:
-  medium:
-  youtube:
-  linkedin:
-  forum:
-- id: 109
-  link: https://apps.apple.com/us/app/poap-geocaching/id1616876669
-  title: POAP Geocache App
-  official: true
-  new: false
-  hide_on_all: false
-  desc_short: Find geocached POAPs in the physical world. Participate in treasure hunts and other adventures!
-  desc_long: |
-    Find geocached POAPs in the physical world. Participate in treasure hunts and other adventures!
-
-    This app is in public beta, we appreciate your feedback.
-  creator: POAP inc.
-  pricing: free
-  # contact: # Mentor
-  categories: play, app, collector
-  integrations:
-  github:
-  docs:
-  embed:
-  discord:
-  twitter:
   telegram:
   medium:
   youtube:
