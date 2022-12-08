@@ -2299,7 +2299,7 @@
   official: false
   new: true
   hide_on_all: false
-  desc_short: Chat wallet to wallet
+  desc_short: WalletChat's goal is to enable individuals and communities to connect in novel, Web3-native ways, starting with wallet-to-wallet messaging
   desc_long:
   creator: Wallet Chat
   pricing: free
