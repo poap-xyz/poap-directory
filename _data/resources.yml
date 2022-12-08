@@ -2299,7 +2299,7 @@
   official: false
   new: true
   hide_on_all: false
-  desc_short: Chat wallet to wallet
+  desc_short: WalletChat's goal is to enable individuals and communities to connect in novel, Web3-native ways, starting with wallet-to-wallet messaging
   desc_long:
   creator: Wallet Chat
   pricing: free
@@ -2602,6 +2602,29 @@
   desc_long:
   creator: Coinbase NFT
   pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 149
+  link: https://www.get-protocol.io/
+  title: GET Protocol
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: A complete ticketing solution for the modern web
+  desc_long:
+  creator: GUTS.Tickets
+  pricing: paid
   # contact:
   categories: app
   integrations:

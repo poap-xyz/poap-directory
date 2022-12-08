@@ -9,7 +9,7 @@
       {%- include partials/nav.html -%}
     {%- endif -%}
   	{{content}}
-  	{%- include partials/footer.html -%}
+
 
     <!-- Bootstrap 5 JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -24,5 +24,107 @@
         <script src="/assets/js/custom.js" type="application/javascript"></script>
       {%- else -%}
     {%- endcase -%}
+
+
+    {%- assign page_type = "resource" -%}
+    {%- if page.permalink contains "support" -%}
+          {%- assign page_type = "support" -%}
+    {%- endif -%}
+    {%- if page_type == "resource"  -%}
+      <section class="container py-4 border-bottom">
+        <div class="row row-cols-auto justify-content-center mt-4">
+          {%- assign resources = site.data.resources -%}
+          {%- comment -%}
+            <!-- Get page permalink to figure out what the current category is and filter the resource
+            list to only show that. For example, if the permalink is "/en/resources/activity" then
+            it'll split it to ["en", "resources", "activity"] and grab the last item, "activity", which
+            is the current category of items to show (since that's the page this is building for).
+
+            If the page being built is for "all", "poap-inc", "third-party", or "new" then those cases are
+            individually addressed since they aren't categories. -->
+          {%- endcomment -%}
+          {%- assign filter = "" -%}
+          {%- assign resources = site.data.resources | where: "hide_on_all", false -%}
+
+          {%- comment -%}
+            <!-- Now that the list of resources have been filtered to the current page context under the
+              "resource" variable, we will iterate through the list and create a card for each resource. -->
+          {%- endcomment -%}
+          {%- for resource in resources reversed -%}
+            {%- assign contains_filter = false -%}
+            {%- if page_type == "resource" and resource.categories contains filter -%}
+              {%- assign contains_filter = true -%}
+            {%- endif -%}
+            {%- if contains_filter -%}
+              {%- if resource.id and resource.link -%}
+                <div class="col resource-col mb-4">
+                  {%- assign featured = "" -%}
+                  {%- if resource.featured == true -%}
+                    {%- assign featured = "featured" -%}
+                  {%- endif -%}
+                  <div class="card resource-card rounded-3 h-100 {{featured}}">
+                    <div class="card-body d-flex align-items-start flex-column poap-purple-dark">
+                      {%- if resource.new == true -%}
+                        <div class="h5" style="position: absolute; top: -15px; left: -10px; ">
+                          <a href="/en/resources/new">
+                            <span class="badge bg-poap-purple-light">new!</span>
+                          </a>
+                        </div>
+                      {%- endif -%}
+                      <a id="link{{resource.id}}" class="card-link"
+                        onclick="copyLink(this.id, '{{resource.link}}')"
+                        data-bs-toggle="tooltip" data-bs-placement="top" title="Copied!" data-bs-trigger="click">
+                        {{site.data.icons.link}}
+                      </a>
+                      <h5 class="card-title mb-1 pe-4">
+                        <a href="{{resource.link}}" target="_blank" class="text-decoration-none poap-purple-dark">{{resource.title}} {{site.data.icons.new_tab}}</a>
+                      </h5>
+                      <p class="mb-2 text-muted"><small>{{resource.creator}}</small></p>
+                      <div class="mb-3">
+                        {%- comment -%}
+                          <!-- Build and save resource category tags to the "category_tags" variable. -->
+                        {%- endcomment -%}
+                        {%- capture category_tags -%}
+                          {%- assign resource_categories = resource.categories | split: ", " -%}
+                          {%- assign type = "third-party" -%}
+                          {%- if resource.official == true -%}
+                            {%- assign type = "poap-inc" -%}
+                          {%- endif -%}
+
+                          <a class="me-1 text-decoration-none"><span class="badge rounded-pill bg-light poap-purple-dark {{type}} {{category_active}}">{{type}}</span></a>
+                          {%- assign resource_categories = resource.categories | split: ", " -%}
+                          {%- for category in resource_categories -%}
+                            {%- comment -%}
+                              <!-- Highlight the category tag if it's the category currently being viewed.  -->
+                            {%- endcomment -%}
+                            {%- assign category_active = "" -%}
+                            {%- if category == current_category -%}
+                              {%- assign category_active = "active-category" -%}
+                            {%- endif -%}
+                            <a class="me-1 text-decoration-none"><span class="badge rounded-pill bg-light poap-purple-dark {{category}} {{category_active}}">{{category}}</span></a>
+                          {%- endfor -%}
+                        {%- endcapture -%}
+                        {{category_tags}}
+                      </div>
+                      <p class="card-text flex-grow-1">{{resource.desc_short}}</p>
+                      {%- comment -%}
+                        <!-- Attach resource info to the details button to dynamically populate the
+                          modal with. -->
+                      {%- endcomment -%}
+                      <a class="btn btn-outline-primary btn-sm" onclick="showResourceModal({{resource.id}})">
+                        Details
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              {%- endif -%}
+            {%- endif -%}
+          {%- endfor -%}
+        </div>
+      </section>
+      {%- include partials/resource-modal.html -%}
+    {%- endif -%}
+
+  	{%- include partials/footer.html -%}
   </body>
 </html>
