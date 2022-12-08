@@ -90,14 +90,8 @@
                           {%- if resource.official == true -%}
                             {%- assign type = "poap-inc" -%}
                           {%- endif -%}
-                          {%- comment -%}
-                            <!-- Highlight the category tag if it's the category currently being viewed.  -->
-                          {%- endcomment -%}
-                          {%- assign category_active = "" -%}
-                          {%- if type == current_category -%}
-                            {%- assign category_active = "active-category" -%}
-                          {%- endif -%}
-                          <a class="me-1 text-decoration-none" href="/en/resources/{{type | replace: ' ', '-'}}"><span class="badge rounded-pill bg-light poap-purple-dark {{type}} {{category_active}}">{{type}}</span></a>
+
+                          <a class="me-1 text-decoration-none"><span class="badge rounded-pill bg-light poap-purple-dark {{type}} {{category_active}}">{{type}}</span></a>
                           {%- assign resource_categories = resource.categories | split: ", " -%}
                           {%- for category in resource_categories -%}
                             {%- comment -%}
@@ -107,7 +101,7 @@
                             {%- if category == current_category -%}
                               {%- assign category_active = "active-category" -%}
                             {%- endif -%}
-                            <a class="me-1 text-decoration-none" href="/en/resources/{{category | replace: ' ', '-'}}"><span class="badge rounded-pill bg-light poap-purple-dark {{category}} {{category_active}}">{{category}}</span></a>
+                            <a class="me-1 text-decoration-none"><span class="badge rounded-pill bg-light poap-purple-dark {{category}} {{category_active}}">{{category}}</span></a>
                           {%- endfor -%}
                         {%- endcapture -%}
                         {{category_tags}}
