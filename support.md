@@ -24,7 +24,7 @@ permalink: /en/support
           <div class="card-header"></div>
           <div class="card-body poap-purple-dark">
             <h5 class="card-title">Support</h5>
-            <p class="card-text mb-2">For curation disputes please use the <a href="https://discourse.poap.xyz/categories" target="_blank">Discourse forum</a>.</p>
+            <p class="card-text mb-2">To submit an appeal for your review to the POAP Curation body, please fill out <a href="https://poap.typeform.com/appeal" target="_blank">this form</a>.</p>
             <p class="card-text">For all other support requests:</p>
             <a class="btn btn-primary px-4" onclick="Intercom('show');">Open Support</a>
           </div>
