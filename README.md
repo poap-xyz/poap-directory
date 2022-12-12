@@ -19,6 +19,20 @@ Resources:
 - [Jekyll Docs](https://jekyllrb.com/docs/)
 - [Liquid Syntax](https://shopify.github.io/liquid/basics/introduction/)
 
+Windows specific:
+"bundle add webrick" might be required. Also: git config --global core.autocrlf false to prevent CRLF changes
+
+The following changes might also be required for the Gemfile:
+-------------------
+#platforms :mingw, :x64_mingw, :mswin, :jruby do
+gem "tzinfo", "~> 1.2"
+gem "tzinfo-data"
+#end
+
+#gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+-------------------
+
 
 ### Conventions
 
@@ -32,12 +46,12 @@ Resources:
 
 1. Go to `_data/integrations.yml` and add an entry using the following template:
     ```
-    - id: 
-      title: 
+    - id:
+      title:
       img: /assets/img/integrations/
     ```
 
-    key       | description 
+    key       | description
     ----------|------------
     id        | The product id; use the product title, lowercased, dashes instead of spaces
     title     | Product name
@@ -81,31 +95,31 @@ Go to `_data/resource.yml` and add an entry using the following template:
 
 ```
 - id:
-  link: 
-  title: 
-  official: 
-  new: 
-  featured: 
-  hide_on_all: 
-  desc_short: 
-  desc_long: 
-  creator: 
-  pricing: 
-  # contact: 
-  categories: 
-  integrations: 
-  github: 
-  docs: 
-  discord: 
-  twitter: 
-  telegram: 
-  medium: 
-  youtube: 
-  linkedin: 
-  forum: 
+  link:
+  title:
+  official:
+  new:
+  featured:
+  hide_on_all:
+  desc_short:
+  desc_long:
+  creator:
+  pricing:
+  # contact:
+  categories:
+  integrations:
+  github:
+  docs:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
  ```
 
-key          | description 
+key          | description
 -------------|------------
 id           | The resource ID; Do not change this
 link         | The resource link
@@ -119,7 +133,7 @@ desc_long    | (optional) Longer description; Will be shown instead of the short
 creator      | Who is the person/organization developing this resource? (POAP inc. if it's an official resource)
 pricing      | The pricing model; Options: free, freemium, paid
 contact      | Point of contact for the resource (won't be displayed on the website); leave it commented out
-categories   | (Select up to 3 that apply) access, admin, app, art, collector, design, dev, distribution, explore, guide, info, metrics, play, social, voting 
+categories   | (Select up to 3 that apply) access, admin, app, art, collector, design, dev, distribution, explore, guide, info, metrics, play, social, voting
 integrations | A comma-delimited list of relevant integration ids from _data/integrations.yml
 github       | (optional) Github repo
 docs         | (optional) Resource's guide or documentation
@@ -154,4 +168,3 @@ forum        | (optional) Project's forum link
     ---
 
     ```
-

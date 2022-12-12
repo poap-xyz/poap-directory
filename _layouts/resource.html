@@ -8,7 +8,7 @@
   	{%- if site.nav_enabled == true -%}
       {%- include partials/nav.html -%}
     {%- endif -%}
-  	
+
 
 
 
@@ -41,7 +41,7 @@
 
 
     {%- comment -%}
-      <!-- Runs through the list of resources, aggregates the categories, adds "poap-inc" and "third-party" 
+      <!-- Runs through the list of resources, aggregates the categories, adds "poap-inc" and "third-party"
       categories, and then filters the list to only have unique values. -->
     {%- endcomment -%}
     {%- assign all_categories = "" -%}
@@ -52,31 +52,6 @@
     {%- assign all_categories = all_categories | split: ", " | uniq | sort_natural -%}
 
     {%- assign current_category = page.permalink | split: "/" | last -%}
-
-
-    {%- comment -%}
-      <!-- Only show categories for resource pages -->
-    {%- endcomment -%}
-    {%- if page_type == "resource" -%}
-      <section class="container">
-        <div class="row justify-content-center mt-5">
-          <div class="col col-lg-6 col-md-10 text-center">
-            {%- for category in all_categories -%}
-              {%- comment -%}
-                <!-- Highlight the category tag if it's the category currently being viewed. -->
-              {%- endcomment -%}
-              {%- assign category_active = "" -%}
-              {%- if category == current_category -%}
-                {%- assign category_active = "active-category" -%}
-              {%- endif -%}
-              <a class="me-1 text-decoration-none" href="/en/resources/{{category | replace: ' ', '-'}}">
-                <span class="badge rounded-pill bg-light poap-purple-dark {{category}} {{category_active}}">{{category}}</span>
-              </a>
-            {%- endfor -%}
-          </div>
-        </div>
-      </section>
-    {%- endif -%}
 
 
     {%- comment -%}
@@ -101,7 +76,7 @@
                         </a>
                       </div>
                     {%- endif -%}
-                    <a id="link{{resource.id}}" class="card-link" 
+                    <a id="link{{resource.id}}" class="card-link"
                       onclick="copyLink(this.id, '{{resource.link}}')"
                       data-bs-toggle="tooltip" data-bs-placement="top" title="Copied!" data-bs-trigger="click">
                       {{site.data.icons.link}}
@@ -144,7 +119,7 @@
                     </div>
                     <p class="card-text flex-grow-1">{{resource.desc_short}}</p>
                     {%- comment -%}
-                      <!-- Attach resource info to the details button to dynamically populate the 
+                      <!-- Attach resource info to the details button to dynamically populate the
                         modal with. -->
                     {%- endcomment -%}
                     <a class="btn btn-outline-primary btn-sm" onclick="showResourceModal({{resource.id}})">
@@ -164,12 +139,12 @@
       <div class="row row-cols-auto justify-content-center mt-4">
         {%- assign resources = site.data.resources -%}
         {%- comment -%}
-          <!-- Get page permalink to figure out what the current category is and filter the resource 
-          list to only show that. For example, if the permalink is "/en/resources/activity" then 
-          it'll split it to ["en", "resources", "activity"] and grab the last item, "activity", which 
+          <!-- Get page permalink to figure out what the current category is and filter the resource
+          list to only show that. For example, if the permalink is "/en/resources/activity" then
+          it'll split it to ["en", "resources", "activity"] and grab the last item, "activity", which
           is the current category of items to show (since that's the page this is building for).
 
-          If the page being built is for "all", "poap-inc", "third-party", or "new" then those cases are 
+          If the page being built is for "all", "poap-inc", "third-party", or "new" then those cases are
           individually addressed since they aren't categories. -->
         {%- endcomment -%}
         {%- assign filter = page.permalink | split: "/" | last -%}
@@ -194,10 +169,10 @@
         {%- endif -%}
 
         {%- comment -%}
-          <!-- Now that the list of resources have been filtered to the current page context under the 
+          <!-- Now that the list of resources have been filtered to the current page context under the
             "resource" variable, we will iterate through the list and create a card for each resource. -->
         {%- endcomment -%}
-        {%- for resource in resources -%}
+        {%- for resource in resources reversed -%}
           {%- assign contains_filter = false -%}
           {%- if page_type == "resource" and resource.categories contains filter -%}
             {%- assign contains_filter = true -%}
@@ -221,7 +196,7 @@
                         </a>
                       </div>
                     {%- endif -%}
-                    <a id="link{{resource.id}}" class="card-link" 
+                    <a id="link{{resource.id}}" class="card-link"
                       onclick="copyLink(this.id, '{{resource.link}}')"
                       data-bs-toggle="tooltip" data-bs-placement="top" title="Copied!" data-bs-trigger="click">
                       {{site.data.icons.link}}
@@ -264,7 +239,7 @@
                     </div>
                     <p class="card-text flex-grow-1">{{resource.desc_short}}</p>
                     {%- comment -%}
-                      <!-- Attach resource info to the details button to dynamically populate the 
+                      <!-- Attach resource info to the details button to dynamically populate the
                         modal with. -->
                     {%- endcomment -%}
                     <a class="btn btn-outline-primary btn-sm" onclick="showResourceModal({{resource.id}})">

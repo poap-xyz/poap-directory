@@ -26,7 +26,7 @@ permalink: /en/support
             <h5 class="card-title">Support</h5>
             <p class="card-text mb-2">To submit an appeal for your review to the POAP Curation body, please fill out <a href="https://poap.typeform.com/appeal" target="_blank">this form</a>.</p>
             <p class="card-text">For all other support requests:</p>
-            <a class="btn btn-primary px-4" onclick="Intercom('show');">Open Support</a>
+            <a class="btn btn-primary px-4" onclick="zE('messenger', 'open')">Open Support</a>
           </div>
           <div class="card-footer"></div>
         </div>

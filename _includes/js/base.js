@@ -20,7 +20,7 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 // Copy resource links from card or modal
 function copyLink(id, link = false) {
   if (!link) {
-    const modal = document.getElementById(id); 
+    const modal = document.getElementById(id);
     link = modal.getAttribute('data-link');
   }
   navigator.clipboard.writeText(link).then(function() {
@@ -92,7 +92,7 @@ function showResourceModal(id) {
   let integrations = resource.integrations ? resource.integrations.split(", ") : "";
   let docs = resource.docs;
   let embed = resource.embed;
-  const modalCopyLink = document.getElementById("modalCopyLink"); 
+  const modalCopyLink = document.getElementById("modalCopyLink");
   modalCopyLink.setAttribute("data-link", link);
 
   // Add the pricing model if listed
@@ -126,18 +126,11 @@ function showResourceModal(id) {
 
   // Generate the category tag html
   let categoryTags = "";
-  let activeCategory;
-  if (window.location.href.includes("resources/")) {
-    activeCategory = window.location.href.split("resources/")[1].split("/")[0].split("?")[0];
-  } else if (window.location.href.includes("integrations/")) {
-    activeCategory = window.location.href.split("integrations/")[1].split("/")[0].split("?")[0];
-  }
   for (let category in categories) {
     let cat = categories[category];
-    let highlight = (cat == activeCategory) ? "active-category" : "";
     let tag = `
-      <a class="me-1 text-decoration-none" href="/en/resources/${cat}">
-        <span class="badge rounded-pill bg-light poap-purple-dark ${highlight}">${cat}</span>
+      <a class="me-1 text-decoration-none">
+        <span class="badge rounded-pill bg-light poap-purple-dark">${cat}</span>
       </a>`;
     categoryTags += tag;
   }
@@ -270,4 +263,3 @@ function updateValue(id, val, type) {
     el.classList.add("d-none");
   }
 }
-
