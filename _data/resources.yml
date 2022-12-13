@@ -2594,13 +2594,13 @@
   forum:
 - id: 148
   link: https://nft.coinbase.com/
-  title: Coinbase NFT
+  title: Coinbase
   official: false
   new: true
   hide_on_all: false
-  desc_short: Create your profile, connect with your favorite artists, or buy and sell NFTs using any self-custody wallet
+  desc_short: Create your profile, connect with your favorite creators, or buy and sell NFTs across marketplaces using any self-custody wallet
   desc_long:
-  creator: Coinbase NFT
+  creator: Coinbase
   pricing: free
   # contact:
   categories: app
