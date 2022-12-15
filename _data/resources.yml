@@ -23,7 +23,6 @@
 #   linkedin:     # (optional) project's linkedin page
 #   forum:        # (optional) project's forum link
 
-
 # Template to copy for new entries
 # - id:
 #   link:
@@ -49,9 +48,7 @@
 #   linkedin:
 #   forum:
 
-
 # Last id used: 118
-
 
 - id: 1
   link: https://app.poap.art/
@@ -981,9 +978,9 @@
   youtube:
   linkedin:
   forum:
+
   # facebook: http://www.facebook.com/custompogs
   # instagram: http://www.instagram.com/custompogs
-
 - id: 53
   link: https://litgateway.com/apps/google-drive
   title: Google Drive Gated Access
@@ -2156,7 +2153,7 @@
   linkedin:
   forum:
 - id: 129
-  link: www.iyk.app
+  link: https://www.iyk.app/
   title: IYK*
   official: false
   new: true
@@ -2710,7 +2707,6 @@
 #   linkedin:
 #   forum:
 
-
 # Mailchimp is filtering emails that use this
 # - id: 82
 #   link: https://www.loom.com/share/e902a57c91384432b7fe53c912e9916d
@@ -2734,7 +2730,6 @@
 #   youtube:
 #   linkedin:
 #   forum:
-
 
 # Removed at Isabel's request
 
