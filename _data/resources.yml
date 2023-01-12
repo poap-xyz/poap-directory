@@ -2548,13 +2548,13 @@
   forum:
 - id: 146
   link: https://perk.shop/
-  title: PerkShop
+  title: Perk Shop
   official: false
   new: true
   hide_on_all: false
   desc_short: Give your NFT community exclusive token-gated merch, secret discounts and raffles with your own perk shop
   desc_long:
-  creator: PerkShop
+  creator: Perk Shop
   pricing: free
   # contact:
   categories: app
