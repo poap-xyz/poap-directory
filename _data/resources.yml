@@ -1906,7 +1906,7 @@
   link: https://guild.xyz
   title: Guild.xyz
   official: false
-  new: true
+  new: false
   hide_on_all: false
   desc_short: Create gated communities in Discord or Telegram and distribute POAPs to collectors
   desc_long:
@@ -1929,7 +1929,7 @@
   link: https://huddle01.com
   title: Gated Access Video Conferencing
   official: false
-  new: true
+  new: false
   hide_on_all: false
   desc_short: Schedule gated virtual meetings with exclusive access to event pariticpants.
   desc_long:
@@ -1952,7 +1952,7 @@
   link: https://welook.io
   title: WeLook's "You've Met Me" Generator
   official: false
-  new: true
+  new: false
   hide_on_all: false
   desc_short: Create your own personalized "You've Met Me" POAPs to distribute at events
   desc_long:
@@ -1975,7 +1975,7 @@
   link: https://Shil.me
   title: Shil.me
   official: false
-  new: true
+  new: false
   hide_on_all: false
   desc_short: Shil.me is a user-centric platform creating social utility for NFTs.
   desc_long:
@@ -1998,7 +1998,7 @@
   link: https://spkz.io
   title: SPKZ Lounges
   official: false
-  new: true
+  new: false
   hide_on_all: false
   desc_short: Create POAP-gated communities.
   desc_long:
@@ -2021,7 +2021,7 @@
   link: https://poap.codes
   title: Claim Code Manager
   official: false
-  new: true
+  new: false
   hide_on_all: false
   desc_short: This tool helps you check the claim status of event mint links.
   desc_long:
@@ -2044,7 +2044,7 @@
   link: https://welook.io
   title: WeLook POAP Collections
   official: false
-  new: true
+  new: false
   hide_on_all: false
   desc_short: Categorize your POAPs into custom collections.
   desc_long:
@@ -2067,7 +2067,7 @@
   link: https://creativeplatform.xyz
   title: Creative Platform
   official: false
-  new: true
+  new: false
   hide_on_all: false
   desc_short: A suite of tools for creators, including POAP creation for events.
   desc_long:
@@ -2090,7 +2090,7 @@
   link: https://poaper.io
   title: Poaper
   official: false
-  new: true
+  new: false
   hide_on_all: false
   desc_short: Build a Twitter banner to show off your POAPs.
   desc_long:
@@ -2113,7 +2113,7 @@
   link: https://stellargate.io
   title: CAT Decentraland Dispenser
   official: false
-  new: true
+  new: false
   hide_on_all: false
   desc_short: A Decentraland dispenser to distribute POAPs to your event participants via activities.
   desc_long:
@@ -2136,7 +2136,7 @@
   link: https://nimi.io/
   title: Nimi
   official: false
-  new: true
+  new: false
   hide_on_all: false
   desc_short: Personal Web3 landing & social pages
   desc_long:
@@ -2159,7 +2159,7 @@
   link: www.iyk.app
   title: IYK*
   official: false
-  new: true
+  new: false
   hide_on_all: false
   desc_short: Tools to launch next-level activations and identify your biggest supporters
   desc_long:
@@ -2182,7 +2182,7 @@
   link: https://meetwithwallet.xyz/
   title: Meetwithwallet
   official: false
-  new: true
+  new: false
   hide_on_all: false
   desc_short: WalletChat is building the future of communication, starting with wallet-to-wallet messaging
   desc_long:
@@ -2205,7 +2205,7 @@
   link: https://sliksafe.com
   title: Sliksafe
   official: false
-  new: true
+  new: false
   hide_on_all: false
   desc_short: Decentralized File Sync with end-to-end encryption. Web3's answer to Google + Apple Cloud security concerns
   desc_long:
@@ -2228,7 +2228,7 @@
   link: https://trustwallet.com
   title: Trust Wallet
   official: false
-  new: true
+  new: false
   hide_on_all: false
   desc_short: Secure crypto wallet. Buy, store, collect NFTs, exchange & earn crypto
   desc_long:
@@ -2251,7 +2251,7 @@
   link: https://shopthru.xyz
   title: Shopthru
   official: false
-  new: true
+  new: false
   hide_on_all: false
   desc_short: Tokengated products & discounts for Shopify store
   desc_long:
@@ -2274,7 +2274,7 @@
   link: https://beta.layer3.xyz
   title: Layer3
   official: false
-  new: true
+  new: false
   hide_on_all: false
   desc_short: Bounty market; completed tasks paid in crypto. Layer3 helps you reach, acquire, and retain users with powerful, interactive experiences
   desc_long:
@@ -2297,7 +2297,7 @@
   link: https://walletchat.fun
   title: Wallet Chat
   official: false
-  new: true
+  new: false
   hide_on_all: false
   desc_short: WalletChat's goal is to enable individuals and communities to connect in novel, Web3-native ways, starting with wallet-to-wallet messaging
   desc_long:
@@ -2320,7 +2320,7 @@
   link: https://signet3.xyz
   title: Signet3
   official: false
-  new: true
+  new: false
   hide_on_all: false
   desc_short: Unlock token utility without putting your assets at risk, enterprise-grade tooling that enables brands and projects to create web3-powered loyalty and consumer engagement programs
   desc_long:
@@ -2343,7 +2343,7 @@
   link: www.gallery.so
   title: gallery.so
   official: false
-  new: true
+  new: false
   hide_on_all: false
   desc_short: Social platform for users to curate and display their collection, and connect with others with similar tastes and experiences
   desc_long:
@@ -2366,7 +2366,7 @@
   link: https://dework.xyz
   title: Dework
   official: false
-  new: true
+  new: false
   hide_on_all: false
   desc_short: Web3-native project management with token payments, credentialing, bounties. Create bounties for contributors, let contributors build their web3 profile and pay with your own DAO token
   desc_long:
@@ -2389,7 +2389,7 @@
   link: https://airstack.xyz
   title: Airstack
   official: false
-  new: true
+  new: false
   hide_on_all: false
   desc_short: Airstack is a web3 developer platform that provides fast and easy access to on-chain data across projects and blockchains
   desc_long:
@@ -2412,7 +2412,7 @@
   link: https://flight.discarbon.earth
   title: Discarbon
   official: false
-  new: true
+  new: false
   hide_on_all: false
   desc_short: Driving value to planet-positive projects with transparent & verifiable on-chain carbon retirement tools as public goods
   desc_long:
@@ -2435,7 +2435,7 @@
   link: https://effi.tv
   title: Effi.tv
   official: false
-  new: true
+  new: false
   hide_on_all: false
   desc_short: Effi is an Interactive live streaming platform that provides token-gating;
   desc_long:
@@ -2458,7 +2458,7 @@
   link: https://ens.domains
   title: ENS
   official: false
-  new: true
+  new: false
   hide_on_all: false
   desc_short: Web3 username or "domain" service
   desc_long:
@@ -2481,7 +2481,7 @@
   link: https://daylight.xyz
   title: daylight.xyz
   official: false
-  new: true
+  new: false
   hide_on_all: false
   desc_short: Discover everything your wallet can do; mints, airdrops, unlocks, votes, and more
   desc_long:
@@ -2504,7 +2504,7 @@
   link: https://Plexlabs.io
   title: Plex
   official: false
-  new: true
+  new: false
   hide_on_all: false
   desc_short: A simple, no code interface for teams to find, understand and engage their target audiences on web3
   desc_long:
@@ -2527,7 +2527,7 @@
   link: https://tell.ie
   title: Tellie
   official: false
-  new: true
+  new: false
   hide_on_all: false
   desc_short: Tellie makes it possible for you to share almost anything behind a token gate, no code required.
   desc_long:
@@ -2550,7 +2550,7 @@
   link: https://perk.shop/
   title: PerkShop
   official: false
-  new: true
+  new: false
   hide_on_all: false
   desc_short: Give your NFT community exclusive token-gated merch, secret discounts and raffles with your own perk shop
   desc_long:
@@ -2573,7 +2573,7 @@
   link: https://tallyho.org/
   title: Tally Ho
   official: false
-  new: true
+  new: false
   hide_on_all: false
   desc_short: Tally Ho is the first wallet owned by its users
   desc_long:
