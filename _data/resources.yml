@@ -2638,6 +2638,121 @@
   youtube:
   linkedin:
   forum:
+- id: 150
+  link: https://WGMI.io
+  title: WGMI.io
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: WGMI.io gives you the most relevant, actionable, and accurate data that matters for your NFT portfolio
+  desc_long:
+  creator: WGMI.io
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 151
+  link: https://www.the402.xyz/
+  title: The402
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Crypto-enabled livestreaming
+  desc_long:
+  creator: The402
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter: https://twitter.com/the402HQ
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 152
+  link: https://atticc.xyz/
+  title: Atticc
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Web3 social app helping communities to launch and grow by leveraging the power of NFTs.
+  desc_long:
+  creator: Atticc
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter: https://twitter.com/atticc_xyz
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 153
+  link: https://www.utilify.xyz/
+  title: Utilify.xyz
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Utilify is a no-code web3 loyalty SaaS tool for brands with tradable rewards
+  desc_long:
+  creator: Utilify.xyz
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter: https://twitter.com/utilifyxyz
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 154
+  link: http://poap.family/
+  title: POAP.Family
+  official: true
+  new: true
+  hide_on_all: false
+  desc_short: POAP family is a powerful tool to easily discover overlap between collectors
+  desc_long:
+  creator: POAP Inc
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter: https://twitter.com/utilifyxyz
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
 # - id: 116
 #   link: https://app.sliksafe.com/
 #   title: Slik Safe File Sharing
