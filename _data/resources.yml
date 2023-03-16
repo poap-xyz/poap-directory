@@ -2569,29 +2569,6 @@
   youtube:
   linkedin:
   forum:
-- id: 147
-  link: https://tallyho.org/
-  title: Tally Ho
-  official: false
-  new: false
-  hide_on_all: false
-  desc_short: Tally Ho is the first wallet owned by its users
-  desc_long:
-  creator: Tally Ho
-  pricing: free
-  # contact:
-  categories: app
-  integrations:
-  github:
-  docs:
-  embed:
-  discord:
-  twitter:
-  telegram:
-  medium:
-  youtube:
-  linkedin:
-  forum:
 - id: 148
   link: https://nft.coinbase.com/
   title: Coinbase Wallet
@@ -2747,7 +2724,99 @@
   docs:
   embed:
   discord:
-  twitter: https://twitter.com/utilifyxyz
+  twitter: https://twitter.com/poapxyz
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 155
+  link: https://alphawallet.com/
+  title: AlphaWallet
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: AlphaWallet is an advanced, self-custodial web3 wallet that’s completely open-source. It is the most forked open-source wallet on EVM.
+  desc_long:
+  creator: AlphaWallet
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 156
+  link: https://www.trypearl.xyz/
+  title: Salsa
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Salsa is web3-native messaging platform that helps users discover and connect with relevant people and brands.
+  desc_long:
+  creator: Salsa
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 157
+  link: https://taho.xyz/
+  title: Taho
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: The community owned & operated wallet
+  desc_long:
+  creator: Taho
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 158
+  link: https://apps.shopify.com/tokenproof
+  title: Shopify Integration
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Offer token-gated products, discounts, & peace of mind to shoppers to reward & extend engagement.
+  desc_long:
+  creator: tokenproof
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
   telegram:
   medium:
   youtube:
