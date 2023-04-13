@@ -22,11 +22,11 @@ end
 # and associated library.
 platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo", "~> 1.2"
-  gem "tzinfo-data"
 end
 
-# Performance-booster for watching directories on Windows
-gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
-
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+gem 'tzinfo-data' if Gem.win_platform?
 
 gem "github-pages", "~> 223", :group => :":jekyll-plugins"
+
+gem "webrick", "~> 1.8" if Gem.win_platform?
