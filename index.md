@@ -16,7 +16,7 @@ layout: default
           <p class="h4 fw-light mb-4">
             From better distribution to fun with friends, find the resources you need on the POAP Directory!
           </p>
-          <a href="https://documentation.poap.tech/" target="_blank" class="btn btn-primary btn-lg px-4 m-1">Build on POAP</a>
+          <a href="https://documentation.poap.tech/docs/submit-your-app" target="_blank" class="btn btn-primary btn-lg px-4 m-1">Apply to Directory</a>
         </div>
       </div>
     </div>
