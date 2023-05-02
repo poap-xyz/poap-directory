@@ -51,8 +51,6 @@
 
 
 # Last id used: 118
-
-
 - id: 1
   link: https://app.poap.art/
   title: POAP.art
@@ -2822,6 +2820,99 @@
   youtube:
   linkedin:
   forum:
+- id: 159
+  link: http://tropee.com/
+  title: Tropee
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: The place to discover, collect and create utility NFTs.
+  desc_long:
+  creator: Tropee
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum: 
+- id: 160
+  link: https://www.hodl-labs.xyz/hodl-tech
+  title: HODL TECH
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Transform your merchandise to open a web 3 communication style to your fans.
+  desc_long:
+  creator: HODL LABS
+  pricing: paid
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:  
+- id: 161
+  link: https://boiler.gg/
+  title: Boiler
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Boiler, the one-stop Discord app to manage and reward your web3 communities
+  desc_long:
+  creator: Boiler
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:     
+- id: 162
+  link: https://sequence.xyz/
+  title: Sequence 
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: All-in-one web3 developer platform and smart wallet for Ethereum + EVM ecosystem
+  desc_long:
+  creator: Horizon Blockchain Games Inc
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:   
+
 # - id: 116
 #   link: https://app.sliksafe.com/
 #   title: Slik Safe File Sharing
