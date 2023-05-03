@@ -260,7 +260,8 @@ GEM
     unf_ext (0.0.8.2)
     unf_ext (0.0.8.2-x64-mingw-ucrt)
     unicode-display_width (1.8.0)
-    webrick (1.7.0)
+    wdm (0.1.1)
+    webrick (1.8.1)
     zeitwerk (2.6.6)
 
 PLATFORMS
@@ -273,8 +274,8 @@ DEPENDENCIES
   jekyll-feed (~> 0.12)
   tzinfo (~> 1.2)
   tzinfo-data
-  wdm (~> 0.1.1)
-  webrick (~> 1.7)
+  wdm (>= 0.1.0)
+  webrick (~> 1.8)
 
 BUNDLED WITH
    2.2.14
