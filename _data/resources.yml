@@ -2498,29 +2498,6 @@
   youtube:
   linkedin:
   forum:
-- id: 144
-  link: https://Plexlabs.io
-  title: Plex
-  official: false
-  new: false
-  hide_on_all: false
-  desc_short: A simple, no code interface for teams to find, understand and engage their target audiences on web3
-  desc_long:
-  creator: Plex
-  pricing: free
-  # contact:
-  categories: app
-  integrations:
-  github:
-  docs:
-  embed:
-  discord:
-  twitter:
-  telegram:
-  medium:
-  youtube:
-  linkedin:
-  forum:
 - id: 145
   link: https://tell.ie
   title: Tellie
