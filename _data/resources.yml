@@ -1182,13 +1182,13 @@
   linkedin:
   forum:
 - id: 63
-  link: https://earni.fi/
+  link: https://bankless.cc/3LYUYAI
   title: Earnifi
   official: false
   hide_on_all: false
   desc_short: Check if you have any unclaimed POAPs.
   desc_long:
-  creator: Earnifi
+  creator: Bankless
   pricing: freemium
   # contact: dawson
   categories: collector
@@ -2199,29 +2199,6 @@
   youtube:
   linkedin:
   forum:
-- id: 131
-  link: https://sliksafe.com
-  title: Sliksafe
-  official: false
-  new: false
-  hide_on_all: false
-  desc_short: Decentralized File Sync with end-to-end encryption. Web3's answer to Google + Apple Cloud security concerns
-  desc_long:
-  creator: Sliksafe
-  pricing: free
-  # contact:
-  categories: app
-  integrations:
-  github:
-  docs:
-  embed:
-  discord:
-  twitter:
-  telegram:
-  medium:
-  youtube:
-  linkedin:
-  forum:
 - id: 132
   link: https://trustwallet.com
   title: Trust Wallet
@@ -2875,6 +2852,75 @@
   desc_short: All-in-one web3 developer platform and smart wallet for Ethereum + EVM ecosystem
   desc_long:
   creator: Horizon Blockchain Games Inc
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:   
+- id: 163
+  link: https://zerion.io/
+  title: Zerion 
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Smart, Social Web3 Wallet. Manage your DeFi and NFT portfolios, trade across 10+ networks and connect to any decentralized application with one wallet
+  desc_long:
+  creator: Zerion
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:   
+- id: 164
+  link: https://portfolio.metamask.io/
+  title: MetaMask Portfolio 
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: MetaMask Portfolio is a dapp to which users can connect their MetaMask wallet for a richer portfolio view aggregating their assets across multiple accounts and networks. The dapp also offers a range of web3 services including Buy, Swap, Bridge, and Stake.
+  desc_long:
+  creator: ConsenSys
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:   
+- id: 165
+  link: https://www.bitski.com/blog/bitski-poap-bring-poaps-to-bitski-users-worldwide
+  title: Bitski Wallet 
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Bitski is the wallet for everyone – we keep your digital goods physically safe.
+  desc_long:
+  creator: Bitski
   pricing: free
   # contact:
   categories: app
