@@ -869,7 +869,7 @@
   linkedin:
   forum: https://forum.poa.network/c/blockscout
 - id: 48
-  link: https://collabland.freshdesk.com/support/solutions/articles/70000081544-telegram-bot-walkthrough
+  link: https://collabland.freshdesk.com/support/solutions/70000015853
   title: Telegram Gated Access
   official: false
   hide_on_all: false
@@ -2475,29 +2475,6 @@
   youtube:
   linkedin:
   forum:
-- id: 145
-  link: https://tell.ie
-  title: Tellie
-  official: false
-  new: false
-  hide_on_all: false
-  desc_short: Tellie makes it possible for you to share almost anything behind a token gate, no code required.
-  desc_long:
-  creator: Tellie
-  pricing: free
-  # contact:
-  categories: app
-  integrations:
-  github:
-  docs:
-  embed:
-  discord:
-  twitter:
-  telegram:
-  medium:
-  youtube:
-  linkedin:
-  forum:
 - id: 146
   link: https://perk.shop/
   title: Perk Shop
@@ -2935,7 +2912,121 @@
   youtube:
   linkedin:
   forum:   
-
+- id: 166
+  link: https://caaaption.com/
+  title: iPhone widgets (Beta) 
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Boost your dApps experience with iPhone widgets
+  desc_long:
+  creator: Caaaption
+  pricing: paid
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:   
+- id: 167
+  link: https://metaform.xyz
+  title: MetaForm 
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Blockchain-native survey tool that helps you understand users & streamline all marketing campaigns with automated airdrop capability
+  desc_long:
+  creator: MetaForm
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum: 
+- id: 168
+  link: https://www.getpercs.com
+  title: NFT Tokengating on any Ecommerce  
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: We do POS, IRL and ecommerce tokengating
+  desc_long:
+  creator: PERCS
+  pricing: paid
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:   
+- id: 169
+  link: https://brave.com/web3-talk-calls/
+  title: Brave Talk
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Web3 calls option for Brave Talk! Brave Talk Web3 calls allow hosts to use NFTs and POAPs to token-gate access.
+  desc_long:
+  creator: Brave Software
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:  
+- id: 170
+  link: https://www.uniqly.io/
+  title: NFC Tags
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Creating a bridge between physical and digital assets by incorporating a layer of technology into clothing experiences.
+  desc_long:
+  creator: Uniqly.io
+  pricing: paid
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:    
 # - id: 116
 #   link: https://app.sliksafe.com/
 #   title: Slik Safe File Sharing
