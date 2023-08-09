@@ -3027,6 +3027,167 @@
   youtube:
   linkedin:
   forum:    
+- id: 171
+  link: https://timelesswallet.xyz/
+  title: Timeless Wallet
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Web3 made SIMPLE. SECURE. SOCIAL.
+  desc_long:
+  creator: Timeless Wallet
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:     
+- id: 172
+  link: https://1inch.io/
+  title: 1inch Wallet
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: One-stop access to decentralized finance
+  desc_long:
+  creator: 1inch Wallet
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:   
+- id: 173
+  link: https://poaplace.xyz/
+  title: POAPlace
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: The POAP Marketplace
+  desc_long:
+  creator: POAPlace
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:     
+- id: 174
+  link: https://walletfrens.xyz
+  title: WalletFrens.xyz
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Track wallet addresses and see the POAPs they collect.
+  desc_long:
+  creator: WalletFrens.xyz
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:     
+- id: 175
+  link: https://sorcel.co
+  title: Token-gate your website
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Token-gate your website in 1 click
+  desc_long:
+  creator: Sorcel
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:       
+- id: 176
+  link: https://kazm.com/
+  title: Kazm
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Kazm powers white-labelled loyalty programs that drive community engagement and higher LTVs.  We plug into every customer touchpoint - including smart contracts, web2 socials and 1st party apps - and make it easy to recognize, engage, and reward members everywhere with no-code gamification and the power of web3.
+  desc_long:
+  creator: Kazm
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:       
+- id: 177
+  link: https://zapper.xyz/
+  title: Zapper
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Zapper is a social web3 explorer which allows users to follow the blockchain journey of other people in NFTs, DeFi and DAOs. While keeping track of their own, all in one place.
+  desc_long:
+  creator: Zapper
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:      
 # - id: 116
 #   link: https://app.sliksafe.com/
 #   title: Slik Safe File Sharing
