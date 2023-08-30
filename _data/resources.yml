@@ -3188,6 +3188,29 @@
   youtube:
   linkedin:
   forum:      
+- id: 178
+  link: https://play.google.com/store/apps/details?id=digital.minerva
+  title: Minerva Wallet
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Android Wallet for EVM Chains with full Metamask compability and Token, NFT & Superfluid support.
+  desc_long:
+  creator: Minerva Wallet
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:        
 # - id: 116
 #   link: https://app.sliksafe.com/
 #   title: Slik Safe File Sharing
