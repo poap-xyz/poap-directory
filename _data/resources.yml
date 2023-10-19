@@ -3211,6 +3211,121 @@
   youtube:
   linkedin:
   forum:        
+- id: 179
+  link: https://bello.lol/
+  title: Community Intelligence Amplified
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Instantly analyze your Web3 community and its competitors without writing a single line of code.
+  desc_long:
+  creator: Bello
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:   
+- id: 180
+  link: https://www.deform.cc/
+  title: Web3 forms
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: The easiest way to build web3 forms. Create allowlists, signups, and NFT rewards with no coding required!
+  desc_long:
+  creator: DeForm
+  pricing: free, paid
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:   
+- id: 181
+  link:  https://nftforworld.com/consulta-poap/
+  title:  CONSULTAPOAP
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: Data analyst tool aimed at decision makers of the event organizer.
+  desc_long:
+  creator: CONSULTAPOAP
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:
+- id: 182
+  link:   https://beyondclub.xyz/
+  title:   beyondClub
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short: beyondClub is a pioneering no-code web3 loyalty and membership platform enabling brands and creators to engage fans through dynamic NFTs - which are evolving based on user participation. 
+  desc_long:
+  creator:  beyondClub
+  pricing: free, paid
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:       
+- id: 183
+  link:    https://alpha.gandalf.page
+  title:   Gandalf
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short:  Tokengate Anything
+  desc_long:
+  creator:  Gandalf
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:   
 # - id: 116
 #   link: https://app.sliksafe.com/
 #   title: Slik Safe File Sharing
