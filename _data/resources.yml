@@ -14,7 +14,7 @@
 #   integrations: # a comma-delimited list of relevant integration ids from _data/integrations.yml
 #   github:       # (optional) github repo
 #   docs:         # (optional) resource's guide or documentation
-#   embed:        # (optional) embeded media link
+#   embed:        # (optional) embedded media link
 #   discord:      # (optional) project's discord invite link (make sure it doesn't expire and isn't limited)
 #   twitter:      # (optional) project's twitter profile
 #   telegram:     # (optional) project's telegram invite
@@ -56,7 +56,7 @@
   title: POAP.art
   official: true
   hide_on_all: false
-  desc_short: POAP.art is the intersection of art ant tech, allowing your event participants to collaboratively create a piece of art.
+  desc_short: POAP.art is the intersection of art and tech, allowing your event participants to collaboratively create a piece of art.
   desc_long:
   creator: POAP inc.
   pricing: free
@@ -1929,7 +1929,7 @@
   official: false
   new: false
   hide_on_all: false
-  desc_short: Schedule gated virtual meetings with exclusive access to event pariticpants.
+  desc_short: Schedule gated virtual meetings with exclusive access to event participants.
   desc_long:
   creator: Huddle01
   pricing: free
@@ -3194,7 +3194,7 @@
   official: false
   new: true
   hide_on_all: false
-  desc_short: Android Wallet for EVM Chains with full Metamask compability and Token, NFT & Superfluid support.
+  desc_short: Android Wallet for EVM Chains with full Metamask compatibility and Token, NFT & Superfluid support.
   desc_long:
   creator: Minerva Wallet
   pricing: free
