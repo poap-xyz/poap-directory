@@ -3281,6 +3281,52 @@
   youtube:
   linkedin:
   forum:   
+- id: 184
+  link:    https://app.snickerdoodle.com/
+  title:   Snickerdoodle Labs
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short:  Snickerdoodle is a decentralized data-management and marketing platform that offers the utility of Google Analytics and Google Ads while preserving user privacy and bridging web2 and web3 data. 
+  desc_long:
+  creator:  Snickerdoodle Labs
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:   
+- id: 185
+  link:    https://poap-wrapped.itrock.com.ar/
+  title:    POAP 2023 Wrapped
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short:  It's a web application to view your activity summary for 2023 related to your POAPs
+  desc_long:
+  creator:  POAP 2023 Wrapped
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:     
 # - id: 116
 #   link: https://app.sliksafe.com/
 #   title: Slik Safe File Sharing
