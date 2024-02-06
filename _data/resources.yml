@@ -3327,6 +3327,75 @@
   youtube:
   linkedin:
   forum:     
+- id: 186
+  link:    https://sending.me/
+  title:    SendingMe
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short:  Decentralized, private and secure, SendingMe is the Web3 native community chat app you need to engage, transact with and reward your community. Let your community members message, and manage digital assets all in one place while maintaining full ownership of their interactions.
+  desc_long:
+  creator:  SendingMe
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:       
+- id: 187
+  link:    https://apps.apple.com/de/app/nft-gallery-widget/id6462826516
+  title:    NFT Gallery Widget for iOS
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short:  Showcase all your digital collectibles with NFT Gallery Widget. This app lets you display your NFTs and POAPs in all shapes and sizes on your home screen. Let the widgets rotate seamlessly through your favorite web3 moments.
+  desc_long:
+  creator:  ümit.eth
+  pricing: free
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:   
+- id: 188
+  link:     https://app.quid.li/
+  title:    Quidli
+  official: false
+  new: true
+  hide_on_all: false
+  desc_short:  Send crypto rewards in seconds, available everywhere you collaborate
+  desc_long:
+  creator:  ümit.eth
+  pricing: free, paid
+  # contact:
+  categories: app
+  integrations:
+  github:
+  docs:
+  embed:
+  discord:
+  twitter:
+  telegram:
+  medium:
+  youtube:
+  linkedin:
+  forum:        
 # - id: 116
 #   link: https://app.sliksafe.com/
 #   title: Slik Safe File Sharing
